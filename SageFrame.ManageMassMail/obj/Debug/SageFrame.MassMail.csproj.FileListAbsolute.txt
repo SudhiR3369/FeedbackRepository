@@ -1,0 +1,6 @@
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.ManageMassMail\bin\Debug\SageFrame.MassMail.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.ManageMassMail\bin\Debug\SageFrame.MassMail.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.ManageMassMail\bin\Debug\SageFrame.Common.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.ManageMassMail\bin\Debug\SageFrame.Common.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.ManageMassMail\obj\Debug\SageFrame.MassMail.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.ManageMassMail\obj\Debug\SageFrame.MassMail.pdb

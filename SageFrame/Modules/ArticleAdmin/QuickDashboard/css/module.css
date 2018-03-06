@@ -1,0 +1,271 @@
+.main-container .sfModulecontent .box-heading .custom-inputbox {
+    margin-left: 0 !important;
+}
+
+.deleteagenda {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: rgb(225,74,74);
+    cursor: pointer;
+    color: #fff;
+    padding: 6px;
+    font-size: 14px;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+}
+
+.bdashboard .main-container .sfModulecontent {
+    background: none;
+    box-shadow: none;
+    padding: 0;
+}
+
+.bdashboard .main-container .main-left .sfModulecontent, .bdashboard .main-container .main-right .sfModulecontent {
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+    padding: 25px;
+    background: #fff;
+}
+.trendingpost{
+    position:relative;
+}
+.jcarousel .grid_summary_image{
+    max-width:1000px;
+    height:330px;
+}
+.news-quickdashboard .grid_detail_title--large{
+    clear:both;
+}
+
+.news-quickdashboard .grid_summary_detail {
+    margin-bottom: 35px;
+    width:100%;
+}
+.news-quickdashboard .grid_summary_detail:last-child {
+    margin-bottom: 0px;
+}
+.news-quickdashboard .box-content {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-flex-wrap: wrap;
+-moz-flex-wrap: wrap;
+-ms-flex-wrap: wrap;
+-o-flex-wrap: wrap;
+flex-wrap: wrap;
+
+    clear:left;
+}
+
+.news-quickdashboard .box-content:last-child{
+    margin-bottom:0 !important;
+}
+.news-quickdashboard .box-content.box-content--commented{
+    background:none;
+    margin-bottom:25px;
+}
+.news-quickdashboard .box-content.box-content--commented .grid_detail_title--large{
+    max-height: 46px;
+    white-space: normal;
+    max-width: 100% !important;
+    }
+.news-quickdashboard {
+    font-size: 15px;
+    text-transform: none;
+    color: rgba(0, 0, 0, 0.75);
+    font-weight: 400;
+}
+.news-quickdashboard .grid_detail_title {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.65);
+    line-height: 1.7;
+    text-transform: none;
+   
+}
+.news-quickdashboard .grid_listing{
+    background:none !important;
+}
+.trendingList .grid_detail_title {
+     max-height: 70px;
+    overflow-y: auto;
+    }
+.news-quickdashboard  .box-content:nth-child(odd){
+background:rgba(0,0,0,0.02);
+}
+.news-quickdashboard  .box-content:nth-child(even){
+background:rgba(0,0,0,0.04);
+}
+.news-quickdashboard .grid_detail_title--large {
+    font-size: 14px;
+    text-transform: none;
+    color: rgba(0, 0, 0, 0.65);
+    text-transform: none;
+    font-weight: 600;
+    text-overflow: ellipsis;
+    white-space: pre;
+    overflow: hidden;
+    max-height: 25px;
+    max-width:800px;
+ 
+}
+.news-quickdashboard .grid_detail_title--large a{
+    color:#21b5fb;
+    transition:0.3s ease;
+    -webkit-transition:0.3s ease;
+    -moz-transition:0.3s ease;
+    -o-transition:0.3s ease;
+}
+.news-quickdashboard .grid_detail_title--large a:hover{
+    color:rgba(0, 0, 0, 0.65);
+}
+.news-quickdashboard.commentedpost .box-content, .news-quickdashboard.trendingpost .box-content{
+background:none;
+}
+
+.commentedpost .commented_image {
+    width: 150px;
+    height:90px;
+    background: #f7f7f6;
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+.commentedpost .commented_image img {
+   
+    width: 100%;
+    position: absolute;
+    -o-object-fit: cover;
+    object-fit: cover;
+    height: 100%;
+}
+.commentedpost .grid_summary_detail {
+    float: left;
+    width: calc(100% - 150px);
+    padding: 0 0 0 15px;
+}
+.news-quickdashboard .grid_summary_detail small {
+    margin-right: 25px;
+    color: rgba(0, 0, 0, 0.65);
+    float:left;
+}
+.news-quickdashboard .grid_summary_detail small .fa {
+    margin-right: 4px;
+}
+.agendas .sfFieldset .formValue{
+    position:relative;
+}
+.news-quickdashboard.agendas .grid_detail_title, .news-quickdashboard.trendingpost .grid_detail_title {
+    margin-top:5px;
+}
+.agendas .sfFormwrapper .sfFieldset input[type="checkbox"] + label{
+    margin-top:5px;
+}
+.grid_detail_titlewrap{
+    padding: 5px 15px;
+    background: rgba(0,0,0,0.035);
+    margin: 10px 0;
+}
+@media(max-width:1120px){
+    .leftContent{
+    min-width:105px;
+}
+.menu-expand .leftContent {
+    min-width: 208px;
+}
+.menu-default.menu-expand .rightContent {
+    max-width: calc(100% - 208px);
+}
+
+.menu-default .rightContent {
+    max-width: calc(100% - 105px);
+}
+}
+@media (min-width:1020px) {
+.bdashboard  .rightContent .main-right {
+    padding-left: 0px;
+}
+}
+@media (min-width:1200px) {
+.bdashboard  .rightContent .main-right {
+    padding-left: 30px;
+}
+}
+
+@media (max-width:1019px) {
+    .bdashboard .rightContent .main-right {
+        padding-left: 0;
+    }
+}
+/*@media (max-width:960px){
+    .menu-expand .leftContent{
+        min-width:208px;
+    }
+    .leftContent{
+        min-width:105px;
+    }
+    .menu-expand .rightContent {
+    max-width: calc(100% - 208px);
+}
+
+}*/
+@media (max-width:780px){
+.stat{
+    padding:0;
+}
+ .menu-expand .rightContent {
+    max-width: calc(100% - 5px);
+}
+.dashboard-statistics{
+    margin:30px 0;
+}
+    }
+
+@media (max-width:798px){
+.menu-default.menu-expand .rightContent, .menu-default .rightContent{
+    max-width:100%;
+}
+
+}
+@media (max-width:599px){
+ .trendingpost .jcarousel-wrapper{
+        margin-top:30px;
+    }
+  .trendingpost .jcarousel-pagination, .trendingpost .jcarousel-control-next ,.trendingpost .jcarousel-control-prev  {
+    
+    margin-top: 55px;
+}
+
+}
+@media (max-width:480px){
+     .box-content--commented .grid_detail_newsproperties{
+        margin-top:5px;
+     }
+      .news-quickdashboard.commentedpost .grid_summary_detail small:last-child , .trendingList .grid_detail_newsproperties small:last-child{
+        margin-bottom:0;
+      }
+    .news-quickdashboard.commentedpost .grid_summary_detail small , .trendingList .grid_detail_newsproperties small{
+    display:block;
+    margin-right:0;
+    margin-bottom: 5px;
+    }
+    .news-quickdashboard .box-content.box-content--commented{
+        display:block;
+        float:left;
+        margin-bottom:25px;
+    }
+    .commentedpost .commented_image {
+    width: 100%;
+    height: 200px;
+    margin-bottom:10px;
+    }
+    .commentedpost .grid_summary_detail {
+
+    width: 100%;
+    padding: 0;
+}
+}

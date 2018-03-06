@@ -1,0 +1,20 @@
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.Scheduler\bin\Release\SageFrame.Scheduler.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.Scheduler\bin\Release\SageFrame.Scheduler.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.Scheduler\bin\Release\SageFrame.Common.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.Scheduler\bin\Release\SageFrame.Common.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.Scheduler\obj\Release\SageFrame.Scheduler.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.Scheduler\obj\Release\SageFrame.Scheduler.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Scheduler\bin\Release\SageFrame.Scheduler.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Scheduler\bin\Release\SageFrame.Scheduler.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Scheduler\bin\Release\SageFrame.Common.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Scheduler\bin\Release\SageFrame.Common.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Scheduler\obj\Release\SageFrame.Scheduler.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Scheduler\obj\Release\SageFrame.Scheduler.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Scheduler\obj\Release\SageFrame.Scheduler.csprojResolveAssemblyReference.cache
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Scheduler\bin\Release\SageFrame.Scheduler.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Scheduler\bin\Release\SageFrame.Scheduler.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Scheduler\bin\Release\SageFrame.Common.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Scheduler\bin\Release\SageFrame.Common.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Scheduler\obj\Release\SageFrame.Scheduler.csprojResolveAssemblyReference.cache
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Scheduler\obj\Release\SageFrame.Scheduler.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Scheduler\obj\Release\SageFrame.Scheduler.pdb

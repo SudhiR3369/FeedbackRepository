@@ -1,0 +1,13 @@
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.Version\bin\Debug\SageFrame.Version.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.Version\bin\Debug\SageFrame.Version.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.Version\obj\Debug\SageFrame.Version.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.Version\obj\Debug\SageFrame.Version.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Version\bin\Debug\SageFrame.Version.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Version\bin\Debug\SageFrame.Version.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Version\obj\Debug\SageFrame.Version.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Version\obj\Debug\SageFrame.Version.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Version\bin\Debug\SageFrame.Version.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Version\bin\Debug\SageFrame.Version.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Version\obj\Debug\SageFrame.Version.csprojResolveAssemblyReference.cache
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Version\obj\Debug\SageFrame.Version.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Version\obj\Debug\SageFrame.Version.pdb

@@ -1,0 +1,26 @@
+D:\webprojects\Working Projects\SageFrame Optimization\sagecms-optimization\SageFrameV3.8\SageFrame.PageRating\bin\Debug\SageFrame.PageRating.dll
+D:\webprojects\Working Projects\SageFrame Optimization\sagecms-optimization\SageFrameV3.8\SageFrame.PageRating\bin\Debug\SageFrame.PageRating.pdb
+D:\webprojects\Working Projects\SageFrame Optimization\sagecms-optimization\SageFrameV3.8\SageFrame.PageRating\obj\Debug\SageFrame.PageRating.dll
+D:\webprojects\Working Projects\SageFrame Optimization\sagecms-optimization\SageFrameV3.8\SageFrame.PageRating\obj\Debug\SageFrame.PageRating.pdb
+D:\webprojects\Working Projects\SageFrame Optimization\sagecms-optimization\SageFrameV3.8\SageFrame.PageRating\bin\Debug\SageFrame.Common.dll
+D:\webprojects\Working Projects\SageFrame Optimization\sagecms-optimization\SageFrameV3.8\SageFrame.PageRating\bin\Debug\SageFrame.Common.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.PageRating\bin\Debug\SageFrame.PageRating.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.PageRating\bin\Debug\SageFrame.PageRating.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.PageRating\bin\Debug\SageFrame.Common.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.PageRating\bin\Debug\SageFrame.Common.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.PageRating\obj\Debug\SageFrame.PageRating.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.PageRating\obj\Debug\SageFrame.PageRating.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.PageRating\bin\Debug\SageFrame.PageRating.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.PageRating\bin\Debug\SageFrame.PageRating.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.PageRating\bin\Debug\SageFrame.Common.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.PageRating\bin\Debug\SageFrame.Common.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.PageRating\obj\Debug\SageFrame.PageRating.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.PageRating\obj\Debug\SageFrame.PageRating.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.PageRating\obj\Debug\SageFrame.PageRating.csprojResolveAssemblyReference.cache
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.PageRating\bin\Debug\SageFrame.PageRating.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.PageRating\bin\Debug\SageFrame.PageRating.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.PageRating\bin\Debug\SageFrame.Common.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.PageRating\bin\Debug\SageFrame.Common.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.PageRating\obj\Debug\SageFrame.PageRating.csprojResolveAssemblyReference.cache
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.PageRating\obj\Debug\SageFrame.PageRating.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.PageRating\obj\Debug\SageFrame.PageRating.pdb

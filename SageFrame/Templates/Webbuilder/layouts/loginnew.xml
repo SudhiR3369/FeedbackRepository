@@ -1,0 +1,8 @@
+<layout name="layout_all" modern="true"> 
+ <div class="sfContainer sfCol_100" data-content="LoginWrapper" id="LoginWrapper">
+	
+</div>
+<div class="sfContainer sfCol_100" data-content="WEBBUILDERBODY" id="WEBBUILDERBODY">
+	
+</div>
+</layout>

@@ -1,0 +1,132 @@
+﻿.tab-nav{
+    color:white;
+    line-height: 12px;
+    border-bottom:solid 2px #252b34;
+}
+
+.tab-nav li {
+    font-size: 12px;
+    position: relative;
+    font-weight: 600;
+    background-color: rgba(0,0,0,.06);
+    margin-right: 3px;
+}
+.tab-nav li label {
+    padding: 20px 40px;
+    cursor: pointer;
+    color: rgba(0,0,0,.6);
+    display: block;
+
+}
+
+
+.tab-nav li.sfDefault,
+.tab-nav li:hover{
+    background-color: #252b34;
+    transition: all .4s ease;
+}
+
+.tab-nav li.sfDefault label,
+.tab-nav li:hover label{
+    color: #1fb6ff;
+}
+.tab-nav li.sfDefault:before {
+    content: '';
+    position: absolute;
+    left: calc(50% - 10px);
+    left: -webkit-calc(50% - 10px);
+    bottom: -24px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: transparent transparent #fff transparent;
+}
+.tab-nav li.sfDefault label {
+    background-color: transparent;
+}
+
+
+.tab-nav li{
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+}
+
+.sfFieldset{margin-right:15px;}
+
+#divAnalytic{text-align: left}
+#divRange{margin-bottom: 40px;}
+
+.row{
+    display: block;
+}
+li.sfDefault label{background-color: transparent}
+.chart-lists{
+    display:-webkit-box;
+    display: -moz-box;
+    display:-webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+}
+.chart-wrap{
+    width:100%;
+    margin-bottom: 30px;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+.chart-wrap > div{
+    background-color: rgba(0,0,0,.04);
+    border-radius: 4px;
+    padding: 25px;
+}
+.browserwise table{padding: 4px;}
+
+.chart-wrap:nth-child(odd){margin-right:15px;width:calc(50% - 15px);}
+.chart-wrap:nth-child(even){margin-left:15px;width:calc(50% - 15px);}
+.jqplot-target{clear: both}
+
+
+
+
+
+
+/*DATA TAB*/
+
+#divData table{text-align: left}
+#divData table tr td:last-child,
+#divData table tr th:last-child{width: 140px;}
+.sfGridwrapper{margin-bottom: 30px;}
+
+
+.sfPagination span{display: inline-block !important;margin: 0 3px 0 0;cursor: pointer}
+.sfPagination span:not(.click){background-color: transparent;color:black;}
+.jqplot-table-legend { width: auto  !important; }
+.sfCountryHolder .sftotalVisitor a{bottom:0 !important;}
+
+.data-views .sfGridwrapper{
+    background-color: rgba(0,0,0,.04);
+    padding: 20px;
+}
+
+/*====================== MEDIA QUERY ===============================*/
+
+
+@media all and (max-width: 1200px){
+
+    .countrywise,
+    .pagewise{width: 100%;margin: 0 0 20px 0;}
+
+}
+
+
+@media all and (max-width: 1020px){
+
+    .monthwise,
+    .browserwise,
+    .countrywise,
+    .pagewise{width: 100%;margin: 0 0 20px 0;}
+
+}

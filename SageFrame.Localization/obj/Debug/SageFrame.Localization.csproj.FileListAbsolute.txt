@@ -1,0 +1,15 @@
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame\bin\SageFrame.Localization.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame\bin\SageFrame.Localization.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.Localization\obj\Debug\SageFrame.Localization.csprojResolveAssemblyReference.cache
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.Localization\obj\Debug\SageFrame.Localization.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.Localization\obj\Debug\SageFrame.Localization.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame\bin\SageFrame.Localization.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame\bin\SageFrame.Localization.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Localization\obj\Debug\SageFrame.Localization.csprojResolveAssemblyReference.cache
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Localization\obj\Debug\SageFrame.Localization.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Localization\obj\Debug\SageFrame.Localization.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame\bin\SageFrame.Localization.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame\bin\SageFrame.Localization.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Localization\obj\Debug\SageFrame.Localization.csprojResolveAssemblyReference.cache
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Localization\obj\Debug\SageFrame.Localization.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Localization\obj\Debug\SageFrame.Localization.pdb

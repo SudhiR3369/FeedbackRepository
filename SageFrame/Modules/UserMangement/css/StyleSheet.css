@@ -1,0 +1,26 @@
+﻿
+li.shift-arrows .sfFieldset{  
+margin-left:20px;
+}
+.sfFieldset ul.select-shift li {
+       float: left;
+    width: calc(50% - 75px);
+    max-width: 741px;
+}
+ul.select-shift li.shift-arrows label:before{
+    line-height: 28px;
+    }
+  .twoColForm .sfFieldset.rolesvalue{
+  	width:100%;
+  }
+  .sfPagination .pagination .prev:after, .sfPagination span.prev:after {  
+    font-family: fontAwesome;  
+    content: "\f104";
+    color: #5b53ef;
+}
+.sfPagination .pagination .prev:hover:after, .sfPagination span.prev:hover:after {
+    color: #fff !important;
+}
+.sfPagination .pagination .current.prev, .sfPagination .pagination .current.next {
+    display: none;
+}                                                               

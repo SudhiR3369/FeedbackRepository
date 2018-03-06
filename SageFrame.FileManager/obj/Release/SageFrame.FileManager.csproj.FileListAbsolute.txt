@@ -1,0 +1,23 @@
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.FileManager\bin\Release\SageFrame.FileManager.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.FileManager\bin\Release\SageFrame.FileManager.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.FileManager\bin\Release\ICSharpCode.SharpZipLib.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.FileManager\bin\Release\SageFrame.Common.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.FileManager\bin\Release\SageFrame.Common.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.FileManager\obj\Release\SageFrame.FileManager.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.FileManager\obj\Release\SageFrame.FileManager.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.FileManager\bin\Release\SageFrame.FileManager.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.FileManager\bin\Release\SageFrame.FileManager.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.FileManager\bin\Release\ICSharpCode.SharpZipLib.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.FileManager\bin\Release\SageFrame.Common.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.FileManager\bin\Release\SageFrame.Common.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.FileManager\obj\Release\SageFrame.FileManager.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.FileManager\obj\Release\SageFrame.FileManager.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.FileManager\obj\Release\SageFrame.FileManager.csprojResolveAssemblyReference.cache
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.FileManager\bin\Release\SageFrame.FileManager.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.FileManager\bin\Release\SageFrame.FileManager.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.FileManager\bin\Release\ICSharpCode.SharpZipLib.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.FileManager\bin\Release\SageFrame.Common.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.FileManager\bin\Release\SageFrame.Common.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.FileManager\obj\Release\SageFrame.FileManager.csprojResolveAssemblyReference.cache
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.FileManager\obj\Release\SageFrame.FileManager.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.FileManager\obj\Release\SageFrame.FileManager.pdb

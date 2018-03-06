@@ -1,0 +1,12 @@
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.pdb

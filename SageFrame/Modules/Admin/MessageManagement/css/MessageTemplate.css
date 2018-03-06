@@ -1,0 +1,164 @@
+﻿.component{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #C9E2F0;
+    border-radius: 2px;
+    color: #666666;
+    cursor: move;
+    list-style-type: none !important;
+    margin: 2px 0 0;
+    max-width: 250px;
+    text-transform: none;
+    padding: 10px;
+    text-align:left;
+}
+
+.templateTollbox {
+    width:200px;
+
+    padding: 0px ;
+ 
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+.templateTollbox h3 {
+      padding: 15px;
+    background-color: rgba(0, 0, 0, 0.09);
+        margin: 0;
+        text-align:left;
+
+}
+.component span{
+color: #666666;
+font: 12px Arial,Helvetica,sans-serif;
+
+    max-width: 250px;
+    text-transform: none;
+
+}
+h4 {
+    margin: 10px 0 0 0;
+    padding: 6px 0;
+    text-align: left;
+   
+}
+.componentContainer{
+    max-height:290px;
+    overflow-y:auto;
+}
+.sfFormwrapper .sfFieldset.sfFormbox.expandForm .formValue {
+   display:block;
+    background: #fff;
+    z-index: 9;
+    width: 300px;
+    right: -330px;
+      top: -7px;
+    position: absolute;
+    box-shadow: 0 0 2px rgba(0,0,0,0.25);
+
+  
+}
+.sfFormwrapper .sfFieldset.sfFormbox{
+    width:65%
+}
+.type{
+    background:#fff;
+    box-shadow:0 0 9px rgba(0,0,0,0.15);
+    z-index:9;
+}
+.listBlock{
+    padding:15px
+}
+.sfFormwrapper .listBlock .sfFormlabel{display:block}
+.fa-outdent{
+    float:right;
+}
+.expandPagelistHolder i.fa-outdent {
+    color: #5b53ef;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+.showList h3 {
+    background-color: #5b53ef;
+    color: white;
+    margin: 0;
+    padding: 20px 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 14px;
+    position: relative;
+
+}
+
+.showList  h3:after {
+    content: '';
+    position: absolute;
+    top: 15px;
+    left: -20px;
+    border-style: solid;
+    border-width: 11px;
+    border-color: transparent #5b53ef transparent transparent;
+}
+.sfFormwrapper .sfFieldset:nth-child(6) {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+    flex-wrap:wrap;
+}
+.sfFormwrapper .sfFieldset:nth-child(6) .formKey{
+    min-width:100%
+}
+.sfFormwrapper .sfFieldset:nth-child(6) .formValue{
+ 
+      -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex:  1;
+  flex:  1;
+  flex-basis:60%;
+
+    max-width: 100%;
+    
+
+}
+
+.sfFormwrapper .sfFieldset:nth-child(6) .formValue + div{
+ 
+ 
+     -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex:  1;
+  flex:  1;
+  margin-left: 25px;
+
+}
+.sfFieldset.fieldActive input, .sfFieldset.fieldComplete input{
+    border-bottom: 2px solid #5b53ef;
+}
+.listBlock select, .listBlock input{
+    margin-bottom:15px;
+}
+
+.expandForm i.fa-outdent {
+    color: #5b53ef;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+.sfFormbox  i {
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}

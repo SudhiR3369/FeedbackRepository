@@ -1,0 +1,21 @@
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DashboardLink\bin\Debug\SageFrame.DashboardLink.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DashboardLink\bin\Debug\SageFrame.DashboardLink.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DashboardLink\bin\Debug\SageFrame.Common.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DashboardLink\bin\Debug\SageFrame.Common.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DashboardLink\obj\Debug\SageFrame.DashboardLink.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DashboardLink\obj\Debug\SageFrame.DashboardLink.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DashboardLink\obj\Debug\SageFrame.DashboardLink.csprojResolveAssemblyReference.cache
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DashboardLink\bin\Debug\SageFrame.DashboardLink.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DashboardLink\bin\Debug\SageFrame.DashboardLink.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DashboardLink\bin\Debug\SageFrame.Common.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DashboardLink\bin\Debug\SageFrame.Common.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DashboardLink\obj\Debug\SageFrame.DashboardLink.csprojResolveAssemblyReference.cache
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DashboardLink\obj\Debug\SageFrame.DashboardLink.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DashboardLink\obj\Debug\SageFrame.DashboardLink.pdb
+F:\BDProjects\WebBuilder\SageFrame.DashboardLink\bin\Debug\SageFrame.DashboardLink.dll
+F:\BDProjects\WebBuilder\SageFrame.DashboardLink\bin\Debug\SageFrame.DashboardLink.pdb
+F:\BDProjects\WebBuilder\SageFrame.DashboardLink\bin\Debug\SageFrame.Common.dll
+F:\BDProjects\WebBuilder\SageFrame.DashboardLink\bin\Debug\SageFrame.Common.pdb
+F:\BDProjects\WebBuilder\SageFrame.DashboardLink\obj\Debug\SageFrame.DashboardLink.csprojResolveAssemblyReference.cache
+F:\BDProjects\WebBuilder\SageFrame.DashboardLink\obj\Debug\SageFrame.DashboardLink.dll
+F:\BDProjects\WebBuilder\SageFrame.DashboardLink\obj\Debug\SageFrame.DashboardLink.pdb

@@ -1,0 +1,8 @@
+@media (max-width:599px){
+	.grid_listing .grid_summary .grid_summary_detail{
+		width:100%;
+	}
+	.grid_listing .grid_summary .grid_status {
+    padding-left: 20px;
+	}
+}

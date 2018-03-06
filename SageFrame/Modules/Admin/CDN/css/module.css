@@ -1,0 +1,38 @@
+﻿li.sfCDNLinks{
+	padding:15px;
+}
+li.sfCDNLinks:nth-child(odd){
+	background:rgba(0,0,0,0.06);
+}
+li.sfCDNLinks:nth-child(even){
+	background:rgba(0,0,0,0.02);
+}
+#ulUrlList{
+	padding:15px 0;
+}
+.sfAddUrl input {
+    margin: 10px 0;
+}
+.sfDelete{
+	padding:0 15px;
+}
+.pane-wrapper .dash-pane-left{
+	width:100%;
+	max-width:100%;
+}
+li.sfCDNLinks .sfLinks .sfBlock span{
+	flex:1;
+	-webkit-flex:1;
+	-moz-flex:1;
+	-ms-flex:1;
+	max-width: 100%;
+}
+
+li.sfCDNLinks .sfLinks .sfBlock span:nth-child(2),
+li.sfCDNLinks .sfLinks .sfBlock span:nth-child(3){
+	max-width:40px;
+}
+
+li.sfCDNLinks .sfLinks .sfBlock span.sfUrl{max-width: 100%;  color: rgba(0, 0, 0, 0.7);}
+li.sfCDNLinks .sfLinks .sfBlock span.sfDelete{max-width: 40px;}
+.sfOrder i{display:block;}

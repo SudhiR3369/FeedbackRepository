@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<package>
+  <componentname>news listing</componentname>
+  <files srcpath="ArticleAdmin" destpath="\modules\ArticleAdmin"></files>
+  <files srcpath="articleAdvs" destpath="\modules\Webbuilder\js\html\articleAdvs"></files>  
+  <datasql>
+    <install>
+      <sql>5-sql</sql>
+      <storeprocedure>usp_GenerateTableDataScript</storeprocedure>
+      <params>
+        <param>
+          <key>@SiteID</key>
+          <value>0</value>
+        </param>
+        <param>
+          <key>@Tables</key>
+          <value>Article,Article_ActivityLog,Article_Advertisment,Article_advs_ArticleCategoryMap,Article_Advs_Brand,Article_Advs_Sizes,Article_AgendaTitle,Article_AgendaContent,Article_AuthorMapping,Article_Category,Article_CategoryMapping,Article_ExternalLinks,Article_Setting,Article_Tag,Article_TagMapping,Article_TypeArticleMapping,Article_Types,Article_Media,Article_Template</value>
+        </param>
+        <param>
+          <key>@Conditions</key>
+          <value></value>
+
+        </param>
+      </params>
+    </install>
+    <update>
+      <sql>1-sql</sql>
+      <storeprocedure>usp_GenerateTableDataScript</storeprocedure>
+      <params>
+        <param>
+          <key>@SiteID</key>
+          <value>0</value>
+        </param>
+        <param>
+          <key>@Tables</key>
+          <value>Article_Template</value>
+        </param>
+        <param>
+          <key>@Conditions</key>
+          <value></value>
+
+        </param>
+      </params>
+    </update>
+  </datasql>
+</package>

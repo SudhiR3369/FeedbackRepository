@@ -1,0 +1,6 @@
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\Twitterizer2\bin\CCNET\Twitterizer2.dll
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\Twitterizer2\bin\CCNET\Twitterizer2.pdb
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\Twitterizer2\bin\CCNET\Twitterizer2.XML
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\Twitterizer2\bin\CCNET\Newtonsoft.Json.dll
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\Twitterizer2\obj\CCNET\Twitterizer2.dll
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\Twitterizer2\obj\CCNET\Twitterizer2.pdb

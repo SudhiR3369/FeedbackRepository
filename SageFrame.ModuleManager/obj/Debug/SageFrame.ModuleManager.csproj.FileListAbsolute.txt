@@ -1,0 +1,20 @@
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.ModuleManager\bin\Debug\SageFrame.ModuleManager.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.ModuleManager\bin\Debug\SageFrame.ModuleManager.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.ModuleManager\bin\Debug\SageFrame.Common.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.ModuleManager\bin\Debug\SageFrame.Common.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.ModuleManager\obj\Debug\SageFrame.ModuleManager.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.ModuleManager\obj\Debug\SageFrame.ModuleManager.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.ModuleManager\bin\Debug\SageFrame.ModuleManager.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.ModuleManager\bin\Debug\SageFrame.ModuleManager.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.ModuleManager\bin\Debug\SageFrame.Common.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.ModuleManager\bin\Debug\SageFrame.Common.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.ModuleManager\obj\Debug\SageFrame.ModuleManager.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.ModuleManager\obj\Debug\SageFrame.ModuleManager.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.ModuleManager\obj\Debug\SageFrame.ModuleManager.csprojResolveAssemblyReference.cache
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.ModuleManager\bin\Debug\SageFrame.ModuleManager.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.ModuleManager\bin\Debug\SageFrame.ModuleManager.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.ModuleManager\bin\Debug\SageFrame.Common.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.ModuleManager\bin\Debug\SageFrame.Common.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.ModuleManager\obj\Debug\SageFrame.ModuleManager.csprojResolveAssemblyReference.cache
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.ModuleManager\obj\Debug\SageFrame.ModuleManager.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.ModuleManager\obj\Debug\SageFrame.ModuleManager.pdb

@@ -1,0 +1,48 @@
+<layout name="layout_all" modern="true"> 
+ <div class="sfContainer sfCol_100" id="rowHeader">
+	<div class="sfContainer sfCol_100 centralizer" id="Center">
+		<div class="col sfCol_18 template-logo" id="templateLogo">
+			
+		</div>
+		<div class="col sfCol_57 template-nav" id="templateNav">
+			
+		</div>
+		<div class="col sfCol_25" id="loginStatus">
+			
+		</div>
+	</div>
+</div>
+<div class="sfContainer sfCol_100" id="mainBanner">
+	
+</div>
+<div class="sfContainer sfCol_100" id="rowIntro">
+	<div class="sfContainer sfCol_100 centralizer" id="center1">
+		
+	</div>
+</div>
+<div class="sfContainer sfCol_100" id="rowServices">
+	<div class="sfContainer sfCol_100 centralizer" id="center2">
+		
+	</div>
+</div>
+<div class="sfContainer sfCol_100" id="NewsLetter">
+	<div class="sfContainer sfCol_100 centralizer" id="center3">
+		<div class="col sfCol_40" id="sectionTitle">
+			
+		</div>
+		<div class="col sfCol_60" id="formNwsLtr">
+			
+		</div>
+	</div>
+</div>
+<div class="sfContainer sfCol_100" id="Footer">
+	<div class="sfContainer sfCol_100 centralizer" id="center4">
+		
+	</div>
+</div>
+<div class="sfContainer sfCol_100" id="copyrightSection">
+	<div class="sfContainer sfCol_100 centralizer" id="copyrightWrap">
+		
+	</div>
+</div>
+</layout>

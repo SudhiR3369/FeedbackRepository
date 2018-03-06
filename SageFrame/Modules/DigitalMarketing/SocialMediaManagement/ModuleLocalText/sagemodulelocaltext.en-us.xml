@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SageFrameMessage>
+  <ContentNotFound>Please provide some content in order to share.</ContentNotFound>
+  <ShareSuccessfull>Your post was shared successfully.</ShareSuccessfull>
+  <ShareFailed>Unable to share your post at the moment.</ShareFailed>
+</SageFrameMessage>

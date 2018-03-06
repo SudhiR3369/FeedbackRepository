@@ -1,0 +1,126 @@
+﻿    .iconWrapper {
+        padding: 20px;
+          overflow-y:scroll;
+          max-height:450px;
+    }
+
+        .iconWrapper .iconList {
+            background-color: #fff;
+            margin: 20px 0px;
+            padding: 30px;
+            max-height: 300px;
+            overflow-y: scroll;
+            text-align:justify;
+            max-height: 200px;
+
+        }
+
+            
+
+    .iconActive {
+        background-color: #0cb964;
+        border-radius: 5%;
+        color:#fff;
+    }
+
+    .iconWrapper .sfInputbox {
+        width: 30%;
+        display: block;
+    }
+
+    .iconWrapper .btnSearchIcon {
+        display: inline-block;
+        width: 50px;
+        height: 38px;
+    }
+
+    .btnIconChoose {
+        display: block;
+        width: 100px;
+        height: 28px;
+        background-color: #504f4f;
+        color: #fff;
+        text-align: center;
+        line-height: 2;
+        border-radius: 5%;
+        cursor: pointer;
+    }
+
+    .iconWrapper .btnOkIcon {
+        color: #000;
+    }
+
+
+   .iconWrapper .iconList .icon {
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    margin:2px;
+    padding:10px;
+    cursor: pointer;
+    text-align:center;
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s; 
+    font-size:16px;
+}
+   .iconWrapper .iconList .icon:hover{
+        background-color: #0cb964;
+        border-radius: 5%;
+        color:#fff;
+
+   }
+   .iconWrapper .previewWrap {
+    border: solid 1px #ccc;
+    padding: 20px;
+    clear: both;
+    display:block;
+  
+}
+   .iconWrapper .previewWrap .control{
+       display:none;
+       width:50%;
+
+   }
+    .iconWrapper  .control > label{
+        display:inline-block;
+        width:70px;
+        font-weight:600;
+        text-align:left;
+    }
+    .iconWrapper .previewWrap .iconPreview{
+       display:inline-block;
+       width:50%;
+   }
+   .colorpicker{
+        z-index: 99999
+    }
+   
+.closeFlyingDiv {
+    color: red;
+    cursor: pointer;
+    display: block;
+    font-size: 17px;
+    right: 18px;
+}
+.sfDivFlying{
+	position: absolute;
+	background-color: white;
+	padding: 20px;
+	box-shadow: rgba(0,0,0,.2) 0 0 14px;
+    margin-right:2%;
+    z-index: 99;
+    max-width:600px;
+  
+}
+.closeControl{
+    display:block;
+    text-align:right;
+}
+#lblSize{
+    padding: 5px;
+border-radius: 29%;
+border: solid 1px #ccc;
+}

@@ -1,0 +1,123 @@
+﻿/*.sfTabLeftDiv .sfAddQuickLink, .sfAddSidebar , #divSidebarTab{
+	width:55%;
+	float:left;
+	margin-left:0;
+}*/
+/*.sfTabLeftDiv .sfAddSidebar{width:55%;}*/
+.sfSidebarItemWrapper .sfButtonwrapper{margin-top: 30px;}
+.sfAddSidebar .sfButtonwrapper{margin-bottom: 30px;}
+/*.sfTabLeftDiv .sfQuicklinklist ,.sfSidebarItemWrapper{
+	float:left;
+	width:45%
+}*/
+.sfSidebarItemWrapper{
+    -webkit-box-flex:1;
+  -moz-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex:  1;
+flex:1;
+    max-width:45%;
+    margin-right:25px;
+}
+#divSidebarTab, .sfAddSidebar{
+     -webkit-box-flex:1;
+  -moz-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex:  1;
+flex:1;
+}
+.sfQuicklinklist ul {
+	float:right;
+}
+
+
+
+.sfQuicklinklist li, ul.ui-sortable li {
+	text-shadow:1px 1px 0 #EFF9FF;
+	font-weight:bold;
+	border:1px solid #a6d0e7;
+	border-radius: 0;
+	padding:6px;
+	cursor:move;
+	line-height:normal;
+	float:left;
+	background: #ffffff; /* Old browsers */
+	border:1px solid #cccccc;
+	list-style:decimal inside;
+}
+.sfFieldset .formKey.textType {
+    display: block;
+    transform: translateY(28px);
+    -webkit-transform: translateY(28px);
+    -webkit-transition: -webkit-transform 0.3s ease;
+    transition: -webkit-transform 0.3s ease;
+    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+.inline + .sfFormlabel {
+    margin-top: 10px;
+}
+ul.ui-sortable > li{
+	padding: 20px;
+}
+ul.ui-sortable > li ul li{
+	padding: 6px;
+}
+.sfQuicklinklist li:hover, ul.ui-sortable li:hover {
+	background: #ffffff; /* Old browsers */
+}
+.sfQuicklinklist li i.icon-edit,.sfQuicklinklist li i.icon-delete, ul.ui-sortable li i.icon-edit, ul.ui-sortable li i.icon-delete { font-size:14px; margin-top:3px;
+	display:none;
+}
+.sfQuicklinklist li:hover i, ul.ui-sortable li:hover i {
+	display:block;
+}
+.sfQuicklinklist li i, ul.ui-sortable li i {
+	float:right;
+	margin-left:10px;
+	cursor:pointer;
+}
+.sfSidebarItems ul.ui-sortable li {
+	width:100%;
+	display:block;
+}
+.sfSidebarItems ul.ui-sortable li ul {
+	display:none;
+}
+.sfSidebarItems ul.ui-sortable li ul.ui-sortable li {
+	width:100%;
+	margin:10px 0 0;
+	background-color:#f1f1f1;
+}
+.sfSidebarItems ul.ui-sortable li ul.ui-sortable li:hover { background-color:#f6f6f6;}
+.sfHighlight {
+	background:#fff !important;
+	height:30px;
+	display:block;
+	border:1px dashed #ccc !important;
+}
+.sfSidebarItems li span {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.6);
+    line-height: 18px;
+}
+img.sfIcon {
+	max-height:40px;
+}
+.sfUploadedFilesSidebar { float:left; width:auto; margin-right:6px;}
+.sfUploadedFilesSidebar img{ border:1px solid #ccc; padding:4px; float:left;}
+.sfUploadedFilesSidebar i { margin-left:5px; cursor:pointer;}
+.sfButtonwrapper.sfMarginnone{margin-bottom:25px;}
+.sfButtonwrapper.sftype1{float:left;}
+.sfMarginnone{width:100%;}
+.ui-tabs .sfFormwrapper table td{max-width:100%;}
+.sfAddSidebar .sfButtonwrapper {margin-top:0;}
+.sfCpanel .ui-tabs ul.ui-tabs-nav li.ui-tabs-active a{color:rgba(0,0,0,0.7);font-weight:300;font-size:25px; border:none;text-transform: uppercase}
+.sfCpanel .ui-tabs ul.ui-tabs-nav li.ui-tabs-active,.sfCpanel .ui-tabs ul.ui-tabs-nav {border:none;}
+.sfCpanel .ui-tabs ul.ui-tabs-nav li.ui-tabs-active a:after{background:none;}
+.smlbtn-priumary{background:#484fec}
+.sfHolder{position:relative;}
+ul.ui-sortable li i.expand, ul.ui-sortable li i.collapse{display:inline-block;float:none;color:rgba(0, 0, 0, 0.25);}
+

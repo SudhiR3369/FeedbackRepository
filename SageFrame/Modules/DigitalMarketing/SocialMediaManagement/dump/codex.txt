@@ -1,0 +1,23 @@
+﻿    //string shareUrl = "https://www.codeproject.com/Articles/1104538/Csharp-ZKTeco-Biometric-Device-Getting-Started";
+
+                //PostShare share = new PostShare()
+                //{
+                //    Content = new PostShareContent()
+                //    {
+                //        Title = title,
+                //        Description = message,
+                //        SubmittedUrl = shareUrl
+                //    }
+                //};
+
+                //share.Content = new PostShareContent()
+                //{
+                //    Title = title,
+                //    Description = message,
+                //    SubmittedUrl = shareUrl
+                //};
+                //Share
+
+                //share.Comment = message;
+                //share.Visibility = new Visibility() { Code = "anyone" };
+                //var profile = api.Social.Post(user, share);

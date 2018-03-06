@@ -1,0 +1,29 @@
+﻿span[class*=" icon-"] {
+ cursor:pointer;}
+ .sfInput{
+	margin:0 0 15px 0;
+}
+.sfButtonwrapper {
+	padding:15px 0;
+}
+.sfGridwrapper .CreatePaymentName table tr:first-child{
+	border-bottom:none !important;
+}
+.mainGrid{
+	margin-bottom:0;
+}
+.sfGridwrapper table.mainGrid tr:first-child{border:none;}
+table.mainGrid tr:nth-child(odd), table.mainGrid tr:nth-child(even){
+	background:none;
+}
+.sfButtonwrapper.no-margin{
+	margin-top:0;
+	padding-left:14px;
+
+}
+.no-margin .sfButtonwrapper{
+	margin:0;
+}
+.sfCpanel .sfGridwrapper table tr:first-child label{color:rgba(0, 0, 0, 0.7) !important;}
+.sfCpanel .sfGridwrapper .no-table  td{padding:0 10px 10px 0;}
+.sfGridwrapper .no-table td:first-child{padding-right:40px;}

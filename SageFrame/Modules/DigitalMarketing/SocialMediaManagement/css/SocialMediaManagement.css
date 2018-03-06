@@ -1,0 +1,262 @@
+﻿
+.formFeeds .sfDivFlying:before {
+    left: 260px !important;
+}
+
+.formFeeds .sfDivFlying {
+    margin-top: 0px !important;
+    position: absolute;
+    width: 310px;
+    right: 30px;
+    box-shadow: rgba(0,0,0,.2) 0 0 10px;
+    background: #fff;
+    max-height: 510px;
+    
+}
+
+.formFeeds .sfDivFlying h3{
+    background-color: #252b34;
+    color: white;
+    font-weight: 300;
+    padding: 10px 20px;
+}
+
+/*.postMessage
+{
+    cursor: pointer;
+}*/
+
+
+.btnShowTemp {
+    display: block;
+}
+
+.icon-share:before {
+    content: "\f1e0";
+}
+
+.icon-clear:before {
+    content: "\f12d";
+}
+
+.postMessage {
+    font-size: 11px;
+    color: rgba(0,0,0,0.7);
+    line-height: 1.5;
+    margin-bottom: 25px;
+    display: block;
+    float: left;
+    padding: 15px;
+    background-color: rgba(0,0,0,.04);
+    border-radius: 4px;
+}
+
+.formFeeds {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+.formFeeds .box-head{
+    padding: 0;
+    margin-bottom:15px;
+}
+    .formFeeds .box-head .head-left{
+    float:none;
+
+    }
+.boxTitle{
+    font-weight: 800;
+    font-size: 15px;
+    color:#1fb6ff;
+
+}
+    .formFeeds .sfFormwrapper, .postSuggested {
+        -webkit-box-flex: 1;
+        -moz-box-flex: 1;
+        -webkit-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+    }
+
+    .formFeeds h2 {
+        font-size: 15px;
+        font-weight: 800;
+      
+    }
+
+.postSuggested {
+    margin-left: 25px;
+}
+
+.postSuggested .sfModulecontent{padding: 0 !important;}
+
+    .postSuggested > div {
+        max-height: 450px;
+        overflow-y: auto;
+    }
+
+button.btnSharePost.sfBtn {
+    display: block;
+    margin-top: 10px;
+}
+
+.postActions {
+    float: left;
+    width: 100%;
+    margin: 15px 0;
+    border-top: 1px solid rgba(0,0,0,0.08);
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+
+.reportingTags > div {
+    margin: 5px 0;
+}
+
+.msgContent {
+    font-size: 14px;
+    color: rgba(0,0,0,0.8);
+    clear: left;
+    font-weight: 300;
+}
+
+.postCounts {
+    width: 100%;
+    float: left;
+    display: block;
+}
+
+.source, .total-shares, .total-favorites {
+    display: inline-block;
+    float: left;
+}
+
+.total-shares {
+    color: #3fc972;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 15px;
+    font-family: arial;
+}
+
+    .total-shares span {
+        color: rgba(0,0,0,0.6);
+        font-size: 13px;
+        text-transform: uppercase;
+        font-family: Work Sans;
+    }
+
+.total-favorites {
+    font-size: 24px;
+}
+
+    .total-favorites span {
+        margin-left: 5px;
+    }
+
+    .total-favorites span, .source span {
+        font-size: 14px;
+    }
+
+.twitter:before {
+    content: "\f099";
+    font-family: FontAwesome;
+    color: #00c3f8;
+}
+
+.source {
+    font-size: 24px;
+    margin-right: 15px;
+}
+
+
+.facebook:before {
+    content: "\f09a";
+    font-family: FontAwesome;
+    color: #4867aa;
+}
+
+.reportingTags span {
+    color: rgba(0,0,0,0.5);
+}
+
+.mediaSettingElement .sfFormwrapper{
+
+    box-shadow:none;
+        padding: 15px 0;
+}
+.formFeeds .sfFormwrapper .sfFormwrapper{
+    box-shadow:none !important;
+    padding: 0 !important;
+}
+.mediaSettingElement label{
+   width:100%;
+}
+
+#dvPostMediCounterContent{
+    box-shadow: none;
+    padding: 0;
+}
+
+#dvPostMediCounterContent{
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+}
+
+
+.postMediaCounterItem{
+    width: 33.33%;
+    text-align: center;
+}
+
+.postMediaCounterItem i{
+    height: 50px;
+    width: 50px;
+    background-color: rgba(0,0,0,.1);
+    font-size: 24px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.counter-wrap span{
+    color:rgba(0,0,0,.5);
+    font-size: 16px;
+}
+
+.formFeeds .custom-inputbox,
+.formFeeds .custom-textbox{
+    margin:0;
+    margin-bottom: 10px;
+}
+
+.formFeeds .custom-textbox{
+    margin-bottom: 30px;
+}
+.divShareList > div{
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 15px;
+    margin-right: 25px;
+}
+.mediaSettingsView h3{
+    margin-top:0;
+}
+
+.mediaSettingElement{
+    max-height: 355px;
+    overflow-y: auto;
+    padding: 0 20px;
+}
+
+.mediaSettingElement + .sfButtonwrapper{
+   padding: 0 20px 20px 20px;
+}
+
+.sfFormwrapper .sfFieldset{margin-right: 0 !important;}
+.sfFormwrapper .sfFieldset label,
+.sfFormwrapper .sfFieldset span{
+    color:rgba(0,0,0,.6) !important;
+}

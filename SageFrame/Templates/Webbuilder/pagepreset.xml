@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<pagepreset>
+  <layout>
+    <preset layout="login">login,Contact-Us-Manage,Forgot-Password,Password-Recovery</preset>
+    <preset layout="WebBuilder">all</preset>
+  </layout>
+  <theme>default</theme>
+  <width>wide</width>
+</pagepreset>

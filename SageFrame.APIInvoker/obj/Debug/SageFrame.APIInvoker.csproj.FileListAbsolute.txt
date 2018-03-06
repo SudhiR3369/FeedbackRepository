@@ -1,0 +1,18 @@
+D:\Git Repo\SageCMS Optimization\SageFrameV3.8\SageFrame.APIInvoker\bin\Debug\SageFrame.APIInvoker.dll
+D:\Git Repo\SageCMS Optimization\SageFrameV3.8\SageFrame.APIInvoker\bin\Debug\SageFrame.APIInvoker.pdb
+D:\Git Repo\SageCMS Optimization\SageFrameV3.8\SageFrame.APIInvoker\obj\Debug\SageFrame.APIInvoker.csprojResolveAssemblyReference.cache
+D:\Git Repo\SageCMS Optimization\SageFrameV3.8\SageFrame.APIInvoker\obj\Debug\SageFrame.APIInvoker.dll
+D:\Git Repo\SageCMS Optimization\SageFrameV3.8\SageFrame.APIInvoker\obj\Debug\SageFrame.APIInvoker.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.APIInvoker\bin\Debug\SageFrame.APIInvoker.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.APIInvoker\bin\Debug\SageFrame.APIInvoker.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.APIInvoker\obj\Debug\SageFrame.APIInvoker.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.APIInvoker\obj\Debug\SageFrame.APIInvoker.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.APIInvoker\bin\Debug\SageFrame.APIInvoker.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.APIInvoker\bin\Debug\SageFrame.APIInvoker.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.APIInvoker\obj\Debug\SageFrame.APIInvoker.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.APIInvoker\obj\Debug\SageFrame.APIInvoker.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.APIInvoker\bin\Debug\SageFrame.APIInvoker.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.APIInvoker\bin\Debug\SageFrame.APIInvoker.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.APIInvoker\obj\Debug\SageFrame.APIInvoker.csprojResolveAssemblyReference.cache
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.APIInvoker\obj\Debug\SageFrame.APIInvoker.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.APIInvoker\obj\Debug\SageFrame.APIInvoker.pdb

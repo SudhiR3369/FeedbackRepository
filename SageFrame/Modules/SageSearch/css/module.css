@@ -1,0 +1,158 @@
+.sfSearchwrapper ul{display:flex;flex-wrap:wrap;}
+.sfSearchwrapper ul li { list-style: none; float: left;}
+.sfSearchwrapper ul li:first-child { flex:1 0 60%;max-width:800px;margin-right:0px;}
+
+.sfSearchwrapper.searchResult ul li:last-child {flex:1 0 100%;margin-top:15px;}
+.sfSearchwrapper ul li .sfBtn {
+    margin-left: -1px;
+    padding: 0 20px;
+    margin-right: 8px;
+    height: auto;
+    border-radius: 0 2px 2px 0;
+    border: none;
+}
+.sfSearchwrapper ul.sfSearchheader li:last-child .sfBtn{border-radius:2px;}
+.sfSearchwrapper ul li .sfBtn.smlbtn-succ { background:#3fc972}
+.sfSearchwrapper ul li .sfBtn:hover, .sfSearchwrapper ul li .sfBtn:active{box-shadow:none}
+.sfSearchwrapper ul li .sfBtn:hover{background:#000;border:none}
+.sfSearchwrapper ul li  input.sfBtn{border:none !important}
+.sfSearchwrapper ul li .sfBtn:hover input{border:none;background:none}
+.sfSearchwrapper ul li input[type="image"].sfBtn { padding: 8px 12px;}
+.sfSearchwrapper ul li a.sfBtn { border:none; background:none;}
+/*.sfSearchwrapper ul li span { display: none;}*/
+
+
+.sfSearchlist li a { font-weight: bold;}
+.sfSearchlist li { padding:15px 0; border-bottom: 1px solid rgba(0,0,0,0.15); list-style: none;}
+
+
+
+.pagination {  border:1px solid #bbb; border-radius:3px; -webkit-border-radius:3px; -ms-border-radius:3px; -o-border-radius:3px; width:auto; display:inline-block;  }
+.pagination a {
+	text-decoration:none;
+	color:#15B;
+}
+.pagination a, .pagination span {
+	float:left;
+	width:20px;
+	height:20px; line-height:20px;
+	color:#000;
+	text-align:center;
+	border-right:1px solid #bbb;
+}
+.pagination a i.icon-arrow-slim-e:before, .pagination span i.icon-arrow-slim-e:before,.pagination a i.icon-arrow-slim-w:before, .pagination span i.icon-arrow-slim-w:before { line-height:20px !important;} 
+.pagination a:last-child, .pagination span:last-child { border-right:none;}
+
+.pagination a.current, .pagination span.current,  .pagination span.click {
+	background:#fff;
+	color:#000; font-weight:bold;
+}
+.pagination .current.prev, div.pagination .current.next {
+	background:#d7d7d7;
+	color:#7d7d7d;
+}
+.sfSearchresult {
+	padding-left:50px;
+	padding-right:50px;
+}
+.icon-edit{
+	color:#fff;
+}
+.sfMiddlemain .sfLogoholder .ChangeSmallLogo{
+	background:none;
+	color:#5b53ef;
+}
+.sfSearchwrapper ul li input.sfBtn {
+	background:none !important;
+	border:none;
+	color:#fff;
+	font-weight:700;
+	height:auto;
+	padding:0;
+	margin:0;
+	vertical-align:middle;
+    line-height:39px;
+    outline:none;
+}
+
+.sfBtn{
+	display:inline-block;
+}
+span.sfBtn:hover, span.sfBtn:hover input {
+	color:#fff;
+}
+
+
+.liText .sfInputbox{
+	height:41px;
+
+}
+
+.icon-next{
+	content:"\f061";
+	font-family:FontAwesome;
+}
+.cssClassNotFound{
+	color:#ff524c;
+}
+
+.searchResult span.sfError{
+	font-size:11px;
+}
+.sfResultDetail{
+	font-weight:normal;
+	color:rgba(0, 0, 0, 0.8);
+	margin:0;
+	line-height:normal;
+}
+#h2SearchResult{
+	background: rgba(0,0,0,0.06);
+	padding: 15px 18px;
+	margin-top:45px;
+    border:1px solid #ccc;
+    margin-bottom:0;
+    font-size: 18px;
+    font-weight: 300;
+}
+.sfSearchlist ul{margin-bottom:0}
+
+.sfSearchResultWrapper{
+    border: 1px solid #ccc;
+    border-top: none;
+}
+li.sfSearchList{
+	border:none;
+	padding:15px;
+}
+li.sfSearchList:last-child{border:none !important}
+.sfSearchlist li.sfSearchList:nth-child(even){
+
+	border: 1px solid rgba(0,0,0,0.07);
+	border-left: none;
+	border-right: none;
+
+}
+li.sfSearchList:hover{
+	background:rgba(0,0,0,0.06);
+}
+.sfMessagewrapper{
+	padding:0 50px;
+}
+.liText span.sfError,.sfSearchheader .sfError {
+	line-height:11px;
+    font-size:11px;
+    display:none;
+}
+.no-table tr td.cssClassRadioBtnWrapper td {
+    text-align: left ;
+    min-width: 100px;
+    padding: 0 !important;
+}
+.sfSearchwrapper .liText input, .searchResult input[type="text"]{border:1px solid #ccc;background:#fff;border-radius:2px;line-height:29px;height:39px;outline:none}
+table.cssClassRadioBtn{margin:0}
+.sfFormwrapper table td{
+    padding: 0;
+    max-width: 70px !important;
+    padding-right: 0;
+    width: 70px;
+}

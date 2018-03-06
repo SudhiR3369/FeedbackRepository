@@ -1,0 +1,61 @@
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\SageFrame.DigiSphereInvoker\bin\Debug\SageFrame.DigiSphereInvoker.dll
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\SageFrame.DigiSphereInvoker\bin\Debug\SageFrame.DigiSphereInvoker.pdb
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\SageFrame.DigiSphereInvoker\bin\Debug\SageFrame.APIInvoker.dll
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\SageFrame.DigiSphereInvoker\bin\Debug\SageFrame.APIInvoker.pdb
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\SageFrame.DigiSphereInvoker\obj\Debug\SageFrame.DigiSphereInvoker.csprojResolveAssemblyReference.cache
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\SageFrame.DigiSphereInvoker\obj\Debug\SageFrame.DigiSphereInvoker.dll
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\SageFrame.DigiSphereInvoker\obj\Debug\SageFrame.DigiSphereInvoker.pdb
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\SageFrame.DigiSphereInvoker\bin\Debug\SageFrame.JsonParser.dll
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\SageFrame.DigiSphereInvoker\bin\Debug\Newtonsoft.Json.dll
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\SageFrame.DigiSphereInvoker\bin\Debug\SageFrame.JsonParser.pdb
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\SageFrame.DigiSphereInvoker\bin\Debug\SageFrame.Common.dll
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\SageFrame.DigiSphereInvoker\bin\Debug\SageFrame.ReturnCode.dll
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\SageFrame.DigiSphereInvoker\bin\Debug\SageFrame.Common.pdb
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\SageFrame.DigiSphereInvoker\bin\Debug\SageFrame.ReturnCode.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.DigiSphereInvoker\bin\Debug\SageFrame.DigiSphereInvoker.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.DigiSphereInvoker\bin\Debug\SageFrame.DigiSphereInvoker.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.DigiSphereInvoker\bin\Debug\SageFrame.APIInvoker.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.DigiSphereInvoker\bin\Debug\SageFrame.Common.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.DigiSphereInvoker\bin\Debug\SageFrame.JsonParser.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.DigiSphereInvoker\bin\Debug\SageFrame.ReturnCode.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.DigiSphereInvoker\bin\Debug\Newtonsoft.Json.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.DigiSphereInvoker\bin\Debug\SageFrame.APIInvoker.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.DigiSphereInvoker\bin\Debug\SageFrame.Common.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.DigiSphereInvoker\bin\Debug\SageFrame.JsonParser.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.DigiSphereInvoker\bin\Debug\SageFrame.ReturnCode.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.DigiSphereInvoker\obj\Debug\SageFrame.DigiSphereInvoker.csprojResolveAssemblyReference.cache
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.DigiSphereInvoker\obj\Debug\SageFrame.DigiSphereInvoker.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.DigiSphereInvoker\obj\Debug\SageFrame.DigiSphereInvoker.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigiSphereInvoker\bin\Debug\SageFrame.DigiSphereInvoker.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigiSphereInvoker\bin\Debug\SageFrame.DigiSphereInvoker.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigiSphereInvoker\bin\Debug\SageFrame.APIInvoker.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigiSphereInvoker\bin\Debug\SageFrame.Common.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigiSphereInvoker\bin\Debug\SageFrame.JsonParser.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigiSphereInvoker\bin\Debug\SageFrame.ReturnCode.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigiSphereInvoker\bin\Debug\SageFrame.Security.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigiSphereInvoker\bin\Debug\Newtonsoft.Json.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigiSphereInvoker\bin\Debug\SageFrame.APIInvoker.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigiSphereInvoker\bin\Debug\SageFrame.Common.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigiSphereInvoker\bin\Debug\SageFrame.JsonParser.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigiSphereInvoker\bin\Debug\SageFrame.ReturnCode.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigiSphereInvoker\bin\Debug\SageFrame.Security.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigiSphereInvoker\obj\Debug\SageFrame.DigiSphereInvoker.csprojResolveAssemblyReference.cache
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigiSphereInvoker\obj\Debug\SageFrame.DigiSphereInvoker.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigiSphereInvoker\obj\Debug\SageFrame.DigiSphereInvoker.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigiSphereInvoker\bin\Debug\SageFrame.DigiSphereInvoker.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigiSphereInvoker\bin\Debug\SageFrame.DigiSphereInvoker.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigiSphereInvoker\bin\Debug\SageFrame.APIInvoker.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigiSphereInvoker\bin\Debug\SageFrame.Common.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigiSphereInvoker\bin\Debug\SageFrame.JsonParser.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigiSphereInvoker\bin\Debug\SageFrame.ReturnCode.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigiSphereInvoker\bin\Debug\SageFrame.Security.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigiSphereInvoker\bin\Debug\Newtonsoft.Json.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigiSphereInvoker\bin\Debug\SageFrame.APIInvoker.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigiSphereInvoker\bin\Debug\SageFrame.Common.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigiSphereInvoker\bin\Debug\SageFrame.JsonParser.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigiSphereInvoker\bin\Debug\SageFrame.ReturnCode.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigiSphereInvoker\bin\Debug\SageFrame.Security.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigiSphereInvoker\obj\Debug\SageFrame.DigiSphereInvoker.csprojResolveAssemblyReference.cache
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigiSphereInvoker\obj\Debug\SageFrame.DigiSphereInvoker.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigiSphereInvoker\obj\Debug\SageFrame.DigiSphereInvoker.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigiSphereInvoker\bin\Debug\Newtonsoft.Json.xml

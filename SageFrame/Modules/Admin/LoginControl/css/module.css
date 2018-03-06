@@ -1,0 +1,12 @@
+.sfLogininfo ul li.sfLogin a:before {
+    content: "\f13e";
+}
+.sfLogininfo ul li.sfRegister a:before {
+    content: "\f234";
+}
+.sfLogininfo ul li.sfLogin a:before, .sfLogininfo ul li.sfRegister a:before {
+    font-family: fontAwesome;
+    margin-right: 5px;
+}
+.sfContainer .sfLogininfo ul{margin-right:0;} 
+.sfContainer .sfLogininfo ul li:first-child{border-right:none}

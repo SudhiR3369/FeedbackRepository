@@ -1,0 +1,6 @@
+﻿/*.sfCpanel .sfGridwrapper table tr.sfOdd td:first-child, .sfGridwrapper table tr.sfEven td:first-child{width:20px;}*/
+.sfGridwrapper table tr.sfpagination td:first-child{width:100%;}
+.sfExceptions table tr:nth-child(even), .sfExceptions table tr:nth-child(odd){background:none;}
+table tr:last-child{width:80px;}
+.sfGridwrapper table tr.sfPagination table tr {width:350px;}
+

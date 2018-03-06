@@ -1,0 +1,33 @@
+D:\webprojects\Working Projects\SageFrame Optimization\sagecms-optimization\SageFrameV3.8\SageFrame.AdminNotification\bin\Debug\SageFrame.AdminNotification.dll
+D:\webprojects\Working Projects\SageFrame Optimization\sagecms-optimization\SageFrameV3.8\SageFrame.AdminNotification\bin\Debug\SageFrame.AdminNotification.pdb
+D:\webprojects\Working Projects\SageFrame Optimization\sagecms-optimization\SageFrameV3.8\SageFrame.AdminNotification\bin\Debug\SageFrame.Common.dll
+D:\webprojects\Working Projects\SageFrame Optimization\sagecms-optimization\SageFrameV3.8\SageFrame.AdminNotification\bin\Debug\SageFrame.Common.pdb
+D:\webprojects\Working Projects\SageFrame Optimization\sagecms-optimization\SageFrameV3.8\SageFrame.AdminNotification\obj\Debug\SageFrame.AdminNotification.dll
+D:\webprojects\Working Projects\SageFrame Optimization\sagecms-optimization\SageFrameV3.8\SageFrame.AdminNotification\obj\Debug\SageFrame.AdminNotification.pdb
+D:\SAAS\SageCloudProductV3\SageFrameV3.8\SageFrame.AdminNotification\bin\Debug\SageFrame.AdminNotification.dll
+D:\SAAS\SageCloudProductV3\SageFrameV3.8\SageFrame.AdminNotification\bin\Debug\SageFrame.AdminNotification.pdb
+D:\SAAS\SageCloudProductV3\SageFrameV3.8\SageFrame.AdminNotification\bin\Debug\SageFrame.Common.dll
+D:\SAAS\SageCloudProductV3\SageFrameV3.8\SageFrame.AdminNotification\bin\Debug\SageFrame.Common.pdb
+D:\SAAS\SageCloudProductV3\SageFrameV3.8\SageFrame.AdminNotification\obj\Debug\SageFrame.AdminNotification.dll
+D:\SAAS\SageCloudProductV3\SageFrameV3.8\SageFrame.AdminNotification\obj\Debug\SageFrame.AdminNotification.pdb
+D:\SAAS\SageCloudProductV3\SageFrameV3.8\SageFrame.AdminNotification\obj\Debug\SageFrame.AdminNotification.csprojResolveAssemblyReference.cache
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.AdminNotification\bin\Debug\SageFrame.AdminNotification.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.AdminNotification\bin\Debug\SageFrame.AdminNotification.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.AdminNotification\bin\Debug\SageFrame.Common.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.AdminNotification\bin\Debug\SageFrame.Common.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.AdminNotification\obj\Debug\SageFrame.AdminNotification.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.AdminNotification\obj\Debug\SageFrame.AdminNotification.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.AdminNotification\bin\Debug\SageFrame.AdminNotification.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.AdminNotification\bin\Debug\SageFrame.AdminNotification.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.AdminNotification\bin\Debug\SageFrame.Common.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.AdminNotification\bin\Debug\SageFrame.Common.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.AdminNotification\obj\Debug\SageFrame.AdminNotification.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.AdminNotification\obj\Debug\SageFrame.AdminNotification.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.AdminNotification\obj\Debug\SageFrame.AdminNotification.csprojResolveAssemblyReference.cache
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.AdminNotification\bin\Debug\SageFrame.AdminNotification.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.AdminNotification\bin\Debug\SageFrame.AdminNotification.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.AdminNotification\bin\Debug\SageFrame.Common.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.AdminNotification\bin\Debug\SageFrame.Common.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.AdminNotification\obj\Debug\SageFrame.AdminNotification.csprojResolveAssemblyReference.cache
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.AdminNotification\obj\Debug\SageFrame.AdminNotification.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.AdminNotification\obj\Debug\SageFrame.AdminNotification.pdb

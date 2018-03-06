@@ -1,0 +1,11 @@
+﻿
+.sfTableWrapper table tr:nth-child(odd) {
+    background-color: rgba(0, 0, 0, 0.06);
+}
+.sfTableWrapper table tr:nth-child(even)  {
+    background-color: rgba(0, 0, 0, 0.02);
+}
+.sfTableWrapper table tr:first-child{
+	background:none;
+}
+.divNotificationList .sfBtn{float:left}

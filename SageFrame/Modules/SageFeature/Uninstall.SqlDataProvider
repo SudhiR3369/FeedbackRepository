@@ -1,0 +1,5 @@
+DROP TABLE [dbo].[SageFeature]
+DROP PROCEDURE [dbo].[usp_SageFeature_AddUpdate]
+DROP PROCEDURE [dbo].[usp_SageFeature_GetByID]
+DROP PROCEDURE [dbo].[usp_SageFeature_DeleteByID]  
+DROP PROCEDURE [dbo].[usp_SageFeature_GetallData]

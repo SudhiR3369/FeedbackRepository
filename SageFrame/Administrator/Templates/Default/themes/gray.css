@@ -1,0 +1,37 @@
+﻿
+/*======================================= GREY UI *============================================================*/
+
+body{
+	background-color: #dee1e3;
+	/*color:#f3f3f3;*/
+	color:#000;
+}
+
+.sfContentwrapper .dash-wrapper.defaultMenu .sfMaincontent{background-color: transparent}
+.sfContentwrapper .dash-wrapper.defaultMenu .sfMaincontent{border-left-color:#919191;}
+.menutop .sfContentwrapper .dash-wrapper.defaultMenu #divSideBar{background-color: #919191 ;box-shadow: none}
+.sfContentwrapper .dash-wrapper.defaultMenu #divSideBar .loggedin-status{background-color: rgba(255,255,255,.8)}
+
+.sfContentwrapper .dash-wrapper.defaultMenu .acitem li span{color:rgba(0,0,0,0.6);}
+.sfContentwrapper .dash-wrapper.defaultMenu .acitem li .acitem a i,
+.sfContentwrapper .dash-wrapper.defaultMenu .acitem li .acitem a span{color:#fff;}
+
+.sfContentwrapper .dash-wrapper.defaultMenu.shrinkMenu #divSideBar .Grandparent > ul.acitem li.parent ul{
+	background-color: rgba(0,0,0,.6);
+}
+.window-box{border:solid 1px rgba(0,0,0,.2)}
+
+.sfContentwrapper .dash-wrapper.defaultMenu #divSideBar .Grandparent > ul.acitem li.parent ul{background-color: #505050}
+
+.sfContentwrapper .dash-wrapper.defaultMenu.shrinkMenu .sfMaincontent{border-color:#919191;}
+.window-box,
+#presetsDiv #activeLayoutList ul li .sfPresetpages{background-color:rgba(255,255,255,.7)}
+.sfSearch input#txtSearchDate{background: none}
+.sfCpanel{background-color: #eeeeee;border:solid 1px rgba(0,0,0,.14)}
+#divLayoutWireframe{background-color: transparent;}
+#templateList,
+#presetsDiv,
+#visualLayoutMgr{background: none}
+.sfCreatetemplate{color:#919191;}
+li.widget-instance, li.widget-class{background-color: rgba(255,255,255,.5);border:solid 1px rgba(0,0,0,.15)}
+table tr:first-child{background-color:rgba(255,255,255,.3);}

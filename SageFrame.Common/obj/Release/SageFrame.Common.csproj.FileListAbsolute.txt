@@ -1,0 +1,13 @@
+H:\Final Templating Project\Blogs\BlogsViral\sagecms-optimization\SageFrameV3.8\SageFrame.Common\bin\Release\SageFrame.Common.dll
+H:\Final Templating Project\Blogs\BlogsViral\sagecms-optimization\SageFrameV3.8\SageFrame.Common\bin\Release\SageFrame.Common.pdb
+H:\Final Templating Project\Blogs\BlogsViral\sagecms-optimization\SageFrameV3.8\SageFrame.Common\obj\Release\SageFrame.Common.dll
+H:\Final Templating Project\Blogs\BlogsViral\sagecms-optimization\SageFrameV3.8\SageFrame.Common\obj\Release\SageFrame.Common.pdb
+H:\Final Templating Project\Blogs\BlogsViral\sagecms-optimization\SageFrameV3.8\SageFrame.Common\obj\Release\SageFrame.Common.csprojResolveAssemblyReference.cache
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Common\bin\Release\SageFrame.Common.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Common\bin\Release\SageFrame.Common.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Common\obj\Release\SageFrame.Common.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Common\obj\Release\SageFrame.Common.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Common\bin\Release\SageFrame.Common.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Common\bin\Release\SageFrame.Common.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Common\obj\Release\SageFrame.Common.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Common\obj\Release\SageFrame.Common.pdb

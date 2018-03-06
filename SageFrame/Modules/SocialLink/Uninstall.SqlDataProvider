@@ -1,0 +1,5 @@
+DROP TABLE [dbo].[SageSocialLinks]
+DROP PROCEDURE [dbo].[USP_SageSocialLinks_AddUpdate]
+DROP PROCEDURE [dbo].[usp_SageSocialLinks_DelByID]
+DROP PROCEDURE [dbo].[usp_SageSocialLinks_GetAll]
+DROP PROCEDURE [dbo].[usp_SageSocialLinks_GetByID]

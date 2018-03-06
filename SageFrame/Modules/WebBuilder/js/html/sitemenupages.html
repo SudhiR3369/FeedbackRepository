@@ -1,0 +1,48 @@
+﻿<div id="pageCreateArea" style="display: none;" data-pageid="0">
+    <input type="hidden" id="hdnPageID" value="0" />
+    <div class="field-row clearfix">
+        <div class="field-row clearfix">
+            <label>PageName</label>
+            <span class="value">
+                <span class="value">
+                    <input type="text" id="txtPageName" />
+                    <span class="sfError" id="pageError"></span>
+                </span>
+            </span>
+        </div>
+        <div class="field-row clearfix">
+            <label>Title</label>
+            <span class="value">
+                <span class="value">
+                    <input type="text" id="txtPageTitle" />
+                </span>
+            </span>
+        </div>
+        <div class="field-row clearfix">
+            <label>Description</label>
+            <span class="value">
+                <span class="value">
+                    <input type="text" id="txtPageDescription" />
+                </span>
+            </span>
+        </div>
+        <div class="field-row clearfix">
+            <label></label>
+            <span class="value">
+                <span class="">
+                    <input type="button" id="btnSavePage" value="Save" class="icon-save sfBtn smlbtn-succ" />
+                    <input type="button" id="btnCancelPageAdd" value="Cancel" class="icon-save sfBtn smlbtn-danger" />
+                </span>
+            </span>
+        </div>
+    </div>
+</div>
+<div id="pageListArea" class="field-row clearfix">
+    <span class="fa icon-save sfBtn smlbtn-succ" id="pageAddPanel">Add Page</span>
+    <div class="field-row clearfix">
+        <div id="pageList" class="pageList">
+            <div id="headerMenuList" class="sortable ui-sortable">
+            </div>
+        </div>
+    </div>
+</div>

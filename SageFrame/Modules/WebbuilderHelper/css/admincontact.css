@@ -1,0 +1,273 @@
+﻿
+
+.flex-box, .generic-grid-system .view-state .detail_group {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+}
+
+.generic-grid-system .filter_wrap .filter_group, .generic-grid-system .filter_wrap .filter_button_wrap {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 28px;
+    max-width: 300px;
+    width: 100%;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.generic-grid-system .filter_wrap .filter_button_wrap {
+    margin-top: 44px;
+}
+
+.generic-grid-system label {
+    margin-bottom: 0;
+}
+
+.generic-grid-system .responsive_data_table {
+    text-align: left;
+}
+
+    .generic-grid-system .responsive_data_table tr td {
+        vertical-align: middle;
+        text-align: left !important;
+    }
+
+    .generic-grid-system .responsive_data_table tbody tr {
+        border-bottom: none !important;
+        text-transform: none !important;
+        color: rgba(0,0,0,0.8) !important;
+    }
+
+.generic-grid-system #btnComReset, .generic-grid-system #btnReset {
+    line-height: 31px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.generic-grid-system .pagination span {
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 700;
+    display: inline-block;
+    background-color: rgba(0,0,0,0.2);
+    padding: 8px 18px;
+    margin-right: 8px;
+    cursor: pointer;
+    border-radius: 28px;
+    color: rgba(0,0,0,0.6);
+}
+
+.generic-grid-system table {
+    margin-top: 20px;
+}
+
+    .generic-grid-system table thead tr th:last-child {
+        width: 80px !important;
+    }
+
+    .generic-grid-system table tbody tr:first-child {
+        border-bottom: none !important;
+        color: rgba(0,0,0,0.8) !important;
+        background-color: rgba(0,0,0,0.06) !important;
+    }
+
+    .generic-grid-system table tbody tr td {
+        padding: 4px 15px;
+    }
+
+    .generic-grid-system table .fa span {
+        display: none;
+    }
+
+    .generic-grid-system table .fa.fa-check {
+        color: #3fc972 !important;
+    }
+
+    .generic-grid-system table .fa.fa-times {
+        color: #ff524c !important;
+    }
+
+    .generic-grid-system table .cssClassActionOnClick {
+        position: relative;
+    }
+
+    .generic-grid-system table .cssClassActionOnClickShow {
+        position: absolute;
+        left: -108px;
+        top: -18px;
+        width: 108px;
+        background-color: white;
+        box-shadow: rgba(0,0,0,0.3) 0 0 14px;
+        border-radius: 4px;
+        padding: 5px;
+    }
+
+        .generic-grid-system table .cssClassActionOnClickShow p {
+            margin: 0;
+        }
+
+        .generic-grid-system table .cssClassActionOnClickShow a {
+            display: block;
+            padding: 4px 8px;
+            color: rgba(0,0,0,0.8);
+        }
+
+            .generic-grid-system table .cssClassActionOnClickShow a:hover {
+                background-color: rgba(0,0,0,0.08);
+                color: rgba(0,0,0,0.5);
+            }
+
+.generic-grid-system .sfGridwrapper, .generic-grid-system .sfTableWrapper {
+    overflow-x: visible !important;
+}
+
+@media all and (max-width: 767px) {
+    .generic-grid-system .sfGridwrapper, .generic-grid-system .sfTableWrapper {
+        overflow-x: hidden !important;
+    }
+}
+
+.generic-grid-system .view-state .content_wrap {
+    margin-top: 20px;
+}
+
+.generic-grid-system .view-state h2 {
+    margin-bottom: 20px;
+}
+
+.generic-grid-system .view-state .detail_group {
+    padding: 15px 0;
+}
+
+    .generic-grid-system .view-state .detail_group .detail_label {
+        max-width: 15%;
+        font-size: 14px;
+        flex: 1;
+        -ms-flex: 1;
+        -webkit-flex: 1;
+        -moz-flex: 1;
+        font-weight: 700;
+        color: rgba(0,0,0,0.6);
+    }
+
+    .generic-grid-system .view-state .detail_group .detail {
+        width: 100%;
+        flex: 2;
+        -ms-flex: 2;
+        -webkit-flex: 2;
+        -moz-flex: 2;
+        color: rgba(0,0,0,0.6);
+    }
+
+        .generic-grid-system .view-state .detail_group .detail img {
+            max-width: 308px;
+            border: solid 4px rgba(0,0,0,0.4);
+            overflow: hidden;
+        }
+
+.generic-grid-system .right-pos-btn-wrapp {
+    float: right;
+    margin-top: 15px;
+}
+
+.generic-grid-system fieldset {
+    margin-bottom: 30px;
+    padding: 25px;
+}
+
+    .generic-grid-system fieldset .form_group {
+        margin-bottom: 10px;
+    }
+
+    .generic-grid-system fieldset .droppable {
+        border: dashed 2px rgba(0,0,0,0.1);
+        background-color: rgba(0,0,0,0.06);
+        height: 48px;
+        line-height: 14px;
+        padding: 15px;
+        margin-top: 15px;
+    }
+
+        .generic-grid-system fieldset .droppable p {
+            margin: 0;
+        }
+
+    .generic-grid-system fieldset img {
+        margin-top: 25px;
+    }
+
+.backendViewEditor .WebBuilderWrapper {
+    background-color: transparent;
+}
+
+    .backendViewEditor .WebBuilderWrapper .Top-filters .dateInput label {
+        width: 100%;
+    }
+
+    .backendViewEditor .WebBuilderWrapper .Top-filters .dateInput input {
+        width: 45%;
+        display: inline-block;
+    }
+
+    .backendViewEditor .WebBuilderWrapper .filter_group {
+        margin-top: 0;
+    }
+
+    .backendViewEditor .WebBuilderWrapper .filter_button_wrap {
+        width: 100%;
+        max-width: 140px;
+    }
+
+    .backendViewEditor .WebBuilderWrapper .main-container .main-left {
+        top: -10px;
+    }
+
+.divContactUSWrap {
+    padding: 40px;
+}
+
+.sfGridwrapper h2 {
+    font-size: 34px;
+    font-weight: 300;
+    margin: 0;
+}
+
+/*# sourceMappingURL=builderBackend.css.map */
+
+
+#divViewContact {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 500px;
+    background-color: rgba(255,255,255,1);
+    padding: 40px;
+}
+
+.detail_group {
+    display: -webkit-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 24px;
+}
+
+    .detail_group > span {
+        flex: 1;
+        -ms-flex: 1;
+    }
+
+    .detail_group > span {
+        max-width: 40%;
+        margin-right: 15px;
+        padding-right: 15px;
+        font-weight: 600;
+        color: rgba(0,0,0,.4);
+    }
+
+    .detail_group .detail {
+        color: rgba(0,0,0,.6);
+    }

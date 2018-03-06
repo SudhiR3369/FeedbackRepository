@@ -1,0 +1,45 @@
+﻿
+
+/*.waitASec {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 ) 
+                url('images/waitASec.gif') 
+                50% 50% 
+                no-repeat;
+}
+
+ 
+#ajaxBusyAgain{
+	bottom: 0;
+	display: block;
+	font-size:15px; font-weight:bold; line-height:30px;
+	position: fixed;
+	text-align: center;
+	width: 100%;
+	z-index:9999;
+	color:#fff;
+	padding:5px 0;
+	letter-spacing:1px;
+	background:rgba(0,0,0,0.8);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#8000000,endColorstr=#80000000); 
+    zoom: 1;
+}
+#ajaxBusyAgain img {
+	margin-right:5px;
+	vertical-align:middle;
+}
+
+
+
+
+
+ #up1{
+    width: 200px; background-color: #FFC080;
+    position: absolute; bottom: 0px; left: 0px;
+}*/

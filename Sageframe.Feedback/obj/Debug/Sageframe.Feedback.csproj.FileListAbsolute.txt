@@ -1,0 +1,7 @@
+F:\BDProjects\WebBuilder\Sageframe.Feedback\bin\Debug\Sageframe.Feedback.dll
+F:\BDProjects\WebBuilder\Sageframe.Feedback\bin\Debug\Sageframe.Feedback.pdb
+F:\BDProjects\WebBuilder\Sageframe.Feedback\bin\Debug\SageFrame.Common.dll
+F:\BDProjects\WebBuilder\Sageframe.Feedback\bin\Debug\SageFrame.Common.pdb
+F:\BDProjects\WebBuilder\Sageframe.Feedback\obj\Debug\Sageframe.Feedback.csprojResolveAssemblyReference.cache
+F:\BDProjects\WebBuilder\Sageframe.Feedback\obj\Debug\Sageframe.Feedback.dll
+F:\BDProjects\WebBuilder\Sageframe.Feedback\obj\Debug\Sageframe.Feedback.pdb

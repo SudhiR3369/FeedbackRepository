@@ -1,0 +1,66 @@
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.ManageMassMail\bin\Debug\SageFrame.ManageMassMail.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.ManageMassMail\bin\Debug\SageFrame.ManageMassMail.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.ManageMassMail\bin\Debug\SageFrame.Common.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.ManageMassMail\bin\Debug\SageFrame.Common.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.ManageMassMail\obj\Debug\SageFrame.ManageMassMail.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.ManageMassMail\obj\Debug\SageFrame.ManageMassMail.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.ManageMassMail\bin\Debug\SageFrame.APIInvoker.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.ManageMassMail\bin\Debug\SageFrame.APIInvoker.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.ManageMassMail\bin\Debug\SageFrame.DigiSphereInvoker.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.ManageMassMail\bin\Debug\SageFrame.ReturnCode.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.ManageMassMail\bin\Debug\SageFrame.JsonParser.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.ManageMassMail\bin\Debug\Newtonsoft.Json.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.ManageMassMail\bin\Debug\SageFrame.DigiSphereInvoker.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.ManageMassMail\bin\Debug\SageFrame.ReturnCode.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.ManageMassMail\bin\Debug\SageFrame.JsonParser.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.ManageMassMail\obj\Debug\SageFrame.ManageMassMail.csprojResolveAssemblyReference.cache
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.ManageMassMail\bin\Debug\SageFrame.ManageMassMail.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.ManageMassMail\bin\Debug\SageFrame.ManageMassMail.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.ManageMassMail\bin\Debug\SageFrame.APIInvoker.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.ManageMassMail\bin\Debug\SageFrame.Common.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.ManageMassMail\bin\Debug\SageFrame.DigiSphereInvoker.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.ManageMassMail\bin\Debug\SageFrame.ReturnCode.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.ManageMassMail\bin\Debug\SageFrame.JsonParser.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.ManageMassMail\bin\Debug\Newtonsoft.Json.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.ManageMassMail\bin\Debug\SageFrame.APIInvoker.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.ManageMassMail\bin\Debug\SageFrame.Common.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.ManageMassMail\bin\Debug\SageFrame.DigiSphereInvoker.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.ManageMassMail\bin\Debug\SageFrame.ReturnCode.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.ManageMassMail\bin\Debug\SageFrame.JsonParser.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.ManageMassMail\obj\Debug\SageFrame.ManageMassMail.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.ManageMassMail\obj\Debug\SageFrame.ManageMassMail.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.ManageMassMail\obj\Debug\SageFrame.ManageMassMail.csprojResolveAssemblyReference.cache
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.ManageMassMail\bin\Debug\SageFrame.ManageMassMail.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.ManageMassMail\bin\Debug\SageFrame.ManageMassMail.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.ManageMassMail\bin\Debug\SageFrame.APIInvoker.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.ManageMassMail\bin\Debug\SageFrame.Common.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.ManageMassMail\bin\Debug\SageFrame.DigiSphereInvoker.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.ManageMassMail\bin\Debug\SageFrame.ReturnCode.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.ManageMassMail\bin\Debug\SageFrame.JsonParser.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.ManageMassMail\bin\Debug\Newtonsoft.Json.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.ManageMassMail\bin\Debug\SageFrame.APIInvoker.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.ManageMassMail\bin\Debug\SageFrame.Common.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.ManageMassMail\bin\Debug\SageFrame.DigiSphereInvoker.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.ManageMassMail\bin\Debug\SageFrame.ReturnCode.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.ManageMassMail\bin\Debug\SageFrame.JsonParser.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.ManageMassMail\obj\Debug\SageFrame.ManageMassMail.csprojResolveAssemblyReference.cache
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.ManageMassMail\obj\Debug\SageFrame.ManageMassMail.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.ManageMassMail\obj\Debug\SageFrame.ManageMassMail.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.ManageMassMail\bin\Debug\Newtonsoft.Json.xml
+F:\BDProjects\WebBuilder\SageFrame.ManageMassMail\bin\Debug\SageFrame.ManageMassMail.dll
+F:\BDProjects\WebBuilder\SageFrame.ManageMassMail\bin\Debug\SageFrame.ManageMassMail.pdb
+F:\BDProjects\WebBuilder\SageFrame.ManageMassMail\bin\Debug\SageFrame.APIInvoker.dll
+F:\BDProjects\WebBuilder\SageFrame.ManageMassMail\bin\Debug\SageFrame.Common.dll
+F:\BDProjects\WebBuilder\SageFrame.ManageMassMail\bin\Debug\SageFrame.DigiSphereInvoker.dll
+F:\BDProjects\WebBuilder\SageFrame.ManageMassMail\bin\Debug\SageFrame.ReturnCode.dll
+F:\BDProjects\WebBuilder\SageFrame.ManageMassMail\bin\Debug\SageFrame.JsonParser.dll
+F:\BDProjects\WebBuilder\SageFrame.ManageMassMail\bin\Debug\Newtonsoft.Json.dll
+F:\BDProjects\WebBuilder\SageFrame.ManageMassMail\bin\Debug\SageFrame.APIInvoker.pdb
+F:\BDProjects\WebBuilder\SageFrame.ManageMassMail\bin\Debug\SageFrame.Common.pdb
+F:\BDProjects\WebBuilder\SageFrame.ManageMassMail\bin\Debug\SageFrame.DigiSphereInvoker.pdb
+F:\BDProjects\WebBuilder\SageFrame.ManageMassMail\bin\Debug\SageFrame.ReturnCode.pdb
+F:\BDProjects\WebBuilder\SageFrame.ManageMassMail\bin\Debug\SageFrame.JsonParser.pdb
+F:\BDProjects\WebBuilder\SageFrame.ManageMassMail\bin\Debug\Newtonsoft.Json.xml
+F:\BDProjects\WebBuilder\SageFrame.ManageMassMail\obj\Debug\SageFrame.ManageMassMail.csprojResolveAssemblyReference.cache
+F:\BDProjects\WebBuilder\SageFrame.ManageMassMail\obj\Debug\SageFrame.ManageMassMail.dll
+F:\BDProjects\WebBuilder\SageFrame.ManageMassMail\obj\Debug\SageFrame.ManageMassMail.pdb

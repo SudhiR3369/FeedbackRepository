@@ -1,0 +1,89 @@
+.main-container .sfModulecontent, .module-box{
+	background:none !important;
+	box-shadow:none !important;
+}
+
+.usefullLnk ul{
+    margin: 0 -50px;
+}
+.usefullLnk li {
+    background: #fff;
+    float: left;
+    width: calc(25% - 50px);
+    margin: 0 25px;
+    min-height: 290px;
+    box-shadow: rgba(40, 74, 248, 0.08) 0 0 6px;
+    border-radius: 5px;
+    text-align:center;
+    padding:25px;
+    cursor:pointer;
+    transition:0.3s ease;
+    -webkit-transition:0.3s ease;
+    -moz-transition:0.3s ease;
+    -o-transition:0.3s ease;
+}
+.usefullLnk li:hover {
+    box-shadow: rgba(40, 74, 248, 0.08) 0 5px 6px;
+}
+.usefullLnk li a{
+  
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 500;
+    position: relative;   
+    margin: 10px 0;
+    display: block;
+
+   
+}
+.usefullLnk li p{
+     font-size: 15px;
+    color: rgba(0,0,0,0.65);
+    line-height: 1.5;
+    margin-bottom: 0;
+        font-size: 16px;
+}
+.usefullLnk li a:before{
+	background: #1fb6ff;
+    padding: 10px;
+    color:#fff;
+    font-family: fontAwesome;
+    display: block;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom:25px;
+    font-size:26px;
+}
+.usefullLnk li.Setting a:before{
+content:"\f085";
+}
+
+.usefullLnk li.Brand a:before{
+    content: "\f024";
+}
+
+.usefullLnk li.ArticleType a:before {
+    content: "\f0f6";
+}
+.usefullLnk li.Category a:before {
+    content: "\f01c";
+}
+
+
+
+@media (max-width:960px){
+	.usefullLnk li{
+		width:calc(50% - 50px);
+		margin-bottom:50px;
+	}
+}
+@media (max-width:575px){
+	.usefullLnk li{
+		width:calc(100% - 50px);
+		margin-bottom:50px;
+	}
+}

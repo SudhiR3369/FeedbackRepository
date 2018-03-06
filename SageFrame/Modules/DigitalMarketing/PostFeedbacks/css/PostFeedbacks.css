@@ -1,0 +1,54 @@
+﻿
+
+.socialIdentifier {
+    text-align: center;
+}
+.ui-sortable{
+   
+    display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+    width:100%;
+    flex-wrap:wrap;
+    margin-bottom: 35px;
+}
+.pcItem {
+    /*padding: 40px;*/
+    padding:0 15px;
+    float: left;
+    flex-basis:14.285%
+}
+
+
+.pcCounter {
+    text-align: center;
+    display:inline-block;
+}
+
+.attributeTitle {
+    text-align: center;
+}
+.iconType  {
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid rgba(0,0,0,0.05);
+    box-shadow:0 2px 4px rgba(0,0,0,0.15);
+    display: table;
+    position: relative;
+    width: 150px;
+}
+.iconType .fa{
+    vertical-align:middle;
+    display:table-cell;
+}
+li.graphElement {
+       display: inline-block;
+    width: 14%;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.25);
+    margin-right: 15px;
+    padding: 0px 10px;
+    border-radius: 3px;
+}

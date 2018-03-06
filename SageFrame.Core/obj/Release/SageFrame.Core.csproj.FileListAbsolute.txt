@@ -1,0 +1,58 @@
+H:\Final Templating Project\Blogs\BlogsViral\sagecms-optimization\SageFrameV3.8\SageFrame.Core\bin\Release\SageFrame.Core.dll
+H:\Final Templating Project\Blogs\BlogsViral\sagecms-optimization\SageFrameV3.8\SageFrame.Core\bin\Release\SageFrame.Core.pdb
+H:\Final Templating Project\Blogs\BlogsViral\sagecms-optimization\SageFrameV3.8\SageFrame.Core\bin\Release\AjaxControlToolkit.dll
+H:\Final Templating Project\Blogs\BlogsViral\sagecms-optimization\SageFrameV3.8\SageFrame.Core\bin\Release\ICSharpCode.SharpZipLib.dll
+H:\Final Templating Project\Blogs\BlogsViral\sagecms-optimization\SageFrameV3.8\SageFrame.Core\bin\Release\Ionic.Zip.dll
+H:\Final Templating Project\Blogs\BlogsViral\sagecms-optimization\SageFrameV3.8\SageFrame.Core\bin\Release\SageFrame.CDN.dll
+H:\Final Templating Project\Blogs\BlogsViral\sagecms-optimization\SageFrameV3.8\SageFrame.Core\bin\Release\SageFrame.Common.dll
+H:\Final Templating Project\Blogs\BlogsViral\sagecms-optimization\SageFrameV3.8\SageFrame.Core\bin\Release\SageFrame.Dashboard.dll
+H:\Final Templating Project\Blogs\BlogsViral\sagecms-optimization\SageFrameV3.8\SageFrame.Core\bin\Release\SageFrame.Scheduler.dll
+H:\Final Templating Project\Blogs\BlogsViral\sagecms-optimization\SageFrameV3.8\SageFrame.Core\bin\Release\SageFrame.Templating.dll
+H:\Final Templating Project\Blogs\BlogsViral\sagecms-optimization\SageFrameV3.8\SageFrame.Core\bin\Release\SageFrame.CDN.pdb
+H:\Final Templating Project\Blogs\BlogsViral\sagecms-optimization\SageFrameV3.8\SageFrame.Core\bin\Release\SageFrame.Common.pdb
+H:\Final Templating Project\Blogs\BlogsViral\sagecms-optimization\SageFrameV3.8\SageFrame.Core\bin\Release\SageFrame.Dashboard.pdb
+H:\Final Templating Project\Blogs\BlogsViral\sagecms-optimization\SageFrameV3.8\SageFrame.Core\bin\Release\SageFrame.Scheduler.pdb
+H:\Final Templating Project\Blogs\BlogsViral\sagecms-optimization\SageFrameV3.8\SageFrame.Core\bin\Release\SageFrame.Templating.pdb
+H:\Final Templating Project\Blogs\BlogsViral\sagecms-optimization\SageFrameV3.8\SageFrame.Core\obj\Release\SageFrame.Core.csprojResolveAssemblyReference.cache
+H:\Final Templating Project\Blogs\BlogsViral\sagecms-optimization\SageFrameV3.8\SageFrame.Core\obj\Release\SageFrame.Core.dll
+H:\Final Templating Project\Blogs\BlogsViral\sagecms-optimization\SageFrameV3.8\SageFrame.Core\obj\Release\SageFrame.Core.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Core\bin\Release\SageFrame.Core.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Core\bin\Release\SageFrame.Core.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Core\bin\Release\AjaxControlToolkit.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Core\bin\Release\ICSharpCode.SharpZipLib.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Core\bin\Release\Ionic.Zip.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Core\bin\Release\SageFrame.CDN.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Core\bin\Release\SageFrame.Common.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Core\bin\Release\SageFrame.Dashboard.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Core\bin\Release\SageFrame.Scheduler.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Core\bin\Release\SageFrame.Security.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Core\bin\Release\SageFrame.Templating.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Core\bin\Release\SageFrame.CDN.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Core\bin\Release\SageFrame.Common.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Core\bin\Release\SageFrame.Dashboard.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Core\bin\Release\SageFrame.Scheduler.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Core\bin\Release\SageFrame.Security.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Core\bin\Release\SageFrame.Templating.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Core\obj\Release\SageFrame.Core.csprojResolveAssemblyReference.cache
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Core\obj\Release\SageFrame.Core.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Core\obj\Release\SageFrame.Core.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Core\bin\Release\SageFrame.Core.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Core\bin\Release\SageFrame.Core.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Core\bin\Release\AjaxControlToolkit.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Core\bin\Release\ICSharpCode.SharpZipLib.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Core\bin\Release\Ionic.Zip.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Core\bin\Release\SageFrame.CDN.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Core\bin\Release\SageFrame.Common.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Core\bin\Release\SageFrame.Dashboard.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Core\bin\Release\SageFrame.Scheduler.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Core\bin\Release\SageFrame.Security.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Core\bin\Release\SageFrame.Templating.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Core\bin\Release\SageFrame.CDN.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Core\bin\Release\SageFrame.Common.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Core\bin\Release\SageFrame.Dashboard.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Core\bin\Release\SageFrame.Scheduler.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Core\bin\Release\SageFrame.Security.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Core\bin\Release\SageFrame.Templating.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Core\obj\Release\SageFrame.Core.csprojResolveAssemblyReference.cache
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Core\obj\Release\SageFrame.Core.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Core\obj\Release\SageFrame.Core.pdb

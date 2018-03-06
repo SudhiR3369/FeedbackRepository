@@ -1,0 +1,49 @@
+﻿.sageImageFlowWrap .flipster {
+    overflow-y: hidden;
+}
+
+.sageImageFlowWrap .flipster__item__content {
+    width: 650px;
+    height: 450px;
+    position: relative;
+}
+
+    .sageImageFlowWrap .flipster__item__content img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+.sageImageFlowWrap .captionWrap {
+    position: absolute;
+    z-index: 999;
+    color: #fff;
+    text-align: center;
+    left: 0;
+    bottom: 0%;
+    background:rgba(0,0,0,0.25);
+    right: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+    .sageImageFlowWrap .captionWrap h3 {
+        color: #fff;
+        font-size: 26px;
+        font-weight: 600;
+    }
+
+.sageImageFlowWrap .flipster__item {
+    outline: solid 1px transparent;
+}
+
+@media (max-width:360px) {
+    .sageImageFlowWrap .flipster__item__content {
+        width: 350px;
+    }
+
+    .sageImageFlowWrap .captionWrap {
+        left: 0;
+       top: 24%;
+    }
+}

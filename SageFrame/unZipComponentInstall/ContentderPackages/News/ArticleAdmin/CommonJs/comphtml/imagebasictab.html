@@ -1,0 +1,102 @@
+﻿<div class="field-row clearfix">
+    <h4>Basic Image Settings</h4>
+    <div class="field-row clearfix">
+        <label>Image Display</label>
+        <span class="value">
+            <select id="imageDisplay">
+                <option value="rectangle">Rectangle</option>
+                <option value="round">Round</option>
+            </select>
+        </span>
+    </div>
+    <div class="rectangleOption" style="display: none;">
+        <div class="field-row clearfix">
+            <label>Image Width</label>
+            <span class="value">
+                <div id="imagesizeSlider">
+                    <div id="imagesizeHandle" class="ui-slider-handle">0</div>
+                </div>
+            </span>
+        </div>
+        <div class="field-row clearfix">
+            <label>Image Height</label>
+            <span class="value">
+                <div id="imageHeightSlider">
+                    <div id="imageHeightHandle" class="ui-slider-handle">0</div>
+                </div>
+                <span class="fa fa-refresh" id="refresImageWidth"></span>
+                <span>Reset Height to 100%</span>
+            </span>
+        </div>
+        <div class="field-row clearfix" style="display: none;">
+            <label>Box Radius</label>
+            <span class="value">
+                <div id="imageRadiusSlider">
+                    <div id="imageRadiusHandle" class="ui-slider-handle">0</div>
+                </div>
+            </span>
+        </div>
+    </div>
+    <div class="roundOption" style="display: none;">
+        <div class="field-row clearfix">
+            <label>Round Image Width</label>
+            <span class="value">
+                <div id="imageRoundSlider">
+                    <div id="imageRoundHandle" class="ui-slider-handle">0</div>
+                </div>
+            </span>
+        </div>
+    </div>
+    <div class="field-row clearfix">
+        <label>Fit Image</label>
+        <span class="value">
+            <input id="imageFittoCover" name="fit to cover" type="checkbox" />
+            <label for="imageFittoCover"><i class="icon-icon-tick"></i></label>
+        </span>
+    </div>
+    <div class="field-row clearfix" style="display: none;">
+        <label>Border Style</label>
+        <span class="value">
+            <select id="imgBorderStyle">
+                <option value="none">none</option>
+                <option value="solid">solid</option>
+                <option value="dashed">dashed</option>
+                <option value="dotted">dotted</option>
+                <option value="double">double</option>
+            </select>
+        </span>
+    </div>
+    <div class="imgborder" style="display: none;">
+        <div class="field-row clearfix">
+            <label>Border Width</label>
+            <span class="value">
+                <div id="imgBorderSlider">
+                    <div id="imgBorderHandle" class="ui-slider-handle">0</div>
+                </div>
+            </span>
+        </div>
+        <div class="field-row clearfix">
+            <label>Border Color</label>
+            <span class="value">
+                <span class="color-picker-holder chooseColor" id="imgBorderColor"></span>
+            </span>
+        </div>
+    </div>
+    <div class="imgDetailsUrl" style="display: none;">
+        <div class="field-row clearfix">
+            <label>Source Link</label>
+            <span class="value">
+               <input type="url"  id="imgSourceURL" />
+            </span>
+        </div>
+    </div>
+    <div class="imgNewsLink" style="display: none;">
+        <div class="field-row clearfix">
+            <label>News Link</label>
+            <span class="value">
+                <input type="checkbox" id="imgNewsLink" />
+                <label for="imgNewsLink"><i class="icon-icon-tick"></i></label>
+            </span>
+        </div>
+    </div>
+</div>

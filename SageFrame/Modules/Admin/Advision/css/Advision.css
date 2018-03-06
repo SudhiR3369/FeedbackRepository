@@ -1,0 +1,42 @@
+﻿
+
+
+#divKeywordsSelector .sfFieldset .formValue input {
+    float: left;
+    width: auto;
+}
+
+    #divKeywordsSelector .sfFieldset .formValue input + label {
+        float: left;
+    }
+
+
+
+#helpWordSelector .sfFieldset .formValue input {
+    float: left;
+    width: auto;
+}
+
+    #helpWordSelector .sfFieldset .formValue input + label {
+        float: left;
+    }
+
+
+
+
+/*.divColKeywordChoose input{
+    width: auto;
+}*/
+
+.sfListmenubig {
+    height: 100px;
+}
+
+.divToggle {
+    cursor: pointer;
+}
+
+.activeSelection {
+    color: red;
+    font: bold;
+}

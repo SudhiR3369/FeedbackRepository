@@ -1,0 +1,507 @@
+#rowHeader{
+    position: absolute;
+    width: 100%;
+    top:60px;
+    left: 0;
+    z-index: 999;
+}
+
+/*=================GLOBAL===========================*/
+.centralizer{
+    width: 1179px;
+    margin: 0 auto;
+    float:none;
+}
+/*===================logo==================*/
+.template-logo{}
+.template-logo img{width: 100%;max-width: 183px;}
+
+/*========================== Login Status ========================*/
+#loginStatus .sfLogininfo .sfLogin{border:none}
+#loginStatus .sfLogininfo .sfLogin a{background: none;font-family:'Raleway-Regular'}
+.fa-power-off:before,.sfRegister a:before{font-family:fontAwesome;    margin-right: 5px;}
+.fa-power-off{line-height:21px;}
+.sfRegister a:before {
+    content: "\f016";
+}
+#loginStatus  .sfLogininfo ul li.sfRegister a{background: none;}
+.sfLogininfo ul li.sfLoginCredInfo a{height: 35px;border-radius: 50%;background-color:indianred;}
+
+/*===================== navigation==========================*/
+
+.sf-menu li a span{
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+}
+.sfNavigation li a{
+    padding: 10px;
+}
+.sfActive{
+    background-color: #8ebf3f;
+    border-radius:2px;
+}
+.sfNavigation li.sfActive > a::after{display: none}
+.sfNavigation li.sfActive > a{border-bottom: none}
+
+.sf-sub-indicator{
+    border-color:#fff transparent transparent transparent;
+    top:47%;
+    margin-left:10px;
+}
+
+.sfNavigation li ul{
+    padding: 0;
+    border: none;
+    background:none;
+}
+
+.sfNavigation li ul li{
+    margin: 0;
+    background-color:#8ebf3f;
+    border-radius:0 0 2px 2px;
+}
+.sfNavigation li ul li a,
+.sfNavigation li.sfActive li a{
+    background-color: transparent;
+    padding: 10px 20px;
+}
+.sfNavigation li ul li a:hover,
+.sfNavigation li.sfActive li a:hover{
+    background-color: rgba(255,255,255,0.2);
+}
+
+/*================================ SAGE BANNER ===================================*/
+.left-control i,
+.right-control i{line-height: 44px;}
+.caption{padding:0 15%;}
+.caption p{
+    font-size: 40px;
+}
+
+.carousel-fade .carousel-inner .item::after{background:rgba(0,0,0,0.4);}
+
+/*====================== INTRO ================================*/
+.Introtext{text-align: center;padding: 90px 0 0;}
+.Introtext h1,
+.Introtext h2{font-size:60px;color:#289bd7;line-height: 100%;text-transform: uppercase;font-weight: 800;}
+.Introtext h2{font-size: 39px;}
+.Introtext p{font-size: 18px;font-weight: 600;color:rgba(0,0,0,.9);}
+
+.intro-img img{
+    width: 100%;
+    max-width: 1170px;
+    margin-top: 60px;
+}
+@media all and (max-width:375px){
+    #mainContent h1{font-size:50px !important;}
+    #home-slider .caption h1{font-size:36px !important;}
+    .caption p {font-size: 18px;}
+    .socialLinkWrap ul li{min-width:165px;}
+    .socialLinkWrap ul li:nth-child(2){border-right:none;}
+
+}
+@media all and (max-width:600px){
+    .socialLinkWrap ul li{min-width:145px;}
+    .socialLinkWrap ul li a{padding: 25px 40px;}
+    .bannerText .sfFormGroup  span.sfError + span.sfError{float:left;}
+}
+@media all and (min-width: 767px) {
+    .Introtext p{
+        padding: 20px 15%;
+    }
+}
+@media all and (max-width:800px) and (min-width:768px){
+.bannerText .sfFormGroup  span.sfError + span.sfError{float:left;margin-left:30%;}
+
+}
+/*============================== Features ==============================*/
+
+#rowServices{
+    padding: 90px 0;
+    background-color: #23282b;
+    color:#fff;
+}
+
+.feat-box{
+    width: 25%;
+    float: left;
+    padding-right:80px;
+}
+.feat-box .icon{
+    margin-bottom: 35px;
+}
+
+.feat-box h4{
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+
+/*============================== NEWS LETTER =======================================*/
+#NewsLetter{background-color:rgba(0,0,0,.07);padding: 50px 0;}
+#sectionTitle h2{font-size: 20px;line-height: 20px;text-transform: uppercase;font-weight: 800;}
+#sectionTitle h1{font-size: 45px;line-height: 1.5;text-transform: uppercase;font-weight: 800;}
+
+#divEmailSubsCribe{
+    display: inline-block;
+    width: 55%;
+    max-width: 425px;
+    vertical-align: top;
+}
+
+#divEmailSubsCribe input{
+    height: 69px;
+    border:solid 1px rgba(0,0,0,.2);
+    border-radius:2px;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 800;
+    padding: 15px;
+    color:rgba(0,0,0,.8);
+}
+
+.sfSubscribe .sfSubscribe{
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    max-width: 240px;
+}
+
+.sfSubscribe .sfSubscribe input{
+    height: 69px;
+    border:solid 1px rgba(0,0,0,.2);
+    background-color: #8ebf3f;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius:2px;
+    width: 100%;
+    padding: 12px;
+    transition:all .4s ease;
+    -webkit-transition:all .4s ease;
+    -moz-transition:all .4s ease;
+    -o-transition:all .4s ease;
+}
+.sfSubscribe .sfSubscribe input:hover{
+    background-color: black;
+}
+
+#divSubscribe{
+    padding-top:18px;
+}
+
+
+/*============================================== SOCIAL PLUGINS ============================================*/
+#Footer{
+    box-shadow: rgba(0,0,0,.1) 0 3px 4px;
+}
+.social-links{text-align: center;}
+.social-links ul, .social-links li{list-style: none;padding: 0;margin: 0;}
+.social-links li{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 -2px;
+    border-left:solid 1px rgba(0,0,0,.1);
+}
+
+.social-links li:last-child{
+    border-right:solid 1px rgba(0,0,0,.1);
+}
+
+.social-links li a{
+    display: block;
+    text-transform: uppercase;
+    font-weight: 800;
+    padding: 0 50px;
+    height: 108px;
+    line-height: 105px;
+    font-size: 12px;
+    color:rgba(0,0,0,.8);
+    transition:all .4s ease;
+    -webkit-transition:all .4s ease;
+    -moz-transition:all .4s ease;
+    -o-transition:all .4s ease;
+}
+
+.social-links li a:hover{
+    background-color: #8ebf3f;
+    color:#fff;
+}
+
+
+/*============================================== COPYRIGHT ==============================================*/
+
+#copyrightWrap{
+    text-align: center;
+    padding: 50px;
+}
+
+#copyrightWrap .copyright{
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+#copyrightWrap span img{
+    margin-left:5px;
+}
+/*=================== INNER PAGES \============================*/
+
+#InnerBanner{
+    height: 315px;
+    text-align: center;
+    width: 100%;
+    background-color: #3d3e3f;
+    background-image:url(../images/innerBanner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+#InnerBanner .pageName{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    font-size: 100px;
+    font-weight: 800;
+    color: #fff;
+}
+
+
+#mainContent{
+    padding: 90px 0;
+}
+
+#mainContent h1,
+#mainContent h2{
+    font-weight: 800;
+    line-height: normal;
+    color:#289bd7;
+    text-transform: uppercase;
+}
+
+#mainContent h1{font-size: 68px;}
+#mainContent h2{font-size: 39px;}
+.intro-text{font-size: 20px;font-weight: 500;margin-top: 30px;}
+
+
+.feat-row{
+    margin-top: 90px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.img-wrp{flex: 2;-ms-flex:2;-webkit-flex:2;max-width: 460px;}
+.decp{
+    padding:0 60px;
+    flex: 3;-ms-flex:3;-webkit-flex:3;
+}
+
+.decp h3,
+.cssClassContactWrapper h3{
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom:20px;
+    text-transform: uppercase;
+    color:black;
+    letter-spacing: 3px;
+}
+
+.decp p{
+    line-height: 150%;
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-family: 'Raleway', sans-serif !important;
+}
+
+    /*====================================== Contact Page ===================================================*/
+
+.cssClassContactWrapper{}
+.cssClassContactWrapper .sfNote {
+    font-size: 15px;
+    color:#fff;
+     background-color: #ccb2b2;
+    padding: 15px;
+    border: solid 1px #b79696;
+    font-weight:normal;
+   
+
+}
+.cssClassContactWrapper .sfNote span{
+    vertical-align:middle;
+    line-height:1;
+}
+.sfNote .sfError{
+    line-height:normal;
+}
+
+
+span.sfError{
+    font-size:30px;
+}
+
+.cssClassContactWrapper .sfFormGroup{
+    width: 100%;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.feedback-panel{
+    width: 100% !important;
+}
+
+.sfFormGroup label,
+.sfFormGroup input,
+.sfFormGroup span{
+    display: inline-block;
+    vertical-align: top;
+
+}
+.error{
+    font-size:30px;
+}
+.sfFormGroup label{
+    width: 30%;
+    text-align: right;
+    padding-right:30px;
+    max-width: 280px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color:rgba(0,0,0,.8);
+    font-size: 12px;
+}
+
+.sfFormGroup span{
+    display: inline-block;
+    width: auto;
+}
+.sfFormGroup input,
+.sfFormGroup textarea{
+    width:55%;
+    height: 40px;
+    border:solid 1px rgba(0,0,0,.2);
+    border-radius:2px;
+    padding: 0 10px;
+    background-color:rgba(0,0,0,.05);
+    display: inline-block;
+}
+.sfFormGroup input.input_field{
+    width:100%;
+}
+.sfFormGroup textarea{
+    height: 120px;
+}
+
+.cssClassButtonWrapper{
+    display: block;
+    float: none;
+}
+
+label.captcha-math{
+
+    padding-right:28px;
+    text-align: right;
+  
+}
+
+input.loginbtn{
+    background-color: #8ebf3f;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    color: #fff;
+    font-size: 18px;
+    padding: 0 20px;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.4s ease 0s;
+    width: auto;
+    max-width: 120px;
+    font-size: 15px;
+    transition:all .4s ease;
+    -webkit-transition:all .4s ease;
+    -moz-transition:all .4s ease;
+    -o-transition:all .4s ease;
+    outline:none;
+}
+
+.loginbtn:hover{
+    background-color: black;
+    color:#fff;
+}
+
+#divSubscribe .sfMessage{
+    display: block;
+    max-width: 300px;
+}
+
+#divSubscribe .invalid{
+    padding: 15px;
+    background-color:indianred;
+    color:#fff !important;
+    max-width: 300px;
+    margin: 0;
+    line-height: 100%;
+}
+
+#divSubscribe .success{
+    padding: 15px;
+    background-color:#8ebf3f;
+    color:#fff !important;
+    max-width: 300px;
+    margin: 0;
+    line-height: 100%;
+}
+
+
+/*========================= HIDE logo==========================*/
+
+#topStickybar_divLogo{
+
+}
+
+#topStickybar_divLogo .sfClose,
+#divLogo .sfClose{
+    opacity:0;
+    visibility: hidden;
+    transition:all .4s ease;
+    -webkit-transition:all .4s ease;
+    -moz-transition:all .4s ease;
+    -o-transition:all .4s ease;
+    border:none;
+    font-size: 10px;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 5px 8px;
+    cursor: pointer;
+    margin-left: 8px;
+    margin-top:7px;
+    color:black;
+    background-color:white;
+    border-radius: 2px;
+    font-weight: 700;
+}
+
+#topStickybar_divLogo:hover .sfClose,
+#divLogo:hover .sfClose{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.fa-check{padding-right:10px;}
+.closethis{padding-left:10px;}
+#lytA_ctl39_trCustomCaptcha {margin-left:-5px;}
+
+#lytA_ctl39_txtSuccessMessage{margin-left:24%;color:#fff;padding: 15px;background-color:rgba(255,82,76,1)}

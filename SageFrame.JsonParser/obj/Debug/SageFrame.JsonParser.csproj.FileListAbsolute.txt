@@ -1,0 +1,23 @@
+D:\Git Repo\SageCloud_BJ2\Research Work\SageCloud_RnX\SageFrame.JsonParser\bin\Debug\SageFrame.JsonParser.dll
+D:\Git Repo\SageCloud_BJ2\Research Work\SageCloud_RnX\SageFrame.JsonParser\bin\Debug\SageFrame.JsonParser.pdb
+D:\Git Repo\SageCloud_BJ2\Research Work\SageCloud_RnX\SageFrame.JsonParser\bin\Debug\Newtonsoft.Json.dll
+D:\Git Repo\SageCloud_BJ2\Research Work\SageCloud_RnX\SageFrame.JsonParser\obj\Debug\SageFrame.JsonParser.csprojResolveAssemblyReference.cache
+D:\Git Repo\SageCloud_BJ2\Research Work\SageCloud_RnX\SageFrame.JsonParser\obj\Debug\SageFrame.JsonParser.dll
+D:\Git Repo\SageCloud_BJ2\Research Work\SageCloud_RnX\SageFrame.JsonParser\obj\Debug\SageFrame.JsonParser.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.JsonParser\bin\Debug\SageFrame.JsonParser.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.JsonParser\bin\Debug\SageFrame.JsonParser.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.JsonParser\bin\Debug\Newtonsoft.Json.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.JsonParser\obj\Debug\SageFrame.JsonParser.csprojResolveAssemblyReference.cache
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.JsonParser\obj\Debug\SageFrame.JsonParser.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.JsonParser\obj\Debug\SageFrame.JsonParser.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.JsonParser\bin\Debug\SageFrame.JsonParser.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.JsonParser\bin\Debug\SageFrame.JsonParser.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.JsonParser\bin\Debug\Newtonsoft.Json.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.JsonParser\obj\Debug\SageFrame.JsonParser.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.JsonParser\obj\Debug\SageFrame.JsonParser.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.JsonParser\bin\Debug\SageFrame.JsonParser.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.JsonParser\bin\Debug\SageFrame.JsonParser.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.JsonParser\bin\Debug\Newtonsoft.Json.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.JsonParser\obj\Debug\SageFrame.JsonParser.csprojResolveAssemblyReference.cache
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.JsonParser\obj\Debug\SageFrame.JsonParser.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.JsonParser\obj\Debug\SageFrame.JsonParser.pdb

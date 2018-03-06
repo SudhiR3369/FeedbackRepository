@@ -1,0 +1,40 @@
+D:\Git Repo\SageCMS Optimization\SageFrameV3.8\SageFrame.SocialSearch\obj\Debug\SageFrame.SocialSearch.csprojResolveAssemblyReference.cache
+D:\Git Repo\SageCMS Optimization\SageFrameV3.8\SageFrame.SocialSearch\bin\Debug\SageFrame.SocialSearch.dll
+D:\Git Repo\SageCMS Optimization\SageFrameV3.8\SageFrame.SocialSearch\bin\Debug\SageFrame.SocialSearch.pdb
+D:\Git Repo\SageCMS Optimization\SageFrameV3.8\SageFrame.SocialSearch\bin\Debug\SageFrame.APIInvoker.dll
+D:\Git Repo\SageCMS Optimization\SageFrameV3.8\SageFrame.SocialSearch\bin\Debug\SageFrame.JsonParser.dll
+D:\Git Repo\SageCMS Optimization\SageFrameV3.8\SageFrame.SocialSearch\bin\Debug\Newtonsoft.Json.dll
+D:\Git Repo\SageCMS Optimization\SageFrameV3.8\SageFrame.SocialSearch\bin\Debug\SageFrame.APIInvoker.pdb
+D:\Git Repo\SageCMS Optimization\SageFrameV3.8\SageFrame.SocialSearch\bin\Debug\SageFrame.JsonParser.pdb
+D:\Git Repo\SageCMS Optimization\SageFrameV3.8\SageFrame.SocialSearch\obj\Debug\SageFrame.SocialSearch.dll
+D:\Git Repo\SageCMS Optimization\SageFrameV3.8\SageFrame.SocialSearch\obj\Debug\SageFrame.SocialSearch.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.SocialSearch\bin\Debug\SageFrame.SocialSearch.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.SocialSearch\bin\Debug\SageFrame.SocialSearch.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.SocialSearch\bin\Debug\SageFrame.APIInvoker.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.SocialSearch\bin\Debug\SageFrame.JsonParser.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.SocialSearch\bin\Debug\Newtonsoft.Json.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.SocialSearch\bin\Debug\SageFrame.APIInvoker.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.SocialSearch\bin\Debug\SageFrame.JsonParser.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.SocialSearch\obj\Debug\SageFrame.SocialSearch.csprojResolveAssemblyReference.cache
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.SocialSearch\obj\Debug\SageFrame.SocialSearch.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.SocialSearch\obj\Debug\SageFrame.SocialSearch.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SocialSearch\bin\Debug\SageFrame.SocialSearch.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SocialSearch\bin\Debug\SageFrame.SocialSearch.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SocialSearch\bin\Debug\SageFrame.APIInvoker.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SocialSearch\bin\Debug\SageFrame.JsonParser.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SocialSearch\bin\Debug\Newtonsoft.Json.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SocialSearch\bin\Debug\SageFrame.APIInvoker.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SocialSearch\bin\Debug\SageFrame.JsonParser.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SocialSearch\obj\Debug\SageFrame.SocialSearch.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SocialSearch\obj\Debug\SageFrame.SocialSearch.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SocialSearch\obj\Debug\SageFrame.SocialSearch.csprojResolveAssemblyReference.cache
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SocialSearch\bin\Debug\SageFrame.SocialSearch.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SocialSearch\bin\Debug\SageFrame.SocialSearch.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SocialSearch\bin\Debug\SageFrame.APIInvoker.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SocialSearch\bin\Debug\SageFrame.JsonParser.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SocialSearch\bin\Debug\Newtonsoft.Json.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SocialSearch\bin\Debug\SageFrame.APIInvoker.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SocialSearch\bin\Debug\SageFrame.JsonParser.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SocialSearch\obj\Debug\SageFrame.SocialSearch.csprojResolveAssemblyReference.cache
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SocialSearch\obj\Debug\SageFrame.SocialSearch.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SocialSearch\obj\Debug\SageFrame.SocialSearch.pdb

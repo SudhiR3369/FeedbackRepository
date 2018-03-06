@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SageFrameMessage>
+  <ContentSavedsuccesfully> Saved Successfully.</ContentSavedsuccesfully>
+  <ContentUpdatedSuccessfully> Updated Successfully.</ContentUpdatedSuccessfully>
+  <ContentDeletedSucessfully> Deleted Sucessfully.</ContentDeletedSucessfully>
+  <SettingUpdatedSuccessfully>Setting Updated Successfully.</SettingUpdatedSuccessfully>
+  <DisplayOrderChanged>Image Order Changed Successfully.</DisplayOrderChanged>
+</SageFrameMessage>

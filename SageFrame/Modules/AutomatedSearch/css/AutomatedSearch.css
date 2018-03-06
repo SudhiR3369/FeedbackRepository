@@ -1,0 +1,346 @@
+﻿
+#divTableAccumulator {
+    padding-left: 20px;
+}
+
+.stageContainer {
+    width: 100%;
+    height: 600px;
+    float: left;
+}
+
+.tableContainer {
+    width: 100%;
+    height: 310px;
+    float: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background: rgba(0, 0, 0, 0.06);
+    box-shadow: inset 0 0 1px white;
+    padding: 10px;
+    overflow-y: scroll;
+    border: 1px solid rgba(0,0,0,0.07);
+}
+
+    .tableContainer li, .divColItem {
+        display: block;
+        padding: 8px 10px;
+        background-color: rgba(255, 255, 255, 0.9);
+        margin-bottom: 5px;
+        width: 100%;
+        overflow: auto;
+        display:flex;
+    }
+.divColItem input[type="checkbox"] + label{  margin-left:-18px;   order:1;}
+    .tableContainer li {
+        word-break: break-all;
+        white-space: normal;
+        font-size: 14px;
+           color: rgba(0,0,0,0.6);
+    font-weight: normal;
+
+    }
+
+        .tableContainer li:hover {
+            background-color: rgba(255, 255, 255, 0.5);
+        }
+
+.optionsContainer {
+    float: left;
+}
+
+.columns {
+    width: 30%;
+}
+
+.columnChooser {
+    width: 100%;
+    float: left;
+    height: 310px;
+    background: rgba(0, 0, 0, 0.06);
+    box-shadow: inset 0 0 1px white;
+    padding: 10px;
+    overflow-y: auto;
+    border: 1px solid rgba(0,0,0,0.07);
+}
+
+    .columnChooser label, .qsContainer label {
+        word-break: break-all;
+        white-space: normal;
+    }
+
+.columns, .optionsContainer {
+    float: left;
+    padding: 0 40px 0 0;
+}
+
+
+
+.divColItem input {
+    float: left;
+}
+
+.tcli {
+    cursor: pointer;
+}
+
+.qsContainer {
+    float: left;
+    margin: 0 40px 0 0;
+    height: 310px;
+    border: 1px solid rgba(0,0,0,0.15);
+    padding: 10px;
+    width: 30%;
+    background:rgba(0, 0, 0, 0.06);
+    /*overflow: auto;*/
+    overflow-y: scroll;
+    /*max-height: 310px;*/
+}
+
+    .qsContainer label {
+        padding: 10px;
+        border-radius: 0px;
+        display: block;
+        overflow:auto;
+       background:rgba(255, 255, 255, 0.9);
+       cursor:move;
+    }
+
+.qsColumnView {
+    margin-bottom: 15px;
+}
+.sfFormwrapper .sfFieldset input[type="checkbox"]#extensionLess + label {
+    margin-top: 0;
+}
+.btnSettingViewAction {
+    margin-bottom: 40px;
+}
+
+
+
+.dropItem {
+    padding-left: 5px;
+    padding-right: 5px;
+    position:relative;
+}
+.ui-draggable-dragging{width:auto;}
+.ui-widget-header.dropContainer {
+    overflow-y: auto;
+    padding: 10px;
+    background:  rgba(0,0,0,0.09);
+    min-height:150px;
+    max-height: 310px;
+    width: 55%;
+    max-width: none;
+    border: 1px solid rgba(0,0,0,0.15);
+    border-radius: 0;
+}
+
+
+.stageMessage {
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 25px;
+    font-weight: 300;
+    vertical-align: middle;
+    border: solid 1px #4542f8;
+    padding: 25px;
+    width: 300px;
+    margin-top: 20px;
+    display: none;
+    position: relative;
+    text-transform: uppercase;
+}
+
+    .stageMessage:before {
+        border-color: transparent #5862e6 transparent transparent;
+        border-style: solid;
+        border-width: 12px;
+        content: "";
+        position: absolute;
+        left: -25px;
+        top: 25px;
+    }
+
+.stageMessageError {
+    color: #D63301;
+    font-size: 2em;
+    vertical-align: middle;
+}
+
+
+.dropItemHeader {
+    font-size: medium;
+    font: bolder;
+    padding-bottom: 15px;
+    color: rgba(0,0,0,0.25);
+    font-weight: 600;
+}
+
+.pull-left {
+    float: left;
+}
+
+.sfRowfilter.tableChoose {
+    display: block;
+    float: left;
+    width: 25%;
+    padding: 0 40px 0 0;
+}
+
+    .sfRowfilter.tableChoose .sfFieldset, .sfRowfilter.chooser .sfFieldset {
+        margin-bottom: 5px;
+    }
+
+.sfRowfilter.chooser {
+    width: 75%;
+    float: left;
+    display: inline-block;
+}
+
+.sfRowfilter.tableChoose .sfFieldset {
+    display: block;
+}
+
+.columns .sfFieldset {
+    display: block;
+}
+
+.sfRowfilter.chooser .columns .sfFieldset {
+    display: block;
+}
+
+.wrapAlias {
+    background:#fff;
+    padding: 15px;
+    margin-bottom: 5px;
+    position:relative;
+}
+.wrapAlias .icon-close:hover {
+    background-color: #34425a;
+}
+.wrapAlias .icon-close{    
+    height: 30px;
+    width: 30px;
+    background-color: #ff524c;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    border-radius: 50%;
+    cursor:pointer;
+    z-index:2;
+}
+
+.wrapAlias .icon-close:before{margin-right:0;}
+
+.wrapAlias input[type="text"] {
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+
+.dragger {
+    float: left;
+    width: 70%;
+}
+
+.stageContainer .sfFormwrapper .sfFieldset input[type="checkbox"] {
+    margin-top: 0;
+}
+
+.fieldset .sfRowfilter .sfFieldset {
+    max-width: 210px;
+    width: 210px;
+    text-align: right;
+    padding-right: 40px;
+}
+
+.fieldset .sfUsersearch .sfRowfilter .sfFieldset {
+    padding-right: 0px;
+}
+
+.fieldset .sfUsersearch .sfRowfilter .sfFieldset, .sfRowfilter.chooser .columns .sfFieldset, .fieldset .sfRowfilter.tableChoose .sfFieldset {
+    max-width: 350px;
+    text-align: left;
+}
+.btnSettingViewAction.button-paddleft{padding-left:210px;}
+.formValue {
+    display: inline-block;
+}
+
+    .formValue label, .stageContainer label {
+        font-weight: normal;
+        color: rgba(0,0,0,0.6);
+    }
+    label[for="queryString"]{
+           margin-right: 10px;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.45);
+    text-transform: uppercase;
+    }
+  .optionsContainer input[type="checkbox"] + label{
+    margin-left:-18px;
+  }
+.divColItem label {
+    margin-bottom: 0 ;
+    order:2;
+}
+.divColItem label + input[type="checkbox"]{left:-6px}
+.dropItem i{
+       height: 22px;
+    width: 22px;
+    background-color: #ff524c;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    line-height: 22px;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    border-radius: 50%;
+}
+.dropItem i:before{margin:0;}
+@media (max-width:767px) {
+    .sfCpanel {
+        height: 100vh;
+    }
+
+    .sfRowfilter.tableChoose, .sfRowfilter.chooser {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .qsContainer {
+        max-width: 40%;
+    }
+
+    .ui-widget-header.dropContainer {
+        width: 45%;
+    }
+
+    .stageMessage {
+        text-align: center;
+        width: 100%;
+    }
+
+        .stageMessage:before {
+            border-color: transparent transparent #5862e6 transparent;
+            position: absolute;
+            left: 45%;
+            top: -24px;
+        }
+}

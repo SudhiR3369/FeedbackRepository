@@ -1,0 +1,12 @@
+﻿.cke_combopanel {
+  width: 370px !important;
+}
+
+.cke_panel
+{
+    height: 300px !important;
+    width: 180px !important;
+}
+.cke_combo_text, .cke_combo_open {
+    width: 115px !important;
+}

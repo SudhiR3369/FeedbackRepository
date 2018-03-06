@@ -1,0 +1,71 @@
+﻿.sfLanguage .sfTreeview {
+	float:left;
+	min-width:25%;
+	margin:0 20px 0 0;
+	border:1px solid #ccc;
+	padding:15px;
+}
+.sfLanguage .sfFormwrapper table td {
+
+	margin:0;
+	white-space:normal;
+}
+.sfGridwrapper textarea{line-height:normal;}
+.sfLanguage .sfFormwrapper .sfLanguageinfo table td {padding:15px;}
+.sfLanguageinfo table tr span{white-space:normal;word-break:break-all;}
+.sfLanguageinfo table > tbody tr:first-child{background-color:rgba(0, 0, 0, 0.06);}
+.sfLanguage .sfFormwrapper .sfTreeview table td{padding:0 15px 6px 0;display:inline-block;}
+.sfTreeview a{padding:5px 0}
+/*.sfLanguage .sfTreeview table td:first-child,.sfLanguage .sfTreeview table td:nth-child(2), .sfLanguage .sfTreeview table td:nth-child(3) {width:20px;}*/
+/*.sfLanguage .sfFormwrapper table td:first-child,.sfLanguage  .sfTreeview table td:nth-child(2) {padding-right:0;}*/
+
+.sfLanguage .sflanguagecontent {
+	overflow:hidden;
+}
+img.sfEdit {
+	cursor:pointer;
+}
+.sfLanguage .sfGridwrapper li {
+	font-weight:normal;
+	margin: 5px 0 0 0;
+	line-height: 21px;
+}
+.sfLanguage .sfGridwrapper li.sfResxvalue {
+	margin:5px 0 0 0;
+	
+}
+.sfLanguage .sfFormwrapper textarea.sfTextarea {
+	height:45px;
+}
+.sfLanguage td.sfSelectednode a {
+	background:rgba(0,0,0,0.07);
+	padding:10px 10px;
+	margin:0px;
+	color: rgba(0,0,0,0.9);
+	
+}
+.sfTreeview a{color:rgba(0, 0, 0, 0.7);}
+table.hideTD tr td:first-child { padding:0;}
+.sfFormwrapper .no-table td:first-child{text-align:right;}
+.sfFormwrapper .no-table td.sfRadiobutton >table td:first-child{text-align:left !important;padding:0 !important}
+.sfFormwrapper .no-table td.sfRadiobutton> table td:nth-child(2){min-width:200px;width:200px;padding:0 !important;}
+.sfFormwrapper .no-table td.sfRadiobutton >table tbody tr td{padding:0 !important;}
+table .sfRadiobutton label{background:none;}
+table .sfRadiobutton label:hover{background:none;}
+
+input.cssClassNormalFileUpload{display:block; margin:15px 0;}
+.sfButtonwrapper{float:left;}
+.sfformKey table tr:first-child{border:none;}
+.sfformKey table tr td{padding:0;}
+.sfformKey table tr:nth-child(even){background:none;}
+.sfRowfilter.sfSorting{margin-top:0;}
+.sfformKey{width:100%;}
+.sfFormwrapper  .no-table .sfRadiobutton td:first-child{text-align:left }
+.sfCpanel .sfFormwrapper table table tbody tr td{padding:0 !important;}
+.no-table, .languagePack .no-table tr{margin-bottom:0;}
+.sfAvailablelanguage select{max-width:800px;}
+td.pack input{margin:0 10px;}
+
+.sfAvailablelanguage select, .sfTableOption select{max-width:680px;}
+.sfAvailablelanguage img{display:none;}
+.sfAvailablelanguage + div{margin-top:10px;}

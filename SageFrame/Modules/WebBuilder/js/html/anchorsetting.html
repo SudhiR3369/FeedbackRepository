@@ -1,0 +1,34 @@
+﻿<div class="anchorSetting">
+    <div class="form-list-group">
+        <div class="field-row clearfix">
+            <label>Title</label>
+            <span class="value">
+                <textarea id="txtAnchorTitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla neque metus, pellentesque sit amet turpis id, tempor dignissim nunc. Duis id consequat ligula, at semper mauris.</textarea>
+            </span>
+        </div>
+
+        <div class="field-row clearfix">
+            <label>Link To</label>
+            <span class="value">
+                <div class="radioButtonWrapper linkType" id="rbLinkType">
+                    <span class="radio">
+                        <input type="radio" id="rbPages" value="1" name="linkType" class="rbLinkType" checked /><label for="rbPages">Pages</label>
+                    </span>
+                    <span class="radio">
+                        <input type="radio" id="rbExternal" value="2" name="linkType" class="rbLinkType" /><label for="rbExternal">External</label>
+                    </span>
+                </div>
+                <div id="linkPages">
+                    <select id="ddllinkPages">                       
+                        <!--<option value="/Home">Home</option>
+                        <option value="/Slider">Slider</option>
+                        <option value="/some">some</option>-->
+                    </select>
+                </div>
+                <div id="linkExternal" style="display: none;">
+                    <input type="text" id="txtExternalLink" placeholder="your url" />
+                </div>
+            </span>
+        </div>
+    </div>
+</div>

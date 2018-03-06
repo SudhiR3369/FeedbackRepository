@@ -1,0 +1,64 @@
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\SageFrame.DigitalMarketing\bin\Release\SageFrame.DigitalMarketing.dll
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\SageFrame.DigitalMarketing\bin\Release\SageFrame.DigitalMarketing.pdb
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\SageFrame.DigitalMarketing\bin\Release\SageFrame.Common.dll
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\SageFrame.DigitalMarketing\bin\Release\SageFrame.DigiSphereInvoker.dll
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\SageFrame.DigitalMarketing\bin\Release\SageFrame.ReturnCode.dll
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\SageFrame.DigitalMarketing\bin\Release\SageFrame.APIInvoker.dll
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\SageFrame.DigitalMarketing\bin\Release\SageFrame.JsonParser.dll
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\SageFrame.DigitalMarketing\bin\Release\Newtonsoft.Json.dll
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\SageFrame.DigitalMarketing\bin\Release\SageFrame.Common.pdb
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\SageFrame.DigitalMarketing\bin\Release\SageFrame.DigiSphereInvoker.pdb
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\SageFrame.DigitalMarketing\bin\Release\SageFrame.ReturnCode.pdb
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\SageFrame.DigitalMarketing\bin\Release\SageFrame.APIInvoker.pdb
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\SageFrame.DigitalMarketing\bin\Release\SageFrame.JsonParser.pdb
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\SageFrame.DigitalMarketing\obj\Release\SageFrame.DigitalMarketing.csprojResolveAssemblyReference.cache
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\SageFrame.DigitalMarketing\obj\Release\SageFrame.DigitalMarketing.dll
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\SageFrame.DigitalMarketing\obj\Release\SageFrame.DigitalMarketing.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.DigitalMarketing\bin\Release\SageFrame.DigitalMarketing.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.DigitalMarketing\bin\Release\SageFrame.DigitalMarketing.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.DigitalMarketing\bin\Release\SageFrame.Common.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.DigitalMarketing\bin\Release\SageFrame.DigiSphereInvoker.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.DigitalMarketing\bin\Release\SageFrame.ReturnCode.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.DigitalMarketing\bin\Release\SageFrame.APIInvoker.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.DigitalMarketing\bin\Release\SageFrame.JsonParser.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.DigitalMarketing\bin\Release\Newtonsoft.Json.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.DigitalMarketing\bin\Release\SageFrame.Common.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.DigitalMarketing\bin\Release\SageFrame.DigiSphereInvoker.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.DigitalMarketing\bin\Release\SageFrame.ReturnCode.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.DigitalMarketing\bin\Release\SageFrame.APIInvoker.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.DigitalMarketing\bin\Release\SageFrame.JsonParser.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.DigitalMarketing\obj\Release\SageFrame.DigitalMarketing.csprojResolveAssemblyReference.cache
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.DigitalMarketing\obj\Release\SageFrame.DigitalMarketing.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.DigitalMarketing\obj\Release\SageFrame.DigitalMarketing.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigitalMarketing\bin\Release\SageFrame.DigitalMarketing.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigitalMarketing\bin\Release\SageFrame.DigitalMarketing.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigitalMarketing\bin\Release\SageFrame.Common.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigitalMarketing\bin\Release\SageFrame.DigiSphereInvoker.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigitalMarketing\bin\Release\SageFrame.ReturnCode.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigitalMarketing\bin\Release\SageFrame.APIInvoker.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigitalMarketing\bin\Release\SageFrame.JsonParser.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigitalMarketing\bin\Release\Newtonsoft.Json.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigitalMarketing\bin\Release\SageFrame.Common.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigitalMarketing\bin\Release\SageFrame.DigiSphereInvoker.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigitalMarketing\bin\Release\SageFrame.ReturnCode.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigitalMarketing\bin\Release\SageFrame.APIInvoker.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigitalMarketing\bin\Release\SageFrame.JsonParser.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigitalMarketing\obj\Release\SageFrame.DigitalMarketing.csprojResolveAssemblyReference.cache
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigitalMarketing\obj\Release\SageFrame.DigitalMarketing.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigitalMarketing\obj\Release\SageFrame.DigitalMarketing.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigitalMarketing\bin\Release\SageFrame.DigitalMarketing.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigitalMarketing\bin\Release\SageFrame.DigitalMarketing.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigitalMarketing\bin\Release\SageFrame.Common.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigitalMarketing\bin\Release\SageFrame.DigiSphereInvoker.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigitalMarketing\bin\Release\SageFrame.ReturnCode.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigitalMarketing\bin\Release\SageFrame.APIInvoker.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigitalMarketing\bin\Release\SageFrame.JsonParser.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigitalMarketing\bin\Release\Newtonsoft.Json.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigitalMarketing\bin\Release\SageFrame.Common.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigitalMarketing\bin\Release\SageFrame.DigiSphereInvoker.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigitalMarketing\bin\Release\SageFrame.ReturnCode.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigitalMarketing\bin\Release\SageFrame.APIInvoker.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigitalMarketing\bin\Release\SageFrame.JsonParser.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigitalMarketing\obj\Release\SageFrame.DigitalMarketing.csprojResolveAssemblyReference.cache
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigitalMarketing\obj\Release\SageFrame.DigitalMarketing.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.DigitalMarketing\obj\Release\SageFrame.DigitalMarketing.pdb

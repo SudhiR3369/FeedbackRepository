@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FA62A2C9-3E63-4A9F-B5D2-DAD79A0237A9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SageFrame.SocialSearch</RootNamespace>
+    <AssemblyName>SageFrame.SocialSearch</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controllers\GoogleController.cs" />
+    <Compile Include="Controllers\LinkedInController.cs" />
+    <Compile Include="Controllers\TwitterController.cs" />
+    <Compile Include="Entities\GoogleSearchEntities.cs" />
+    <Compile Include="Entities\SearchInfo.cs" />
+    <Compile Include="Entities\QueryInfo.cs" />
+    <Compile Include="Entities\TwitterSearchEntities.cs" />
+    <Compile Include="SearchFormulator.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilities\ApiPoint.cs" />
+    <Compile Include="Entities\Package.cs" />
+    <Compile Include="Utilities\PercentageEncoding.cs" />
+    <Compile Include="Utilities\QueryComposer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SageFrame.APIInvoker\SageFrame.APIInvoker.csproj">
+      <Project>{3e94bdd1-a944-4565-901f-48fe1838cd12}</Project>
+      <Name>SageFrame.APIInvoker</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SageFrame.JsonParser\SageFrame.JsonParser.csproj">
+      <Project>{81ee6fad-e0b5-4373-80da-70ae81dab394}</Project>
+      <Name>SageFrame.JsonParser</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

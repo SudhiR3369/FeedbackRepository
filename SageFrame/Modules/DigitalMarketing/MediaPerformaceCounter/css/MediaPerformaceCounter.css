@@ -1,0 +1,286 @@
+﻿
+.pnlPerformanceCounter .sfDivFlying:before, .divContent .divFlying:before {
+    left: 260px !important;
+}
+
+
+
+.pnlPerformanceCounter {
+    margin-bottom: 30px;
+}
+
+    .pnlPerformanceCounter .sfDivFlying {
+        margin-top: 0px !important;
+        position: absolute;
+        width: 310px;
+        right: 30px;
+        box-shadow: rgba(0,0,0,.2) 0 0 10px;
+        padding: 20px;
+        background: #fff;
+        z-index: 99;
+    }
+
+.socialIdentifier {
+    left: 44% !important;
+    top: 90px !important;
+}
+
+ul.pcSettingItem {
+    margin-top: 10px;
+}
+
+ul.pcSettingItem, .performanceCounterContainer {
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+li.pcSettingElement {
+    padding: 10px;
+}
+
+li.pcSettingElement {
+    -webkit-box-flex: 1 0 45%;
+    -moz-box-flex: 1 0 45%;
+    -webkit-flex: 1 0 45%;
+    -ms-flex: 1 0 45%;
+    flex: 1 0 45%;
+    max-width: 50%;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background: rgba(0,0,0,0.025);
+    border: 1px solid rgba(0,0,0,0.05);
+    position: relative;
+}
+
+    li.pcSettingElement:hover {
+        box-shadow: 0 0px 10px rgba(0,0,0,0.15);
+    }
+
+        li.pcSettingElement:hover:after {
+            content: "\f00c";
+            font-family: fontAwesome;
+            position: absolute;
+            right: 6px;
+            font-size: 11px;
+            top: 15px;
+        }
+
+.canvasItemSetting.deletePCItem.lockBox {
+    display: block !important;
+}
+
+.divPCItem {
+    margin-bottom: 10px;
+    /*margin-left: 20px;*/
+    margin-left: 15px;
+    float: left;
+    border: 1px solid rgba(0,0,0,0.06);
+    height: 230px;
+    padding: 5px 0;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.06);
+    -webkit-flex: 1 0 13.5%;
+    -moz-box-flex: 1 0 13.5;
+    -ms-flex: 1 0 13.5%;
+    -webkit-box-flex: 1 0 13.5%;
+    ;
+    flex: 1 0 13.5%;
+    max-width: 13.5%;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+
+    .divPCItem:first-child {
+        margin-left: 0px;
+    }
+
+    .divPCItem:hover {
+        box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.08);
+        cursor: pointer;
+    }
+
+li.pcSettingElement:nth-child(odd) {
+    margin-right: 15px;
+}
+
+.divGraphContainer {
+    margin-top: 30px;
+}
+
+.legends {
+    padding: 10px;
+    margin: 10px 0 0 0;
+    box-shadow: 0 0px 5px rgba(0,0,0,0.09);
+    display: inline-block;
+}
+
+    .legends li {
+        display: inline-block;
+        font-size: 12px;
+        font-weight: 500;
+        margin-right: 15px;
+        color: rgba(0,0,0,0.6);
+        padding-left: 20px;
+        position: relative;
+    }
+
+        .legends li:before {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            content: "";
+            left: 0;
+            position: absolute;
+            top:3px;
+        }
+
+
+        .legends li:first-child:before {
+            background: #4c72b9;
+        }
+
+        .legends li:nth-child(2):before {
+            background: #49e1cc;
+        }
+
+        .legends li:nth-child(3):before {
+            background: #9a618c;
+        }
+
+        .legends li:nth-child(4):before {
+            background: #e74c3c;
+        }
+
+        .legends li:nth-child(5):before {
+            background: #f6ca17;
+        }
+
+        .legends li:last-child:before {
+            background: #2ecc71;
+        }
+
+label.pcSettingItemTitle {
+    margin-bottom: 0;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: capitalize;
+    display: inline-block;
+    width: 44%;
+    margin: 10px 0;
+}
+
+.pcgraph {
+    float: left;
+    width: 40%;
+    height: 450px;
+}
+
+#canvasLine {
+    float: left;
+}
+
+
+.customcanvas {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /*margin-left: 20px;*/
+    float: left;
+    border: 1px solid #00ff90;
+    height: 500px;
+    width: 100%;
+}
+
+
+.drop-hover {
+    width: 200px;
+    height: 200px;
+    background-color: #00ff21;
+}
+
+.removeGraphElement, .removePCSettingItem, .canvasItemSetting {
+    cursor: pointer;
+}
+
+.canvasItemSetting {
+    left: auto !important;
+    right: 15px;
+    top: 10px !important;
+}
+
+.sfInputBox {
+    width: 50px;
+    height: 29px;
+    padding: 8px;
+    border: 1px #ccc solid;
+    color: #848181;
+    margin-right: 15px;
+    border-radius: 20px;
+}
+
+
+.pcItem {
+    z-index: 10;
+}
+
+h3.hNewItem {
+    margin: 0 0 15px 0;
+    border-bottom: solid 1px #f0c54c;
+    padding-bottom: 10px;
+}
+
+    h3.hNewItem + span, .dvSettingsContainer > span {
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: normal;
+        color: rgba(0, 0, 0, 0.45);
+    }
+
+.dvSettingsContainer {
+    margin-top: 15px;
+}
+
+@media (max-device-width:1024px) and (min-device-width:768px) {
+    .divPCItem {
+        -webkit-flex: 1 0 31.5%;
+        -moz-box-flex: 1 0 31.5%;
+        -ms-flex: 1 0 31.5%;
+        -webkit-box-flex: 1 0 31.5;
+        flex: 1 0 31.5%;
+        max-width: 31.5%;
+    }
+}
+
+@media(max-width:767px) {
+    .divPCItem {
+        -webkit-flex: 1 0 48%;
+        -moz-box-flex: 1 0 48%;
+        -ms-flex: 1 0 48%;
+        -webkit-box-flex: 1 0 48%;
+        flex: 1 0 48%;
+        max-width: 48%;
+    }
+
+        .divPCItem:nth-child(odd) {
+            margin-left: 0;
+        }
+}
+
+@media(max-width:460px) {
+    .divPCItem {
+        -webkit-flex: 1 0 100%;
+        -moz-box-flex: 1 0 100%;
+        -ms-flex: 1 0 100%;
+        -webkit-box-flex: 1 0 100%;
+        flex: 1 0 100%;
+        max-width: 100%;
+        margin-left: 0;
+    }
+}

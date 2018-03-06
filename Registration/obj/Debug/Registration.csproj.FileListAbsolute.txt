@@ -1,0 +1,7 @@
+F:\BDProjects\WebBuilder\Registration\bin\Debug\Registration.dll
+F:\BDProjects\WebBuilder\Registration\bin\Debug\Registration.pdb
+F:\BDProjects\WebBuilder\Registration\bin\Debug\SageFrame.Common.dll
+F:\BDProjects\WebBuilder\Registration\bin\Debug\SageFrame.Common.pdb
+F:\BDProjects\WebBuilder\Registration\obj\Debug\Registration.csprojResolveAssemblyReference.cache
+F:\BDProjects\WebBuilder\Registration\obj\Debug\Registration.dll
+F:\BDProjects\WebBuilder\Registration\obj\Debug\Registration.pdb

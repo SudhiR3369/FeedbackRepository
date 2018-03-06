@@ -1,0 +1,65 @@
+﻿<sageframe
+  version="1.0.0.0"
+  type="Module">
+  <folders>
+    <folder>
+      <name>testPachakge</name>
+      <friendlyname>testPachakge</friendlyname>
+      <foldername>ContactUs</foldername>
+      <modulename>testPachakge</modulename>
+      <description>testPachakge</description>
+      <version>01.00.00</version>
+      <businesscontrollerclass />
+      <compatibleversions />
+      <owner />
+      <organization />
+      <url />
+      <email />
+      <releasenotes />
+      <license />
+      <modules>
+        <module>
+          <friendlyname>testPachakge</friendlyname>
+          <cachetime />
+          <controls>
+            <control>
+              <key>contactUS</key>
+              <title>contactUS</title>
+              <src>contactus.ascx</src>
+              <type>View</type>
+              <helpurl />
+              <supportspartialrendering>false</supportspartialrendering>
+            </control>
+            <control>
+              <key>contactUS</key>
+              <title>contactUS</title>
+              <src>contactus.ascx</src>
+              <type>Edit</type>
+              <helpurl />
+              <supportspartialrendering>false</supportspartialrendering>
+            </control>
+            <control>
+              <key>contactUS</key>
+              <title>contactUS</title>
+              <src>contactus.ascx</src>
+              <type>Setting</type>
+              <helpurl />
+              <supportspartialrendering>false</supportspartialrendering>
+            </control>
+          </controls>
+        </module>
+      </modules>
+      <files>
+        <file>
+          <name>CKEditor.NET.dll</name>
+        </file>
+        <file>
+          <name>01.00.00.SqlDataProvider</name>
+        </file>
+        <file>
+          <name>Uninstall.SqlDataProvider</name>
+        </file>
+      </files>
+    </folder>
+  </folders>
+</sageframe>

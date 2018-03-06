@@ -1,0 +1,9 @@
+H:\EasyBuilder\Webbuilder_news_12_19\SageFrame\SageFrameV3.8\Contentder.UserProfile\bin\Debug\Contentder.UserProfile.dll
+H:\EasyBuilder\Webbuilder_news_12_19\SageFrame\SageFrameV3.8\Contentder.UserProfile\bin\Debug\Contentder.UserProfile.pdb
+H:\EasyBuilder\Webbuilder_news_12_19\SageFrame\SageFrameV3.8\Contentder.UserProfile\bin\Debug\SageFrame.Security.dll
+H:\EasyBuilder\Webbuilder_news_12_19\SageFrame\SageFrameV3.8\Contentder.UserProfile\bin\Debug\SageFrame.Common.dll
+H:\EasyBuilder\Webbuilder_news_12_19\SageFrame\SageFrameV3.8\Contentder.UserProfile\bin\Debug\SageFrame.Security.pdb
+H:\EasyBuilder\Webbuilder_news_12_19\SageFrame\SageFrameV3.8\Contentder.UserProfile\bin\Debug\SageFrame.Common.pdb
+H:\EasyBuilder\Webbuilder_news_12_19\SageFrame\SageFrameV3.8\Contentder.UserProfile\obj\Debug\Contentder.UserProfile.csprojResolveAssemblyReference.cache
+H:\EasyBuilder\Webbuilder_news_12_19\SageFrame\SageFrameV3.8\Contentder.UserProfile\obj\Debug\Contentder.UserProfile.dll
+H:\EasyBuilder\Webbuilder_news_12_19\SageFrame\SageFrameV3.8\Contentder.UserProfile\obj\Debug\Contentder.UserProfile.pdb

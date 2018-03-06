@@ -1,0 +1,88 @@
+@import 'https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900';
+body{min-height:100%}
+.twoColForm{display:flex;padding:15px;}
+.sfFieldset{display:inline-block;flex:1;margin-right:80px;display:flex;max-width:600px;}
+.sfFieldset select{font-family: "Work Sans", sans-serif;
+    height: 39px;
+    padding: 0 10px;
+    line-height: 39px;
+    font-size: 14px;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.6);
+    resize: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('../Administrator/Templates/Default/images/select-box-arrow.png');
+    
+    background-position: center right;
+    background-repeat: no-repeat;
+}
+    
+
+.formKey {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.7);
+    display: block;
+    margin-bottom: 10px;
+    max-width: 140px;
+    flex: 1;
+    line-height:39px;
+}
+.formValue {
+    max-width: 460px;
+    flex: 1;
+}
+section{
+
+}
+#divFrame{
+    height:100% !important;
+    min-height:1000px;
+
+}
+
+
+.ajax__tab_xp .ajax__tab_body{
+    padding: 0 !important;
+}
+
+#iframeHolder{
+    flex: 1 1 0;
+    float: left;
+    height: 100%;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+     min-height:1000px;
+}
+#iframeHolder.blankmodule{height:auto; max-width:100%;
+    font-size: 14px;
+    color: #a87c5e;
+    display: block;
+    padding: 10px;
+    background-color: rgba(168, 124, 94, 0.1);
+    border: solid 1px rgba(168, 124, 94, 0.3);
+    margin-bottom: 20px;
+}
+#modulepageChooser{background:#fff;}
+#modulepageChooser .sfFieldset{
+    max-width:360px;
+    display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  margin-bottom:0;
+}
+
+#modulepageChooser .sfFieldset .formKey, #modulepageChooser .sfFieldset .formValue{display:inline-block;width:auto}
+
+#modulepageChooser .sfFieldset .formValue select{width:100%}
+#tblChangePasswordSettings{margin-top:59px;}
+
+
+
+
+

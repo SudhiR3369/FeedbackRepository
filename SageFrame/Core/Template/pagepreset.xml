@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<pagepreset>
+  <layout>
+    <preset layout="WebBuilder">all</preset>
+  </layout>
+  <theme>default</theme>
+  <width>wide</width>
+</pagepreset>

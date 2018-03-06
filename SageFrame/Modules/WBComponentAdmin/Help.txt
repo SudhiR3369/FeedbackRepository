@@ -1,0 +1,6 @@
+--In this Section you can put your Component Data Management Control with Component Folder Name.
+--You Can Create UserControl Same As Sageframe Module Control.
+-- If There Is Multiple Control You Can Give Suitable File Name That will be Tab name and control is load to tab body
+-- if you want to order tab then give file name with -suffix order number eg. Contact Setting-1 Contact Data-2 
+-- Normally File name Accending Order is tab menu order.
+-- all Other js file and css file are same as Sageframe Module.

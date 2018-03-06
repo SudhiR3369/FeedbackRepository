@@ -1,0 +1,192 @@
+﻿.dashboard-top-bar {
+    width: 100%;
+    background-color: white;
+    box-shadow: rgba(40,74,248,0.08) 0 6px 14px;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 0 0 135px;
+    z-index: 8;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
+}
+.dashboard-top-bar .last-login-info span {
+    font-size: 12px;
+}
+.dashboard-top-bar .last-login-info span:first-child {
+    font-weight: 700;
+}
+.last-login-info {
+    display: inline-block;
+}
+.right-aligned-div{
+	float: right;
+	width: auto;
+}/*right-aligned-div*/
+
+.right-aligned-div .notification{
+	display: inline-block;
+	border-right: 0;
+    padding-right: 0;
+    vertical-align: top;
+}
+.editor-link, .userInfo, .loginInfo, .notification{
+	display: inline-block;
+    vertical-align: top;
+    border-right: solid 1px rgba(0,0,0,0.08);
+    padding-right: 25px;
+    margin-right: 25px;
+}
+.dashboard-top-bar .notification span {
+    color: #1fb6ff;
+}
+.userInfo{
+	margin-right: 20px;
+}
+.editor-link .btn.primary-btn {
+    background-color: #1fb6ff;
+    color: white;
+    margin-top: 15px;
+}
+.editor-link .btn.primary-btn:hover{
+    background-color: #252b34
+}
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 20px;
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: 600;
+    color: rgba(0,0,0,0.6);
+    background-color: rgba(0,0,0,0.08);
+    text-decoration: none;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
+}
+.profile-setting .drop-setting-sml-btn {
+    height: 14px;
+    width: 14px;
+    cursor: pointer;
+    background-color: #1fb6ff;
+    border-radius: 50%;
+    position: relative;
+    text-align: center;
+    line-height: 14px;
+    font-size: 9px;
+    color: white;
+}
+.profile-setting .drop-setting-sml-btn:before{
+	content: '\f078';
+    font-family: 'fontAwesome';
+}
+.userInfo div{
+	display: inline-block;
+}
+
+.dashboard-top-bar .userInfo .user_image{
+	border-radius: 50%;
+	height: 35px;
+	width: 35px;
+	overflow: hidden;
+	display: inline-block;
+	margin-top: 14px;
+}/*user_image*/
+.user_image img{
+	height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.loginInfo .icon-logout:before{
+	content: "\f011";
+    font-family: 'fontAwesome';
+    font-size: 24px;
+    color: #e14a4a;
+}
+.drop-content {
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 60px;
+    right: -20px;
+    background-color: #eeeeee;
+    box-shadow: rgba(0,0,0,0.3) 0 0 10px;
+    padding: 10px;
+    width: 130px;
+    line-height: 20px;
+}
+.profile-setting:hover .drop-content {
+    opacity: 1;
+    visibility: visible;
+}
+.userName{
+	display: inline-block;
+    vertical-align: top;
+    font-size: 12px;
+    color: rgba(0,0,0,0.6);
+    font-weight: 400;
+}
+.profile-setting .drop-content a {
+    font-size: 12px;
+    color: rgba(0,0,0,0.5);
+}
+.profile-setting {
+    position: relative;
+    vertical-align: top;
+}
+.dashboard-top-bar{
+	line-height: 60px;
+}
+.dataadmin-container {
+    max-width: 1250px;
+    margin: 40px auto 0;
+}
+.ajax__tab_container{
+	padding: 20px;
+}
+.dashboard-top-bar .notification span.notiNumbr {
+    display: inline-block;
+    height: 15px;
+    width: auto;
+    padding: 0 8px;
+    border-radius: 30px;
+    background-color: #e14a4a;
+    color: white;
+    line-height: 15px;
+    font-size: 12px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.divNotificationList {
+    position: absolute;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: rgba(0,0,0,0.3) 0 0 5px 0;
+    top: 60px;
+    max-width: 280px;
+}
+.divNotificationList ul li {
+    font-size: 12px;
+    padding: 10px 15px;
+    border-bottom: solid 1px rgba(0,0,0,0.06);
+    line-height: 16px;
+    color: rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+.divNotificationList .sfButton {
+    padding: 20px;
+    text-align: center;
+    line-height: 0;
+}

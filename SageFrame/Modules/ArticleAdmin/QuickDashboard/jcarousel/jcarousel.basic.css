@@ -1,0 +1,146 @@
+.jcarousel-wrapper {
+ 
+    position: relative;
+    max-width:1000px;
+
+  
+}
+
+
+.jcarousel-wrapper .photo-credits {
+    position: absolute;
+    right: 15px;
+    bottom: 0;
+    font-size: 13px;
+    color: #fff;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.85);
+    opacity: .66;
+}
+
+.jcarousel-wrapper .photo-credits a {
+    color: #fff;
+}
+
+@media (min-width:981px) and (max-width:1120px){
+/*.jcarousel-wrapper{
+    max-width:660px;
+}
+.menu-expand .jcarousel-wrapper {
+    max-width: 632px;
+}*/
+}
+/** Carousel **/
+
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+}
+
+.jcarousel ul {
+    width: 20000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.jcarousel li {
+    float: left;
+}
+
+/** Carousel Controls **/
+.jcarousel-control-prev i,.jcarousel-control-next i{
+    line-height:30px;
+}
+.jcarousel-control-prev i{
+    margin-left:-3px;
+}
+.jcarousel-control-next i{
+     margin-right:-3px;
+}
+.jcarousel-control-prev.inactive, .jcarousel-control-next.inactive{
+    display:none;
+}
+.jcarousel-control-prev,
+.jcarousel-control-next {
+    position: absolute;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    color: #21b5fb;
+    text-decoration: none;
+    font: 14px/27px "Poppins", sans-serif;
+   
+}
+
+.jcarousel-control-prev {
+    right: 173px;
+
+}
+
+.jcarousel-control-next {
+    right: -11px;
+}
+
+.jcarousel-control-prev:hover span,
+.jcarousel-control-next:hover span {
+    display: block;
+}
+
+.jcarousel-control-prev.inactive,
+.jcarousel-control-next.inactive {
+    opacity: .5;
+    cursor: default;
+}
+a.jcarousel-control-next:hover, a.jcarousel-control-prev:hover {
+    color: #fff;
+    border-radius: 50%;
+    background: #21b5fb;
+}
+/** Carousel Pagination **/
+
+.jcarousel-pagination {
+     
+  position: absolute;
+    top: 10px;
+    right: 20px;
+    margin: 0;
+}
+
+
+.jcarousel-pagination a {
+    text-decoration: none;
+    display: inline-block;
+     font: 11px "Poppins", sans-serif;
+    font-weight:400;
+    width:28px;
+    height:28px;
+    padding:0;
+    background: none;
+    background:#fff;
+    color: #21b5fb;
+    border-radius: 50%;;
+    text-align: center;
+    line-height:28px;
+   margin-right:3px;
+    -webkit-transition:0.3s ease;
+    -moz-transition:0.3s ease;
+    -o-transition:0.3s ease;
+    transition:0.3s ease;
+
+}
+.jcarousel-pagination a:last-child{
+    margin-right:0;
+}
+.jcarousel-pagination a:hover{
+    background: #21b5fb;
+    color:#fff;
+}
+.jcarousel-pagination a.active {
+    background: #21b5fb;
+    color: #fff;
+    opacity: 1;
+
+}
+

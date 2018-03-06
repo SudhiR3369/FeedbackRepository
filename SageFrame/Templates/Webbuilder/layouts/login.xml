@@ -1,0 +1,5 @@
+<layout name="layout_all" modern="true"> 
+ <div class="sfContainer sfCol_100" data-content="loginwrapper" id="loginwrapper">
+	
+</div>
+</layout>

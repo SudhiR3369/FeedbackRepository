@@ -1,0 +1,57 @@
+﻿<div class="field-row clearfix">
+    <h4>Background</h4>
+    <div class="field-row clearfix">
+        <label>background</label>
+        <span class="value">
+            <select id="selBackround">
+                <option value="none">None</option>
+                <option value="color">Color</option>
+                <option value="image">Image</option>
+            </select>
+        </span>
+    </div>
+    <div class="hidden-div field-row" id="divBackColorChoose" style="display: none;">
+        <div class="clearfix field-row ">
+            <label>Choose Colors</label>
+            <span class="value">
+                <span class="color-picker-holder chooseBGColors" id="chooseColorColBG"></span>
+            </span>
+        </div>
+    </div>
+    <div class="hidden-div field-row" id="divBackImageChoose" style="display: none;">
+        <div class="field-row clearfix">
+            <label>Choose Images</label>
+            <span class="value">
+                <div class="img-preview">
+                    <img id="RowBGImage" src="/modules/webbuilder/img/tiger.jpg" class="imageBG" width="80">
+                </div>
+            </span>
+        </div>
+        <div class="field-row clearfix">
+            <label>Effect</label>
+            <span class="value">
+                <select id="bgImageEffect">
+                    <option value="background-effect-size-contain">None</option>
+                    <option value="background-effect-image-parallax">Parallax</option>
+                    <option value="background-effect-size-cover">Cover</option>
+                </select>
+            </span>
+        </div>
+        <div class="field-row clearfix">
+            <label>Shaded Layer</label>
+            <span class="value">
+                <input id="shadedLayerActive" type="checkbox">
+                <label for="shadedLayerActive">
+                    <i class="icon-icon-tick"></i>
+                </label>
+            </span>
+        </div>
+        <div class="hidden-div" id="divPickShaded" style="display: none;">
+            <div class="field-row clearfix">
+                <label>Pick Color</label><span class="value">
+                    <span class="color-picker-holder chooseBGColors" id="chooseColorShadedCol" style="background-color: rgba(37, 113, 211, 0.38); color: rgb(221, 221, 221);"></span>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>

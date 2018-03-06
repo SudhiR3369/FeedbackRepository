@@ -1,0 +1,24 @@
+.sageFeatureWrap .feat-row {
+    margin-top: 90px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.sageFeatureWrap .img-wrp {
+    flex: 2;
+    -ms-flex: 2;
+    -webkit-flex: 2;
+    max-width: 460px;
+}
+
+.sageFeatureWrap .decp {
+    padding: 0 60px;
+    flex: 3;
+    -ms-flex: 3;
+    -webkit-flex: 3;
+}
+.no-table input[type="file"] + label{max-width:175px !important;}
+#imgPreview{margin-top:15px;}

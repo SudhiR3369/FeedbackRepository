@@ -1,0 +1,72 @@
+﻿
+.span-info {
+    float: left;
+    margin-top: 5px;
+    display: block;
+    color: #555;
+    font-style: italic;
+    font-size: 13px;
+}
+
+.domainCount .form_group .form_control.w_btn select {
+    width: 100% !important;
+}
+
+ul.ui-autocomplete {
+    background-color: white;
+}
+
+    ul.ui-autocomplete li {
+        padding: 10px 8px;
+    }
+
+        ul.ui-autocomplete li a {
+            font-size: 14px;
+        }
+
+.ui-helper-hidden-accessible {
+    color: #ccc;
+    display:none;
+   }
+.selectedUers{
+    display: inline-block;
+}
+.canceluser {
+    margin-top: 4px;
+}
+
+.selectedUers div {
+    padding: 5px 10px;
+    border-radius: 25px;
+    margin-top: 15px;
+    background: #a1c9d3;
+    display: table;
+    margin-right: 10px;
+    float: left;
+}
+
+    .selectedUers div span {
+        color: #fff;
+    }
+
+.canceluser {
+    color: red;
+    cursor: pointer;
+    margin-left: 20px;
+    float: right;
+}
+.animate .multiColForm{display:block;}
+.sffiltergroup{display:flex;margin-top:25px;}
+.content.box{
+    margin-top: 25px;
+}
+
+.filter_button_wrap{
+    margin-top: 23px;
+}
+@media(min-width:1020px) {
+
+    .form_container_right {
+        margin-top: 45px;
+    }
+}

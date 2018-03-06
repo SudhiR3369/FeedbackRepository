@@ -1,0 +1,78 @@
+﻿<div class="field-row clearfix">
+    <h4>Google Map Settings</h4>
+    <div class="field-row clearfix">
+        <div class="clearfix">
+            <label>API Key</label>
+            <span class="value">
+                <input type="text" id="txtMapApiKey" required />
+            </span>
+        </div>
+    </div>
+    <div class="field-row clearfix">
+        <div class="clearfix">
+            <label>Select Type </label>
+            <span class="value">
+                <select id="slcMapType">
+                    <option value="place">Place</option>
+                    <option value="view">View</option>
+                </select>
+            </span>
+        </div>
+    </div>
+    <div  class="field-row" id="divPlace">
+        <div class="field-row clearfix">
+            <div class="clearfix">
+                <label>Street</label>
+                <span class="value">
+                    <input type="text" id="txtMapStreet" />
+                </span>
+            </div>
+        </div>
+        <div class="field-row clearfix">
+            <div class="clearfix">
+                <label>City</label>
+                <span class="value">
+                    <input type="text" id="txtMapCity" />
+                </span>
+            </div>
+        </div>
+        <div class="field-row clearfix">
+            <div class="clearfix">
+                <label>State</label>
+                <span class="value">
+                    <input type="text" id="txtMapState" />
+                </span>
+            </div>
+        </div>
+        <div class="field-row clearfix">
+            <div class="clearfix">
+                <label>Country</label>
+                <span class="value">
+                    <input type="text" id="txtMapCountry" />
+                </span>
+            </div>
+        </div>
+    </div>
+    <div id="divLocation" style="display: none;"  class="field-row">
+        <div class="field-row clearfix">
+            <div class="clearfix">
+                <label>Latitude</label>
+                <span class="value">
+                    <input type="text" id="txtMapLatitude" />
+                </span>
+            </div>
+        </div>
+        <div class="field-row clearfix">
+            <div class="clearfix">
+                <label>Longitute</label>
+                <span class="value">
+                    <input type="text" id="txtMapLongitude" />
+                </span>
+            </div>
+        </div>
+
+    </div>
+    <div class="field-row clearfix">
+        <button type="button" class="fa icon-save sfBtn smlbtn-succ" id="btnGenerateMap">Generate Map</button>
+    </div>
+</div>

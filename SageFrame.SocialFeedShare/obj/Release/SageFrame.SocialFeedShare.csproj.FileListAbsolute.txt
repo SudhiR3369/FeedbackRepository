@@ -1,0 +1,81 @@
+D:\Development\SageCloud\GIT Bijay\SageCMS Upgrate 2.0\sagecms-optimization\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\SageFrame.SocialFeedShare.dll.config
+D:\Development\SageCloud\GIT Bijay\SageCMS Upgrate 2.0\sagecms-optimization\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\SageFrame.SocialFeedShare.dll
+D:\Development\SageCloud\GIT Bijay\SageCMS Upgrate 2.0\sagecms-optimization\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\SageFrame.SocialFeedShare.pdb
+D:\Development\SageCloud\GIT Bijay\SageCMS Upgrate 2.0\sagecms-optimization\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\Facebook.dll
+D:\Development\SageCloud\GIT Bijay\SageCMS Upgrate 2.0\sagecms-optimization\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\Newtonsoft.Json.dll
+D:\Development\SageCloud\GIT Bijay\SageCMS Upgrate 2.0\sagecms-optimization\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\SageFrame.Common.dll
+D:\Development\SageCloud\GIT Bijay\SageCMS Upgrate 2.0\sagecms-optimization\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\Sparkle.LinkedInNET.dll
+D:\Development\SageCloud\GIT Bijay\SageCMS Upgrate 2.0\sagecms-optimization\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\System.Net.Http.Extensions.dll
+D:\Development\SageCloud\GIT Bijay\SageCMS Upgrate 2.0\sagecms-optimization\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\System.Net.Http.Primitives.dll
+D:\Development\SageCloud\GIT Bijay\SageCMS Upgrate 2.0\sagecms-optimization\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\Twitterizer2.dll
+D:\Development\SageCloud\GIT Bijay\SageCMS Upgrate 2.0\sagecms-optimization\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\SageFrame.Common.pdb
+D:\Development\SageCloud\GIT Bijay\SageCMS Upgrate 2.0\sagecms-optimization\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\Twitterizer2.pdb
+D:\Development\SageCloud\GIT Bijay\SageCMS Upgrate 2.0\sagecms-optimization\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\Twitterizer2.xml
+D:\Development\SageCloud\GIT Bijay\SageCMS Upgrate 2.0\sagecms-optimization\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\Facebook.xml
+D:\Development\SageCloud\GIT Bijay\SageCMS Upgrate 2.0\sagecms-optimization\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\Newtonsoft.Json.xml
+D:\Development\SageCloud\GIT Bijay\SageCMS Upgrate 2.0\sagecms-optimization\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\System.Net.Http.Extensions.xml
+D:\Development\SageCloud\GIT Bijay\SageCMS Upgrate 2.0\sagecms-optimization\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\System.Net.Http.Primitives.xml
+D:\Development\SageCloud\GIT Bijay\SageCMS Upgrate 2.0\sagecms-optimization\SageFrameV3.8\SageFrame.SocialFeedShare\obj\Release\SageFrame.SocialFeedShare.csproj.App.config
+D:\Development\SageCloud\GIT Bijay\SageCMS Upgrate 2.0\sagecms-optimization\SageFrameV3.8\SageFrame.SocialFeedShare\obj\Release\SageFrame.SocialFeedShare.csprojResolveAssemblyReference.cache
+D:\Development\SageCloud\GIT Bijay\SageCMS Upgrate 2.0\sagecms-optimization\SageFrameV3.8\SageFrame.SocialFeedShare\obj\Release\SageFrame.SocialFeedShare.dll
+D:\Development\SageCloud\GIT Bijay\SageCMS Upgrate 2.0\sagecms-optimization\SageFrameV3.8\SageFrame.SocialFeedShare\obj\Release\SageFrame.SocialFeedShare.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\SageFrame.SocialFeedShare.dll.config
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\SageFrame.SocialFeedShare.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\SageFrame.SocialFeedShare.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\Facebook.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\SageFrame.Common.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\Sparkle.LinkedInNET.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\System.Net.Http.Extensions.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\System.Net.Http.Primitives.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\Twitterizer2.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\Newtonsoft.Json.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\SageFrame.Common.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\Twitterizer2.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\Twitterizer2.xml
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\Facebook.xml
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\System.Net.Http.Extensions.xml
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\System.Net.Http.Primitives.xml
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.SocialFeedShare\obj\Release\SageFrame.SocialFeedShare.csproj.App.config
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.SocialFeedShare\obj\Release\SageFrame.SocialFeedShare.csprojResolveAssemblyReference.cache
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.SocialFeedShare\obj\Release\SageFrame.SocialFeedShare.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.SocialFeedShare\obj\Release\SageFrame.SocialFeedShare.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\SageFrame.SocialFeedShare.dll.config
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\SageFrame.SocialFeedShare.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\SageFrame.SocialFeedShare.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\Facebook.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\SageFrame.Common.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\Sparkle.LinkedInNET.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\System.Net.Http.Extensions.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\System.Net.Http.Primitives.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\Twitterizer2.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\Newtonsoft.Json.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\SageFrame.Common.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\Twitterizer2.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\Twitterizer2.xml
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\Facebook.xml
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\System.Net.Http.Extensions.xml
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\System.Net.Http.Primitives.xml
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SocialFeedShare\obj\Release\SageFrame.SocialFeedShare.csproj.App.config
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SocialFeedShare\obj\Release\SageFrame.SocialFeedShare.csprojResolveAssemblyReference.cache
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SocialFeedShare\obj\Release\SageFrame.SocialFeedShare.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SocialFeedShare\obj\Release\SageFrame.SocialFeedShare.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\SageFrame.SocialFeedShare.dll.config
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\SageFrame.SocialFeedShare.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\SageFrame.SocialFeedShare.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\Facebook.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\SageFrame.Common.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\Sparkle.LinkedInNET.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\System.Net.Http.Extensions.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\System.Net.Http.Primitives.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\Twitterizer2.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\Newtonsoft.Json.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\SageFrame.Common.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\Twitterizer2.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\Twitterizer2.xml
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\Facebook.xml
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\System.Net.Http.Extensions.xml
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SocialFeedShare\bin\Release\System.Net.Http.Primitives.xml
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SocialFeedShare\obj\Release\SageFrame.SocialFeedShare.csproj.App.config
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SocialFeedShare\obj\Release\SageFrame.SocialFeedShare.csprojResolveAssemblyReference.cache
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SocialFeedShare\obj\Release\SageFrame.SocialFeedShare.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SocialFeedShare\obj\Release\SageFrame.SocialFeedShare.pdb

@@ -1,0 +1,30 @@
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.WordProcessor\bin\Release\dlls\DocumentFormat.OpenXml.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.WordProcessor\bin\Release\dlls\OpenXmlPowerTools.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.WordProcessor\bin\Release\dlls\System.IO.Packaging.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.WordProcessor\bin\Release\SageFrame.WordProcessor.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.WordProcessor\bin\Release\SageFrame.WordProcessor.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.WordProcessor\bin\Release\DocumentFormat.OpenXml.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.WordProcessor\bin\Release\OpenXmlPowerTools.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.WordProcessor\bin\Release\System.IO.Packaging.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.WordProcessor\obj\Release\SageFrame.WordProcessor.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.WordProcessor\obj\Release\SageFrame.WordProcessor.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WordProcessor\bin\Release\dlls\DocumentFormat.OpenXml.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WordProcessor\bin\Release\dlls\OpenXmlPowerTools.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WordProcessor\bin\Release\dlls\System.IO.Packaging.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WordProcessor\bin\Release\SageFrame.WordProcessor.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WordProcessor\bin\Release\SageFrame.WordProcessor.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WordProcessor\bin\Release\DocumentFormat.OpenXml.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WordProcessor\bin\Release\OpenXmlPowerTools.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WordProcessor\bin\Release\System.IO.Packaging.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WordProcessor\obj\Release\SageFrame.WordProcessor.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WordProcessor\obj\Release\SageFrame.WordProcessor.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WordProcessor\bin\Release\dlls\DocumentFormat.OpenXml.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WordProcessor\bin\Release\dlls\OpenXmlPowerTools.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WordProcessor\bin\Release\dlls\System.IO.Packaging.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WordProcessor\bin\Release\SageFrame.WordProcessor.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WordProcessor\bin\Release\SageFrame.WordProcessor.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WordProcessor\bin\Release\DocumentFormat.OpenXml.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WordProcessor\bin\Release\OpenXmlPowerTools.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WordProcessor\bin\Release\System.IO.Packaging.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WordProcessor\obj\Release\SageFrame.WordProcessor.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WordProcessor\obj\Release\SageFrame.WordProcessor.pdb

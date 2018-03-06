@@ -1,0 +1,8 @@
+﻿.sfSnapshotTabDiv.sfGridwrapper table tr:first-child,.box-content .sfGridwrapper table tr:first-child{border-bottom:none !important;}
+.sfSnapshotTabDiv.sfGridwrapper table tr:first-child label, .sfSnapshotTabDiv.sfGridwrapper table tr:first-child span,.box-content .sfGridwrapper table tr:first-child, .box-content .sfTableWrapper table tr:first-child{color:rgba(0,0,0,0.7) !important ;}
+.sfGridwrapper table tr:first-child{background-color:rgba(0,0,0,0.06);}
+.sfGridwrapper table{margin:0;}
+.box-content .ui-tabs ul.ui-tabs-nav{margin-bottom:0;}
+.box-content .sfGridwrapper table table tr:first-child{background:none;}
+.box-content .sfGridwrapper table table{padding-top:0;}
+.box-content table.simplePagerNav > tbody tr:first-child{padding:0;}

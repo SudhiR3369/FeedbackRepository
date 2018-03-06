@@ -1,0 +1,24 @@
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\Twitterizer2\bin\CCNET\Twitterizer2.dll
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\Twitterizer2\bin\CCNET\Twitterizer2.pdb
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\Twitterizer2\bin\CCNET\Twitterizer2.XML
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\Twitterizer2\bin\CCNET\Newtonsoft.Json.dll
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\Twitterizer2\obj\CCNET\Twitterizer2.dll
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\Twitterizer2\obj\CCNET\Twitterizer2.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\Twitterizer2\bin\CCNET\Twitterizer2.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\Twitterizer2\bin\CCNET\Twitterizer2.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\Twitterizer2\bin\CCNET\Twitterizer2.XML
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\Twitterizer2\bin\CCNET\Newtonsoft.Json.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\Twitterizer2\obj\CCNET\Twitterizer2.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\Twitterizer2\obj\CCNET\Twitterizer2.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\Twitterizer2\bin\CCNET\Twitterizer2.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\Twitterizer2\bin\CCNET\Twitterizer2.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\Twitterizer2\bin\CCNET\Twitterizer2.XML
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\Twitterizer2\bin\CCNET\Newtonsoft.Json.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\Twitterizer2\obj\CCNET\Twitterizer2.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\Twitterizer2\obj\CCNET\Twitterizer2.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\Twitterizer2\bin\CCNET\Twitterizer2.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\Twitterizer2\bin\CCNET\Twitterizer2.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\Twitterizer2\bin\CCNET\Twitterizer2.XML
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\Twitterizer2\bin\CCNET\Newtonsoft.Json.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\Twitterizer2\obj\CCNET\Twitterizer2.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\Twitterizer2\obj\CCNET\Twitterizer2.pdb

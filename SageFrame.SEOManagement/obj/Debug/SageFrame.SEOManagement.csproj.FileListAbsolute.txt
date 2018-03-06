@@ -1,0 +1,35 @@
+D:\webprojects\Working Projects\SageFrame Optimization\sagecms-optimization\SageFrameV3.8\SageFrame.SEOManagement\bin\Debug\SageFrame.SEOManagement.dll
+D:\webprojects\Working Projects\SageFrame Optimization\sagecms-optimization\SageFrameV3.8\SageFrame.SEOManagement\bin\Debug\SageFrame.SEOManagement.pdb
+D:\webprojects\Working Projects\SageFrame Optimization\sagecms-optimization\SageFrameV3.8\SageFrame.SEOManagement\bin\Debug\SageFrame.Common.dll
+D:\webprojects\Working Projects\SageFrame Optimization\sagecms-optimization\SageFrameV3.8\SageFrame.SEOManagement\bin\Debug\SageFrame.Common.pdb
+D:\webprojects\Working Projects\SageFrame Optimization\sagecms-optimization\SageFrameV3.8\SageFrame.SEOManagement\obj\Debug\SageFrame.SEOManagement.csprojResolveAssemblyReference.cache
+D:\webprojects\Working Projects\SageFrame Optimization\sagecms-optimization\SageFrameV3.8\SageFrame.SEOManagement\obj\Debug\SageFrame.SEOManagement.dll
+D:\webprojects\Working Projects\SageFrame Optimization\sagecms-optimization\SageFrameV3.8\SageFrame.SEOManagement\obj\Debug\SageFrame.SEOManagement.pdb
+D:\SAAS\SageCloudProductV3\SageFrameV3.8\SageFrame.SEOManagement\bin\Debug\SageFrame.SEOManagement.dll
+D:\SAAS\SageCloudProductV3\SageFrameV3.8\SageFrame.SEOManagement\bin\Debug\SageFrame.SEOManagement.pdb
+D:\SAAS\SageCloudProductV3\SageFrameV3.8\SageFrame.SEOManagement\bin\Debug\SageFrame.Common.dll
+D:\SAAS\SageCloudProductV3\SageFrameV3.8\SageFrame.SEOManagement\bin\Debug\SageFrame.Common.pdb
+D:\SAAS\SageCloudProductV3\SageFrameV3.8\SageFrame.SEOManagement\obj\Debug\SageFrame.SEOManagement.dll
+D:\SAAS\SageCloudProductV3\SageFrameV3.8\SageFrame.SEOManagement\obj\Debug\SageFrame.SEOManagement.pdb
+D:\SAAS\SageCloudProductV3\SageFrameV3.8\SageFrame.SEOManagement\obj\Debug\SageFrame.SEOManagement.csprojResolveAssemblyReference.cache
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.SEOManagement\bin\Debug\SageFrame.SEOManagement.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.SEOManagement\bin\Debug\SageFrame.SEOManagement.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.SEOManagement\bin\Debug\SageFrame.Common.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.SEOManagement\bin\Debug\SageFrame.Common.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.SEOManagement\obj\Debug\SageFrame.SEOManagement.csprojResolveAssemblyReference.cache
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.SEOManagement\obj\Debug\SageFrame.SEOManagement.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.SEOManagement\obj\Debug\SageFrame.SEOManagement.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SEOManagement\bin\Debug\SageFrame.SEOManagement.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SEOManagement\bin\Debug\SageFrame.SEOManagement.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SEOManagement\bin\Debug\SageFrame.Common.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SEOManagement\bin\Debug\SageFrame.Common.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SEOManagement\obj\Debug\SageFrame.SEOManagement.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SEOManagement\obj\Debug\SageFrame.SEOManagement.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SEOManagement\obj\Debug\SageFrame.SEOManagement.csprojResolveAssemblyReference.cache
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SEOManagement\bin\Debug\SageFrame.SEOManagement.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SEOManagement\bin\Debug\SageFrame.SEOManagement.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SEOManagement\bin\Debug\SageFrame.Common.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SEOManagement\bin\Debug\SageFrame.Common.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SEOManagement\obj\Debug\SageFrame.SEOManagement.csprojResolveAssemblyReference.cache
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SEOManagement\obj\Debug\SageFrame.SEOManagement.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.SEOManagement\obj\Debug\SageFrame.SEOManagement.pdb

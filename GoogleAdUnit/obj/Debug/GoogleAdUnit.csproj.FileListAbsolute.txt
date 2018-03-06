@@ -1,0 +1,14 @@
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\GoogleAdUnit\bin\Debug\SFE.GoogleAdUnit.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\GoogleAdUnit\bin\Debug\SFE.GoogleAdUnit.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\GoogleAdUnit\obj\Debug\GoogleAdUnit.csprojResolveAssemblyReference.cache
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\GoogleAdUnit\obj\Debug\SFE.GoogleAdUnit.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\GoogleAdUnit\obj\Debug\SFE.GoogleAdUnit.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\GoogleAdUnit\bin\Debug\SFE.GoogleAdUnit.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\GoogleAdUnit\bin\Debug\SFE.GoogleAdUnit.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\GoogleAdUnit\obj\Debug\SFE.GoogleAdUnit.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\GoogleAdUnit\obj\Debug\SFE.GoogleAdUnit.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\GoogleAdUnit\bin\Debug\SFE.GoogleAdUnit.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\GoogleAdUnit\bin\Debug\SFE.GoogleAdUnit.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\GoogleAdUnit\obj\Debug\GoogleAdUnit.csprojResolveAssemblyReference.cache
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\GoogleAdUnit\obj\Debug\SFE.GoogleAdUnit.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\GoogleAdUnit\obj\Debug\SFE.GoogleAdUnit.pdb

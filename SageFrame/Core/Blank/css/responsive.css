@@ -1,0 +1,332 @@
+/* Responsive iFrame */
+body{
+	transition:all .3s ease;
+    -webkit-transition:all .3s ease;
+    -moz-transition:all .3s ease;
+    -ms-transition:all .3s ease;
+    position: relative;
+
+    /*cause menu is pushing from right*/
+    right: 0;
+}
+
+
+@media all and (max-width: 1020px) {
+	
+	body.push-right {
+            right: 260px;
+		}
+    
+    .sfResponsiveNavBtn {
+        top: -30px;
+		right:2%;
+	}
+
+    .sf-menu li {
+        float: none
+    }
+    .sfResponsiveNavBtn + .sf-menu {
+        height: 100vh
+    }
+	
+	.sfResponsiveNavBtn + .sf-menu {
+        position: fixed;
+        top: 0;
+        right: -260px;
+        background: #d4d4d4;
+        width: 260px;
+        height: 100vh;
+        z-index: 999;
+        overflow: auto;
+        transition: all 0.3s ease-in-out;
+    }
+   body.loggedIn .sf-menu{
+	   top: 60px;
+   }
+  
+  body.push-right  .sfResponsiveNavBtn + .sf-menu{
+	  right:0;
+  }
+  
+  .push-right .fade-layer {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, .6);
+        transition: all .3s ease;
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        -o-transition: all 1s ease;
+    }
+    
+   
+}
+
+
+
+@media all and (max-width:768px) {
+    .sfTopbar {
+        height: 90px;
+    }
+    .sfLoggedTopBar {
+        margin-top: 90px;
+    }
+    .sfTopbar ul.left,
+    .sfTopbar ul.left li img,
+    .sfTopbar ul.left li a,
+    .sfTopbar ul.left li span {
+        float: none;
+        overflow: hidden;
+    }
+    .sfTopbar ul.right li {
+        border-left: none;
+    }
+    body {
+        transition: all 0.3s ease-in-out;
+    }
+    [class*="sfCol_"],
+    .sfFixed[class*="sfCol_"] {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        float: none;
+    }
+   
+    .sf-menu > li:first-child {
+        margin-top: 30px;
+    }
+    .sf-menu > li > a {
+        padding: 15px;
+    }
+    .sfNavigation li.sfActive > a {
+        border-bottom: none;
+    }
+    .sf-menu li.sfParent > ul {
+        position: relative;
+        border: none;
+        box-shadow: none;
+        display: block !important;
+        visibility: visible !important;
+        padding-left: 15px;
+    }
+    .sf-menu li,
+    .sfDropdown {
+        float: none;
+    }
+    .sfDropdown ul,
+    .sfDropdown ul ul {
+        position: relative;
+        top: 0;
+        left: 0 !important;
+        background: none;
+        border: none;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    }
+    .sf-menu li.sfParent li.sfParent ul {
+        position: relative;
+    }
+    .sfResponsiveNavBtn {
+        display: block;
+    }
+    .sfNavigation {
+        overflow: hidden;
+        min-height: 24px;
+        position: relative;
+    }
+    .offCanvas .sfNavigation {
+        overflow: visible;
+    }
+    
+   
+    .sfStickySidebar {
+        display: none;
+    }
+   
+   
+    .social li {
+        width: 100%;
+    }
+    .sfStickySidebar,
+    .sfNavigation li.sfActive a:after {
+        display: none;
+    }
+}
+
+
+
+
+
+/*======================================================================= Responsive Navigation of all theme =================================================================*/
+
+@media all and (max-width: 1180px) {
+    
+    body {
+        overflow-x: hidden
+    }
+     .centralizer {
+        width: 100%
+    }
+}
+
+@media all and (max-width: 1020px) {
+	
+	/*for responsive navigation*/
+    .sfResponsiveNavBtn span,
+    .sfResponsiveNavBtn span:before,
+    .sfResponsiveNavBtn span:after {
+        cursor: pointer;
+        border-radius: 1px;
+        height: 2px;
+        width: 35px;
+        background: #aaa;
+        position: absolute;
+        display: block;
+        content: '';
+    }
+    .sfResponsiveNavBtn {
+        display: block !important
+    }
+    .sfResponsiveNavBtn span:before {
+        top: -10px;
+    }
+    .sfResponsiveNavBtn span:after {
+        bottom: -10px;
+    }
+    .sfResponsiveNavBtn span,
+    .sfResponsiveNavBtn span:before,
+    .sfResponsiveNavBtn span:after {
+        transition: all 500ms ease-in-out;
+    }
+    .sfResponsiveNavBtn.active span {
+        background-color: transparent;
+    }
+    .sfResponsiveNavBtn.active span:before,
+    .sfResponsiveNavBtn.active span:after {
+        top: 0;
+    }
+    .sfResponsiveNavBtn.active span:before {
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+    .sfResponsiveNavBtn.active span:after {
+        -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+    
+    /*----Nav---*/
+    .sfNavigation {
+        overflow: visible;
+    }
+     .sf-menu li a span {
+        color: rgba(0, 0, 0, .8)
+    }
+    li.sfActive{
+        background: rgba(0, 0, 0, .8);
+    }
+    li.sfActive a span {
+        color: #fff;
+    }
+
+    
+  
+    
+
+}
+
+
+
+
+@media all and (max-width: 767px) {
+   
+    .sfLogininfo {
+        display: inline-block;
+    }
+    .sfLogininfo ul {
+        margin: 0;
+    }
+    .left-control,
+    .right-control {
+        display: none;
+    }
+    
+    
+    .Introtext {
+        padding: 40px 15px 0;
+    }
+    .Introtext h2 {
+        font-size: 18px;
+    }
+    .Introtext h1 {
+        font-size: 25px;
+    }
+    .Introtext p {
+        font-size: 15px;
+    }
+    
+    .feat-box {
+        width: 100%;
+        margin-bottom: 30px;
+        padding-right: 0;
+    }
+   
+    .sfSubscribe .sfSubscribe input,
+    
+    
+    .social-links li a {
+        height: 70px;
+        line-height: 1.5;
+    }
+
+    
+}
+
+@media all and (min-width: 500px) and (max-width: 767px) {
+    .sfLogininfo ul {
+        margin-right: 0;
+      
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 1080px) {
+   
+    .sfLogininfo ul {
+        margin-right: 0;
+        margin-top: -33px;
+    }
+}
+
+
+/*Contact page*/
+@media all and (max-width: 767px) {
+
+    .sfFormGroup input,
+    .sfFormGroup textarea {
+        text-align: left;
+        width: 90%;
+        display: inline-block;
+    }
+    .sfFormGroup label {
+        display: block;
+        width: 100%;
+        text-align: left;
+        margin: 0;
+    }
+    .sfFormGroup input.input_field {
+        width: auto;
+    }
+    .mandatory {
+        margin-left: 0;
+    }
+}

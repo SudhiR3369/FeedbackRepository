@@ -1,0 +1,12 @@
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.FontIconInjector\bin\Debug\SageFrame.FontIconInjector.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.FontIconInjector\bin\Debug\SageFrame.FontIconInjector.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.FontIconInjector\obj\Debug\SageFrame.FontIconInjector.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.FontIconInjector\obj\Debug\SageFrame.FontIconInjector.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.FontIconInjector\bin\Debug\SageFrame.FontIconInjector.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.FontIconInjector\bin\Debug\SageFrame.FontIconInjector.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.FontIconInjector\obj\Debug\SageFrame.FontIconInjector.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.FontIconInjector\obj\Debug\SageFrame.FontIconInjector.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.FontIconInjector\bin\Debug\SageFrame.FontIconInjector.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.FontIconInjector\bin\Debug\SageFrame.FontIconInjector.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.FontIconInjector\obj\Debug\SageFrame.FontIconInjector.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.FontIconInjector\obj\Debug\SageFrame.FontIconInjector.pdb

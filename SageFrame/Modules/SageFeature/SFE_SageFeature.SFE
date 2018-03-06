@@ -1,0 +1,57 @@
+﻿<sageframe
+  version="1.0.0.0"
+  type="Module">
+  <folders>
+    <folder>
+      <name>Sage Feature</name>
+      <friendlyname>Sage Feature</friendlyname>
+      <foldername>SageFeature</foldername>
+      <modulename>Sage Feature</modulename>
+      <description>Display feature with title image and description.</description>
+      <version>01.00.00</version>
+      <businesscontrollerclass>SageFrame.SageFeature</businesscontrollerclass>
+      <compatibleversions />
+      <owner>Rudra Chamlagain</owner>
+      <organization>Braindigit It Solution</organization>
+      <url />
+      <email>rchamlagain@outlook.com</email>
+      <releasenotes />
+      <license />
+      <modules>
+        <module>
+          <friendlyname>Sage Feature</friendlyname>
+          <cachetime />
+          <controls>
+            <control>
+              <key>FeatureView</key>
+              <title>Feature View</title>
+              <src>Modules/SageFeature/sagefeature.ascx</src>
+              <type>View</type>
+              <helpurl />
+              <supportspartialrendering>false</supportspartialrendering>
+            </control>
+            <control>
+              <key>FeatureEdit</key>
+              <title>Feature Edit</title>
+              <src>Modules/SageFeature/sagefeatureedit.ascx</src>
+              <type>Edit</type>
+              <helpurl />
+              <supportspartialrendering>false</supportspartialrendering>
+            </control>
+          </controls>
+        </module>
+      </modules>
+      <files>
+        <file>
+          <name>SageFrame.SageFeature.dll</name>
+        </file>
+        <file>
+          <name>01.00.00.SqlDataProvider</name>
+        </file>
+        <file>
+          <name>Uninstall.SqlDataProvider</name>
+        </file>
+      </files>
+    </folder>
+  </folders>
+</sageframe>

@@ -1,0 +1,90 @@
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.WebBuilder\bin\Debug\SageFrame.WebBuilder.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.WebBuilder\bin\Debug\SageFrame.WebBuilder.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.WebBuilder\bin\Debug\SageFrame.Common.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.WebBuilder\bin\Debug\SageFrame.Common.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.WebBuilder\obj\Debug\SageFrame.WebBuilder.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.WebBuilder\obj\Debug\SageFrame.WebBuilder.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WebBuilder\bin\Debug\SageFrame.WebBuilder.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WebBuilder\bin\Debug\SageFrame.WebBuilder.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WebBuilder\bin\Debug\Newtonsoft.Json.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WebBuilder\bin\Debug\SageFrame.APIInvoker.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WebBuilder\bin\Debug\SageFrame.Common.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WebBuilder\bin\Debug\SageFrame.Core.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WebBuilder\bin\Debug\SageFrame.Dashboard.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WebBuilder\bin\Debug\SageFrame.JsonParser.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WebBuilder\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WebBuilder\bin\Debug\Ionic.Zip.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WebBuilder\bin\Debug\AjaxControlToolkit.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WebBuilder\bin\Debug\SageFrame.Templating.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WebBuilder\bin\Debug\SageFrame.CDN.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WebBuilder\bin\Debug\SageFrame.Security.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WebBuilder\bin\Debug\SageFrame.Scheduler.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WebBuilder\bin\Debug\SageFrame.APIInvoker.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WebBuilder\bin\Debug\SageFrame.Common.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WebBuilder\bin\Debug\SageFrame.Core.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WebBuilder\bin\Debug\SageFrame.Dashboard.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WebBuilder\bin\Debug\SageFrame.JsonParser.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WebBuilder\bin\Debug\SageFrame.Templating.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WebBuilder\bin\Debug\SageFrame.CDN.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WebBuilder\bin\Debug\SageFrame.Security.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WebBuilder\bin\Debug\SageFrame.Scheduler.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WebBuilder\obj\Debug\SageFrame.WebBuilder.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WebBuilder\obj\Debug\SageFrame.WebBuilder.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WebBuilder\bin\Debug\Newtonsoft.Json.xml
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WebBuilder\obj\Debug\SageFrame.WebBuilder.csprojResolveAssemblyReference.cache
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WebBuilder\bin\Debug\SageFrame.WebBuilder.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WebBuilder\bin\Debug\SageFrame.WebBuilder.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WebBuilder\bin\Debug\Newtonsoft.Json.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WebBuilder\bin\Debug\SageFrame.APIInvoker.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WebBuilder\bin\Debug\SageFrame.Common.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WebBuilder\bin\Debug\SageFrame.Core.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WebBuilder\bin\Debug\SageFrame.Dashboard.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WebBuilder\bin\Debug\SageFrame.JsonParser.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WebBuilder\bin\Debug\SageFrame.Templating.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WebBuilder\bin\Debug\ICSharpCode.SharpZipLib.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WebBuilder\bin\Debug\Ionic.Zip.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WebBuilder\bin\Debug\AjaxControlToolkit.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WebBuilder\bin\Debug\SageFrame.Security.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WebBuilder\bin\Debug\SageFrame.CDN.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WebBuilder\bin\Debug\SageFrame.Scheduler.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WebBuilder\bin\Debug\SageFrame.APIInvoker.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WebBuilder\bin\Debug\SageFrame.Common.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WebBuilder\bin\Debug\SageFrame.Core.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WebBuilder\bin\Debug\SageFrame.Dashboard.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WebBuilder\bin\Debug\SageFrame.JsonParser.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WebBuilder\bin\Debug\SageFrame.Templating.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WebBuilder\bin\Debug\Newtonsoft.Json.xml
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WebBuilder\bin\Debug\SageFrame.Security.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WebBuilder\bin\Debug\SageFrame.CDN.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WebBuilder\bin\Debug\SageFrame.Scheduler.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WebBuilder\obj\Debug\SageFrame.WebBuilder.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WebBuilder\obj\Debug\SageFrame.WebBuilder.pdb
+F:\BDProjects\WebBuilder\SageFrame.WebBuilder\bin\Debug\SageFrame.WebBuilder.dll.config
+F:\BDProjects\WebBuilder\SageFrame.WebBuilder\bin\Debug\SageFrame.WebBuilder.dll
+F:\BDProjects\WebBuilder\SageFrame.WebBuilder\bin\Debug\SageFrame.WebBuilder.pdb
+F:\BDProjects\WebBuilder\SageFrame.WebBuilder\bin\Debug\Newtonsoft.Json.dll
+F:\BDProjects\WebBuilder\SageFrame.WebBuilder\bin\Debug\SageFrame.APIInvoker.dll
+F:\BDProjects\WebBuilder\SageFrame.WebBuilder\bin\Debug\SageFrame.Common.dll
+F:\BDProjects\WebBuilder\SageFrame.WebBuilder\bin\Debug\SageFrame.Core.dll
+F:\BDProjects\WebBuilder\SageFrame.WebBuilder\bin\Debug\SageFrame.Dashboard.dll
+F:\BDProjects\WebBuilder\SageFrame.WebBuilder\bin\Debug\SageFrame.JsonParser.dll
+F:\BDProjects\WebBuilder\SageFrame.WebBuilder\bin\Debug\SageFrame.Templating.dll
+F:\BDProjects\WebBuilder\SageFrame.WebBuilder\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\BDProjects\WebBuilder\SageFrame.WebBuilder\bin\Debug\Ionic.Zip.dll
+F:\BDProjects\WebBuilder\SageFrame.WebBuilder\bin\Debug\AjaxControlToolkit.dll
+F:\BDProjects\WebBuilder\SageFrame.WebBuilder\bin\Debug\SageFrame.Security.dll
+F:\BDProjects\WebBuilder\SageFrame.WebBuilder\bin\Debug\SageFrame.CDN.dll
+F:\BDProjects\WebBuilder\SageFrame.WebBuilder\bin\Debug\SageFrame.Scheduler.dll
+F:\BDProjects\WebBuilder\SageFrame.WebBuilder\bin\Debug\SageFrame.APIInvoker.pdb
+F:\BDProjects\WebBuilder\SageFrame.WebBuilder\bin\Debug\SageFrame.Common.pdb
+F:\BDProjects\WebBuilder\SageFrame.WebBuilder\bin\Debug\SageFrame.Core.pdb
+F:\BDProjects\WebBuilder\SageFrame.WebBuilder\bin\Debug\SageFrame.Dashboard.pdb
+F:\BDProjects\WebBuilder\SageFrame.WebBuilder\bin\Debug\SageFrame.JsonParser.pdb
+F:\BDProjects\WebBuilder\SageFrame.WebBuilder\bin\Debug\SageFrame.Templating.pdb
+F:\BDProjects\WebBuilder\SageFrame.WebBuilder\bin\Debug\Newtonsoft.Json.xml
+F:\BDProjects\WebBuilder\SageFrame.WebBuilder\bin\Debug\SageFrame.Security.pdb
+F:\BDProjects\WebBuilder\SageFrame.WebBuilder\bin\Debug\SageFrame.CDN.pdb
+F:\BDProjects\WebBuilder\SageFrame.WebBuilder\bin\Debug\SageFrame.Scheduler.pdb
+F:\BDProjects\WebBuilder\SageFrame.WebBuilder\obj\Debug\SageFrame.WebBuilder.csprojResolveAssemblyReference.cache
+F:\BDProjects\WebBuilder\SageFrame.WebBuilder\obj\Debug\SageFrame.WebBuilder.dll
+F:\BDProjects\WebBuilder\SageFrame.WebBuilder\obj\Debug\SageFrame.WebBuilder.pdb

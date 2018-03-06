@@ -1,0 +1,31 @@
+﻿.sfTreeviewholder{
+	float:left;
+	width:30%;
+}
+.sfListright{
+	float:right;
+	width:66%;
+}
+.sfTreeview{
+	background:rgba(0, 0, 0, 0.04);
+	margin-top:15px;
+	border: 1px solid rgba(0,0,0,0.04);
+}
+.sfRowfilter.sfSorting{
+	margin-top:10px;
+}
+.sfTreeview table tr td{display:inline-block;}
+
+.sfTreeview table{
+	margin-bottom:15px;
+}
+.sfTreeview table tr:first-child{
+	background:none;
+}
+.sfTreeviewholder .sfButtonwrapper, .sfListright .sfButtonwrapper {
+    margin-top: 0;
+}
+.pane-wrapper .sfCpanel .sfFormwrapper h2{
+	margin-top:15px;
+}
+a.icon-arrow-n{display:block;}

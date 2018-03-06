@@ -1,0 +1,28 @@
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\SageFrame.AutomatedSearch\bin\Debug\SageFrame.AutomatedSearch.dll
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\SageFrame.AutomatedSearch\bin\Debug\SageFrame.AutomatedSearch.pdb
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\SageFrame.AutomatedSearch\bin\Debug\SageFrame.Common.dll
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\SageFrame.AutomatedSearch\bin\Debug\SageFrame.Common.pdb
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\SageFrame.AutomatedSearch\obj\Debug\SageFrame.AutomatedSearch.csprojResolveAssemblyReference.cache
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\SageFrame.AutomatedSearch\obj\Debug\SageFrame.AutomatedSearch.dll
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\SageFrame.AutomatedSearch\obj\Debug\SageFrame.AutomatedSearch.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.AutomatedSearch\bin\Debug\SageFrame.AutomatedSearch.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.AutomatedSearch\bin\Debug\SageFrame.AutomatedSearch.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.AutomatedSearch\bin\Debug\SageFrame.Common.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.AutomatedSearch\bin\Debug\SageFrame.Common.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.AutomatedSearch\obj\Debug\SageFrame.AutomatedSearch.csprojResolveAssemblyReference.cache
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.AutomatedSearch\obj\Debug\SageFrame.AutomatedSearch.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.AutomatedSearch\obj\Debug\SageFrame.AutomatedSearch.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.AutomatedSearch\bin\Debug\SageFrame.AutomatedSearch.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.AutomatedSearch\bin\Debug\SageFrame.AutomatedSearch.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.AutomatedSearch\bin\Debug\SageFrame.Common.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.AutomatedSearch\bin\Debug\SageFrame.Common.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.AutomatedSearch\obj\Debug\SageFrame.AutomatedSearch.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.AutomatedSearch\obj\Debug\SageFrame.AutomatedSearch.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.AutomatedSearch\obj\Debug\SageFrame.AutomatedSearch.csprojResolveAssemblyReference.cache
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.AutomatedSearch\bin\Debug\SageFrame.AutomatedSearch.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.AutomatedSearch\bin\Debug\SageFrame.AutomatedSearch.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.AutomatedSearch\bin\Debug\SageFrame.Common.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.AutomatedSearch\bin\Debug\SageFrame.Common.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.AutomatedSearch\obj\Debug\SageFrame.AutomatedSearch.csprojResolveAssemblyReference.cache
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.AutomatedSearch\obj\Debug\SageFrame.AutomatedSearch.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.AutomatedSearch\obj\Debug\SageFrame.AutomatedSearch.pdb

@@ -1,0 +1,22 @@
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\SageFrame.RecycleBin\bin\Debug\SageFrame.RecycleBin.dll
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\SageFrame.RecycleBin\bin\Debug\SageFrame.RecycleBin.pdb
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\SageFrame.RecycleBin\bin\Debug\SageFrame.Common.dll
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\SageFrame.RecycleBin\bin\Debug\SageFrame.Common.pdb
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\SageFrame.RecycleBin\obj\Debug\SageFrame.RecycleBin.csprojResolveAssemblyReference.cache
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\SageFrame.RecycleBin\obj\Debug\SageFrame.RecycleBin.dll
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\SageFrame.RecycleBin\obj\Debug\SageFrame.RecycleBin.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame\bin\SageFrame.RecycleBin.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame\bin\SageFrame.RecycleBin.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.RecycleBin\obj\Debug\SageFrame.RecycleBin.csprojResolveAssemblyReference.cache
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.RecycleBin\obj\Debug\SageFrame.RecycleBin.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.RecycleBin\obj\Debug\SageFrame.RecycleBin.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame\bin\SageFrame.RecycleBin.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame\bin\SageFrame.RecycleBin.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.RecycleBin\obj\Debug\SageFrame.RecycleBin.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.RecycleBin\obj\Debug\SageFrame.RecycleBin.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.RecycleBin\obj\Debug\SageFrame.RecycleBin.csprojResolveAssemblyReference.cache
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame\bin\SageFrame.RecycleBin.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame\bin\SageFrame.RecycleBin.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.RecycleBin\obj\Debug\SageFrame.RecycleBin.csprojResolveAssemblyReference.cache
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.RecycleBin\obj\Debug\SageFrame.RecycleBin.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.RecycleBin\obj\Debug\SageFrame.RecycleBin.pdb

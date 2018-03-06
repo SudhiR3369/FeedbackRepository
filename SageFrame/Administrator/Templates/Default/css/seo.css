@@ -1,0 +1,10 @@
+.sfCheckbox li{display:inline-block;width:24%;max-width:200px;}
+.sfFormwrapper.twoColForm .sfFieldset .formKey {max-width:100%;width:auto}
+.sfFormwrapper .sfFieldset .sfCheckbox ul li input[type="checkbox"] + label {margin-top:0 !important}
+.tabular .sfFormwrapper .sfFieldset input[type="checkbox"], .tabular .sfFormwrapper .sfFieldset input[type="checkbox"] + label {
+    margin-top: 0 !important;
+}
+.tabular .sfFormwrapper .sfFieldset input[type="checkbox"]{
+    margin-right:0;
+    left:-8px;
+}

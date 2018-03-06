@@ -1,0 +1,48 @@
+
+.sfSubscribe .sfInputbox { margin-bottom:20px;}
+
+
+/*#btnEmailOK{
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #fff none repeat scroll 0 0;
+    border-color: #bbbbbb #bbbbbb #cbcbcb;
+    border-image: none;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px 1px 2px;
+    color: #515357;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    margin: 0 5px 0 0;
+    padding: 6px 10px;
+}*/
+
+#divSubscriberList{
+    padding: 20px !important;
+    background:#fff;
+}
+
+#divSubscriberList table{
+    margin-bottom:20px;}
+.sfButtonwrapper.sftype1{margin-bottom:5px;}
+.ui-dialog-content{padding:20px !important;}
+.ui-front .sfFormwrapper table td:nth-child(2) {
+max-width:350px !important;
+}
+.sfFormwrapper table td:first-child {
+flex:1 !important;
+-ms-flex:1  !important;
+-webkit-flex: 1 !important;
+width:25px !important;
+}
+/*.ui-front input[type="checkbox"] + label:before,.ui-front input[type="checkbox"]:checked + label:before {
+top:-17px;
+}*/
+.sfCheckBoxInline{margin-right:25px}
+.monitor{height:0 !important}
+.ui-widget-content.sfFormwrapper .ui-dialog-content table td{position:relative}
+.ui-dialog-content td input[type="checkbox"] + label:empty{position:absolute}

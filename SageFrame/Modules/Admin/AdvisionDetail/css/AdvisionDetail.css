@@ -1,0 +1,21 @@
+﻿.advisionValue {
+    font-size: 14px;
+    color: rgba(0,0,0,0.5);
+    text-transform: capitalize;
+}
+
+.formValue {
+    display: inline-block;
+}
+
+    .formValue label {
+        font-weight: 500;
+        color: rgba(0,0,0,0.7);
+    }
+	.divAdvisionEditDetail{
+    padding: 25px 0;
+}
+.divColKeywordChoose{
+	display:inline-block;
+	width:24%
+}

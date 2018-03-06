@@ -1,0 +1,111 @@
+#divBindRolesList{
+    margin-top: 25px;
+    width: 100%;
+}
+
+#divBindRolesList > div{
+        flex:3;
+        -webkit-flex:3;
+        -moz-flex:3;
+  }
+
+.sfLeftdivB{
+    flex:1;
+    -webkit-flex:1;
+    -moz-flex:1;
+    max-width: 280px;
+}
+
+
+
+#divBindRolesList table tr td{
+    font-weight:500;
+    text-transform: none;
+}
+
+#divBindRolesList table tr:nth-child(odd){
+    background-color:rgba(0,0,0,.04)
+}
+
+#dvRoleType label{
+    display: inline-block;
+    font-size: 12px;
+    padding: 12px 15px;
+    text-transform: uppercase;
+    background-color: rgba(0,0,0,.4);
+    color:white;
+    font-weight: 700;
+}
+label.sfFormlabel{
+    margin-bottom: 0px ;
+}
+.sfCpanel .sfButtonwrapper {
+    margin-top: 0;
+}
+span .sfRadiobutton label {background:none;}
+.sfFormwrapper .sfTableWrapper table tr:first-child{
+    border-bottom:none !important;
+}
+.ui-datepicker-title .ui-datepicker-month, .ui-datepicker-title .ui-datepicker-year{width:75px ;color:#fff;border:none;background:none;box-shadow:none;}
+.ui-datepicker-month option,.ui-datepicker-year  option{color:#000;}
+.ui-datepicker-calendar table > tbody tr:first-child{background:rgba(0,0,0,0.06);}
+.ui-datepicker-title{margin-top:-4px;}
+.ui-datepicker .ui-datepicker-calendar{margin-bottom:0;}
+.ui-datepicker-calendar table > tbody tr:first-child td{text-align:center}
+/*.sfFormwrapper .sfRowfilter .sfFieldset .formKey, .sfFormwrapper .sfRowfilter .sfFieldset .formValue{display: inline-block;width:auto;}*/
+/*.sfFormwrapper .sfRowfilter .sfFieldset .formValue{float:left;}*/
+.sfFormwrapper .sfFormwrapper .sfFieldset input[type="checkbox"]{margin-top:5px;}
+.formKey label {
+    margin-bottom: 0;
+}
+.pull-left + .sfFieldset, .sfFieldset:last-child {
+    clear: left;
+}
+.ajax__tab_panel {
+    padding-top: 30px;
+}
+
+.sfProfileimage{
+    position: relative;
+    margin-right: 40px;
+    box-shadow: rgba(0,0,0,0.2) 0 0 10px;
+    height: 130px;
+    width: 130px !important;
+    border: solid 8px rgba(0,0,0,.06);
+    overflow: hidden;
+}
+.userImageHolder {
+    margin: 0 0 25px !important;
+}
+.userImageHolder .sfProfileimage{overflow:visible !important}
+.fileUploader input[type="file"]{
+    width:auto;
+    height:auto;
+    visibility:visible;
+    color: #5b53ef;
+    height: 31px;
+    width: auto;
+    max-width: 163px;
+    line-height: 31px;
+    margin-left: 0;
+    padding: 0 30px;
+    border-radius: 25px;
+    border: solid 1px #5b53ef;
+    cursor: pointer;
+    font-size: 12px !important;
+    font-weight: 700 !important;
+    text-transform: uppercase;
+    padding-top: 0 !important;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+
+
+
+
+
+

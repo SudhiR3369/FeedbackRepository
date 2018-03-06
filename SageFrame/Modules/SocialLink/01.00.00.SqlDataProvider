@@ -1,0 +1,169 @@
+
+/****** Object:  Table [dbo].[SageSocialLinks]    Script Date: 12/19/2016 9:32:37 AM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[SageSocialLinks](
+	[LinkID] [int] IDENTITY(1,1) NOT NULL,
+	[LinkTitle] [nvarchar](50) NULL,
+	[LinkUrl] [nvarchar](250) NULL,
+	[IconClass] [nvarchar](50) NULL,
+	[PortalID] [int] NULL,
+	[UserModuleID] [int] NULL,
+	[Culture] [nvarchar](20) NULL,
+ CONSTRAINT [PK_SageSocialLinks] PRIMARY KEY CLUSTERED 
+(
+	[LinkID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+
+
+
+
+
+/****** Object:  StoredProcedure [dbo].[USP_SageSocialLinks_AddUpdate]    Script Date: 12/19/2016 9:28:45 AM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+-- ----------------------------------------
+-- Author:		Rudra Chamalgain
+-- Create date: 2016/12/16
+-- Description:	Add Update social link
+-- --------------------------------------------
+CREATE PROCEDURE [dbo].[USP_SageSocialLinks_AddUpdate]
+	-- Add the parameters for the stored procedure here
+@LinkID int,
+@LinkTitle nvarchar(50),
+@LinkUrl nvarchar(250),
+@IconClass nvarchar(50),
+@PortalID int,
+@UserModuleID int,
+@Culture nvarchar(20)
+AS
+BEGIN
+	-- SET NOCOUNT ON added to prevent extra result sets from
+	-- interfering with SELECT statements.
+	SET NOCOUNT ON;
+IF @LinkID=0
+	BEGIN 
+	INSERT INTO [dbo].[SageSocialLinks]
+			   ([LinkTitle]
+			   ,[LinkUrl]
+			   ,[IconClass]     
+			   ,[PortalID]
+			   ,[UserModuleID]
+			   ,[Culture])
+		 VALUES
+			   (@LinkTitle,@LinkUrl,@IconClass,@PortalID,@UserModuleID,@Culture)
+	END
+ELSE
+	BEGIN
+			   UPDATE [dbo].[SageSocialLinks]
+	   SET [LinkTitle] = @LinkTitle
+		  ,[LinkUrl] = @LinkUrl
+		  ,[IconClass] =@IconClass
+	  WHERE [LinkID]=@LinkID 
+	END
+END
+
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_SageSocialLinks_DelByID]    Script Date: 12/19/2016 9:29:16 AM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+-- -----------------------------------------------------
+-- Author:		Rudra Chamalgain
+-- Create date: 2016/12/16
+-- Description:	Delete social link by by
+-- ---------------------------------------------------------
+create PROCEDURE [dbo].[usp_SageSocialLinks_DelByID]
+	-- Add the parameters for the stored procedure here
+@LinkID int
+AS
+BEGIN
+	-- SET NOCOUNT ON added to prevent extra result sets from
+	-- interfering with SELECT statements.
+	SET NOCOUNT ON;
+Delete
+FROM [dbo].[SageSocialLinks] 
+WHERE [LinkID]=@LinkID
+END
+
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_SageSocialLinks_GetAll]    Script Date: 12/19/2016 9:30:04 AM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+-- ---------------------------------------------
+-- Author:		Rudra Chamalgain
+-- Create date: 2016/12/16
+-- Description:	Get social link by userModuleID PortalID and CultureCode
+-- --------------------------------------------
+CREATE PROCEDURE [dbo].[usp_SageSocialLinks_GetAll]
+	-- Add the parameters for the stored procedure here
+@PortalID int,
+@UserModuleID int,
+@Culture nvarchar(20)
+AS
+BEGIN
+	-- SET NOCOUNT ON added to prevent extra result sets from
+	-- interfering with SELECT statements.
+	SET NOCOUNT ON;
+SELECT 
+       [LinkID]
+      ,[LinkTitle]
+      ,[LinkUrl]
+      ,[IconClass]
+FROM [dbo].[SageSocialLinks] 
+WHERE [PortalID]=@PortalID AND [UserModuleID]=@UserModuleID AND [Culture]=@Culture
+END
+
+GO
+
+/****** Object:  StoredProcedure [dbo].[usp_SageSocialLinks_GetByID]    Script Date: 12/19/2016 9:30:53 AM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+-- --------------------------------------------
+-- Author:		Rudra Chamalgain
+-- Create date: 2016/12/16
+-- Description:	Get social link by id
+-- --------------------------------------------
+create PROCEDURE [dbo].[usp_SageSocialLinks_GetByID]
+	-- Add the parameters for the stored procedure here
+@LinkID int
+AS
+BEGIN
+	-- SET NOCOUNT ON added to prevent extra result sets from
+	-- interfering with SELECT statements.
+	SET NOCOUNT ON;
+SELECT 
+       [LinkID]
+      ,[LinkTitle]
+      ,[LinkUrl]
+      ,[IconClass]
+FROM [dbo].[SageSocialLinks] 
+WHERE [LinkID]=@LinkID
+END
+
+GO

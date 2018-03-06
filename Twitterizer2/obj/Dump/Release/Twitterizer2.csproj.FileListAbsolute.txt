@@ -1,0 +1,10 @@
+D:\Development\SageCloud\GIT Bijay\SageCMS Upgrate 2.0\sagecms-optimization\SageFrameV3.8\Release\net40\Twitterizer2.XML
+D:\Development\SageCloud\GIT Bijay\SageCMS Upgrate 2.0\sagecms-optimization\SageFrameV3.8\Release\net40\Twitterizer2.dll
+D:\Development\SageCloud\GIT Bijay\SageCMS Upgrate 2.0\sagecms-optimization\SageFrameV3.8\Release\net40\Twitterizer2.pdb
+D:\Development\SageCloud\GIT Bijay\SageCMS Upgrate 2.0\sagecms-optimization\SageFrameV3.8\Twitterizer2\obj\Release\Twitterizer2.dll
+D:\Development\SageCloud\GIT Bijay\SageCMS Upgrate 2.0\sagecms-optimization\SageFrameV3.8\Twitterizer2\obj\Release\Twitterizer2.pdb
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\Release\net40\Twitterizer2.XML
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\Release\net40\Twitterizer2.dll
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\Release\net40\Twitterizer2.pdb
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\Twitterizer2\obj\Release\Twitterizer2.dll
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\Twitterizer2\obj\Release\Twitterizer2.pdb

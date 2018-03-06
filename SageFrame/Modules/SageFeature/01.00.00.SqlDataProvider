@@ -1,0 +1,106 @@
+/****** Object:  Table [dbo].[SageFeature]    Script Date: 12/15/2016 2:43:03 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[SageFeature](
+	[FeatID] [int] IDENTITY(1,1) NOT NULL,
+	[Title] [nvarchar](250) NULL,
+	[Description] [nvarchar](500) NULL,
+	[IsActive] [bit] NULL,
+	[ImageName] [nvarchar](50) NULL,
+	[AddedOn] [date] NULL,
+	[AddedBy] [nvarchar](50) NULL,
+	[UpdatedOn] [date] NULL,
+	[UpdatedBy] [nvarchar](50) NULL,
+	[PortalID] [int] NOT NULL,
+	[UserModuleID] [int] NOT NULL,
+	[Culture] [nvarchar](50) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[FeatID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+
+
+
+/****** Object:  StoredProcedure [dbo].[usp_SageFeature_AddUpdate]    Script Date: 12/15/2016 2:37:25 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[usp_SageFeature_AddUpdate]
+ @FeatID int,
+ @Title nvarchar(250),
+ @Description nvarchar(500),
+ @IsActive bit,
+ @ImageName nvarchar(50),
+ @AddedBy nvarchar(50),
+ @PortalID int,
+ @UserModuleID int,
+ @Culture nvarchar(20)
+ AS 
+ BEGIN
+ IF @FeatID=0
+ BEGIN
+ INSERT INTO [dbo].[SageFeature]
+           ([Title]
+           ,[Description]
+           ,[IsActive]
+           ,[ImageName]
+           ,[AddedOn]
+           ,[AddedBy]
+           ,[PortalID]
+           ,[UserModuleID]
+           ,[Culture])
+     VALUES
+           (@Title,@Description,@IsActive,@ImageName,GETDATE(),@AddedBy,@PortalID,@UserModuleID,@Culture)
+ END
+ ELSE
+ BEGIN
+ UPDATE [dbo].[SageFeature]
+   SET 
+   [Title]=  @Title,
+   [Description]=  @Description,
+   [IsActive]=  @IsActive,
+   [ImageName]=  @ImageName,
+   [UpdatedOn]=  GETDATE(),
+   [UpdatedBy]=  @AddedBy 
+   WHERE  [FeatID]= @FeatID
+   END
+END
+GO
+
+CREATE PROCEDURE [dbo].[usp_SageFeature_GetByID]
+ @FeatID int 
+ AS SELECT FeatID,Title,Description,IsActive,ImageName from SageFeature WHERE FeatID= @FeatID
+
+GO
+
+CREATE PROCEDURE [dbo].[usp_SageFeature_DeleteByID]  
+@FeatID int AS  DELETE FROM [dbo].[SageFeature] WHERE  FeatID= @FeatID
+
+GO
+
+CREATE PROCEDURE [dbo].[usp_SageFeature_GetallData]
+  @PortalID int,
+  @UserModuleID int,
+  @Culture nvarchar(50) 
+  AS 
+ SELECT [FeatID]
+      ,[Title]
+      ,[Description]
+      ,[IsActive]
+      ,[ImageName]
+
+  FROM [dbo].[SageFeature]
+   WHERE PortalID = @PortalID AND UserModuleID = @UserModuleID AND Culture = @Culture
+
+GO
+
+

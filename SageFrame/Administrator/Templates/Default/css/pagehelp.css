@@ -1,0 +1,30 @@
+﻿.sfPageHelpHolder.sfCpanel {
+	text-align:left;
+	margin-top:15px;
+	border-top:solid 3px #f0c54c
+}
+.sfPageHelpHolder.sfCpanel:before{
+    content: '';
+    position: absolute;
+    top: -20px;
+    right: 27px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: transparent transparent #f0c54c transparent;
+}
+.sfBreadcrumb li:before{
+	display:none;
+}
+.sfBreadcrumb .sfCpanel li{
+	padding:0;
+}
+.sfBreadcrumb .sfCpanel ul{
+	margin-left:0;
+	width:100%;
+}
+.pageHelp:before{
+	font-family:FontAwesome;
+	content:"\f128";
+	margin-right:4px;
+}
+

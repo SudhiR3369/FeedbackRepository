@@ -1,0 +1,12 @@
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\GoogleAdUnit\bin\Release\SFE.GoogleAdUnit.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\GoogleAdUnit\bin\Release\SFE.GoogleAdUnit.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\GoogleAdUnit\obj\Release\SFE.GoogleAdUnit.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\GoogleAdUnit\obj\Release\SFE.GoogleAdUnit.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\GoogleAdUnit\bin\Release\SFE.GoogleAdUnit.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\GoogleAdUnit\bin\Release\SFE.GoogleAdUnit.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\GoogleAdUnit\obj\Release\SFE.GoogleAdUnit.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\GoogleAdUnit\obj\Release\SFE.GoogleAdUnit.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\GoogleAdUnit\bin\Release\SFE.GoogleAdUnit.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\GoogleAdUnit\bin\Release\SFE.GoogleAdUnit.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\GoogleAdUnit\obj\Release\SFE.GoogleAdUnit.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\GoogleAdUnit\obj\Release\SFE.GoogleAdUnit.pdb

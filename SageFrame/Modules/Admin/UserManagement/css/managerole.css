@@ -1,0 +1,56 @@
+﻿#divBindRolesList{
+    margin-top: 25px;
+    width: 100%;
+}
+
+#divBindRolesList > div{
+        flex:3;
+        -webkit-flex:3;
+        -moz-flex:3;
+  }
+
+.sfLeftdivB{
+    flex:1;
+    -webkit-flex:1;
+    -moz-flex:1;
+    max-width: 280px;
+}
+
+
+
+#divBindRolesList table tr td{
+    font-weight:500;
+    text-transform: none;
+}
+
+#divBindRolesList table tr:nth-child(odd){
+    background-color:rgba(0,0,0,.04)
+}
+
+
+label.sfFormlabel{
+    margin-bottom: 0px ;
+}
+.sfCpanel .sfButtonwrapper {
+    margin-top: 0;
+}
+
+
+.sfRadiobutton{
+    text-align: right;
+}
+.sfFormwrapper .sfTableWrapper table tr:first-child{
+    border-bottom:none !important;
+}
+.sfTableWrapper table tr:nth-child(even){
+    background:none;
+}
+.sfFormwrapper .sfTableWrapper table td, .sfFormwrapper .sfTableWrapper table td:first-child {padding:15px 40px 0 0;}
+.formKey label {
+    margin-bottom: 0;
+}
+
+
+
+
+

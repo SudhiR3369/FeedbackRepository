@@ -1,0 +1,24 @@
+H:\Final Templating Project\Blogs\BlogsViral\sagecms-optimization\SageFrameV3.8\SageFrame.Common\bin\Debug\SageFrame.Common.dll
+H:\Final Templating Project\Blogs\BlogsViral\sagecms-optimization\SageFrameV3.8\SageFrame.Common\bin\Debug\SageFrame.Common.pdb
+H:\Final Templating Project\Blogs\BlogsViral\sagecms-optimization\SageFrameV3.8\SageFrame.Common\obj\Debug\SageFrame.Common.dll
+H:\Final Templating Project\Blogs\BlogsViral\sagecms-optimization\SageFrameV3.8\SageFrame.Common\obj\Debug\SageFrame.Common.pdb
+H:\Final Templating Project\Blogs\BlogsViral\sagecms-optimization\SageFrameV3.8\SageFrame.Common\obj\Debug\SageFrame.Common.csprojResolveAssemblyReference.cache
+H:\Final Templating Project\Blogs\SageFrameForBlog\SageFrameForBlog\SageFrameV3.8\SageFrame.Common\bin\Debug\SageFrame.Common.dll
+H:\Final Templating Project\Blogs\SageFrameForBlog\SageFrameForBlog\SageFrameV3.8\SageFrame.Common\bin\Debug\SageFrame.Common.pdb
+H:\Final Templating Project\Blogs\SageFrameForBlog\SageFrameForBlog\SageFrameV3.8\SageFrame.Common\obj\Debug\SageFrame.Common.dll
+H:\Final Templating Project\Blogs\SageFrameForBlog\SageFrameForBlog\SageFrameV3.8\SageFrame.Common\obj\Debug\SageFrame.Common.pdb
+H:\Final Templating Project\Blogs\SageFrameForBlog\SageFrameForBlog\SageFrameV3.8\SageFrame.Common\obj\Debug\SageFrame.Common.csprojResolveAssemblyReference.cache
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.Common\bin\Debug\SageFrame.Common.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.Common\bin\Debug\SageFrame.Common.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.Common\obj\Debug\SageFrame.Common.csprojResolveAssemblyReference.cache
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.Common\obj\Debug\SageFrame.Common.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.Common\obj\Debug\SageFrame.Common.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Common\bin\Debug\SageFrame.Common.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Common\bin\Debug\SageFrame.Common.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Common\obj\Debug\SageFrame.Common.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Common\obj\Debug\SageFrame.Common.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Common\bin\Debug\SageFrame.Common.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Common\bin\Debug\SageFrame.Common.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Common\obj\Debug\SageFrame.Common.csprojResolveAssemblyReference.cache
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Common\obj\Debug\SageFrame.Common.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.Common\obj\Debug\SageFrame.Common.pdb

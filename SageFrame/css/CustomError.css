@@ -1,0 +1,101 @@
+﻿@import 'https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900';
+
+body{
+    width: 100%;
+    font-family: 'Work Sans',sans-serif;
+    background-image: url(images/loginbg.png);
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    display: table;
+    background-size: cover;
+    height: 100vh;
+}
+
+div.cssClassCustomErrorDiv
+{
+	width:40%;
+	margin:8% auto;
+    background: #fff;
+    box-shadow: rgba(0,0,0,.2) 0 0 15px;
+    padding: 50px;
+}
+.cssClassLogo {	float:left; width:328px; height:67px; background:url(../images/sageframe.png) no-repeat;}
+.cssClassLogo a { height:55px; display:block; text-indent:-6000px; display:block; }
+.cssClassPageNotFound {
+    margin: 0 auto;
+}
+.cssClassPNFDetails {
+    overflow: hidden;
+}
+h1 {
+    padding-top:40px; clear:both; text-transform:uppercase;
+    letter-spacing:-1.5px;
+    color:#ff524c;
+    font-weight: 300;
+    font-size: 40px;
+}
+h1 span {
+
+}
+p {
+    color: rgba(0,0,0,.6);
+    font-weight: 400;
+    margin: 0 0 5px;
+}
+
+.cssClassPagenotAccesiblebtn {
+    margin: 30px 0 0;
+    overflow: hidden;
+    padding: 0 0 18px;
+}
+.cssClassPagenotAccesiblebtn span {
+    background: url("images/btn_left.jpg") no-repeat scroll left top transparent;
+    float: left;
+    height: 24px;
+    padding: 0 0 0 13px;
+}
+.cssClassPagenotAccesiblebtn span a {
+    background: url("images/btn_right.jpg") no-repeat scroll right top transparent;
+    color: #FFFFFF;
+    float: left;
+    height: 24px;
+    padding: 0 10px 0 0;
+    text-decoration: none;
+}
+
+span a { display:inline-block; color:#5b53ef; text-decoration:none; text-transform:uppercase; }
+span a:hover { color:rgba(0,0,0,.7)}
+
+.cssClassPNFDetails p:first-child{
+    font-weight: 600;
+}
+
+span a{
+    display: block;
+    margin-top: 30px;
+}
+
+.cssClassPageNotFound,
+.cssClasspagenotAccesibleInfo{
+    background-image: url(images/404Img.png);
+    background-repeat: no-repeat;
+    background-position: 0 95px;
+    padding-left: 250px;
+    min-height: 300px;
+}
+
+.cssClasspagenotAccesibleInfo{
+    background-position: 0 115px;
+    background-image: url(images/denied.png);
+}
+
+.databaseError{
+    background-image: url(images/dbError.png);
+}
+
+.genericError{
+    background-image: url(images/genericError.png);
+}

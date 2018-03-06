@@ -1,0 +1,6 @@
+H:\SageFrameExtension Project\issRunning\Sage3_8_1\SageFrameV3.8_con\SageFrame.SageFeature\bin\Debug\SageFrame.SageFeature.dll
+H:\SageFrameExtension Project\issRunning\Sage3_8_1\SageFrameV3.8_con\SageFrame.SageFeature\bin\Debug\SageFrame.SageFeature.pdb
+H:\SageFrameExtension Project\issRunning\Sage3_8_1\SageFrameV3.8_con\SageFrame.SageFeature\bin\Debug\SageFrame.Common.dll
+H:\SageFrameExtension Project\issRunning\Sage3_8_1\SageFrameV3.8_con\SageFrame.SageFeature\bin\Debug\SageFrame.Common.pdb
+H:\SageFrameExtension Project\issRunning\Sage3_8_1\SageFrameV3.8_con\SageFrame.SageFeature\obj\Debug\SageFrame.SageFeature.dll
+H:\SageFrameExtension Project\issRunning\Sage3_8_1\SageFrameV3.8_con\SageFrame.SageFeature\obj\Debug\SageFrame.SageFeature.pdb

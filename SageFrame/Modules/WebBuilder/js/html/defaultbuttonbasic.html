@@ -1,0 +1,114 @@
+﻿<div class="field-row clearfix">
+    <h4>Basic Settings</h4>
+    <div class="field-row clearfix">
+        <label>Width</label>
+        <span class="value">
+            <div id="buttonWrapperSizeSlider">
+                <div id="buttonWrapperSizeHandle" class="ui-slider-handle">0</div>
+            </div>
+        </span>
+    </div>
+    <div class="field-row clearfix">
+        <label>Height</label>
+        <span class="value">
+            <div id="buttonWrapperHeightSlider">
+                <div id="buttonWrapperHeightHandle" class="ui-slider-handle">0</div>
+            </div>
+        </span>
+    </div>
+    <div class="field-row clearfix">
+        <label>Text size</label>
+        <span class="value">
+            <div id="buttonSizeSlider">
+                <div id="buttonSizeHandle" class="ui-slider-handle">0</div>
+            </div>
+        </span>
+    </div>
+    <div class="field-row clearfix">
+        <label>Text Color</label>
+        <span class="value">
+            <span class="color-picker-holder chooseButtonColor" id="buttonColor"></span>
+        </span>
+    </div>
+    <div class="field-row clearfix">
+        <label>Text Transform </label>
+        <span class="value">
+            <select id="buttonTextTransform">
+                <option value="">None</option>
+                <option value="editor-text-transform-uppercase">UPPERCASE</option>
+                <option value="editor-text-transform-lowercase">lowercase</option>
+            </select>
+        </span>
+    </div>
+    <div class="field-row clearfix">
+        <label>Enable Link </label>
+        <span class="value">
+            <input id="enableButtonLink" name="enable buttonLink" type="checkbox" />
+            <label for="enableButtonLink"><i class="icon-icon-tick"></i></label>
+        </span>
+    </div>
+    <div id="divEnableLink" style="display: none;">
+        <div class="field-row clearfix">
+            <label>External Link </label>
+            <span class="value">
+                <input id="enableExternalLink" name="enable buttonLink" type="checkbox" />
+                <label for="enableExternalLink"><i class="icon-icon-tick"></i></label>
+                <input style="display:none; max-width:140px; margin-top:0px;margin-bottom:0px;" placeholder="http://www.contentder.com" type="text" id="linkTextURL" value="" class="editor-com-outerSpacing-left-5" />
+                <select id="anchorPageList" style="display:none; width:140px;margin-right: 6px;"></select>
+            </span>
+        </div>
+    </div>
+    <div class="field-row clearfix">
+        <label>Enable text </label>
+        <span class="value">
+            <input id="enableButtonText" name="enable buttonLink" type="checkbox" />
+            <label for="enableButtonText"><i class="icon-icon-tick"></i></label>
+            <div id="divEnableText" style="display: none;">
+                <input style="width:140px;" type="text" id="buttonText" value="" class="editor-com-outerSpacing-left-5" />
+            </div>
+        </span>
+    </div>
+    <div class="field-row clearfix">
+        <label>Enable Icon </label>
+        <span class="value">
+            <input id="enableButtonIcon" name="enable button icon" type="checkbox" />
+            <label for="enableButtonIcon"><i class="icon-icon-tick"></i></label>
+        </span>
+    </div>
+    <div class="field-row clearfix" id="buttonIcon" style="display: none;">
+        <div class="clearfix">
+            <label></label>
+            <span class="">
+                <div class="clearfix">
+                    <div class="clearfix">
+                        <label>
+                            Icon Before Text
+                        </label>
+                        <span class="value">
+                            <input id="linkBeforeText" name="enable linkBefore text" type="checkbox" />
+                            <label for="linkBeforeText"><i class="icon-icon-tick"></i></label>
+                        </span>
+                    </div>
+                </div>
+                <div class="clearfix">
+                    <h4>Change Icon</h4>
+                    <div>
+                        <div class="fontIconCollection">
+                            <div class="field-row clearfix">
+                                <div class="clearfix">
+                                    <span class="value">
+                                        <label>Search Icons</label>
+                                        <input type="text" id="buttonSearchIcon" />
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="field-row clearfix">
+                                <ul id="buttonfontIconCollection" class="fontIconCollection"></ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </span>
+        </div>
+    </div>
+</div>

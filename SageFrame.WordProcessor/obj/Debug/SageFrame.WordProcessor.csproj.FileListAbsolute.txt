@@ -1,0 +1,53 @@
+D:\Git Repo\SageCMS Optimization\SageFrameV3.8\SageFrame.WordProcessor\obj\Debug\SageFrame.WordProcessor.csprojResolveAssemblyReference.cache
+D:\Git Repo\SageCMS Optimization\SageFrameV3.8\SageFrame.WordProcessor\bin\Debug\dlls\DocumentFormat.OpenXml.dll
+D:\Git Repo\SageCMS Optimization\SageFrameV3.8\SageFrame.WordProcessor\bin\Debug\dlls\OpenXmlPowerTools.dll
+D:\Git Repo\SageCMS Optimization\SageFrameV3.8\SageFrame.WordProcessor\bin\Debug\dlls\System.IO.Packaging.dll
+D:\Git Repo\SageCMS Optimization\SageFrameV3.8\SageFrame.WordProcessor\bin\Debug\SageFrame.WordProcessor.dll
+D:\Git Repo\SageCMS Optimization\SageFrameV3.8\SageFrame.WordProcessor\bin\Debug\SageFrame.WordProcessor.pdb
+D:\Git Repo\SageCMS Optimization\SageFrameV3.8\SageFrame.WordProcessor\bin\Debug\DocumentFormat.OpenXml.dll
+D:\Git Repo\SageCMS Optimization\SageFrameV3.8\SageFrame.WordProcessor\bin\Debug\OpenXmlPowerTools.dll
+D:\Git Repo\SageCMS Optimization\SageFrameV3.8\SageFrame.WordProcessor\bin\Debug\System.IO.Packaging.dll
+D:\Git Repo\SageCMS Optimization\SageFrameV3.8\SageFrame.WordProcessor\obj\Debug\SageFrame.WordProcessor.dll
+D:\Git Repo\SageCMS Optimization\SageFrameV3.8\SageFrame.WordProcessor\obj\Debug\SageFrame.WordProcessor.pdb
+D:\SAAS\SageCloudProductV3\SageFrameV3.8\SageFrame.WordProcessor\bin\Debug\dlls\DocumentFormat.OpenXml.dll
+D:\SAAS\SageCloudProductV3\SageFrameV3.8\SageFrame.WordProcessor\bin\Debug\dlls\OpenXmlPowerTools.dll
+D:\SAAS\SageCloudProductV3\SageFrameV3.8\SageFrame.WordProcessor\bin\Debug\dlls\System.IO.Packaging.dll
+D:\SAAS\SageCloudProductV3\SageFrameV3.8\SageFrame.WordProcessor\bin\Debug\SageFrame.WordProcessor.dll
+D:\SAAS\SageCloudProductV3\SageFrameV3.8\SageFrame.WordProcessor\bin\Debug\SageFrame.WordProcessor.pdb
+D:\SAAS\SageCloudProductV3\SageFrameV3.8\SageFrame.WordProcessor\bin\Debug\DocumentFormat.OpenXml.dll
+D:\SAAS\SageCloudProductV3\SageFrameV3.8\SageFrame.WordProcessor\bin\Debug\OpenXmlPowerTools.dll
+D:\SAAS\SageCloudProductV3\SageFrameV3.8\SageFrame.WordProcessor\bin\Debug\System.IO.Packaging.dll
+D:\SAAS\SageCloudProductV3\SageFrameV3.8\SageFrame.WordProcessor\obj\Debug\SageFrame.WordProcessor.dll
+D:\SAAS\SageCloudProductV3\SageFrameV3.8\SageFrame.WordProcessor\obj\Debug\SageFrame.WordProcessor.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.WordProcessor\bin\Debug\dlls\DocumentFormat.OpenXml.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.WordProcessor\bin\Debug\dlls\OpenXmlPowerTools.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.WordProcessor\bin\Debug\dlls\System.IO.Packaging.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.WordProcessor\bin\Debug\SageFrame.WordProcessor.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.WordProcessor\bin\Debug\SageFrame.WordProcessor.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.WordProcessor\bin\Debug\DocumentFormat.OpenXml.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.WordProcessor\bin\Debug\OpenXmlPowerTools.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.WordProcessor\bin\Debug\System.IO.Packaging.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.WordProcessor\obj\Debug\SageFrame.WordProcessor.csprojResolveAssemblyReference.cache
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.WordProcessor\obj\Debug\SageFrame.WordProcessor.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.WordProcessor\obj\Debug\SageFrame.WordProcessor.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WordProcessor\bin\Debug\dlls\DocumentFormat.OpenXml.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WordProcessor\bin\Debug\dlls\OpenXmlPowerTools.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WordProcessor\bin\Debug\dlls\System.IO.Packaging.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WordProcessor\bin\Debug\SageFrame.WordProcessor.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WordProcessor\bin\Debug\SageFrame.WordProcessor.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WordProcessor\bin\Debug\DocumentFormat.OpenXml.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WordProcessor\bin\Debug\OpenXmlPowerTools.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WordProcessor\bin\Debug\System.IO.Packaging.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WordProcessor\obj\Debug\SageFrame.WordProcessor.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WordProcessor\obj\Debug\SageFrame.WordProcessor.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WordProcessor\bin\Debug\dlls\DocumentFormat.OpenXml.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WordProcessor\bin\Debug\dlls\OpenXmlPowerTools.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WordProcessor\bin\Debug\dlls\System.IO.Packaging.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WordProcessor\bin\Debug\SageFrame.WordProcessor.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WordProcessor\bin\Debug\SageFrame.WordProcessor.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WordProcessor\bin\Debug\DocumentFormat.OpenXml.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WordProcessor\bin\Debug\OpenXmlPowerTools.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WordProcessor\bin\Debug\System.IO.Packaging.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WordProcessor\obj\Debug\SageFrame.WordProcessor.csprojResolveAssemblyReference.cache
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WordProcessor\obj\Debug\SageFrame.WordProcessor.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.WordProcessor\obj\Debug\SageFrame.WordProcessor.pdb

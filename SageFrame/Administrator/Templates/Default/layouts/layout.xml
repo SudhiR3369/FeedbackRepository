@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layout name="layout5">
+  <section name="top">
+    <placeholder name="dashboardSideNav">dashboardSideNav</placeholder>
+    <placeholder name="navigation">navigation</placeholder>
+    <placeholder name="message">message</placeholder>
+    <placeholder name="toppane" width="80">toppane, topfiveCountry</placeholder>
+  </section>
+  
+  <section name="sfContent" colwidth="50">
+    <placeholder name="LeftA">LeftA</placeholder>
+    <placeholder name="middlemaincurrent">middlemaincurrent</placeholder>
+  </section>
+   <section name="HalfColContent">
+    <placeholder colwidth="50" name="Left50">Left50</placeholder>
+    <placeholder colwidth="50" name="Right50">Right50</placeholder>
+  </section>
+  <section name="bottom">
+    <placeholder name="cpanel">cpanel</placeholder>
+  </section>
+</layout>

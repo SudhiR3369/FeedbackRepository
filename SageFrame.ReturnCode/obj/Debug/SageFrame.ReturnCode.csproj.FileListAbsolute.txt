@@ -1,0 +1,19 @@
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\SageFrame.ReturnCode\bin\Debug\SageFrame.ReturnCode.dll
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\SageFrame.ReturnCode\bin\Debug\SageFrame.ReturnCode.pdb
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\SageFrame.ReturnCode\obj\Debug\SageFrame.ReturnCode.csprojResolveAssemblyReference.cache
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\SageFrame.ReturnCode\obj\Debug\SageFrame.ReturnCode.dll
+D:\Git Repo\SageFrame Optimization\SageFrameV3.8\SageFrame.ReturnCode\obj\Debug\SageFrame.ReturnCode.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.ReturnCode\bin\Debug\SageFrame.ReturnCode.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.ReturnCode\bin\Debug\SageFrame.ReturnCode.pdb
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.ReturnCode\obj\Debug\SageFrame.ReturnCode.csprojResolveAssemblyReference.cache
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.ReturnCode\obj\Debug\SageFrame.ReturnCode.dll
+H:\Sage Frame New 4.0\latestOptimization\sagecms-optimization\SageFrameV3.8\SageFrame.ReturnCode\obj\Debug\SageFrame.ReturnCode.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.ReturnCode\bin\Debug\SageFrame.ReturnCode.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.ReturnCode\bin\Debug\SageFrame.ReturnCode.pdb
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.ReturnCode\obj\Debug\SageFrame.ReturnCode.dll
+E:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.ReturnCode\obj\Debug\SageFrame.ReturnCode.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.ReturnCode\bin\Debug\SageFrame.ReturnCode.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.ReturnCode\bin\Debug\SageFrame.ReturnCode.pdb
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.ReturnCode\obj\Debug\SageFrame.ReturnCode.csprojResolveAssemblyReference.cache
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.ReturnCode\obj\Debug\SageFrame.ReturnCode.dll
+I:\Development\sageframe as product\WEBBUILDER GIT\ZIP EASYBUILDER\SageFrameV3.8\SageFrame.ReturnCode\obj\Debug\SageFrame.ReturnCode.pdb

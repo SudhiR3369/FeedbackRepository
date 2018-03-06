@@ -1,0 +1,282 @@
+﻿    //MyCustomCanvas: function () {
+            //    var html = '';
+            //    html += '<div>';
+            //    html += '    <h4>Social Media Likes Accumulation Report</h4>';
+            //    html += '    <label>Attribute Type: Likes</label>';
+            //    html += '    <div class="wrapheader">';
+            //    html += '       <ul class="graphItems"></ul>';
+            //    html += '       <label class="sfFormlabel">Start Date :</label>';
+            //    html += '       <input type="text" id="txtStartDate" name="txtStartDate" style="width:200px" class="sfInputBox" />';
+            //    html += '       <label class="sfFormlabel">End Date :</label>';
+            //    html += '       <input type="text" id="txtEndDate" name="txtEndDate" style="width:200px" class="sfInputBox" />';
+            //    html += '       <button type="button" id="btnSearch" class="sfBtn search_icon_btn transition">';
+            //    html += '           <i class="icon-search"></i>';
+            //    html += '       </button>';
+            //    html += '    </div>';
+            //    html += '    <div id="customcanvas" data-graphtype="like" class="divGraphDroppable customcanvas">';
+            //    html += '      </div>';
+            //    html += '</div>';
+            //    $('.divGraphContainer').append(html);
+            //},
+
+
+//var canvas = document.getElementById('customcanvas');
+//var ctx = canvas.getContext('2d');
+//ctx.beginPath();
+//ctx.arc(95, 50, 40, 0, 2 * Math.PI);
+//ctx.stroke();
+
+//ctx.fillStyle = "#FF0000";
+//ctx.fillRect(0, 0, 150, 75);
+//rgba(0, 0, 0, .2);
+
+
+ //d.toLocaleString();           //"7/25/2016, 1:35:07 PM"
+ //d.toLocaleDateString();       //"7/25/2016"
+ //d.toDateString();             //"Mon Jul 25 2016"
+ //d.toTimeString();             //"13:35:07 GMT+0530 (India Standard Time)"
+ //d.toLocaleTimeString();      //"1:35:07 PM"
+
+    //var canvas;
+    //var context;
+    //var Val_max;
+    //var Val_min;
+    //var sections;
+    //var xScale;
+    //var yScale;
+
+    // Values for the Data Plot, they can also be obtained from a external file
+    //var facebook = [100, 102, 87, , 100, 123, 100, 90, 87, 91, 93, 88];
+    //var twitter = [30, 50, 70, 80, 90, 100, 95, 91, 85, 92, 99, 130];
+    //var google = [20, -10, -20, -25, -40, 5, 10, 28, 30, 43, 65, 80];
+
+
+    //AddTemporaryGraph: function () {
+            //    var html = '';
+            //    html += '<canvas id="cvGraph" class="pcgraph"></canvas>';
+            //    $('.divGraphContainer').append(html);
+
+
+            //    var facebookLikes = [2, 45, 34, 56, 64, 66, 102, 450, 18, 22];
+            //    var twitterLikes = [22, 56, 78, 204, 57, 12, 66, 41, 56, 89];
+            //    var linkedIDLikes = [2, 56, 104, 22, 43, 7, 11, 26, 78, 222];
+
+
+            //    sections = 12;
+            //    Val_max = 130;
+            //    Val_min = -40;
+            //    var stepSize = 10;
+            //    var columnSize = 50;
+            //    var rowSize = 50;
+            //    var margin = 10;
+            //    var xAxis = [" ", "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
+            //    //
+
+            //    canvas = document.getElementById("cvGraph");
+            //    context = canvas.getContext("2d");
+            //    context.fillStyle = "#0099ff"
+            //    context.font = "20 pt Verdana"
+
+            //    yScale = (canvas.height - columnSize - margin) / (Val_max - Val_min);
+            //    xScale = (canvas.width - rowSize) / sections;
+
+            //    context.strokeStyle = "#009933"; // color of grid lines
+            //    context.beginPath();
+            //    // print Parameters on X axis, and grid lines on the graph
+            //    for (i = 1; i <= sections; i++) {
+            //        var x = i * xScale;
+            //        context.fillText(xAxis[i], x, columnSize - margin);
+            //        context.moveTo(x, columnSize);
+            //        context.lineTo(x, canvas.height - margin);
+            //    }
+            //    // print row header and draw horizontal grid lines
+            //    var count = 0;
+            //    for (scale = Val_max; scale >= Val_min; scale = scale - stepSize) {
+            //        var y = columnSize + (yScale * count * stepSize);
+            //        context.fillText(scale, margin, y + margin);
+            //        context.moveTo(rowSize, y)
+            //        context.lineTo(canvas.width, y)
+            //        count++;
+            //    }
+            //    context.stroke();
+
+            //    context.translate(rowSize, canvas.height + Val_min * yScale);
+            //    context.scale(1, -1 * yScale);
+
+            //    // Color of each dataplot items
+
+            //    context.strokeStyle = "#FF0066";
+            //    MediaPerformaceCounter.PlotData(facebookLikes);
+            //    context.strokeStyle = "#9933FF";
+            //    MediaPerformaceCounter.PlotData(twitterLikes);
+            //    context.strokeStyle = "#000";
+            //    MediaPerformaceCounter.PlotData(linkedIDLikes);
+
+
+            //},
+
+            //AddTemporaryGraphSecond: function () {
+
+            //    var html = '';
+            //    html += '<div>';
+            //    html += '    <h4>Social Media Likes Accumulation Report</h4>';
+            //    html += '<label>Attribute Type: Likes</label>';
+            //    html += '    <div class="wrapheader">';
+            //    html += '     <ul class="graphItems"></ul>';
+            //    html += '    </div>';
+            //    html += '    <canvas id="canvasLine" data-graphtype="like" class="divGraphDroppable" height="500" width="550px"></canvas>';
+            //    html += '</div>';
+
+            //    $('.divGraphContainer').append(html);
+
+            //    // set these values for your data 
+            //    sections = 12;
+            //    Val_max = 130;
+            //    Val_min = -40;
+            //    var stepSize = 10;
+            //    var columnSize = 50;
+            //    var rowSize = 50;
+            //    var margin = 10;
+            //    var xAxis = ["", "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
+
+            //    canvas = document.getElementById("canvasLine");
+            //    context = canvas.getContext("2d");
+            //    context.fillStyle = "#0099ff"
+            //    context.font = "20 pt Verdana"
+
+            //    yScale = (canvas.height - columnSize - margin) / (Val_max - Val_min);
+            //    xScale = (canvas.width - rowSize) / sections;
+
+            //    context.strokeStyle = "#009933"; // color of grid lines
+            //    context.beginPath();
+            //    // print Parameters on X axis, and grid lines on the graph
+
+            //    for (i = 1; i <= sections; i++) {
+            //        var x = i * xScale;
+            //        context.fillText(xAxis[i], x, columnSize - margin);
+            //        context.moveTo(x, columnSize);
+            //        context.lineTo(x, canvas.height - margin);
+            //    }
+
+            //    // print row header and draw horizontal grid lines
+            //    var count = 0;
+            //    for (scale = Val_max; scale >= Val_min; scale = scale - stepSize) {
+            //        var y = columnSize + (yScale * count * stepSize);
+            //        context.fillText(scale, margin, y + margin);
+            //        context.moveTo(rowSize, y)
+            //        context.lineTo(canvas.width, y)
+            //        count++;
+            //    }
+            //    context.stroke();
+            //    context.translate(rowSize, canvas.height + Val_min * yScale);
+            //    context.scale(1, -1 * yScale);
+            //    // Color of each dataplot items
+            //    context.strokeStyle = "#FF0066";
+            //    MediaPerformaceCounter.PlotData(facebook);
+            //    context.strokeStyle = "#9933FF";
+            //    MediaPerformaceCounter.PlotData(twitter);
+            //    context.strokeStyle = "#000";
+            //    MediaPerformaceCounter.PlotData(google);
+            //},
+
+
+
+//CheckGraphCompatibility: function () {
+
+//    var isCompatible = false;
+//    MediaPerformaceCounter.config.url = MediaPerformaceCounter.config.baseURL + "LoadMediaPerformaceCounter";
+//    MediaPerformaceCounter.config.data = JSON.stringify({ userModuleID: this.config.userModuleID });
+//    MediaPerformaceCounter.config.ajaxCallMode = function (data) {
+
+//    },
+//    MediaPerformaceCounter.config.async = false;
+//    MediaPerformaceCounter.ajaxCall(MediaPerformaceCounter.config);
+//},
+
+
+
+
+
+
+(function ($) {
+
+    var canvas;
+    var context;
+    var Val_max;
+    var Val_min;
+    var sections;
+    var xScale;
+    var yScale;
+
+    $.DynamixPlot = function (p) {
+        p = $.extend({
+            modulePath: '', DataObj: '', portalID: 0, userModuleID: ''
+        }, p);
+
+        DynamixPlot = {
+
+            Init: function () {
+                sections = 12;
+                Val_max = 130;
+                Val_min = -40;
+                var stepSize = 10;
+                var columnSize = 50;
+                var rowSize = 50;
+                var margin = 10;
+            },
+
+            PlotLine: function (dataSet) {
+                context.beginPath();
+                context.moveTo(0, dataSet[0]);
+                for (i = 1; i < sections; i++) {
+                    context.lineTo(i * xScale, dataSet[i]);
+                }
+                context.stroke();
+            }
+        }
+        DynamixPlot.Init();
+    }
+
+    $.fn.plotGraph = function (p) {
+        $.DynamixPlot(p);
+    };
+})(jQuery);
+
+
+
+
+    DisplayGraphFlyer: function (caller) {
+
+                newPerformanceObjectType = "graph";
+
+                if (attributeTypes) {
+                    $('.sfDivFlying .settingsElement').empty();
+                    $('#divFlyingLabel').html('Enter a Graph title :');
+                    $('.hNewItem').html('Add a new graph');
+
+                    var html = '';
+                    html += '<input type="text" class="txtGraphTitle" />';
+
+                    html += '<span>Filter Type :</span>';
+
+                    html += '<select class="selFilterType">';
+                    html += '    <option value="0">Select a Filter Type</option>';
+
+                    for (var attributeType = 0; attributeType < attributeTypes.length; attributeType++) {
+                        html += '    <option value="' + attributeTypes[attributeType].MediaAttributeID + '">' + attributeTypes[attributeType].MediaAttributeName + '</option>';
+                    }
+                    html += '</select>';
+
+
+                    debugger;
+                    $('.sfDivFlying .settingsElement').html(html);
+
+                    MediaPerformaceCounter.LoadFlyer(caller);
+
+                } else {
+                    // NO SETTINGS FOUND
+                }
+
+            },

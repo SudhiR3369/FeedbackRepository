@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<package>
+  <files path="\tempextractor">
+    <file path="LogoView.ascx"></file>
+    <file path="LogoSetting.ascx"></file>
+  </files>
+  <dlls>
+    <dll>newnew.dll</dll>
+  </dlls>
+  <datasql>
+    <sql>3-sql</sql>
+    <storeprocedure>usp_test_one</storeprocedure>
+    <paramkey>@siteID</paramkey>
+    <paramvalue>0</paramvalue>
+  </datasql>
+</package>
