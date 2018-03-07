@@ -5781,6 +5781,7 @@ function UpdateSettings() {
     });
 }
 
+
 //FeedBack ko kei rahasyamaya kura haru
     (function($){
         $.Feedback = function (p) {
@@ -5790,37 +5791,39 @@ function UpdateSettings() {
                   UserModuleID: '1'
               }, p);
         
-      
+
         
-        var Feedback = {
-            config :{
-                async: false,
-                cache: false,
-                type: 'POST',
-                contentType: "application/json; charset=utf-8",
-                data: '{}',
-                dataType: 'json',
-                method: "",
-                url: "http://172.18.12.119:8090/Modules/WebBuilder/services/Feedback.asmx/",
-                ajaxCallMode: 0,
-                //  baseURL: SageFrameAppPath + '/Modules/Registration/WebService/RegistrationService.asmx/',
-                // Path: SageFrameAppPath + '/Modules/Registration/',
-                PortalID: SageFramePortalID,
-                UserName: SageFrameUserName,
+            var Feedback = {
+                config :{
+                    async: false,
+                    cache: false,
+                    type: 'POST',
+                    contentType: "application/json; charset=utf-8",
+                    data: '{}',
+                    dataType: 'json',
+                    method: "",
+                    url: "http://172.18.12.119:8090/Modules/WebBuilder/services/Feedback.asmx/",
+                    ajaxCallMode: 0,
+                    //  baseURL: SageFrameAppPath + '/Modules/Registration/WebService/RegistrationService.asmx/',
+                    // Path: SageFrameAppPath + '/Modules/Registration/',
+                    PortalID: SageFramePortalID,
+                    UserName: SageFrameUserName,
        
-                SecureToken: SageFrameSecureToken,
-                ID: 0,
-                //ProfileImageName: '',
-            },
+                    SecureToken: SageFrameSecureToken,
+                    ID: 0,
+                    //ProfileImageName: '',
+                },
                 
 
-            Init: function () {
-                Feedback.SelectOption();
-                Feedback.UIEvent();
-                
-            },
+                Init: function () {
+                    //Feedback.GetAllFeedback();
+                    //Feedback.SelectOption();
+                    //Feedback.SearchFeedList();
+                    Feedback.UIEvent();
+                    Feedback.GetResult();
+                },
 
-            UIEvent: function(){
+                UIEvent: function () {
                 $('#btnFeedback').bind('click', ToggleDisplay);
                 function ToggleDisplay() {    
                     if ($('#divFeedbackForm').data('shown'))
@@ -5861,8 +5864,73 @@ function UpdateSettings() {
                     Feedback.ClearFeedbackForm();
                 });
 
-            },    
-                   
+            },
+            
+
+            GetResult:function(){
+                var dataObject={
+                    SortName:'',
+                    SortOrder: '',
+                    Keyword:'',
+                    PageSize:'10',
+                    PageNumber:'1',
+                    StartDate:'1753-01-01',
+                    EndDate:'9999-12-31'
+                }
+                Feedback.GetAllFeedback(dataObject);
+                $('#sortName').off().on('change', function () {
+                    sortName = $(this).val();
+                    $('#sortOrder').hide();
+                    if (sortName !== "pleaseSelect") {
+                        dataObject.SortName = sortName;
+                        Feedback.GetAllFeedback(dataObject);
+                        $('#sortOrder').show();
+                    }
+                });
+                $('#sortOrder').off().on('change', function () {
+                    dataObject.SortOrder = $(this).val();
+                    Feedback.GetAllFeedback(dataObject);
+                });
+                $('#keyword_Submit').off().on('click', function () {
+                    var keyword = $('#keyword').val();
+                    if (keyword !== "NULL") {
+                        dataObject.Keyword = keyword;
+                        Feedback.GetAllFeedback(dataObject);
+                        $('#keyword').val('');
+                    }
+                });
+                $('#pageSize').off().on('change', function () {
+                    var pageSize = $(this).val();
+                    if(typeof(pageSize!=="undefined" && pageSize!==null))
+                    {
+                        dataObject.PageSize = pageSize;
+                        Feedback.GetAllFeedback(dataObject);
+                    }
+                });
+                $('#startDate').datepicker();//.datepicker("setDate", new Date());
+                $('#startDate').change(function () {
+                    var startdate = $(this).val();
+                    if (typeof (startdate) !== "undefined") {
+                        dataObject.StartDate = startdate;
+                    }
+                });
+                $('#endDate').datepicker();//.datepicker("setDate", new Date());
+                $('#endDate').change(function () {
+                    var endDate = $(this).val();
+                    if (endDate !== null && typeof (endDate) !== "undefined") {
+                        dataObject.EndDate = endDate;
+                    }
+                });
+                $('#btn_dateSubmit').off().on('click', function () {
+                    Feedback.GetAllFeedback(dataObject);
+                });
+                $('#markasread').on('click', function () {
+                    $('#eachrow').css({
+                        "font-weight": ""
+                    });
+                    $('#markasread').attr("<i>", '');
+                })
+            },
             SubmitFeedBack: function() {
                 Feedback.config.method = "InsertFeedback"
                 var Submit = {
@@ -5885,69 +5953,16 @@ function UpdateSettings() {
                 Feedback.config.ajaxCallMode = 3;
                 Feedback.ajaxCall(Feedback.config);
             },
-            SelectOption: function () {
-                var sortName = '';
-                var sortOrder = '';
-                $('#sortName').off().on('change', function () {
-                    if ($('#sortName option:selected').val() != 'selectName') { $('#sortOrder').show(); }
-                    else
-                    {
-                        $('#sortOrder').hide();
-                    }
-                   
-                    sortName = $(this).val();
-                    Feedback.GetAllFeedback(sortName, sortOrder);
-                });
 
-            
-                $('#sortOrder').off().on('change', function () {
-                    sortOrder = $(this).val();
-                    Feedback.GetAllFeedback(sortName, sortOrder);
-                })
-                Feedback.GetAllFeedback(sortName, sortOrder);
-            },
-
-            GetAllFeedback: function (sortName,sortOrder) {
-                Feedback.config.method = "GetAllFeedbacks";
-           
+            GetAllFeedback: function (data) {
+                Feedback.config.method = "GetResult";
+                
                 Feedback.config.data = JSON.stringify({
-                   
-                        SortName:sortName,
-                        SortOrder:sortOrder
-                    
+                   data:data
                 })
               
                 Feedback.config.ajaxCallMode = 1;
                 Feedback.ajaxCall(Feedback.config);
-            },
-
-            //Feedback List Starts Here
-            BindFeedbackList: function (data) {
-                var feedbackList = data.d;
-                var html = '';
-                if (feedbackList.length > 0) {
-                    var i = 1;
-                    $.each(feedbackList, function (index, item) {
-                       
-                        html += '<tr>'
-                        html += '<td>' + i + '</td>';
-                        html += '<td>' + item.Name + '</td>';
-                        html += '<td>' + item.EmailID + '</td>';
-                        html += '<td>' + item.Category + '</td>';
-                        html += '<td>' + item.Title + '</td>';
-                        html += '<td>' + item.Description + '</td>';
-                        html += '<td>' + item.Domain + '</td>';
-                        html += '<td>' + item.SentBy + '</td>';
-                        html += '<td>' + new Date(parseInt(item.ReceivedOn.substr(6))) + '</td>';
-                        html += '<td>' + item.Rating + '</td>';
-                        html += '</tr>';
-                        i++;
-                    });
-                }
-                else {
-                    html += '<tr><td colspan="7"><h3>No Data to Display DumbAss.</h3></td></tr>';
-                }
-                $('#tblBdyFeedbackList').html(html);
             },
 
             ajaxCall: function(config){
@@ -5973,16 +5988,11 @@ function UpdateSettings() {
                     case 2:
                         {
                             alert("yeta filter gareko function call garne");
-                      
-                            
                             break
                         }
                     case 3:
                         {
-                            alert("Feedback Added Successfully!!");
-                            Feedback.SelectOption();
-                            Feedback.ClearFeedbackForm();
-                            break;
+                            alert("Feedback Added Successfully!!")
                         }
                 }
             },
@@ -5999,9 +6009,35 @@ function UpdateSettings() {
             //Feedback Form Ends Here
 
 
-          
+            //Feedback List Starts Here
       
-     
+            BindFeedbackList: function (data) {
+                var feedbackList = data.d;
+                var html = '';
+                if (feedbackList.length > 0) {
+                    var i = 1;
+                    $.each(feedbackList, function (index, item) {
+                        html += '<tr id="eachrow" style="font-weight:bold;">'
+                        html += '<td>' + i + '</td>';
+                        html += '<td>' + item.Name + '</td>';
+                        html += '<td>' + item.EmailID + '</td>';
+                        html += '<td>' + item.Category + '</td>';
+                        html += '<td>' + item.Title + '</td>';
+                        html += '<td>' + item.Description + '</td>';
+                        html += '<td>' + item.Domain + '</td>';
+                        html += '<td>' + item.SentBy + '</td>';
+                        html += '<td>' + item.ReceivedDate + '</td>';
+                        html += '<td>' + item.Rating + '</td>'
+                        html += '<td><button type="button" id="markasread" name="Mark as Read"><i class="fa fa-check"></i></button></td>';
+                        html += '</tr>';
+                        i++;
+                    });
+                }
+                else {
+                    html += '<tr><td colspan="7"><h3>No Data to Display DumbAss.</h3></td></tr>';
+                }
+                $('#tbl_feedbacklist').html(html);
+            }
         }
         Feedback.Init();
     }

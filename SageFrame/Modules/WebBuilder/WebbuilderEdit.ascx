@@ -453,7 +453,6 @@
                         <option value="2">Something is not right.</option>
                         <option value="3">Not Good</option>
                     </select>
-                </td>
             </tr>
 
             <tr>
@@ -486,53 +485,71 @@
     </div>
 
 </div>
+<div>
+    <button id="test">hello</button>
+</div>
 
 <%--FeedBack List--%>
 <div id="divFeedbackList" class="sfFeedbackList">
 
     <div>
-        <h1 style="margin-left: 50px; margin-right: auto;">Registered Feedbacks </h1>
+        <h3>Registered Feedbacks </h3>
     </div>
 
     <div id="divFeedbackListTableWrap" class="sfGridwrapper">
         <table>
-            <tr>
-                <td><h3>Sorting</h3></td>
-                <td>
-                    <select id="sortName">
-                        <option value="selectName"><--Select Sort Name--></option>
-                        <option value="Name">Name</option>
-                        <option value="Date">Date</option>
-                    </select>
-                </td>
-                <td>
-                    <select id="sortOrder" style="display:none">
-                        <option value="selectOrder" ><--Select Sort Order--></option>
-                        <option value="Ascending">Ascending</option>
-                        <option value="Descending">Descending</option>
-                    </select>
-                </td>
-             
-            </tr>
-        </table>
-
-
-        <table>
             <thead>
                 <tr>
-                    <th>S.N</th>
-                    <th>Name</th>
-                    <th>EmailID</th>
-                    <th>Category</th>
-                    <th>Title</th>
-                    <th>Description</th>
-                    <th>Domain</th>
-                    <th>SentBy</th>
-                    <th>Received on</th>
-                    <th>Rating</th>
+                    <td>S.N</td>
+                    <td>Name</td>
+                    <td>EmailID</td>
+                    <td>Category</td>
+                    <td>Title</td>
+                    <td>Description</td>
+                    <td>Domain</td>
+                    <td>SentBy</td>
+                    <td>Received on</td>
+                    <td>Rating</td>
+                </tr>
+                <tr>
+                    <td>Sort By</td>
+                    <td>
+                        <select id="sortName">
+                            <option value="pleaseSelect">--Select Category--</option>
+                            <option value="Name">Name</option>
+                            <option value="date">Date</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select id="sortOrder" style="display:none;">
+                            <option value="keihoina">--Select Order--</option>
+                            <option value="ascending">Ascending</option>
+                            <option value="descending">Descending</option>
+                        </select>
+                    </td>
+                    <td>
+                        <input type="text" id="keyword" name="Search" />
+                        <button type="button" id="keyword_Submit">Submit</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <select id="pageSize">
+                            <option value="5">5</option>
+                            <option value="10">10</option>
+                            <option value="15">15</option>
+
+                        </select>
+                    </td>
+                    <td>
+                        StartDate:
+                        <input type="date" id="startDate" />
+                        EndDate:
+                        <input type="date" id="endDate" />
+                    </td>
                 </tr>
             </thead>
-            <tbody id="tblBdyFeedbackList">
+            <tbody id="tbl_feedbacklist">
             </tbody>
         </table>
     </div>
