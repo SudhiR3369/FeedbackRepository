@@ -495,23 +495,8 @@
     <div>
         <h3>Registered Feedbacks </h3>
     </div>
-
-    <div id="divFeedbackListTableWrap" class="sfGridwrapper">
-        <table>
-            <thead>
-                <tr>
-                    <td>S.N</td>
-                    <td>Name</td>
-                    <td>EmailID</td>
-                    <td>Category</td>
-                    <td>Title</td>
-                    <td>Description</td>
-                    <td>Domain</td>
-                    <td>SentBy</td>
-                    <td>Received on</td>
-                    <td>Rating</td>
-                </tr>
-                <tr>
+    <div>
+            <tr>
                     <td>Sort By</td>
                     <td>
                         <select id="sortName">
@@ -528,7 +513,7 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" id="keyword" name="Search" />
+                        <input type="text" id="keyword"  Name="Search" />
                         <button type="button" id="keyword_Submit">Submit</button>
                     </td>
                 </tr>
@@ -542,12 +527,34 @@
                         </select>
                     </td>
                     <td>
+                        
                         StartDate:
-                        <input type="date" id="startDate" />
+                        <input type="text" id="startDate"  />
+                            
                         EndDate:
-                        <input type="date" id="endDate" />
+                        <input type="text" id="endDate" />
+                        <button type="button" id="btn_dateSubmit">Submit</button>
                     </td>
                 </tr>
+    </div>
+
+    <div id="divFeedbackListTableWrap" class="sfGridwrapper">
+        <table style="width:80%">
+            <thead>
+                <tr>
+                    <td>S.N</td>
+                    <td>Name</td>
+                    <td>EmailID</td>
+                    <td>Category</td>
+                    <td>Title</td>
+                    <td>Description</td>
+                    <td>Domain</td>
+                    <td>SentBy</td>
+                    <td>Received on</td>
+                    <td>Rating</td>
+                    <td><i class="fa fa-check"> Mark as Read</i></td>
+                </tr>
+            
             </thead>
             <tbody id="tbl_feedbacklist">
             </tbody>

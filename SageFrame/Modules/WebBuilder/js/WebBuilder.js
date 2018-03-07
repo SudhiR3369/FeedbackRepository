@@ -5783,49 +5783,49 @@ function UpdateSettings() {
 
 
 //FeedBack ko kei rahasyamaya kura haru
-    (function($){
-        $.Feedback = function (p) {
-            p = $.extend
-              ({
-                  CultureCode: '',
-                  UserModuleID: '1'
-              }, p);
-        
+(function ($) {
+    $.Feedback = function (p) {
+        p = $.extend
+          ({
+              CultureCode: '',
+              UserModuleID: '1'
+          }, p);
 
-        
-            var Feedback = {
-                config :{
-                    async: false,
-                    cache: false,
-                    type: 'POST',
-                    contentType: "application/json; charset=utf-8",
-                    data: '{}',
-                    dataType: 'json',
-                    method: "",
-                    url: "http://172.18.12.119:8090/Modules/WebBuilder/services/Feedback.asmx/",
-                    ajaxCallMode: 0,
-                    //  baseURL: SageFrameAppPath + '/Modules/Registration/WebService/RegistrationService.asmx/',
-                    // Path: SageFrameAppPath + '/Modules/Registration/',
-                    PortalID: SageFramePortalID,
-                    UserName: SageFrameUserName,
-       
-                    SecureToken: SageFrameSecureToken,
-                    ID: 0,
-                    //ProfileImageName: '',
-                },
-                
 
-                Init: function () {
-                    //Feedback.GetAllFeedback();
-                    //Feedback.SelectOption();
-                    //Feedback.SearchFeedList();
-                    Feedback.UIEvent();
-                    Feedback.GetResult();
-                },
 
-                UIEvent: function () {
+        var Feedback = {
+            config: {
+                async: false,
+                cache: false,
+                type: 'POST',
+                contentType: "application/json; charset=utf-8",
+                data: '{}',
+                dataType: 'json',
+                method: "",
+                url: "http://172.18.12.119:8090/Modules/WebBuilder/services/Feedback.asmx/",
+                ajaxCallMode: 0,
+                //  baseURL: SageFrameAppPath + '/Modules/Registration/WebService/RegistrationService.asmx/',
+                // Path: SageFrameAppPath + '/Modules/Registration/',
+                PortalID: SageFramePortalID,
+                UserName: SageFrameUserName,
+
+                SecureToken: SageFrameSecureToken,
+                ID: 0,
+                //ProfileImageName: '',
+            },
+
+
+            Init: function () {
+                //Feedback.GetAllFeedback();
+                //Feedback.SelectOption();
+                //Feedback.SearchFeedList();
+                Feedback.UIEvent();
+                Feedback.GetResult();
+            },
+
+            UIEvent: function () {
                 $('#btnFeedback').bind('click', ToggleDisplay);
-                function ToggleDisplay() {    
+                function ToggleDisplay() {
                     if ($('#divFeedbackForm').data('shown'))
                         hide();
                     else
@@ -5838,7 +5838,7 @@ function UpdateSettings() {
                             hide();
                             //});
                             $('#divFeedbackForm').data('shown', true)
-                
+
                         });
                     }
                 }
@@ -5849,7 +5849,7 @@ function UpdateSettings() {
                             //$('document').unbind('click');
                             $('#divFeedbackForm').data('shown', false);
                         });
-                    });    
+                    });
                 }
 
                 $('#btnSubmit').off().on('click', function (e) {
@@ -5865,21 +5865,21 @@ function UpdateSettings() {
                 });
 
             },
-            
 
-            GetResult:function(){
-                var dataObject={
-                    SortName:'',
+
+            GetResult: function () {
+                var dataObject = {
+                    SortName: 'date',
                     SortOrder: '',
-                    Keyword:'',
-                    PageSize:'10',
-                    PageNumber:'1',
-                    StartDate:'1753-01-01',
-                    EndDate:'9999-12-31'
+                    Keyword: '',
+                    PageSize: '10',
+                    PageNumber: '1',
+                    StartDate: '1753-01-01',
+                    EndDate: '9999-12-31'
                 }
                 Feedback.GetAllFeedback(dataObject);
                 $('#sortName').off().on('change', function () {
-                    sortName = $(this).val();
+                    var sortName = $(this).val();
                     $('#sortOrder').hide();
                     if (sortName !== "pleaseSelect") {
                         dataObject.SortName = sortName;
@@ -5901,8 +5901,7 @@ function UpdateSettings() {
                 });
                 $('#pageSize').off().on('change', function () {
                     var pageSize = $(this).val();
-                    if(typeof(pageSize!=="undefined" && pageSize!==null))
-                    {
+                    if (typeof (pageSize !== "undefined" && pageSize !== null)) {
                         dataObject.PageSize = pageSize;
                         Feedback.GetAllFeedback(dataObject);
                     }
@@ -5931,7 +5930,7 @@ function UpdateSettings() {
                     $('#markasread').attr("<i>", '');
                 })
             },
-            SubmitFeedBack: function() {
+            SubmitFeedBack: function () {
                 Feedback.config.method = "InsertFeedback"
                 var Submit = {
                     //  ID: parseInt(config.ID),
@@ -5942,8 +5941,8 @@ function UpdateSettings() {
                     //PortalID: SageFramePortalID,
                     //CultureCode: SageFrameCurrentCulture,
                     Name: SageFrameUserName,
-                    Domain:SageFrameHostURL
-        
+                    Domain: SageFrameHostURL
+
                 }
                 Feedback.config.data = JSON.stringify({
                     submit: Submit
@@ -5956,30 +5955,30 @@ function UpdateSettings() {
 
             GetAllFeedback: function (data) {
                 Feedback.config.method = "GetResult";
-                
+
                 Feedback.config.data = JSON.stringify({
-                   data:data
+                    data: data
                 })
-              
+
                 Feedback.config.ajaxCallMode = 1;
                 Feedback.ajaxCall(Feedback.config);
             },
 
-            ajaxCall: function(config){
+            ajaxCall: function (config) {
                 $.ajax({
                     type: config.type,
                     contentType: config.contentType,
                     cache: config.cache,
                     async: config.async,
-                    url: config.url+config.method,
+                    url: config.url + config.method,
                     data: config.data,
                     dataType: config.dataType,
                     success: Feedback.ajaxSuccess,
-                    error: function () { alert("kuch toh gadhbadh hai!!");}
+                    error: function () { alert("kuch toh gadhbadh hai!!"); }
                 })
             },
-            ajaxSuccess:function(data){
-                switch(Feedback.config.ajaxCallMode){
+            ajaxSuccess: function (data) {
+                switch (Feedback.config.ajaxCallMode) {
                     case 1:
                         {
                             Feedback.BindFeedbackList(data);
@@ -5997,7 +5996,7 @@ function UpdateSettings() {
                 }
             },
 
-            ClearFeedbackForm:function() {
+            ClearFeedbackForm: function () {
                 // $('#slcfeedback').defaultdata();
                 $('#txtTitle').val('');
                 $('#txtDesc').val('');
@@ -6005,12 +6004,12 @@ function UpdateSettings() {
 
 
             //Validation for Feedback Form
-       
+
             //Feedback Form Ends Here
 
 
             //Feedback List Starts Here
-      
+
             BindFeedbackList: function (data) {
                 var feedbackList = data.d;
                 var html = '';
@@ -6044,31 +6043,31 @@ function UpdateSettings() {
 
 
 
-       var validator = 
-         $("#form1").validate({
-        ignore: ":hidden",
-        rules: {
-            Title: {
-                required: true,
-                minlength: 2
-            },
-            Description: {
-                required: true
-            
-            }       
-        },
-        messages: {
-            Title: {
-                required: "*Titles is Required",
-            },
-            Description: {
-                required: "*Description is Required"
-            }       
-        }
-    });
+    var validator =
+      $("#form1").validate({
+          ignore: ":hidden",
+          rules: {
+              Title: {
+                  required: true,
+                  minlength: 2
+              },
+              Description: {
+                  required: true
+
+              }
+          },
+          messages: {
+              Title: {
+                  required: "*Titles is Required",
+              },
+              Description: {
+                  required: "*Description is Required"
+              }
+          }
+      });
 
 
-        $.fn.Feedback = function (p) {
-            $.Feedback(p);
-        };
-    })(jQuery)
+    $.fn.Feedback = function (p) {
+        $.Feedback(p);
+    };
+})(jQuery)
