@@ -26,3 +26,10 @@ C:\Users\Brainnovation\Source\Repos\FeedbackRepository\SageFrame.DashboardLink\b
 C:\Users\Brainnovation\Source\Repos\FeedbackRepository\SageFrame.DashboardLink\obj\Debug\SageFrame.DashboardLink.csprojResolveAssemblyReference.cache
 C:\Users\Brainnovation\Source\Repos\FeedbackRepository\SageFrame.DashboardLink\obj\Debug\SageFrame.DashboardLink.dll
 C:\Users\Brainnovation\Source\Repos\FeedbackRepository\SageFrame.DashboardLink\obj\Debug\SageFrame.DashboardLink.pdb
+F:\Git\GitRepo\EasyBuilder\SageFrame.DashboardLink\bin\Debug\SageFrame.DashboardLink.dll
+F:\Git\GitRepo\EasyBuilder\SageFrame.DashboardLink\bin\Debug\SageFrame.DashboardLink.pdb
+F:\Git\GitRepo\EasyBuilder\SageFrame.DashboardLink\bin\Debug\SageFrame.Common.dll
+F:\Git\GitRepo\EasyBuilder\SageFrame.DashboardLink\bin\Debug\SageFrame.Common.pdb
+F:\Git\GitRepo\EasyBuilder\SageFrame.DashboardLink\obj\Debug\SageFrame.DashboardLink.csprojResolveAssemblyReference.cache
+F:\Git\GitRepo\EasyBuilder\SageFrame.DashboardLink\obj\Debug\SageFrame.DashboardLink.dll
+F:\Git\GitRepo\EasyBuilder\SageFrame.DashboardLink\obj\Debug\SageFrame.DashboardLink.pdb

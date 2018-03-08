@@ -59,8 +59,9 @@ public partial class Modules_WebBuilder_WebbuilderEdit : BaseAdministrationUserC
             "/Modules/WebBuilder/js/tinyColorPicker.js",
            "/js/SageMediaManagement.js",
            "/js/jquery.validate.js",
-            "/Modules/WebBuilder/js/WebBuilder.js"
-            , "/Modules/WebBuilder/js/packages.js"
+            "/Modules/WebBuilder/js/WebBuilder.js",
+            "/Modules/WebBuilder/js/Feedback.js",
+             "/Modules/WebBuilder/js/packages.js"
             //, "/Modules/WebBuilder/js/CustomWebBuilder.js"
             //, "/Modules/WebBuilder/js/textSetting.js"
             );

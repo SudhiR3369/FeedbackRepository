@@ -26,7 +26,7 @@ namespace Sageframe.Feedback
                 para.Add(new KeyValuePair<string, object>("@title", data.Title));
                 para.Add(new KeyValuePair<string, object>("@description", data.Description));
                 para.Add(new KeyValuePair<string, object>("@domain", data.Domain));
-                //para.Add(new KeyValuePair<string, object>("@sentBy", data.SentBy));
+                para.Add(new KeyValuePair<string, object>("@sentBy", data.SentBy));
                 // para.Add(new KeyValuePair<string, object>("@receivedOn", data.ReceivedOn));
                 //para.Add(new KeyValuePair<string, object>("@rating", data.Rating));
                 //para.Add(new KeyValuePair<string, object>("@userModuleID", data.UserModuleID));
