@@ -34,7 +34,11 @@ public partial class Modules_WebBuilder_WebBuilder : BaseAdministrationUserContr
             LoadExtraJs();
             userModuleID = int.Parse(SageUserModuleID);
             IncludeCss("webBuilderCss",
-                "/Modules/WebBuilder/css/preview.css");
+                "/Modules/WebBuilder/css/preview.css",
+                //pachi thapeko by Sudhir
+                   "/Modules/WebbuilderHelper/css/admincontact.css",
+                "Modules/WebbuilderHelper/css/sagegrid.css"
+                , "Modules/WebbuilderHelper/css/tablesort.css");
             IncludeJs("webbuildercomponentJs", "/Modules/WebBuilder/js/packages.js");
             IncludeJs("webbuildercomponentJs", "/Modules/WebBuilder/js/components.js");
             IncludeJs("webbuilderInitJs", "/Modules/WebBuilder/js/init.js");

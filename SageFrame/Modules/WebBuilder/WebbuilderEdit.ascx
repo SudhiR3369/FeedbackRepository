@@ -496,55 +496,60 @@
     <div>
         <table>
             <tr>
-                    <td>Sort By</td>
-                    <td>
-                        <select id="sortName">
-                            <option value="pleaseSelect">--Select Category--</option>
-                            <option value="Name">Name</option>
-                            <option value="date">Date</option>
-                        </select>
-                    </td>
-                    <td>
-                        <select id="sortOrder" style="display:none;">
-                            <option value="keihoina">--Select Order--</option>
-                            <option value="ascending">Ascending</option>
-                            <option value="descending">Descending</option>
-                        </select>
-                    </td>
-                </tr>
+                <td>Sort By</td>
+                <td>
+                    <select id="sortName">
+                        <option value="pleaseSelect">--Select Category--</option>
+                        <option value="Name">Name</option>
+                        <option value="date">Date</option>
+                    </select>
+                </td>
+                <td>
+                    <select id="sortOrder" style="display: none;">
+                        <option value="keihoina">--Select Order--</option>
+                        <option value="ascending">Ascending</option>
+                        <option value="descending">Descending</option>
+                    </select>
+                </td>
+            </tr>
             <tr>
-                <td> Search By</td>
-                    <td>
-                        <input type="text" id="keyword"  Name="Search" placeholder="Name,Category,Domain,Date" />
-                        <button type="button" id="keyword_Submit">Submit</button>
-                    </td>
+                <td>
+                    <label>Show Mark as Read Only</label>
 
-                 <td>
-                        From:                     
-                        <input type="text" id="startDate"  /> 
-                           
-                        To:
+                </td>
+            </tr>
+            <tr>
+                <td>Search By</td>
+                <td>
+                    <input type="text" id="keyword" name="Search" placeholder="Name,Category,Domain,Date" /><i class="fa fa-search"></i>
+                    <button type="button" id="keyword_Submit">Submit</button>
+                </td>
+
+                <td>From:                     
+                        <input type="text" id="startDate" />
+
+                    To:
                         <input type="text" id="endDate" />
-                        <button type="button" id="btn_dateSubmit">Submit</button>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <select id="pageSize">
-                            <option>--Select Page Size--</option>
-                            <option value="5">5</option>
-                            <option value="10">10</option>
-                            <option value="15">15</option>
+                    <button type="button" id="btn_dateSubmit">Submit</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <select id="pageSize">
+                        <option>--Select Page Size--</option>
+                        <option value="5">5</option>
+                        <option value="10">10</option>
+                        <option value="15">15</option>
 
-                        </select>
-                    </td>
-                   
-                </tr>
+                    </select>
+                </td>
+
+            </tr>
         </table>
     </div>
 
     <div id="divFeedbackListTableWrap" class="sfGridwrapper">
-        <table style="width:80%">
+        <table style="width: 80%">
             <thead>
                 <tr>
                     <td>S.N</td>
@@ -557,9 +562,9 @@
                     <td>SentBy</td>
                     <td>Received on</td>
                     <td>Rating</td>
-                    <td><i class="fa fa-check"> Mark as Read</i></td>
+                    <td><i class="fa fa-check">Mark as Read</i></td>
                 </tr>
-            
+
             </thead>
             <tbody id="tbl_feedbacklist">
             </tbody>
@@ -567,6 +572,10 @@
     </div>
 
 </div>
+
+
+
+//Using SageGrid
 
 
 
