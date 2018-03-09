@@ -1,0 +1,129 @@
+
+
+ALTER PROCEDURE [dbo].[usp_Feedback_GetAllFeedbacks] ( 
+  /* Optional Filters for Dynamic Search*/ 
+  --@Name       NVARCHAR(50) = NULL, 
+ -- @EmailId    NVARCHAR(50) = NULL, 
+ -- @Category   NVARCHAR(50) = NULL, 
+  --@ReceivedOn DATE = NULL, 
+  @startDate  DATE = null , 
+  @endDate    DATE=null, 
+  @isread bit = null,
+ -- @Domain     NVARCHAR(50)=NULL, 
+
+  /*– Pagination Parameters */ 
+  @PageNo     INT = 1, 
+  @PageSize   INT = 10, 
+
+  /*– Sorting Parameters */ 
+  @SortName   NVARCHAR(20) = 'Date', 
+  @SortOrder  NVARCHAR(50)='', 
+  @keyword    NVARCHAR(10) = NULL) 
+AS 
+
+  BEGIN 
+      /*–Declaring Local Variables corresponding to parameters for modification */ 
+      DECLARE --@lName      NVARCHAR(50), 
+              --@lEmail NVARCHAR(50), 
+              --@lCategory INT, 
+              --@lReceivedOn NVARCHAR(25), 
+              @lPageNbr   INT, 
+              @lPageSize  INT, 
+              --@lSortName NVARCHAR(20), 
+              @lFirstRec  INT, 
+              @lLastRec   INT, 
+              @lDomain    NVARCHAR, 
+              @lTotalRows INT 
+
+      /*Setting Local Variables*/ 
+      --SET @lName = @Name 
+      --SET @lEmail = LTRIM(RTRIM(@EmailId)) 
+      --SET @lCategory = LTRIM(RTRIM(@Category)) 
+      --SET @lPageNbr = @PageNo 
+      SET @lPageSize = @PageSize 
+      --SET @lSortName = LTRIM(RTRIM(@SortName)) 
+      SET @lFirstRec = ( @PageNo - 1 ) * @lPageSize 
+      SET @lLastRec = ( @PageNo * @lPageSize + 1 ) 
+      SET @lTotalRows = @lFirstRec - @lLastRec + 1; 
+
+	
+
+      WITH cte_results 
+           AS (SELECT Row_number() 
+                        OVER ( 
+                          ORDER BY CASE WHEN @sortName='Name' AND @sortOrder= 
+                        'Descending' 
+                        THEN 
+                        NAME END 
+                        DESC, 
+						CASE WHEN @sortName='Name' THEN NAME END ASC,
+						 CASE 
+                        WHEN 
+                        @sortName='Date' 
+                        AND @sortOrder='Ascending' THEN ReceivedOn END ASC, 
+						CASE 
+                        WHEN 
+                        @sortName='Date' 
+                        THEN ReceivedOn END DESC
+									
+						) AS ROWNUM, 
+                      --Count(*) over () AS TotalCount, 
+                      ID, 
+                      NAME, 
+                      EmailId, 
+                      Category, 
+                      Title, 
+                      Description, 
+                      Domain, 
+                      SentBy,
+					  IsRead, 
+					  ReadBy,
+                      ReceivedOn, 
+                      Rating 
+               FROM   Feedback 
+               WHERE 
+			   ( @startDate is null  and @endDate is null and @keyword is null and @isread is null)
+					--  Len(ISNull(@endDate,''))=0 and Len(Isnull(@keyword,''))=0)
+					  OR
+					  
+					 ( Concat(NAME, EmailId, ReceivedOn,Category, Domain) LIKE 
+                      '%' + @keyword + '%' and @startDate is null  and @endDate is null and @isread is null)-- Len(Isnull(@keyword,''))=0)
+					    Or
+					    (@keyword is null and @isread is null and ReceivedOn BETWEEN @startDate AND @endDate)
+					  	or
+						
+					    ((ReceivedOn BETWEEN @startDate AND @endDate) and @isread is null
+						 and(Concat(NAME, EmailId, ReceivedOn,Category, Domain) LIKE 
+                     '%' + @keyword + '%'  ))
+					   	or						
+					    ((ReceivedOn BETWEEN @startDate AND @endDate) and @isread = IsRead
+												 and(Concat(NAME, EmailId, ReceivedOn,Category, Domain) LIKE 
+                     '%' + @keyword + '%'  ))
+					   	or						
+					    (@startDate is null  and @endDate is null and @isread = IsRead
+												 and(Concat(NAME, EmailId, ReceivedOn,Category, Domain) LIKE 
+                     '%' + @keyword + '%'  ))
+					 or
+               (@isread = IsRead and @keyword is null   and @startDate is null and @endDate is null)
+					
+					   
+					   ) 
+      --Pagination lagako mathi bata selected CTE ma 
+      SELECT ID, 
+             NAME, 
+             EmailId, 
+             Category, 
+             Title, 
+             Description, 
+             Domain, 
+             SentBy, 
+			 IsRead,
+			 ReadBy,
+             ReceivedOn, 
+             Rating 
+      FROM   cte_results AS CPC 
+      WHERE  ROWNUM > @lFirstRec 
+             AND ROWNUM < @lLastRec 
+  -- ORDER BY ROWNUM DESC 
+
+  END 
