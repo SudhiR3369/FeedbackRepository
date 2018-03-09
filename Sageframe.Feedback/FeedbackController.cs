@@ -14,6 +14,13 @@ namespace Sageframe.Feedback
             FD.Insert(data);
 
         }
+
+        public void MarkAsRead(FeedbackDetails data)
+        {
+            FeedbackProvider FD = new FeedbackProvider();
+            FD.MarkAsRead(data);
+
+        }
         public List<FeedbackDetails> GetAllFeedbacks(FeedbackDetails obj)
         {
             FeedbackProvider FP = new FeedbackProvider();

@@ -18,8 +18,6 @@ namespace Sageframe.Feedback
             try
             {
                 List<KeyValuePair<string, object>> para = new List<KeyValuePair<string, object>>();
-                // para.Add(new KeyValuePair<string, object>("@id", data.ID));
-                para.Add(new KeyValuePair<string, object>("@name", data.Name));
                 //para.Add(new KeyValuePair<string, object>("@username", data.Username));
                 //para.Add(new KeyValuePair<string, object>("@emailID", data.EmailID));
                 para.Add(new KeyValuePair<string, object>("@category", data.Category));
@@ -35,6 +33,21 @@ namespace Sageframe.Feedback
                 //para.Add(new KeyValuePair<string, object>("@cultureCode", data.CultureCode));
                 SQLHandler SQL = new SQLHandler();
                 SQL.ExecuteNonQuery("usp_Feedback_Insert", para);
+            }
+            catch
+            {
+                throw;
+            }
+        }
+
+        public void MarkAsRead(FeedbackDetails data)
+        {
+            try
+            {
+                List<KeyValuePair<string, object>> para = new List<KeyValuePair<string, object>>();
+                // para.Add(new KeyValuePair<string, object>("@id", data.ID));
+                para.Add(new KeyValuePair<string, object>("@ID", data.ID));
+
             }
             catch
             {

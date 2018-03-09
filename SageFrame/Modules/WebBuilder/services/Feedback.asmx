@@ -31,27 +31,42 @@ public class Feedback : AuthenticateService
             throw;
         }
     }
+    //[WebMethod]
+    //public List<FeedbackDetails>GetAllFeedbacks(FeedbackDetails obj)
+    //{
+    //    try
+    //    {
+
+    //        FeedbackController FC = new FeedbackController();
+    //        return FC.GetAllFeedbacks(obj);
+    //    }
+    //    catch (Exception ex)
+    //    {
+    //        throw ex;
+    //    }
+    //}
+
     [WebMethod]
-    public List<FeedbackDetails>GetAllFeedbacks(FeedbackDetails obj)
+    public string MarkAsRead(FeedbackDetails submit)
     {
         try
         {
-                
             FeedbackController FC = new FeedbackController();
-            return FC.GetAllFeedbacks(obj);
+            FC.MarkAsRead(submit);
+            return "Hello";
         }
-        catch (Exception ex)
+        catch
         {
-            throw ex;
+            throw;
         }
     }
 
-            [WebMethod]
+    [WebMethod]
     public List<FeedbackDetails>GetResult(FeedbackDetails data)
     {
         try
         {
-                
+
             FeedbackController FC = new FeedbackController();
             return FC.GetAllFeedbacks(data);
         }
