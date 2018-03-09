@@ -32,13 +32,28 @@ public class Feedback : AuthenticateService
         }
     }
     [WebMethod]
-    public List<FeedbackDetails>GetAllFeedbacks(string SortName,string SortOrder)
+    public List<FeedbackDetails>GetAllFeedbacks(FeedbackDetails obj)
     {
         try
         {
                 
             FeedbackController FC = new FeedbackController();
             return FC.GetAllFeedbacks(obj);
+        }
+        catch (Exception ex)
+        {
+            throw ex;
+        }
+    }
+
+            [WebMethod]
+    public List<FeedbackDetails>GetResult(FeedbackDetails data)
+    {
+        try
+        {
+                
+            FeedbackController FC = new FeedbackController();
+            return FC.GetAllFeedbacks(data);
         }
         catch (Exception ex)
         {

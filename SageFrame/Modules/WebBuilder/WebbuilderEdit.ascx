@@ -32,7 +32,7 @@
         });
     });
 </script>
-
+   
 <script type="text/javascript">
     $(function () {
         $(this).Feedback(
@@ -514,15 +514,20 @@
             </tr>
             <tr>
                 <td>
-                    <label>Show Mark as Read Only</label>
-
+                    <label id="lblChange">Show Mark as Read Only</label>
+                      <span class="value">
+                          <input id="checkRead" name="enable buttonLink" type="checkbox">
+                          <label for="checkRead">
+                              <i class="icon-icon-tick"></i>
+                          </label>
+                      </span>
                 </td>
             </tr>
             <tr>
                 <td>Search By</td>
                 <td>
                     <input type="text" id="keyword" name="Search" placeholder="Name,Category,Domain,Date" /><i class="fa fa-search"></i>
-                    <button type="button" id="keyword_Submit">Submit</button>
+                    <%--<button type="button" id="keyword_Submit">Submit</button>--%>
                 </td>
 
                 <td>From:                     
@@ -530,14 +535,14 @@
 
                     To:
                         <input type="text" id="endDate" />
-                    <button type="button" id="btn_dateSubmit">Submit</button>
+                    <button type="button" id="btnGetSubmit">Submit</button>
                 </td>
             </tr>
             <tr>
                 <td>
                     <select id="pageSize">
                         <option>--Select Page Size--</option>
-                        <option value="5">5</option>
+                        <option value="50">50</option>
                         <option value="10">10</option>
                         <option value="15">15</option>
 
@@ -559,7 +564,7 @@
                     <td>Title</td>
                     <td>Description</td>
                     <td>Domain</td>
-                    <td>SentBy</td>
+                    <td>IsRead</td>
                     <td>Received on</td>
                     <td>Rating</td>
                     <td><i class="fa fa-check">Mark as Read</i></td>
@@ -574,8 +579,6 @@
 </div>
 
 
-
-//Using SageGrid
 
 
 

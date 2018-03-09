@@ -20,9 +20,11 @@ namespace Sageframe.Feedback
         public DateTime ReceivedOn { get; set; }
         public string Rating { get; set; }
         public int UserModuleID { get; set; }
+        public string IsRead { get; set; }
+        public string ReadBy { get; set; }
         public int PortalID { get; set; }
         public string CultureCode { get; set; }
-        public string sortName { get; set; }
-        public string sortDate { get; set; }
+        public string SortName { get; set; }
+        public string SortDate { get; set; }
     }
 }

@@ -19,6 +19,7 @@
                 dataType: 'json',
                 method: "",
                 url: "http://172.18.12.119:8090/Modules/WebBuilder/services/Feedback.asmx/",
+               // url: SageFrameAppPath+"/Modules/WebBuilder/services/Feedback.asmx/",
                 ajaxCallMode: 0,
                 //  baseURL: SageFrameAppPath + '/Modules/Registration/WebService/RegistrationService.asmx/',
                 // Path: SageFrameAppPath + '/Modules/Registration/',
@@ -85,10 +86,11 @@
                     SortName: 'date',
                     SortOrder: '',
                     Keyword: '',
-                    PageSize: '10',
+                    PageSize: '50',
                     PageNumber: '1',
                     StartDate: '1753-01-01',
-                    EndDate: '9999-12-31'
+                    EndDate: '9999-12-31',
+                    IsRead:null
                 }
                 //First Call to Feedback List
                 Feedback.GetAllFeedback(dataObject);
@@ -106,14 +108,14 @@
                     dataObject.SortOrder = $(this).val();
                     Feedback.GetAllFeedback(dataObject);
                 });
-                $('#keyword_Submit').off().on('click', function () {
-                    var keyword = $('#keyword').val();
-                    if (keyword !== "NULL") {
-                        dataObject.Keyword = keyword;
-                        Feedback.GetAllFeedback(dataObject);
-                        $('#keyword').val('');
-                    }
-                });
+                //$('#keyword_Submit').off().on('click', function () {
+                //    var keyword = $('#keyword').val();
+                //    if (keyword !== "NULL") {
+                //        dataObject.Keyword = keyword;
+                //        Feedback.GetAllFeedback(dataObject);
+                //        $('#keyword').val('');
+                //    }
+                //});
                 $('#pageSize').off().on('change', function () {
                     var pageSize = $(this).val();
                     if (typeof (pageSize !== "undefined" && pageSize !== null)) {
@@ -135,7 +137,12 @@
                         dataObject.EndDate = endDate;
                     }
                 });
-                $('#btn_dateSubmit').off().on('click', function () {
+                $('#btnGetSubmit').off().on('click', function () {
+                    var keyword = $('#keyword').val();
+                    if (keyword !== "NULL") {
+                        dataObject.Keyword = keyword;                      
+                        $('#keyword').val('');
+                    }
                     Feedback.GetAllFeedback(dataObject);
                 });
                 $('#markasread').on('click', function () {
@@ -143,7 +150,18 @@
                         "font-weight": ""
                     });
                     $('#markasread').attr("<i>", '');
-                })
+                });
+
+                $('#checkRead').off().on('click', function () {
+                    var isChecked = $(this).is(':checked');
+                    if (!isChecked) {
+                        dataObject.IsRead = 'False';
+                    }
+                    else {
+                        dataObject.IsRead = 'True';
+                    }
+                   // Feedback.GetAllFeedback(dataObject);
+                });
             },
             SubmitFeedBack: function () {
                 Feedback.config.method = "InsertFeedback"
@@ -240,7 +258,7 @@
                         html += '<td>' + item.Title + '</td>';
                         html += '<td>' + item.Description + '</td>';
                         html += '<td>' + item.Domain + '</td>';
-                        html += '<td>' + item.SentBy + '</td>';
+                        html += '<td>' + item.IsRead + '</td>';
                         html += '<td>' + item.ReceivedDate + '</td>';
                         html += '<td>' + item.Rating + '</td>'
                         html += '<td><button type="button" id="markasread" name="Mark as Read"><i class="fa fa-check"></i></button></td>';

@@ -27,6 +27,7 @@ namespace Sageframe.Feedback
                 para.Add(new KeyValuePair<string, object>("@description", data.Description));
                 para.Add(new KeyValuePair<string, object>("@domain", data.Domain));
                 para.Add(new KeyValuePair<string, object>("@sentBy", data.SentBy));
+               // para.Add(new KeyValuePair<string, object>("@isread", data.IsRead));
                 // para.Add(new KeyValuePair<string, object>("@receivedOn", data.ReceivedOn));
                 //para.Add(new KeyValuePair<string, object>("@rating", data.Rating));
                 //para.Add(new KeyValuePair<string, object>("@userModuleID", data.UserModuleID));
@@ -47,10 +48,12 @@ namespace Sageframe.Feedback
             try
             {
                 List<KeyValuePair<string, object>> para = new List<KeyValuePair<string, object>>();
-                para.Add(new KeyValuePair<string, object>("@sortName", obj.sortName));
-                para.Add(new KeyValuePair<string, object>("@sortOrder", obj.sortDate));
+                para.Add(new KeyValuePair<string, object>("@sortName", obj.SortName));
+                para.Add(new KeyValuePair<string, object>("@sortOrder", obj.SortDate));
+                para.Add(new KeyValuePair<string, object>("@isread", obj.IsRead));
+
                 SQLHandler SQL = new SQLHandler();
-                return SQL.ExecuteAsList<FeedbackDetails>("usp_feedback_Getdata", para);
+                return SQL.ExecuteAsList<FeedbackDetails>("usp_Feedback_GetAllFeedbacks", para);
             }
             catch (Exception ex)
             {
