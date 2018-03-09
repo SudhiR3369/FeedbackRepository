@@ -535,7 +535,7 @@
 
                     To:
                         <input type="text" id="endDate" />
-                    <button type="button" id="btnGetSubmit">Submit</button>
+                    <button type="button" id="btnGetFeedback">Submit</button>
                 </td>
             </tr>
             <tr>
