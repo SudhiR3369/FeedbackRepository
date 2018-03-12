@@ -19,7 +19,6 @@
                 dataType: 'json',
                 method: "",
                 url: "http://172.18.12.119:8090/Modules/WebBuilder/services/Feedback.asmx/",
-               // url: SageFrameAppPath+"/Modules/WebBuilder/services/Feedback.asmx/",
                 ajaxCallMode: 0,
                 //  baseURL: SageFrameAppPath + '/Modules/Registration/WebService/RegistrationService.asmx/',
                 // Path: SageFrameAppPath + '/Modules/Registration/',
@@ -33,6 +32,9 @@
 
 
             Init: function () {
+                //Feedback.GetAllFeedback();
+                //Feedback.SelectOption();
+                //Feedback.SearchFeedList();
                 Feedback.UIEvent();
                 Feedback.GetResult();
             },
@@ -76,51 +78,74 @@
 
                 $('#btnReset').on('click', function () {
                     Feedback.ClearFeedbackForm();
+
                 });
+
+          
 
             },
 
+            IsRead: function ($last, ID) {
+                $last.children().css({
+                    "display": "none"
+                })
+                $last.text("Read");
+                $('#eachrow' + ID).css({
+                    "font-weight": "",
+                    "color": "red"
+                });
 
+            },
+            CheckRead: function () {
+                // $('#tbl_feedbacklist').load('.datarow', function () {
+                $('.datarow').each(function () {
+                    var $this = $(this).children(':last');;
+                    var $last = $this.children();
+                    var ID = $last.attr('data-id');
+                    var IsRead = $last.attr('read');
+                    if (IsRead === "True" || IsRead == "true") {
+                        Feedback.IsRead($last, ID);
+                    }
+                })
+
+                // });
+            },
+            LoadChanges: function (obj) {
+                Feedback.GetAllFeedback(obj);
+                Feedback.CheckRead();
+            },
             GetResult: function () {
                 var dataObject = {
                     SortName: 'date',
                     SortOrder: '',
                     Keyword: '',
-                    PageSize: '50',
+                    PageSize: '10',
                     PageNumber: '1',
                     StartDate: '1753-01-01',
                     EndDate: '9999-12-31',
-                    IsRead:null
+                    IsRead: null
                 }
-                //First Call to Feedback List
-                Feedback.GetAllFeedback(dataObject);
-
+                Feedback.LoadChanges(dataObject);
                 $('#sortName').off().on('change', function () {
                     var sortName = $(this).val();
                     $('#sortOrder').hide();
+
                     if (sortName !== "pleaseSelect") {
                         dataObject.SortName = sortName;
-                        Feedback.GetAllFeedback(dataObject);
+                        Feedback.LoadChanges(dataObject);
                         $('#sortOrder').show();
                     }
                 });
                 $('#sortOrder').off().on('change', function () {
                     dataObject.SortOrder = $(this).val();
-                    Feedback.GetAllFeedback(dataObject);
+                    Feedback.LoadChanges(dataObject);
                 });
-                //$('#keyword_Submit').off().on('click', function () {
-                //    var keyword = $('#keyword').val();
-                //    if (keyword !== "NULL") {
-                //        dataObject.Keyword = keyword;
-                //        Feedback.GetAllFeedback(dataObject);
-                //        $('#keyword').val('');
-                //    }
-                //});
+            
                 $('#pageSize').off().on('change', function () {
                     var pageSize = $(this).val();
                     if (typeof (pageSize !== "undefined" && pageSize !== null)) {
                         dataObject.PageSize = pageSize;
-                        Feedback.GetAllFeedback(dataObject);
+                        Feedback.LoadChanges(dataObject);
                     }
                 });
                 $('#startDate').datepicker();//.datepicker("setDate", new Date());
@@ -130,26 +155,39 @@
                         dataObject.StartDate = startdate;
                     }
                 });
-                $('#endDate').datepicker();//.datepicker("setDate", new Date());
+
+                $('#endDate').datepicker();//.default("setDate", new Date());
                 $('#endDate').change(function () {
                     var endDate = $(this).val();
                     if (endDate !== null && typeof (endDate) !== "undefined") {
                         dataObject.EndDate = endDate;
                     }
                 });
-                $('#btnGetSubmit').off().on('click', function () {
+
+                $('#btnGetFeedback').off().on('click', function () {
                     var keyword = $('#keyword').val();
                     if (keyword !== "NULL") {
-                        dataObject.Keyword = keyword;                      
+                        dataObject.Keyword = keyword;
                         $('#keyword').val('');
                     }
-                    Feedback.GetAllFeedback(dataObject);
+                    Feedback.LoadChanges(dataObject);
+                    Feedback.ClearFeedbackForm();
                 });
-                $('#markasread').on('click', function () {
-                    $('#eachrow').css({
-                        "font-weight": ""
-                    });
-                    $('#markasread').attr("<i>", '');
+
+                //Resets List Parameters
+                $('#btnResetFeedbackList').on('click', function () {
+                    dataObject.StartDate = '1753-01-01';
+                    dataObject.EndDate = '9999-12-31';
+                    dataObject.Isread = null;
+                    dataObject.SortName = 'date';
+                    dataObject.SortOrder = '';
+                    dataObject.Keyword = '';
+                    dataObject.PageSize = '10';
+                    dataObject.PageNumber= '1';
+
+                    Feedback.LoadChanges(dataObject);
+
+
                 });
 
                 $('#checkRead').off().on('click', function () {
@@ -160,8 +198,29 @@
                     else {
                         dataObject.IsRead = 'True';
                     }
-                   // Feedback.GetAllFeedback(dataObject);
+                    // Feedback.GetAllFeedback(dataObject);
                 });
+
+                $('#tbl_feedbacklist').off().on('click', '.checkedtd', function (e) {
+                    var $this = $(this);
+                    var ID = $this.attr('data-id');
+                    var IsRead = $this.attr('read');
+                    if (typeof (IsRead) !== "undefined") {
+                        Feedback.MarkAsRead(ID);
+                    }
+                    if (IsRead == "True" || IsRead == "true") {
+                        e.preventDefault();
+                    }
+                    Feedback.LoadChanges(dataObject);
+                })
+            },
+            MarkAsRead: function (ID) {
+                Feedback.config.method = "MarkasRead"
+                Feedback.config.data = JSON.stringify({
+                    ID: ID
+                });
+                Feedback.config.ajaxCallMode = 4;
+                Feedback.ajaxCall(Feedback.config);
             },
             SubmitFeedBack: function () {
                 Feedback.config.method = "InsertFeedback"
@@ -174,7 +233,6 @@
                     //PortalID: SageFramePortalID,
                     //CultureCode: SageFrameCurrentCulture,
                     Name: SageFrameUserName,
-                    SentBy:SageFrameUserName,
                     Domain: SageFrameHostURL
 
                 }
@@ -183,7 +241,7 @@
                     //secureToken: SageFrameSecureToken,-
                     //UserName: SageFrameUserName
                 });
-                Feedback.config.ajaxCallMode = 3;
+                //Feedback.config.ajaxCallMode = 3;
                 Feedback.ajaxCall(Feedback.config);
             },
 
@@ -225,8 +283,10 @@
                         }
                     case 3:
                         {
-                            alert("Feedback Added Successfully!!")
+                            alert("Feedback Added Successfully!!");
+                            break;
                         }
+
                 }
             },
 
@@ -234,6 +294,10 @@
                 // $('#slcfeedback').defaultdata();
                 $('#txtTitle').val('');
                 $('#txtDesc').val('');
+                $('#startDate').val('');
+                $('#endDate').val('');
+                $('#keyword').val('');
+               
             },
 
 
@@ -250,7 +314,7 @@
                 if (feedbackList.length > 0) {
                     var i = 1;
                     $.each(feedbackList, function (index, item) {
-                        html += '<tr id="eachrow" style="font-weight:bold;">'
+                        html += '<tr class="datarow" id="eachrow' + item.ID + '" style="font-weight:bold;">'
                         html += '<td>' + i + '</td>';
                         html += '<td>' + item.Name + '</td>';
                         html += '<td>' + item.EmailID + '</td>';
@@ -261,7 +325,7 @@
                         html += '<td>' + item.IsRead + '</td>';
                         html += '<td>' + item.ReceivedDate + '</td>';
                         html += '<td>' + item.Rating + '</td>'
-                        html += '<td><button type="button" id="markasread" name="Mark as Read"><i class="fa fa-check"></i></button></td>';
+                        html += '<td ><p class="checkedtd" id="testid' + item.ID + '" data-id=' + item.ID + ' read="' + item.IsRead + '"> <i class="fa fa-check"  style="cursor:pointer;"></i></p></td>';
                         html += '</tr>';
                         i++;
                     });
