@@ -75,5 +75,12 @@ public class Feedback : AuthenticateService
             throw ex;
         }
     }
+
+    [WebMethod]
+    public void SendNotificationEmail(string From, string sendTo, string Subject, string Body,string CC, string BCC)
+    {
+
+    }
+
 }
 

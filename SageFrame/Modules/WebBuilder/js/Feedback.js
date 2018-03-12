@@ -1,4 +1,5 @@
-﻿(function ($) {
+﻿//FeedBack ko kei rahasyamaya kura haru
+(function ($) {
     $.Feedback = function (p) {
         p = $.extend
           ({
@@ -26,7 +27,7 @@
 
                 SecureToken: SageFrameSecureToken,
                 ID: 0,
-              
+                //ProfileImageName: '',
             },
 
 
@@ -77,7 +78,10 @@
 
                 $('#btnReset').on('click', function () {
                     Feedback.ClearFeedbackForm();
+
                 });
+
+          
 
             },
 
@@ -93,26 +97,23 @@
 
             },
             CheckRead: function () {
-                $('#tbl_feedbacklist').load('.datarow', function () {
-                    $('.datarow').each(function () {
-                        var $this = $(this).children(':last');;
-                        var $last = $this.children();
-                        var ID = $last.attr('data-id');
-                        var IsRead = $last.attr('read');
-                        if (IsRead === "True" || IsRead == "true") {
-                            Feedback.IsRead($last, ID);
-                        }
-                    })                    
-                });         
-                
+                // $('#tbl_feedbacklist').load('.datarow', function () {
+                $('.datarow').each(function () {
+                    var $this = $(this).children(':last');;
+                    var $last = $this.children();
+                    var ID = $last.attr('data-id');
+                    var IsRead = $last.attr('read');
+                    if (IsRead === "True" || IsRead == "true") {
+                        Feedback.IsRead($last, ID);
+                    }
+                })
 
+                // });
             },
             LoadChanges: function (obj) {
                 Feedback.GetAllFeedback(obj);
                 Feedback.CheckRead();
-                
             },
-            
             GetResult: function () {
                 var dataObject = {
                     SortName: 'date',
@@ -124,24 +125,22 @@
                     EndDate: '9999-12-31',
                     IsRead: null
                 }
-                Feedback.GetAllFeedback(dataObject);
-                Feedback.CheckRead();
+                Feedback.LoadChanges(dataObject);
                 $('#sortName').off().on('change', function () {
                     var sortName = $(this).val();
                     $('#sortOrder').hide();
+
                     if (sortName !== "pleaseSelect") {
                         dataObject.SortName = sortName;
                         Feedback.LoadChanges(dataObject);
-                        
                         $('#sortOrder').show();
                     }
                 });
                 $('#sortOrder').off().on('change', function () {
                     dataObject.SortOrder = $(this).val();
-                    //Feedback.CheckRead();
                     Feedback.LoadChanges(dataObject);
                 });
-           
+            
                 $('#pageSize').off().on('change', function () {
                     var pageSize = $(this).val();
                     if (typeof (pageSize !== "undefined" && pageSize !== null)) {
@@ -156,12 +155,39 @@
                         dataObject.StartDate = startdate;
                     }
                 });
+
                 $('#endDate').datepicker();//.default("setDate", new Date());
                 $('#endDate').change(function () {
                     var endDate = $(this).val();
                     if (endDate !== null && typeof (endDate) !== "undefined") {
                         dataObject.EndDate = endDate;
                     }
+                });
+
+                $('#btnGetFeedback').off().on('click', function () {
+                    var keyword = $('#keyword').val();
+                    if (keyword !== "NULL") {
+                        dataObject.Keyword = keyword;
+                        $('#keyword').val('');
+                    }
+                    Feedback.LoadChanges(dataObject);
+                    Feedback.ClearFeedbackForm();
+                });
+
+                //Resets List Parameters
+                $('#btnResetFeedbackList').on('click', function () {
+                    dataObject.StartDate = '1753-01-01';
+                    dataObject.EndDate = '9999-12-31';
+                    dataObject.Isread = null;
+                    dataObject.SortName = 'date';
+                    dataObject.SortOrder = '';
+                    dataObject.Keyword = '';
+                    dataObject.PageSize = '10';
+                    dataObject.PageNumber= '1';
+
+                    Feedback.LoadChanges(dataObject);
+
+
                 });
 
                 $('#checkRead').off().on('click', function () {
@@ -174,27 +200,27 @@
                     }
                     // Feedback.GetAllFeedback(dataObject);
                 });
-                //$('#tbl_feedbacklist').on('click', '.checkedtd', function () {
-                //    var $this = $(this);
-                //    var ID = $this.attr('data-id');
-                //    var IsRead = $this.attr('read');
-                //    //Feedback.Read_Clicked();
-                //    Feedback.CheckRead();
-                //    Feedback.GetAllFeedback(dataObject);
-                //});
 
-                $('#btnGetFeedback').off().on('click', function () {
-                    var keyword = $('#keyword').val();
-                    if (keyword !== "NULL") {
-                        dataObject.Keyword = keyword;
-                        //Feedback.LoadChanges();
-                        $('#keyword').val('');
+                $('#tbl_feedbacklist').off().on('click', '.checkedtd', function (e) {
+                    var $this = $(this);
+                    var ID = $this.attr('data-id');
+                    var IsRead = $this.attr('read');
+                    if (typeof (IsRead) !== "undefined") {
+                        Feedback.MarkAsRead(ID);
                     }
-                    //Feedback.GetAllFeedback(dataObject);
-                    //  Feedback.CheckRead();
+                    if (IsRead == "True" || IsRead == "true") {
+                        e.preventDefault();
+                    }
                     Feedback.LoadChanges(dataObject);
-                    Feedback.ResetFeedbackList();
+                })
+            },
+            MarkAsRead: function (ID) {
+                Feedback.config.method = "MarkasRead"
+                Feedback.config.data = JSON.stringify({
+                    ID: ID
                 });
+                Feedback.config.ajaxCallMode = 4;
+                Feedback.ajaxCall(Feedback.config);
             },
             SubmitFeedBack: function () {
                 Feedback.config.method = "InsertFeedback"
@@ -215,12 +241,11 @@
                     //secureToken: SageFrameSecureToken,-
                     //UserName: SageFrameUserName
                 });
-                Feedback.config.ajaxCallMode = 3;
+                //Feedback.config.ajaxCallMode = 3;
                 Feedback.ajaxCall(Feedback.config);
             },
 
             GetAllFeedback: function (data) {
-   
                 Feedback.config.method = "GetResult";
 
                 Feedback.config.data = JSON.stringify({
@@ -258,23 +283,20 @@
                         }
                     case 3:
                         {
-                            alert("Feedback Added Successfully!!")
+                            alert("Feedback Added Successfully!!");
+                            break;
                         }
+
                 }
-            },
-
-            ResetFeedbackList: function () {
-                $('#startDate').val('');
-                $('#endDate').val('');
-
-
             },
 
             ClearFeedbackForm: function () {
                 // $('#slcfeedback').defaultdata();
                 $('#txtTitle').val('');
                 $('#txtDesc').val('');
-           
+                $('#startDate').val('');
+                $('#endDate').val('');
+                $('#keyword').val('');
                
             },
 
@@ -303,7 +325,7 @@
                         html += '<td>' + item.IsRead + '</td>';
                         html += '<td>' + item.ReceivedDate + '</td>';
                         html += '<td>' + item.Rating + '</td>'
-                        html += '<td ><a class="checkedtd" id="testid' + item.ID + '" data-id=' + item.ID + ' read="' + item.IsRead + '"> <i class="fa fa-check"  style="cursor:pointer;"></i></a></td>';
+                        html += '<td ><p class="checkedtd" id="testid' + item.ID + '" data-id=' + item.ID + ' read="' + item.IsRead + '"> <i class="fa fa-check"  style="cursor:pointer;"></i></p></td>';
                         html += '</tr>';
                         i++;
                     });
