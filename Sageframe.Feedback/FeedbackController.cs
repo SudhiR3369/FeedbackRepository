@@ -15,10 +15,10 @@ namespace Sageframe.Feedback
 
         }
 
-        public void MarkAsRead(FeedbackDetails data)
+        public void MarkAsRead(int ID)
         {
             FeedbackProvider FD = new FeedbackProvider();
-            FD.MarkAsRead(data);
+            FD.MarkAsRead(ID);
 
         }
         public List<FeedbackDetails> GetAllFeedbacks(FeedbackDetails obj)

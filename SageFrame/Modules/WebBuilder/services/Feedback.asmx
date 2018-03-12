@@ -7,6 +7,7 @@ using System.Web.Services;
 using SageFrame.Web;
 using SageFrame.Services;
 using Sageframe.Feedback;
+using SageFrame.SageFrameClass.MessageManagement;
 
 /// <summary>
 /// Summary description for Feedback
@@ -31,28 +32,14 @@ public class Feedback : AuthenticateService
             throw;
         }
     }
-    //[WebMethod]
-    //public List<FeedbackDetails>GetAllFeedbacks(FeedbackDetails obj)
-    //{
-    //    try
-    //    {
-
-    //        FeedbackController FC = new FeedbackController();
-    //        return FC.GetAllFeedbacks(obj);
-    //    }
-    //    catch (Exception ex)
-    //    {
-    //        throw ex;
-    //    }
-    //}
 
     [WebMethod]
-    public string MarkAsRead(FeedbackDetails submit)
+    public string MarkAsRead(int ID)
     {
         try
         {
             FeedbackController FC = new FeedbackController();
-            FC.MarkAsRead(submit);
+            FC.MarkAsRead(ID);
             return "Hello";
         }
         catch
@@ -79,7 +66,7 @@ public class Feedback : AuthenticateService
     [WebMethod]
     public void SendNotificationEmail(string From, string sendTo, string Subject, string Body,string CC, string BCC)
     {
-
+        MailHelper.SendMailNoAttachment(From, sendTo, Subject, Body, string.Empty, string.Empty);
     }
 
 }

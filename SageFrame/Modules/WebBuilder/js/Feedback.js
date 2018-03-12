@@ -18,7 +18,8 @@
                 data: '{}',
                 dataType: 'json',
                 method: "",
-                url: "http://172.18.12.119:8090/Modules/WebBuilder/services/Feedback.asmx/",
+                 url: "http://172.18.12.119:8090/Modules/WebBuilder/services/Feedback.asmx/",
+              //  url: SageFrameAppPath+"/Modules/WebBuilder/services/Feedback.asmx/",
                 ajaxCallMode: 0,
                 //  baseURL: SageFrameAppPath + '/Modules/Registration/WebService/RegistrationService.asmx/',
                 // Path: SageFrameAppPath + '/Modules/Registration/',
@@ -92,7 +93,8 @@
                 $last.text("Read");
                 $('#eachrow' + ID).css({
                     "font-weight": "",
-                    "color": "red"
+                    "color": "red",
+                    'pointer-events':'none'
                 });
 
             },
@@ -119,7 +121,7 @@
                     SortName: 'date',
                     SortOrder: '',
                     Keyword: '',
-                    PageSize: '10',
+                    PageSize: '30',
                     PageNumber: '1',
                     StartDate: '1753-01-01',
                     EndDate: '9999-12-31',
@@ -141,11 +143,14 @@
                     Feedback.LoadChanges(dataObject);
                 });
             
-                $('#pageSize').off().on('change', function () {
+                $('#pageSize').off().on('change', function (e) {
                     var pageSize = $(this).val();
-                    if (typeof (pageSize !== "undefined" && pageSize !== null)) {
+                    if (typeof (pageSize !== "select")) {
                         dataObject.PageSize = pageSize;
                         Feedback.LoadChanges(dataObject);
+                    }
+                    else {
+                       Feedback.LoadChanges(dataObject.PageSize);
                     }
                 });
                 $('#startDate').datepicker();//.datepicker("setDate", new Date());
@@ -182,7 +187,7 @@
                     dataObject.SortName = 'date';
                     dataObject.SortOrder = '';
                     dataObject.Keyword = '';
-                    dataObject.PageSize = '10';
+                    dataObject.PageSize = '50';
                     dataObject.PageNumber= '1';
 
                     Feedback.LoadChanges(dataObject);
@@ -205,11 +210,12 @@
                     var $this = $(this);
                     var ID = $this.attr('data-id');
                     var IsRead = $this.attr('read');
-                    if (typeof (IsRead) !== "undefined") {
+                    if (typeof (IsRead) !== "undefined" && IsRead != "True") {
                         Feedback.MarkAsRead(ID);
                     }
-                    if (IsRead == "True" || IsRead == "true") {
-                        e.preventDefault();
+                    if (IsRead == "True" || IsRead != "true") {
+                        e.stopPropagation();
+                       // $(this).prop('disabled', true);
                     }
                     Feedback.LoadChanges(dataObject);
                 })
@@ -241,7 +247,7 @@
                     //secureToken: SageFrameSecureToken,-
                     //UserName: SageFrameUserName
                 });
-                //Feedback.config.ajaxCallMode = 3;
+                Feedback.config.ajaxCallMode = 3;
                 Feedback.ajaxCall(Feedback.config);
             },
 
@@ -254,6 +260,22 @@
 
                 Feedback.config.ajaxCallMode = 1;
                 Feedback.ajaxCall(Feedback.config);
+            },
+
+            NotificationEmail:function(){
+                Feedback.config.method = "SendNotificationEmail";
+                Feedback.config.data = JSON.stringify({
+                    From: 'sthsudhir.np@gmail.com',
+                    sendTo: 'sushil.shrestha@braindigit.com',
+                    Subject: 'Testing Notification',
+                    Body: 'Sudhir Shrestha has successfully sent a feedback.',
+                    CC: '',
+                    BCC:''
+
+                })
+                Feedback.config.ajaxCallMode = 5;
+                Feedback.ajaxCall(Feedback.config);
+
             },
 
             ajaxCall: function (config) {
@@ -284,8 +306,20 @@
                     case 3:
                         {
                             alert("Feedback Added Successfully!!");
+                            Feedback.GetResult();
+                            Feedback.NotificationEmail();
                             break;
                         }
+                    case 4: {
+                        //alert("Successfull!");
+                        break;
+                    }
+
+                    case 5: {
+                        alert("Khai k khai k!");
+                        break;
+                    }
+
 
                 }
             },

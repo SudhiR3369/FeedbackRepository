@@ -546,7 +546,7 @@
             <tr>
                 <td>
                     <select id="pageSize">
-                        <option>--Select Page Size--</option>
+                        <option value="25">--Select Page Size--</option>
                         <option value="50">50</option>
                         <option value="10">10</option>
                         <option value="15">15</option>
