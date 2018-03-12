@@ -535,7 +535,12 @@
 
                     To:
                         <input type="text" id="endDate" />
-                    <button type="button" id="btnGetSubmit">Submit</button>
+                    <button type="button" id="btnGetFeedback">Submit</button>
+                </td>
+
+                <td>
+                    Set To Default:
+                    <button type="button" id="btnResetFeedbackList">Reset List</button>
                 </td>
             </tr>
             <tr>
