@@ -18,8 +18,8 @@
                 data: '{}',
                 dataType: 'json',
                 method: "",
-                 url: "http://172.18.12.119:8090/Modules/WebBuilder/services/Feedback.asmx/",
-              //  url: SageFrameAppPath+"/Modules/WebBuilder/services/Feedback.asmx/",
+               // url: "http://172.18.12.119:8090/Modules/WebBuilder/services/Feedback.asmx/",
+                url: SageFrameAppPath + "/Modules/WebBuilder/services/Feedback.asmx/",
                 ajaxCallMode: 0,
                 //  baseURL: SageFrameAppPath + '/Modules/Registration/WebService/RegistrationService.asmx/',
                 // Path: SageFrameAppPath + '/Modules/Registration/',
@@ -91,7 +91,7 @@
                 $last.text("Read");
                 $('#eachrow' + ID).css({
                     "font-weight": "",
-                    "color": "red",
+                    "color": "green",
                     'pointer-events':'none'
                 });
 
@@ -261,14 +261,15 @@
             },
 
             NotificationEmail:function(){
-                Feedback.config.method = "SendNotificationEmail";
+                Feedback.config.method = "NotificationEmail";
                 Feedback.config.data = JSON.stringify({
-                    From: 'sthsudhir.np@gmail.com',
-                    sendTo: 'sushil.shrestha@braindigit.com',
-                    Subject: 'Testing Notification',
-                    Body: 'Sudhir Shrestha has successfully sent a feedback.',
-                    CC: '',
-                    BCC:''
+                    //From: 'bdtrainee.engineer@gmail.com',
+                    //sendTo: 'sudip.thapa@braindigit.com',
+                    Subject: 'Feedback Notification',
+                    Body:'<div><p>'+SageFrameUserName+ ' has sent a feedback.' + 'Click <a href='+ SageFrameHostURL+'/Webbuilder/home>'+ 'Here</a> to view Feedback list. </div></p>',
+                   // CC: 'finalgoal123@gmail.com',
+                   // BCC:''
+                 
 
                 })
                 Feedback.config.ajaxCallMode = 5;
@@ -304,7 +305,7 @@
                     case 3:
                         {
                             alert("Feedback Added Successfully!!");
-                            Feedback.GetResult();
+                            //Feedback.GetResult();
                             Feedback.NotificationEmail();
                             break;
                         }
@@ -314,7 +315,7 @@
                     }
 
                     case 5: {
-                        alert("Khai k khai k!");
+                        alert("Mail toh Giyo");
                         break;
                     }
 

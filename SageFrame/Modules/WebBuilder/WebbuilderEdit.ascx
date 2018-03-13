@@ -527,6 +527,7 @@
                 <td>Search By</td>
                 <td>
                     <input type="text" id="keyword" name="Search" placeholder="Name,Category,Domain,Date" /><i class="fa fa-search"></i>
+
                     <%--<button type="button" id="keyword_Submit">Submit</button>--%>
                 </td>
 
@@ -535,7 +536,10 @@
 
                     To:
                         <input type="text" id="endDate" />
-                    <button type="button" id="btnGetFeedback">Submit</button>
+                   <%-- <button type="button" id="btnGetFeedback">Submit</button>--%>
+                    <div>
+                      <span class="sfBtn smlbtn-primary filter_search" id="btnGetFeedback"><i class="fa fa-search"></i>Search</span>
+                        </div>
                 </td>
 
                 <td>

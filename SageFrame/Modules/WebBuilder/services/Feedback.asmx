@@ -7,6 +7,7 @@ using System.Web.Services;
 using SageFrame.Web;
 using SageFrame.Services;
 using Sageframe.Feedback;
+using System.Net.Mail;
 using SageFrame.SageFrameClass.MessageManagement;
 
 /// <summary>
@@ -49,7 +50,7 @@ public class Feedback : AuthenticateService
     }
 
     [WebMethod]
-    public List<FeedbackDetails>GetResult(FeedbackDetails data)
+    public List<FeedbackDetails> GetResult(FeedbackDetails data)
     {
         try
         {
@@ -64,9 +65,58 @@ public class Feedback : AuthenticateService
     }
 
     [WebMethod]
-    public void SendNotificationEmail(string From, string sendTo, string Subject, string Body,string CC, string BCC)
+    public void SendNotificationEmail(string From, string sendTo, string Subject, string Body, string CC, string BCC)
     {
-        MailHelper.SendMailNoAttachment(From, sendTo, Subject, Body, string.Empty, string.Empty);
+        MailHelper.SendEMail(From, sendTo, Subject, Body, CC, string.Empty);
+    }
+
+    [WebMethod]
+    public void NotificationEmail(string Subject, string Body)
+    {
+
+        //MailMessage msg = new MailMessage();
+        //msg.From = new MailAddress(From);
+        //msg.To.Add(new MailAddress(sendTo));
+        //msg.Body = Body;
+        //msg.Subject = Subject;
+
+        //SmtpClient client = new SmtpClient();
+
+        //client.Send(msg);
+
+        try
+        {
+            SageFrameConfig sfConfig = new SageFrameConfig();
+            string ServerPort = sfConfig.GetSettingValueByIndividualKey(SageFrameSettingKeys.SMTPServer);
+            string SMTPPassword = sfConfig.GetSettingValueByIndividualKey(SageFrameSettingKeys.SMTPPassword);
+            string SMTPUsername = sfConfig.GetSettingValueByIndividualKey(SageFrameSettingKeys.SMTPUsername);
+            string SMTPAuthentication = sfConfig.GetSettingValueByIndividualKey(SageFrameSettingKeys.SMTPAuthentication);
+           // string SMTPEnableSSL = sfConfig.GetSettingValueByIndividualKey(SageFrameSettingKeys.SMTPEnableSSL);
+            string[] SMTPServer = ServerPort.Split(':');
+
+
+            MailMessage mail = new MailMessage();
+            mail.To.Add("finalgoal123@gmail.com");
+            // mail.CC.Add(CC);
+            mail.From = new MailAddress(SMTPUsername);
+            mail.Subject = Subject;
+            // string Body = "Name:"+TextBoxName.Text+" Phone Number: "+TextPhone.Text;
+            mail.Body = Body;
+            mail.IsBodyHtml = true;
+
+            SmtpClient smtp = new SmtpClient();
+            smtp.Host = SMTPServer[0];//"smtp.gmail.com";
+            smtp.EnableSsl = true;          
+            smtp.Credentials = new System.Net.NetworkCredential(SMTPUsername, SMTPPassword);
+            smtp.Send(mail);
+            // lblStatus.Text = "Message send successfully.";
+            //textMessage.Text = "";
+        }
+        catch (Exception ex)
+        {
+            throw ex;
+        }
+
     }
 
 }
