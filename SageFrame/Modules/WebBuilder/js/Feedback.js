@@ -80,9 +80,7 @@
                 $('#btnReset').on('click', function () {
                     Feedback.ClearFeedbackForm();
 
-                });
-
-          
+                });         
 
             },
 
@@ -183,7 +181,7 @@
                 $('#btnResetFeedbackList').on('click', function () {
                     dataObject.StartDate = '1753-01-01';
                     dataObject.EndDate = '9999-12-31';
-                    dataObject.Isread = null;
+                    dataObject.IsRead = null;
                     dataObject.SortName = 'date';
                     dataObject.SortOrder = '';
                     dataObject.Keyword = '';
@@ -331,6 +329,7 @@
                 $('#startDate').val('');
                 $('#endDate').val('');
                 $('#keyword').val('');
+                $('#slcFeedback').val(1);
                
             },
 
