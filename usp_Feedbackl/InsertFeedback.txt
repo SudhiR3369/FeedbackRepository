@@ -1,0 +1,28 @@
+USE [Contentder]
+GO
+/****** Object:  StoredProcedure [dbo].[usp_Feedback_Insert]    Script Date: 3/9/2018 3:06:59 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ALTER PROC [dbo].[usp_Feedback_Insert]
+
+@name varchar(20),
+
+
+@category varchar(20),
+@title varchar(20),
+@description varchar(100),
+@domain varchar(30),
+@isread bit
+
+--@userModuleID int,
+--@portalID int,
+--@cultureCode varchar(10)
+AS
+BEGIN
+INSERT INTO Feedback
+		(Name,Category,Title,Description,Domain,IsRead)
+		VALUES
+		(@name,@category,@title,@description,@domain,@isread)
+END
