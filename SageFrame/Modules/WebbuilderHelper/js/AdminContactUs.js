@@ -111,6 +111,7 @@
                 });
             },           
             GetDetail: function (tblID, argus) {
+                Console.log(argus[1]);
                 html = '<div class="content_heading"><h2>Contact Information</h2></div><div class="details_wrap inline">';
                 html += "<div class='body'>";
                 html += "<div class='detail_group'><span class='detail_label'>First Name</span>";

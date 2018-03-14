@@ -18,7 +18,7 @@
                 data: '{}',
                 dataType: 'json',
                 method: "",
-               // url: "http://172.18.12.119:8090/Modules/WebBuilder/services/Feedback.asmx/",
+                // url: "http://172.18.12.119:8090/Modules/WebBuilder/services/Feedback.asmx/",
                 url: SageFrameAppPath + "/Modules/WebBuilder/services/Feedback.asmx/",
                 ajaxCallMode: 0,
                 //  baseURL: SageFrameAppPath + '/Modules/Registration/WebService/RegistrationService.asmx/',
@@ -80,7 +80,7 @@
                 $('#btnReset').on('click', function () {
                     Feedback.ClearFeedbackForm();
 
-                });         
+                });
 
             },
 
@@ -92,7 +92,7 @@
                 $('#eachrow' + ID).css({
                     "font-weight": "",
                     "color": "green",
-                    'pointer-events':'none'
+                    'pointer-events': 'none'
                 });
 
             },
@@ -125,22 +125,31 @@
                     EndDate: '9999-12-31',
                     IsRead: null
                 }
+
+                //Loads the list for first time with default parameters.
                 Feedback.LoadChanges(dataObject);
+
+
+                //Parametrs for filter and sorting the list.
                 $('#sortName').off().on('change', function () {
                     var sortName = $(this).val();
                     $('#sortOrder').hide();
 
-                    if (sortName !== "pleaseSelect") {
+                    if (sortName !== "Select Type") {
                         dataObject.SortName = sortName;
                         Feedback.LoadChanges(dataObject);
                         $('#sortOrder').show();
                     }
                 });
                 $('#sortOrder').off().on('change', function () {
-                    dataObject.SortOrder = $(this).val();
-                    Feedback.LoadChanges(dataObject);
+                    var sortDate = $(this).val();
+
+                    if (sortDate !== "Select Order") {
+                        dataObject.SortOrder = sortDate;
+                        Feedback.LoadChanges(dataObject);
+                    }
                 });
-            
+
                 $('#pageSize').off().on('change', function (e) {
                     var pageSize = $(this).val();
                     if (typeof (pageSize !== "select")) {
@@ -148,7 +157,7 @@
                         Feedback.LoadChanges(dataObject);
                     }
                     else {
-                       Feedback.LoadChanges(dataObject.PageSize);
+                        Feedback.LoadChanges(dataObject.PageSize);
                     }
                 });
                 $('#startDate').datepicker();//.datepicker("setDate", new Date());
@@ -185,10 +194,13 @@
                     dataObject.SortName = 'date';
                     dataObject.SortOrder = '';
                     dataObject.Keyword = '';
-                    dataObject.PageSize = '50';
-                    dataObject.PageNumber= '1';
+                    dataObject.PageSize = '25';
+                    dataObject.PageNumber = '1';
 
                     Feedback.LoadChanges(dataObject);
+                    Feedback.ClearFeedbackForm();
+                    $('#sortOrder').hide();
+                    $('#pageSize').val(1);
 
 
                 });
@@ -213,7 +225,7 @@
                     }
                     if (IsRead == "True" || IsRead != "true") {
                         e.stopPropagation();
-                       // $(this).prop('disabled', true);
+                        // $(this).prop('disabled', true);
                     }
                     Feedback.LoadChanges(dataObject);
                 })
@@ -260,16 +272,16 @@
                 Feedback.ajaxCall(Feedback.config);
             },
 
-            NotificationEmail:function(){
+            NotificationEmail: function () {
                 Feedback.config.method = "NotificationEmail";
                 Feedback.config.data = JSON.stringify({
                     //From: 'bdtrainee.engineer@gmail.com',
                     //sendTo: 'sudip.thapa@braindigit.com',
                     Subject: 'Feedback Notification',
-                    Body:'<div><p>'+SageFrameUserName+ ' has sent a feedback.' + 'Click <a href='+ SageFrameHostURL+'/Webbuilder/home>'+ 'Here</a> to view Feedback list. </div></p>',
-                   // CC: 'finalgoal123@gmail.com',
-                   // BCC:''
-                 
+                    Body: '<div><p>' + SageFrameUserName + ' has sent a feedback.' + 'Click <a href=' + SageFrameHostURL + '/Webbuilder/home>' + 'Here</a> to view Feedback list. </div></p>',
+                    // CC: 'finalgoal123@gmail.com',
+                    // BCC:''
+
 
                 })
                 Feedback.config.ajaxCallMode = 5;
@@ -305,7 +317,7 @@
                     case 3:
                         {
                             alert("Feedback Added Successfully!!");
-                            //Feedback.GetResult();
+                            Feedback.GetResult();
                             Feedback.NotificationEmail();
                             break;
                         }
@@ -331,7 +343,10 @@
                 $('#endDate').val('');
                 $('#keyword').val('');
                 $('#slcFeedback').val(1);
-               
+                $('#sortName').val('Select Type');
+                $('#sortOrder').val('Select Order');
+
+
             },
 
 

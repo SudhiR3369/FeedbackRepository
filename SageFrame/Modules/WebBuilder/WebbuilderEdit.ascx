@@ -499,14 +499,14 @@
                 <td>Sort By</td>
                 <td>
                     <select id="sortName">
-                        <option value="pleaseSelect">--Select Category--</option>
+                        <option value="Select Type">--Select Category--</option>
                         <option value="Name">Name</option>
                         <option value="date">Date</option>
                     </select>
                 </td>
                 <td>
                     <select id="sortOrder" style="display: none;">
-                        <option value="keihoina">--Select Order--</option>
+                        <option value="Select Order">--Select Order--</option>
                         <option value="ascending">Ascending</option>
                         <option value="descending">Descending</option>
                     </select>

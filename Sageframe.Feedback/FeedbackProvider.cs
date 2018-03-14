@@ -63,9 +63,13 @@ namespace Sageframe.Feedback
             try
             {
                 List<KeyValuePair<string, object>> para = new List<KeyValuePair<string, object>>();
-                para.Add(new KeyValuePair<string, object>("@sortName", obj.SortName));
-                para.Add(new KeyValuePair<string, object>("@sortOrder", obj.SortDate));
+                para.Add(new KeyValuePair<string, object>("@SortName", obj.SortName));
+                para.Add(new KeyValuePair<string, object>("@SortOrder", obj.SortDate));
                 para.Add(new KeyValuePair<string, object>("@isread", obj.IsRead));
+                para.Add(new KeyValuePair<string, object>("@keyword", obj.Keyword));
+                para.Add(new KeyValuePair<string, object>("@PageSize", obj.PageSize));
+                para.Add(new KeyValuePair<string, object>("@startDate", obj.StartDate));
+                para.Add(new KeyValuePair<string, object>("@endDate", obj.EndDate));
 
                 SQLHandler SQL = new SQLHandler();
                 return SQL.ExecuteAsList<FeedbackDetails>("usp_Feedback_GetAllFeedbacks", para);

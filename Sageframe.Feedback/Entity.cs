@@ -18,7 +18,12 @@ namespace Sageframe.Feedback
         public string Domain { get; set; }
         public string SentBy { get; set; }
         public DateTime ReceivedOn { get; set; }
+        public string ReceivedDate { get { return this.ReceivedOn.ToString(); } }
+        public DateTime StartDate { get; set; }
+        public DateTime EndDate { get; set; }
         public string Rating { get; set; }
+        public int PageSize { get; set; }
+        public string Keyword { get; set; }
         public int UserModuleID { get; set; }
         public string IsRead { get; set; }
         public string ReadBy { get; set; }
