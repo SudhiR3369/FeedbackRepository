@@ -71,18 +71,23 @@ public class Feedback : AuthenticateService
     }
 
     [WebMethod]
+    public FeedbackDetails GetFeedbackByID(int ID)
+    {
+        try
+        {
+            FeedbackController FC = new FeedbackController();
+            return FC.GetFeedbackByID(ID);
+        }
+        catch(Exception ex)
+        {
+                throw ex;
+        }
+    }
+
+    [WebMethod]
     public void NotificationEmail(string Subject, string Body)
     {
 
-        //MailMessage msg = new MailMessage();
-        //msg.From = new MailAddress(From);
-        //msg.To.Add(new MailAddress(sendTo));
-        //msg.Body = Body;
-        //msg.Subject = Subject;
-
-        //SmtpClient client = new SmtpClient();
-
-        //client.Send(msg);
 
         try
         {
@@ -91,7 +96,7 @@ public class Feedback : AuthenticateService
             string SMTPPassword = sfConfig.GetSettingValueByIndividualKey(SageFrameSettingKeys.SMTPPassword);
             string SMTPUsername = sfConfig.GetSettingValueByIndividualKey(SageFrameSettingKeys.SMTPUsername);
             string SMTPAuthentication = sfConfig.GetSettingValueByIndividualKey(SageFrameSettingKeys.SMTPAuthentication);
-           // string SMTPEnableSSL = sfConfig.GetSettingValueByIndividualKey(SageFrameSettingKeys.SMTPEnableSSL);
+            // string SMTPEnableSSL = sfConfig.GetSettingValueByIndividualKey(SageFrameSettingKeys.SMTPEnableSSL);
             string[] SMTPServer = ServerPort.Split(':');
 
 
@@ -106,7 +111,7 @@ public class Feedback : AuthenticateService
 
             SmtpClient smtp = new SmtpClient();
             smtp.Host = SMTPServer[0];//"smtp.gmail.com";
-            smtp.EnableSsl = true;          
+            smtp.EnableSsl = true;
             smtp.Credentials = new System.Net.NetworkCredential(SMTPUsername, SMTPPassword);
             smtp.Send(mail);
             // lblStatus.Text = "Message send successfully.";

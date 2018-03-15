@@ -21,6 +21,7 @@
                 // url: "http://172.18.12.119:8090/Modules/WebBuilder/services/Feedback.asmx/",
                 url: SageFrameAppPath + "/Modules/WebBuilder/services/Feedback.asmx/",
                 ajaxCallMode: 0,
+                baseUrl: '',
                 //  baseURL: SageFrameAppPath + '/Modules/Registration/WebService/RegistrationService.asmx/',
                 // Path: SageFrameAppPath + '/Modules/Registration/',
                 PortalID: SageFramePortalID,
@@ -36,38 +37,81 @@
                 //Feedback.GetAllFeedback();
                 //Feedback.SelectOption();
                 //Feedback.SearchFeedList();
-                Feedback.UIEvent();
+
                 Feedback.GetResult();
+                Feedback.UIEvent();
             },
 
             UIEvent: function () {
-                $('#btnFeedback').bind('click', ToggleDisplay);
-                function ToggleDisplay() {
-                    if ($('#divFeedbackForm').data('shown'))
-                        hide();
-                    else
-                        display();
-                }
-                function display() {
-                    if ($('#divFeedbackForm').children().length > 0) {
-                        $('#divFeedbackForm').fadeIn(500, function () {
-                            //$(document).bind('click', function () {
-                            hide();
-                            //});
-                            $('#divFeedbackForm').data('shown', true)
+                $('#btnFeedback').on('click', function () {
+                    Feedback.ClearFeedbackForm();
+                    $('#divFeedbackForm').fadeIn(300);
+                });
 
-                        });
-                    }
-                }
+                $('#iconClose').on('click', function () {
+                    $('#divFeedbackForm').fadeOut(300);
+                });
 
-                function hide() {
-                    $('#iconClose').on('click', function () {
-                        $('#divFeedbackForm').fadeOut(500, function () {
-                            //$('document').unbind('click');
-                            $('#divFeedbackForm').data('shown', false);
-                        });
-                    });
-                }
+                //$('#btnFeedback').bind('click', ToggleDisplay);
+                //function ToggleDisplay() {
+                //    Feedback.ClearFeedbackForm();
+                //    if ($('#divFeedbackForm').data('shown'))
+                //        hide();
+                //    else
+                //        display();
+                //}
+                //function display() {
+                //    if ($('#divFeedbackForm').children().length > 0) {
+                //        $('#divFeedbackForm').fadeIn(500, function () {
+                //            //$(document).bind('click', function () {
+                //            hide();
+                //            //});
+                //            $('#divFeedbackForm').data('shown', true)
+
+                //        });
+                //    }
+                //}
+
+                //$('#btnSgrid').on('click', function () {
+                //    $("#testSagegrid").sagegrid({
+                //        url: this.config.baseUrl,
+                //        functionMethod: this.config.method,
+                //        colModel: [
+                //                    { display: '#', name: 'RowNum', cssclass: 'cssClassHeadNumber', coltype: 'label', align: 'center', controlclass: '' },
+                //                    { display: 'ID', name: 'ContactUsID', cssclass: 'cssClassHide', controlclass: '', coltype: 'label', align: 'center', hide: true },
+                //                    { display: 'First Name', name: 'ClientTransactionID', cssclass: 'cssClassHide', controlclass: '', coltype: 'label', align: 'center' },
+                //                    { display: 'Last Name', name: 'FullName', cssclass: 'cssClassHeadNumber', controlclass: '', coltype: 'label', align: 'center' },
+                //                    { display: 'Message', name: 'Message', cssclass: 'cssClassHide', controlclass: '', coltype: 'label', align: 'center', hide: true },
+                //                    { display: 'Email', name: 'Email', cssclass: 'cssClassHeadNumber', controlclass: '', coltype: 'label', align: 'center' },
+                //                    { display: 'Telephone', name: 'Telephone', cssclass: 'cssClassHeadNumber', controlclass: '', coltype: 'label', align: 'left', hide: true },
+                //                    { display: 'Subject', name: 'Subject', cssclass: 'cssClassHeadNumber', controlclass: '', coltype: 'label', align: 'center' },
+                //                    { display: 'Address', name: 'Address', cssclass: 'cssClassHeadNumber', controlclass: '', coltype: 'label', align: 'center', hide: true },
+                //                    { display: 'Website', name: 'Website', cssclass: 'cssClassHeadNumber', controlclass: '', coltype: 'label', align: 'center', hide: true },
+                //                    { display: 'Actions', name: 'action', cssclass: 'cssClassHeadNumber', coltype: 'label', align: 'center' }
+                //        ],
+
+                //        buttons: [
+                //                    { display: 'Detail', cssclass: 'fa fa-file-text-o', name: '_detail', enable: true, _event: 'click', trigger: '3', callMethod: 'AdminContactUs.GetDetail', arguments: '1,2,3,4,5,6,7,8,9,10,11,12' },
+                //        ],
+                //        rp: perpage,
+                //        nomsg: "No Records Found!",
+                //        param: data, current: current_,
+                //        pnew: offset_,
+                //        hidePagination: false,
+                //        NormalPaging: false,
+                //        sortcol: { 10: { sorter: false } }
+                //    });
+
+                //});
+
+                //function hide() {
+                //    $('#iconClose').on('click', function () {
+                //        $('#divFeedbackForm').fadeOut(500, function () {
+                //            //$('document').unbind('click');
+                //            $('#divFeedbackForm').data('shown', false);
+                //        });
+                //    });
+                //}
 
                 $('#btnSubmit').off().on('click', function (e) {
                     e.preventDefault();
@@ -79,27 +123,33 @@
 
                 $('#btnReset').on('click', function () {
                     Feedback.ClearFeedbackForm();
-
                 });
+
+
+                //$('#btnCancel').on('click', function () {
+                //    $('#divFeedbackForm').hide();
+                //});
+
 
             },
 
             IsRead: function ($last, ID) {
-                $last.children().css({
-                    "display": "none"
+                $last.css({
+                  //  "display": "none",
+                    'pointer-events': 'none'
                 })
                 $last.text("Read");
                 $('#eachrow' + ID).css({
                     "font-weight": "",
-                    "color": "green",
-                    'pointer-events': 'none'
+                    "color": "green"
+                  
                 });
 
             },
             CheckRead: function () {
                 // $('#tbl_feedbacklist').load('.datarow', function () {
                 $('.datarow').each(function () {
-                    var $this = $(this).children(':last');;
+                    var $this = $(this).children().last(); // or $(this).children(':last')
                     var $last = $this.children();
                     var ID = $last.attr('data-id');
                     var IsRead = $last.attr('read');
@@ -216,19 +266,25 @@
                     // Feedback.GetAllFeedback(dataObject);
                 });
 
-                $('#tbl_feedbacklist').off().on('click', '.checkedtd', function (e) {
+                $('#tbl_feedbacklist').off('click').on('click', '.checkedtd', function (e) {
                     var $this = $(this);
                     var ID = $this.attr('data-id');
                     var IsRead = $this.attr('read');
                     if (typeof (IsRead) !== "undefined" && IsRead != "True") {
                         Feedback.MarkAsRead(ID);
                     }
-                    if (IsRead == "True" || IsRead != "true") {
-                        e.stopPropagation();
-                        // $(this).prop('disabled', true);
-                    }
+                    //if (IsRead == "True" || IsRead != "true") {
+                    //    e.stopPropagation();
+                    //    // $(this).prop('disabled', true);
+                    //}
                     Feedback.LoadChanges(dataObject);
-                })
+                });
+
+                $('#tbl_feedbacklist').on('click', '.view', function (e) {
+                    var ID = $(this).attr('data-id');
+                    Feedback.GetFeedbackByID(ID);
+
+                });
             },
             MarkAsRead: function (ID) {
                 Feedback.config.method = "MarkasRead"
@@ -246,11 +302,10 @@
                     Description: $.trim($('#txtDesc').val()),
                     Category: $('#slcFeedback option:selected').text(),
                     //UserModuleID: webBuilderUserModuleID,
-                    //PortalID: SageFramePortalID,
+                    //PortalID: SageFramePortalID,s
                     //CultureCode: SageFrameCurrentCulture,
                     Name: SageFrameUserName,
                     Domain: SageFrameHostURL
-
                 }
                 Feedback.config.data = JSON.stringify({
                     submit: Submit
@@ -258,6 +313,16 @@
                     //UserName: SageFrameUserName
                 });
                 Feedback.config.ajaxCallMode = 3;
+                Feedback.ajaxCall(Feedback.config);
+            },
+
+
+            GetFeedbackByID: function (ID) {
+                Feedback.config.method = 'GetFeedbackByID';
+                Feedback.config.data = JSON.stringify({
+                    ID: ID
+                });
+                Feedback.config.ajaxCallMode = 6;
                 Feedback.ajaxCall(Feedback.config);
             },
 
@@ -272,22 +337,72 @@
                 Feedback.ajaxCall(Feedback.config);
             },
 
-            NotificationEmail: function () {
-                Feedback.config.method = "NotificationEmail";
-                Feedback.config.data = JSON.stringify({
-                    //From: 'bdtrainee.engineer@gmail.com',
-                    //sendTo: 'sudip.thapa@braindigit.com',
-                    Subject: 'Feedback Notification',
-                    Body: '<div><p>' + SageFrameUserName + ' has sent a feedback.' + 'Click <a href=' + SageFrameHostURL + '/Webbuilder/home>' + 'Here</a> to view Feedback list. </div></p>',
-                    // CC: 'finalgoal123@gmail.com',
-                    // BCC:''
+            BindFeedbackForm: function (data) {
+                Feedback.ClearFeedbackForm();
+                data = data.d;
+                if (data != null) {
+                    $('#divFeedbackForm').show();                    
+                    $('#slcFeedback option:contains(' + data.Category + ')').prop('selected', true);
 
-
-                })
-                Feedback.config.ajaxCallMode = 5;
-                Feedback.ajaxCall(Feedback.config);
+                    $('#txtTitle').val(data.Title).attr('readonly', true);
+                    $('#txtDesc').val(data.Description).attr('readonly', true);
+                    $('#btnSubmit').hide();
+                    $('#btnReset').hide();
+                }
 
             },
+
+            //Feedback List Binding is Here
+            BindFeedbackList: function (data) {
+                var feedbackList = data.d;
+                var html = '';
+                if (feedbackList.length > 0) {
+                    var i = 1;
+                    $.each(feedbackList, function (index, item) {
+                        html += '<tr class="datarow" id="eachrow' + item.ID + '"  style="font-weight:bold;">'
+                        html += '<td>' + i + '</td>';
+                        html += '<td>' + item.Name + '</td>';
+                        html += '<td>' + item.EmailID + '</td>';
+                        html += '<td>' + item.Category + '</td>';
+                        html += '<td>' + item.Title + '</td>';
+                        html += '<td>' + item.Description + '</td>';
+                        html += '<td>' + item.Domain + '</td>';
+                        html += '<td>' + item.IsRead + '</td>';
+                        html += '<td>' + item.ReceivedDate + '</td>';
+                        html += '<td>' + item.Rating + '</td>'
+                        html += '<td><a class="view" href="Javascript:void(0);" data-id="' + item.ID + '"><i class="fa fa-eye"></i></a></td>'
+                        html += '<td ><p class="checkedtd" '+item.ID+' data-id=' + item.ID + ' read="' + item.IsRead + '"> <i class="fa fa-check"  style="cursor:pointer;"></i></p></td>';
+
+                        html += '</tr>';
+                        i++;
+                    });
+
+                }
+                else {
+                    html += '<tr><td colspan="7"><h3>No Data to Display DumbAss.</h3></td></tr>';
+                }
+                $('#tbl_feedbacklist').html(html);
+            },
+
+
+            //Notifies Admin about the reported Feedback
+
+            //NotificationEmail: function () {
+            //    Feedback.config.method = "NotificationEmail";
+            //    Feedback.config.data = JSON.stringify({
+            //        //From: 'bdtrainee.engineer@gmail.com',
+            //        //sendTo: 'sudip.thapa@braindigit.com',
+            //        Subject: 'Feedback Notification',
+            //        Body: '<div><p>' + SageFrameUserName + ' has sent a feedback.' + 'Click <a href=' + SageFrameHostURL + '/Webbuilder/home>' + 'Here</a> to view Feedback list. </div></p>',
+            //        // CC: 'finalgoal123@gmail.com',
+            //        // BCC:''
+
+
+            //    })
+            //    Feedback.config.ajaxCallMode = 5;
+            //    Feedback.ajaxCall(Feedback.config);
+
+            //},
 
             ajaxCall: function (config) {
                 $.ajax({
@@ -318,7 +433,7 @@
                         {
                             alert("Feedback Added Successfully!!");
                             Feedback.GetResult();
-                            Feedback.NotificationEmail();
+                            //   Feedback.NotificationEmail();
                             break;
                         }
                     case 4: {
@@ -330,66 +445,34 @@
                         alert("Mail toh Giyo");
                         break;
                     }
-
-
+                    case 6: {
+                        Feedback.BindFeedbackForm(data);
+                        break;
+                    }
                 }
             },
 
+
+            //Setting Default value
             ClearFeedbackForm: function () {
-                // $('#slcfeedback').defaultdata();
-                $('#txtTitle').val('');
-                $('#txtDesc').val('');
+                $('#txtTitle').val('').attr('readonly', false);
+                $('#txtDesc').val('').attr('readonly', false);
                 $('#startDate').val('');
                 $('#endDate').val('');
                 $('#keyword').val('');
-                $('#slcFeedback').val(1);
+                $('#slcFeedback').val(1).attr({'disabled':false});
                 $('#sortName').val('Select Type');
                 $('#sortOrder').val('Select Order');
-
-
-            },
-
-
-            //Validation for Feedback Form
-
-            //Feedback Form Ends Here
-
-
-            //Feedback List Starts Here
-
-            BindFeedbackList: function (data) {
-                var feedbackList = data.d;
-                var html = '';
-                if (feedbackList.length > 0) {
-                    var i = 1;
-                    $.each(feedbackList, function (index, item) {
-                        html += '<tr class="datarow" id="eachrow' + item.ID + '" style="font-weight:bold;">'
-                        html += '<td>' + i + '</td>';
-                        html += '<td>' + item.Name + '</td>';
-                        html += '<td>' + item.EmailID + '</td>';
-                        html += '<td>' + item.Category + '</td>';
-                        html += '<td>' + item.Title + '</td>';
-                        html += '<td>' + item.Description + '</td>';
-                        html += '<td>' + item.Domain + '</td>';
-                        html += '<td>' + item.IsRead + '</td>';
-                        html += '<td>' + item.ReceivedDate + '</td>';
-                        html += '<td>' + item.Rating + '</td>'
-                        html += '<td ><p class="checkedtd" id="testid' + item.ID + '" data-id=' + item.ID + ' read="' + item.IsRead + '"> <i class="fa fa-check"  style="cursor:pointer;"></i></p></td>';
-                        html += '</tr>';
-                        i++;
-                    });
-                }
-                else {
-                    html += '<tr><td colspan="7"><h3>No Data to Display DumbAss.</h3></td></tr>';
-                }
-                $('#tbl_feedbacklist').html(html);
+                $('#btnCancel').hide();
+                $('#btnSubmit').show();
+                $('#btnReset').show();
             }
         }
         Feedback.Init();
     }
 
 
-
+    //Validation for Feedback Form
     var validator =
       $("#form1").validate({
           ignore: ":hidden",

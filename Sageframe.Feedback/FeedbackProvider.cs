@@ -57,6 +57,20 @@ namespace Sageframe.Feedback
             }
         }
 
+        public FeedbackDetails GetFeedbackByID(int ID)
+        {
+            try
+            {
+                List<KeyValuePair<string, object>> para = new List<KeyValuePair<string, object>>();
+                para.Add(new KeyValuePair<string, object>("@ID", ID));
+                SQLHandler SQL = new SQLHandler();
+                return SQL.ExecuteAsObject<FeedbackDetails>("usp_Feedback_GetFeedbackByID", para);
+            }
+            catch(Exception ex)
+            {
+                throw ex;
+            }
+        }
 
         public List<FeedbackDetails> GetAllFeedbacks(FeedbackDetails obj)
         {
@@ -64,7 +78,7 @@ namespace Sageframe.Feedback
             {
                 List<KeyValuePair<string, object>> para = new List<KeyValuePair<string, object>>();
                 para.Add(new KeyValuePair<string, object>("@SortName", obj.SortName));
-                para.Add(new KeyValuePair<string, object>("@SortOrder", obj.SortDate));
+                para.Add(new KeyValuePair<string, object>("@SortOrder", obj.SortOrder));
                 para.Add(new KeyValuePair<string, object>("@isread", obj.IsRead));
                 para.Add(new KeyValuePair<string, object>("@keyword", obj.Keyword));
                 para.Add(new KeyValuePair<string, object>("@PageSize", obj.PageSize));

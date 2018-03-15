@@ -26,5 +26,11 @@ namespace Sageframe.Feedback
             FeedbackProvider FP = new FeedbackProvider();
             return FP.GetAllFeedbacks(obj);
         }
+
+        public FeedbackDetails GetFeedbackByID(int ID)
+        {
+            FeedbackProvider FD = new FeedbackProvider();
+            return FD.GetFeedbackByID(ID);
+        }
     }
 }

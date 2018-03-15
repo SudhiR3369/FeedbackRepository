@@ -30,6 +30,6 @@ namespace Sageframe.Feedback
         public int PortalID { get; set; }
         public string CultureCode { get; set; }
         public string SortName { get; set; }
-        public string SortDate { get; set; }
+        public string SortOrder { get; set; }
     }
 }

@@ -32,7 +32,7 @@
         });
     });
 </script>
-   
+
 <script type="text/javascript">
     $(function () {
         $(this).Feedback(
@@ -432,13 +432,14 @@
 
 <%--FeedBack Form Is Here--%>
 
-<div id="divFeedbackForm" class="popup-model ui-state-highlight ui-draggable" draggable="true" style="display: none; position: fixed; top: 20%; left: auto; right: 30%; width: 280px;">
+
+<div id="divFeedbackForm" class="popup-model ui-state-highlight ui-draggable" draggable="true" style="display: none; position: fixed; top: 20%; left: auto; right: 30%; width: 320px;">
     <div class="popup-header">
         <i class="icon-icon-settings"></i>
         <span class="popup-title">Feedback Form</span>
         <i id="iconClose" class="icon-icon-close f-right close-model"></i>
     </div>
-    <div>
+    <div class="sfTableWrapper table table">
 
         <table>
 
@@ -467,7 +468,7 @@
             <tr>
                 <td>
                     <h1>
-                        <label class="sormlabel">Description </label>
+                        <label class="sfFormlabel">Description </label>
                     </h1>
                 </td>
                 <td>
@@ -477,33 +478,44 @@
             <tr>
                 <td></td>
                 <td>
-                    <button id="btnSubmit" type="button" class="sfBtn icon-save">Submit</button>
-                    <button id="btnReset" type="button" class="sfBtn icon-close">Reset</button>
+                    <span class="sfBtn smlbtn-succ" id="btnSubmit">Submit</span>
+                 <%--   <button id="btnSubmit" type="button" class="sfBtn icon-save">Submit</button>--%>
+                   <%-- <button id="btnReset" type="button" class="sfBtn icon-close">Reset</button>--%>
+                     <span class="sfBtn smlbtn-primary" id="btnReset">Reset</span>
                 </td>
             </tr>
         </table>
+        <div>
+            <button id="btnCancel" type="button" style="display: none;">Cancel</button>
+        </div>
     </div>
 
 </div>
 
 
 <%--FeedBack List--%>
-<div id="divFeedbackList" class="sfFeedbackList">
+<div id="divFeedbackList"  style="margin-top: 100px;">
 
-    <div>
+    <div style="margin-left: 600px;">
         <h3>Registered Feedbacks </h3>
     </div>
     <div>
         <table>
             <tr>
-                <td>Sort By</td>
+
+                <td>
+                    <label class="sflocale">Sort By</label>
+                </td>
+            </tr>
+
+            <tr>
                 <td>
                     <select id="sortName">
                         <option value="Select Type">--Select Category--</option>
                         <option value="Name">Name</option>
                         <option value="date">Date</option>
                     </select>
-                </td>
+
                 <td>
                     <select id="sortOrder" style="display: none;">
                         <option value="Select Order">--Select Order--</option>
@@ -512,39 +524,40 @@
                     </select>
                 </td>
             </tr>
+
+
+
             <tr>
-                <td>
-                    <label id="lblChange">Show Mark as Read Only</label>
-                      <span class="value">
-                          <input id="checkRead" name="enable buttonLink" type="checkbox">
-                          <label for="checkRead">
-                              <i class="icon-icon-tick"></i>
-                          </label>
-                      </span>
-                </td>
-            </tr>
-            <tr>
-                <td>Search By</td>
-                <td>
-                    <input type="text" id="keyword" name="Search" placeholder="Name,Category,Domain,Date" /><i class="fa fa-search"></i>
+                <td>Search By
+               
+                    <span class="icon"><i class="fa fa-search"></i></span>
+                    <input type="search" id="keyword" name="Search" placeholder="Name,Category,Domain,Date" class="sfInputbox" />
+
 
                     <%--<button type="button" id="keyword_Submit">Submit</button>--%>
                 </td>
 
-                <td>From:                     
-                        <input type="text" id="startDate" />
-
-                    To:
-                        <input type="text" id="endDate" />
-                   <%-- <button type="button" id="btnGetFeedback">Submit</button>--%>
-                    <div>
-                      <span class="sfBtn smlbtn-primary filter_search" id="btnGetFeedback"><i class="fa fa-search"></i>Search</span>
-                        </div>
-                </td>
 
                 <td>
-                    Set To Default:
+                    <div>
+                        From:                     
+                        <input type="search" id="startDate" class="sfInputbox" />
+
+                    </div>
+
+                    To:
+                        <input type="search" id="endDate" class="sfInputbox" />
+                    <%-- <button type="button" id="btnGetFeedback">Submit</button>--%>                  
+                   
+                </td>
+
+
+                <td>Set To Default:
                     <button type="button" id="btnResetFeedbackList">Reset List</button>
+
+                    <div style="float: right" class="sfFieldset">
+                        <span class="sfBtn smlbtn-primary filter_search" id="btnGetFeedback"><i class="fa fa-search"></i>Search</span>
+                    </div>
                 </td>
             </tr>
             <tr>
@@ -554,15 +567,26 @@
                         <option value="50">50</option>
                         <option value="10">10</option>
                         <option value="15">15</option>
-
                     </select>
+                </td>
+                <td>
+                    <label id="lblChange">Show Mark as Read Only</label>
+                    <span class="value">
+                        <input id="checkRead" name="enable buttonLink" type="checkbox">
+                        <label for="checkRead">
+                            <i class="icon-icon-tick"></i>
+                        </label>
+                    </span>
+
                 </td>
 
             </tr>
         </table>
     </div>
 
-    <div id="divFeedbackListTableWrap" class="sfGridwrapper">
+
+
+    <div id="divFeedbackListTableWrap" class="sfGridwrapper table">
         <table style="width: 80%">
             <thead>
                 <tr>
@@ -576,6 +600,7 @@
                     <td>IsRead</td>
                     <td>Received on</td>
                     <td>Rating</td>
+                    <td>View<i class="fa fa-eye"></i></td>
                     <td><i class="fa fa-check">Mark as Read</i></td>
                 </tr>
 
@@ -589,6 +614,17 @@
 
 
 
+<%--<div id="test">
+    <button id="btnSgrid" type="button" class="sfBtn icon-save">Show It All</button>
+</div>
+
+<div class="content box">
+    <div class="content_wrap">
+        <table id="testSagegrid" class="responsive_data_table">
+        </table>
+        <div class="clearfix"></div>
+    </div>
+</div>--%>
 
 
 

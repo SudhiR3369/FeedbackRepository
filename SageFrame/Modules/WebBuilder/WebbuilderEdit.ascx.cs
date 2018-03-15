@@ -69,7 +69,8 @@ public partial class Modules_WebBuilder_WebbuilderEdit : BaseAdministrationUserC
             IncludeJs("webbuilderdevelopmentjs", "/Modules/WebBuilder/js/extensions.js");
         IncludeCss("webBuilderCss",
             "/Modules/WebBuilder/fonts/styles.css",
-            "/Modules/WebBuilder/css/custom.css");
+            "/Modules/WebBuilder/css/custom.css",
+            "/Core/Template/css/template.css");
         #endregion
         ShowData();
         ReadFontFamily();
