@@ -494,6 +494,7 @@ function ChangeIDWithParent($html) {
         EasyLibrary.GenerateAndAppendID($ele);
     });
 }
+
 function PopUpSetting(title, top, left, height, width, componentType, $parentRow, $this) {
     var $popUpModel = $('#popupModel');
     $popUpModel.find('.popup-title').text(title);
@@ -524,6 +525,12 @@ function PopUpSetting(title, top, left, height, width, componentType, $parentRow
         $('.popup-model').css({ 'width': '' });
     }
 }
+
+//function FeedbackPopup(title,top,left,height,width,componentType,$parentRow,$this) {
+//    var $popUpModel = $('#popupModel');
+//}
+
+
 function SimplePopup($opt) {
     var popupOption = {
         Title: 'simplePopup',
@@ -4224,6 +4231,8 @@ var extentComponent = {
                     $(this).addClass('clicked');
                     PopUpSetting('manage pages', 0, 500, 0, 0, 'managepages', $('.editor-site-header'), $(this));
                 });
+
+
 
                 $('#manageBody').on('click', function () {
                     var attrs = $('#element').attrs();

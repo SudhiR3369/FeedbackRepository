@@ -433,156 +433,175 @@
 <%--FeedBack Form Is Here--%>
 
 
-<div id="divFeedbackForm" class="popup-model ui-state-highlight ui-draggable" draggable="true" style="display: none; position: fixed; top: 20%; left: auto; right: 30%; width: 320px;">
+<div id="divFeedbackForm" class="popup-model ui-state-highlight ui-draggable" draggable="true" style="position: fixed; top: 20%; left: auto; right: 30%; display: none; width: 378px;">
     <div class="popup-header">
         <i class="icon-icon-settings"></i>
-        <span class="popup-title">Feedback Form</span>
+        <span class="popup-title" title="feedback">Feedback Form</span>
         <i id="iconClose" class="icon-icon-close f-right close-model"></i>
     </div>
-    <div class="sfTableWrapper table table">
+<%--<div id="FeedbackForm" class="simple-popup-model" style="display:none; position: absolute; top: 0px; left: 0px;">
+    <div class="simple-popup-header">
+        <span class="simple-popup-title">Feedback Form</span>
+        <i class="icon-icon-close f-right simple-close-model"></i>
+    </div>--%>
 
-        <table>
-
-            <tr>
-                <td>
-                    <h1>
-                        <label class="sfFormlabel">Feedback Category</label></h1>
-                </td>
-                <td>
-                    <select id="slcFeedback">
-                        <option value="1">Complement</option>
-                        <option value="2">Something is not right.</option>
-                        <option value="3">Not Good</option>
-                    </select>
-            </tr>
-
-            <tr>
-                <td>
-                    <h1>
-                        <label class="sfFormlabel">Title</label></h1>
-                </td>
-                <td>
-                    <input type="text" id="txtTitle" name="Title" class="sfInputbox" /></td>
-            </tr>
-
-            <tr>
-                <td>
-                    <h1>
-                        <label class="sfFormlabel">Description </label>
-                    </h1>
-                </td>
-                <td>
-                    <textarea id="txtDesc" rows="8" name="Description" cols="50" placeholder="Write your feedback here." class="sfInputbox"></textarea></td>
-            </tr>
-
-            <tr>
-                <td></td>
-                <td>
-                    <span class="sfBtn smlbtn-succ" id="btnSubmit">Submit</span>
-                 <%--   <button id="btnSubmit" type="button" class="sfBtn icon-save">Submit</button>--%>
-                   <%-- <button id="btnReset" type="button" class="sfBtn icon-close">Reset</button>--%>
-                     <span class="sfBtn smlbtn-primary" id="btnReset">Reset</span>
-                </td>
-            </tr>
-        </table>
-        <div>
-            <button id="btnCancel" type="button" style="display: none;">Cancel</button>
+ <div class="popup-model-body">
+    <div class="field-row clearfix">
+        <div class="field-row clearfix">
+            <label class="sfFormlabel">Feedback Category</label>
+            <span class="value">
+                <select id="slcFeedback">
+                    <option value="1">Complement</option>
+                    <option value="2">Something is not right.</option>
+                    <option value="3">Not Good</option>
+                </select>
+            </span>
         </div>
-    </div>
 
+
+
+        <div class="field-row clearfix">
+            <label class="sfFormlabel">Title</label>
+            <span class="value">
+                <span class="value">
+                    <input type="text" id="txtTitle" name="Title" class="sfInputbox" />
+                </span>
+            </span>
+        </div>
+
+
+
+        <div class="field-row clearfix">
+            <label class="sfFormlabel">Description </label>
+
+            <span class="value">
+                <textarea id="txtDesc" rows="8" name="Description" cols="50" placeholder="Write your feedback here." class="sfInputbox"></textarea>
+
+            </span>
+        </div>
+
+
+        <div class="field-row clearfix">
+            <span class="sfBtn smlbtn-succ" id="btnSubmit">Submit</span>
+            <%--    <button id="btnSubmit" type="button" class="sfBtn icon-save">Submit</button>
+         <button id="btnReset" type="button" class="sfBtn icon-close">Reset</button>--%>
+            <span class="sfBtn smlbtn-primary" id="btnReset">Reset</span>
+        </div>
+
+        <%--        <div>
+            <button id="btnCancel" type="button" style="display: none;">Cancel</button>
+        </div>--%>
+    </div>
+</div>
+   
 </div>
 
 
+
 <%--FeedBack List--%>
-<div id="divFeedbackList"  style="margin-top: 100px;">
+<div id="divFeedbackList" style="margin-top: 100px;">
 
     <div style="margin-left: 600px;">
         <h3>Registered Feedbacks </h3>
     </div>
-    <div>
-        <table>
-            <tr>
+    <div class="field-row clearfix">
 
-                <td>
-                    <label class="sflocale">Sort By</label>
-                </td>
-            </tr>
 
-            <tr>
-                <td>
+
+        <div class="field-row clearfix">
+            <div class="sfCol_20">
+                <span class="value">
+                    <label style="font-size: 15px" class="sflocale">Sort By</label></span>
+            </div>
+
+            <div class="sfCol_40">
+                <span class="value">
                     <select id="sortName">
                         <option value="Select Type">--Select Category--</option>
                         <option value="Name">Name</option>
                         <option value="date">Date</option>
                     </select>
-
-                <td>
+                </span>
+            </div>
+            <div class="sfCol_40">
+                <span class="value">
                     <select id="sortOrder" style="display: none;">
                         <option value="Select Order">--Select Order--</option>
                         <option value="ascending">Ascending</option>
                         <option value="descending">Descending</option>
                     </select>
-                </td>
-            </tr>
+                </span>
+            </div>
+        </div>
 
 
 
-            <tr>
-                <td>Search By
-               
-                    <span class="icon"><i class="fa fa-search"></i></span>
+        <div class="field-row clearfix">
+            <div class="sfCol_40">
+                <label style="font-size: 15px">Search By</label>
+            </div>
+            <div class="sfCol_60">
+                <span class="value">
                     <input type="search" id="keyword" name="Search" placeholder="Name,Category,Domain,Date" class="sfInputbox" />
+                </span>
+            </div>
+        </div>
+
+        <div class="field-row clearfix">
+            <div class="sfCol_20">
+                <label style="font-size: 15px">Select Date Range</label>
+            </div>
+            <div class="sfCol_40">
+                <div>
+                    <label>From:</label>
+                    <input type="search" id="startDate" class="sfInputbox" />
+                </div>
+            </div>
+            <div class="sfCol_40">
+                <label>To:</label>
+                <input type="search" id="endDate" class="sfInputbox" />
+                <%-- <button type="button" id="btnGetFeedback">Submit</button>--%>
+            </div>
+        </div>
 
 
-                    <%--<button type="button" id="keyword_Submit">Submit</button>--%>
-                </td>
 
+        <div class="field-row clearfix">
+             <div class="sfCol_50">
+                <label id="lblChange" style="font-size: 15px">Show Mark Read</label>
+                <span class="value">
+                    <input id="checkRead" name="enable buttonLink" style="width:50px; height:50px" type="checkbox">
+                    <label for="checkRead">
+                       <i class="icon-icon-tick"></i>
+                    </label>
+                </span>
+            </div>
+            <div class="sfCol_25">
+                <select id="pageSize">
+                    <option value="25">--Select Page Size--</option>
+                    <option value="50">50</option>
+                    <option value="10">10</option>
+                    <option value="15">15</option>
+                </select>
+            </div>
+           
+              <div class="sfCol_25">
+                <span class="sfBtn smlbtn-primary filter_search" id="btnGetFeedback"><i class="fa fa-search"></i>Search</span>
+            </div>
 
-                <td>
-                    <div>
-                        From:                     
-                        <input type="search" id="startDate" class="sfInputbox" />
+        </div>
 
-                    </div>
+        <div class="fiedl-row clearfix">
+            <div class="sfCol_25">
+                <label style="font-size: 15px">Set To Default:</label>
+                <span class="sfBtn smlbtn-danger " id="btnResetFeedbackList">Reset</span>
+            </div>          
+        </div>
 
-                    To:
-                        <input type="search" id="endDate" class="sfInputbox" />
-                    <%-- <button type="button" id="btnGetFeedback">Submit</button>--%>                  
-                   
-                </td>
-
-
-                <td>Set To Default:
-                    <button type="button" id="btnResetFeedbackList">Reset List</button>
-
-                    <div style="float: right" class="sfFieldset">
-                        <span class="sfBtn smlbtn-primary filter_search" id="btnGetFeedback"><i class="fa fa-search"></i>Search</span>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <select id="pageSize">
-                        <option value="25">--Select Page Size--</option>
-                        <option value="50">50</option>
-                        <option value="10">10</option>
-                        <option value="15">15</option>
-                    </select>
-                </td>
-                <td>
-                    <label id="lblChange">Show Mark as Read Only</label>
-                    <span class="value">
-                        <input id="checkRead" name="enable buttonLink" type="checkbox">
-                        <label for="checkRead">
-                            <i class="icon-icon-tick"></i>
-                        </label>
-                    </span>
-
-                </td>
-
-            </tr>
-        </table>
     </div>
+
+
+
 
 
 

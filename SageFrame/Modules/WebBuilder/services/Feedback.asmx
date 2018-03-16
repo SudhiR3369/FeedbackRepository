@@ -87,8 +87,6 @@ public class Feedback : AuthenticateService
     [WebMethod]
     public void NotificationEmail(string Subject, string Body)
     {
-
-
         try
         {
             SageFrameConfig sfConfig = new SageFrameConfig();
@@ -101,7 +99,7 @@ public class Feedback : AuthenticateService
 
 
             MailMessage mail = new MailMessage();
-            mail.To.Add("finalgoal123@gmail.com");
+            mail.To.Add("sudip.thapa@braindigit.com");
             // mail.CC.Add(CC);
             mail.From = new MailAddress(SMTPUsername);
             mail.Subject = Subject;

@@ -4208,11 +4208,21 @@ var extentComponent = {
                 $('#previewURL').attr('href', previewPage);
 
                 $('#managePagePanel').on('click', function () {
+                    debugger;
                     WebManagement.ShowStickeyHeaderOption('pagesettingshow');
                     $('.headerControls').removeClass('clicked');
                     $(this).addClass('clicked');
                     PopUpSetting('manage pages', 0, 500, 0, 0, 'managepages', $('.editor-site-header'), $(this));
                 });
+
+                //$('#btnFeedback').on('click', function () {
+                //    debugger;
+                //    Feedback.ClearFeedbackForm();
+                //    WebManagement.ShowStickeyHeaderOption('pagesettingshow');
+                //    $('.headerControls').removeClass('clicked');
+                //    $(this).addClass('clicked');
+                //    PopUpSetting('feedback', 0, 500, 0, 0, 'Feedback', $('.editor-site-header'), $(this));
+                //});
 
                 $('#manageBody').on('click', function () {
                     var attrs = $('#element').attrs();
