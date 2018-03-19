@@ -52,13 +52,14 @@
 
  
 
-                $('#btnFeedback').on('click', function () {
+                $('#btnFeedback').off().on('click', function () {
                     Feedback.ClearFeedbackForm();
                     //WebManagement.ShowStickeyHeaderOption('pagesettingshow');
                     //$('.headerControls').removeClass('clicked');
                     //$(this).addClass('clicked');
                     //PopUpSetting('feedback', 0, 500, 0, 0, 'Feedback', $('#divFeedbackForm'), $(this));
-                      $('#divFeedbackForm').fadeIn(300);
+                    $('#divFeedbackForm').fadeIn(300);
+                    Feedback.ResetFeedbackForm();
                 //    var selectDOM = $('#divFeedbackForm').html();
                 //    var option={
                 //        data: selectDOM,
@@ -76,15 +77,48 @@
                 //    })
                 });
 
-                $('#divFeedbackForm').draggable({
-                    handle: '.popup-header'
+
+                $('#btnClose').on('click', function (e) {
+                    Feedback.ClearFeedbackForm();
+                    $('#divFeedbackForm').hide();
+                    Feedback.ResetFeedbackForm();
                 });
+
+                
+
+                $('#divFeedbackForm').draggable({
+                    handle: '.popup-header',
+                    containment: '.main-container',
+                  //  revert: true,
+                    connectWith: '.editor-col',
+                    cursor: 'pointer'
+                    //start: function (e, ui) {
+                    //    $('#divFeedbackForm').css({
+                    //        "position": "fixed"
+                    //    });
+                    //},
+                    //stop: function (event, ui) {
+                    //    AutoAlignDragger(ui.helper);
+                    //}
+                });
+
+                function AutoAlignDragger($helper) {
+                    var offsets = $helper.position();
+                    var top = offsets.top;
+                    var screenHeight = ScreenDimension().height;
+                    if ((screenHeight - 100) < top) {
+                        $helper.css('top', (screenHeight - 100) + "px");
+                    }
+                    else if ($('.main-top-row').height() > top) {
+                        $helper.css('top', $('.main-top-row').height() + 10 + "px");
+                    }
+                }
             
 
 
-                $('#iconClose').on('click', function () {
-                    $('#divFeedbackForm').fadeOut(300);
-                });
+                //$('#iconClose').on('click', function () {
+                //    $('#divFeedbackForm').fadeOut(300);
+                //});
 
                 //$('#btnFeedback').bind('click', ToggleDisplay);
                 //function ToggleDisplay() {
@@ -137,6 +171,15 @@
                 //});
 
 
+            },
+
+            ResetFeedbackForm: function () {
+                $('#divFeedbackForm').css({
+                    'position': 'fixed',
+                    'top': '20%',
+                    'left': 'auto',
+                    'right': '30%'
+                });
             },
 
             IsRead: function ($last, ID) {
@@ -472,6 +515,8 @@
                 $('#btnCancel').hide();
                 $('#btnSubmit').show();
                 $('#btnReset').show();
+                //removes validation error messages
+                validator.resetForm();
                 
                 $('#checkRead').attr(':checked', false);
             }

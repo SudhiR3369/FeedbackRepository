@@ -70,7 +70,8 @@ public partial class Modules_WebBuilder_WebbuilderEdit : BaseAdministrationUserC
         IncludeCss("webBuilderCss",
             "/Modules/WebBuilder/fonts/styles.css",
             "/Modules/WebBuilder/css/custom.css",
-            "/Core/Template/css/template.css");
+            "/Core/Template/css/template.css",
+            "/Administrator/Templates/Default/css/admin.css");
         #endregion
         ShowData();
         ReadFontFamily();

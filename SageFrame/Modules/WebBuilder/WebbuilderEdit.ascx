@@ -437,7 +437,7 @@
     <div class="popup-header">
         <i class="icon-icon-settings"></i>
         <span class="popup-title" title="feedback">Feedback Form</span>
-        <i id="iconClose" class="icon-icon-close f-right close-model"></i>
+        <%--<i id="iconClose" class="icon-icon-close f-right close-model"></i>--%>
     </div>
 <%--<div id="FeedbackForm" class="simple-popup-model" style="display:none; position: absolute; top: 0px; left: 0px;">
     <div class="simple-popup-header">
@@ -445,7 +445,7 @@
         <i class="icon-icon-close f-right simple-close-model"></i>
     </div>--%>
 
- <div class="popup-model-body">
+<%-- <div class="popup-model-body">--%>
     <div class="field-row clearfix">
         <div class="field-row clearfix">
             <label class="sfFormlabel">Feedback Category</label>
@@ -486,19 +486,22 @@
             <%--    <button id="btnSubmit" type="button" class="sfBtn icon-save">Submit</button>
          <button id="btnReset" type="button" class="sfBtn icon-close">Reset</button>--%>
             <span class="sfBtn smlbtn-primary" id="btnReset">Reset</span>
+
+            <span style="float:right;" class="sfBtn smlbtn-danger" id="btnClose">Cancel</span>
         </div>
 
         <%--        <div>
             <button id="btnCancel" type="button" style="display: none;">Cancel</button>
         </div>--%>
     </div>
-</div>
+<%--</div>--%>
    
 </div>
 
 
 
 <%--FeedBack List--%>
+
 <div id="divFeedbackList" style="margin-top: 100px;">
 
     <div style="margin-left: 600px;">
@@ -600,12 +603,9 @@
 
     </div>
 
+    
 
-
-
-
-
-    <div id="divFeedbackListTableWrap" class="sfGridwrapper table">
+    <div id="divFeedbackListTableWrap" class="sfTableWrapper">
         <table style="width: 80%">
             <thead>
                 <tr>
