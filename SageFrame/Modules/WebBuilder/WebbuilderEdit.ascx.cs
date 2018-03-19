@@ -59,6 +59,8 @@ public partial class Modules_WebBuilder_WebbuilderEdit : BaseAdministrationUserC
             "/Modules/WebBuilder/js/tinyColorPicker.js",
            "/js/SageMediaManagement.js",
            "/js/jquery.validate.js",
+           "/js/jquery.pagination.js",
+           "js/paginathing.js",
             "/Modules/WebBuilder/js/WebBuilder.js",
             "/Modules/WebBuilder/js/Feedback.js",
              "/Modules/WebBuilder/js/packages.js",
@@ -71,7 +73,9 @@ public partial class Modules_WebBuilder_WebbuilderEdit : BaseAdministrationUserC
             "/Modules/WebBuilder/fonts/styles.css",
             "/Modules/WebBuilder/css/custom.css",
             "/Core/Template/css/template.css",
-            "/Administrator/Templates/Default/css/admin.css");
+            "/Administrator/Templates/Default/css/admin.css",
+            "/css/simplePagination.css",
+            "css/page.css");
         #endregion
         ShowData();
         ReadFontFamily();

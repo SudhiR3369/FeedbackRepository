@@ -23,6 +23,7 @@ namespace Sageframe.Feedback
         public DateTime EndDate { get; set; }
         public string Rating { get; set; }
         public int PageSize { get; set; }
+        public int PageNumber { get; set; }
         public string Keyword { get; set; }
         public int UserModuleID { get; set; }
         public string IsRead { get; set; }

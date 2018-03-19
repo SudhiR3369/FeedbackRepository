@@ -439,13 +439,13 @@
         <span class="popup-title" title="feedback">Feedback Form</span>
         <%--<i id="iconClose" class="icon-icon-close f-right close-model"></i>--%>
     </div>
-<%--<div id="FeedbackForm" class="simple-popup-model" style="display:none; position: absolute; top: 0px; left: 0px;">
+    <%--<div id="FeedbackForm" class="simple-popup-model" style="display:none; position: absolute; top: 0px; left: 0px;">
     <div class="simple-popup-header">
         <span class="simple-popup-title">Feedback Form</span>
         <i class="icon-icon-close f-right simple-close-model"></i>
     </div>--%>
 
-<%-- <div class="popup-model-body">--%>
+    <%-- <div class="popup-model-body">--%>
     <div class="field-row clearfix">
         <div class="field-row clearfix">
             <label class="sfFormlabel">Feedback Category</label>
@@ -487,15 +487,14 @@
          <button id="btnReset" type="button" class="sfBtn icon-close">Reset</button>--%>
             <span class="sfBtn smlbtn-primary" id="btnReset">Reset</span>
 
-            <span style="float:right;" class="sfBtn smlbtn-danger" id="btnClose">Cancel</span>
+            <span style="float: right;" class="sfBtn smlbtn-danger" id="btnClose">Cancel</span>
         </div>
 
         <%--        <div>
             <button id="btnCancel" type="button" style="display: none;">Cancel</button>
         </div>--%>
     </div>
-<%--</div>--%>
-   
+    <%--</div>--%>
 </div>
 
 
@@ -540,13 +539,18 @@
 
 
         <div class="field-row clearfix">
-            <div class="sfCol_40">
+            <div class="sfCol_20">
                 <label style="font-size: 15px">Search By</label>
             </div>
-            <div class="sfCol_60">
+            <div class="sfCol_50">
                 <span class="value">
                     <input type="search" id="keyword" name="Search" placeholder="Name,Category,Domain,Date" class="sfInputbox" />
                 </span>
+            </div>
+
+            <div class="sfCol_30">
+                <div class="sfPagination" id="fbkPage">
+                </div>
             </div>
         </div>
 
@@ -570,12 +574,12 @@
 
 
         <div class="field-row clearfix">
-             <div class="sfCol_50">
+            <div class="sfCol_50">
                 <label id="lblChange" style="font-size: 15px">Show Mark Read</label>
                 <span class="value">
-                    <input id="checkRead" name="enable buttonLink" style="width:50px; height:50px" type="checkbox">
+                    <input id="checkRead" name="enable buttonLink" style="width: 50px; height: 50px" type="checkbox">
                     <label for="checkRead">
-                       <i class="icon-icon-tick"></i>
+                        <i class="icon-icon-tick"></i>
                     </label>
                 </span>
             </div>
@@ -587,8 +591,8 @@
                     <option value="15">15</option>
                 </select>
             </div>
-           
-              <div class="sfCol_25">
+
+            <div class="sfCol_25">
                 <span class="sfBtn smlbtn-primary filter_search" id="btnGetFeedback"><i class="fa fa-search"></i>Search</span>
             </div>
 
@@ -598,39 +602,43 @@
             <div class="sfCol_25">
                 <label style="font-size: 15px">Set To Default:</label>
                 <span class="sfBtn smlbtn-danger " id="btnResetFeedbackList">Reset</span>
-            </div>          
+            </div>
+        </div>
+
+
+
+
+        <div id="divFeedbackListTableWrap" class="sfTableWrapper">
+            <table style="width: 80%">
+                <thead>
+                    <tr>
+                        <td>S.N</td>
+                        <td>Name</td>
+                        <td>EmailID</td>
+                        <td>Category</td>
+                        <td>Title</td>
+                        <td>Description</td>
+                        <td>Domain</td>
+                        <td>IsRead</td>
+                        <td>Received on</td>
+                        <td>Rating</td>
+                        <td>View<i class="fa fa-eye"></i></td>
+                        <td><i class="fa fa-check">Mark as Read</i></td>
+                    </tr>
+
+                </thead>
+                <tbody id="tbl_feedbacklist">
+                </tbody>
+            </table>
+        </div>
+        <div class="field-row clearfix">
+            <a id="prevList" href="#" class="previous">&laquo; Previous</a>
+            <a  id="nextList" href="#" class="next">Next &raquo;</a>
         </div>
 
     </div>
 
-    
-
-    <div id="divFeedbackListTableWrap" class="sfTableWrapper">
-        <table style="width: 80%">
-            <thead>
-                <tr>
-                    <td>S.N</td>
-                    <td>Name</td>
-                    <td>EmailID</td>
-                    <td>Category</td>
-                    <td>Title</td>
-                    <td>Description</td>
-                    <td>Domain</td>
-                    <td>IsRead</td>
-                    <td>Received on</td>
-                    <td>Rating</td>
-                    <td>View<i class="fa fa-eye"></i></td>
-                    <td><i class="fa fa-check">Mark as Read</i></td>
-                </tr>
-
-            </thead>
-            <tbody id="tbl_feedbacklist">
-            </tbody>
-        </table>
-    </div>
-
 </div>
-
 
 
 <%--<div id="test">

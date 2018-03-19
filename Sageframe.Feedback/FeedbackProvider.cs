@@ -82,6 +82,7 @@ namespace Sageframe.Feedback
                 para.Add(new KeyValuePair<string, object>("@isread", obj.IsRead));
                 para.Add(new KeyValuePair<string, object>("@keyword", obj.Keyword));
                 para.Add(new KeyValuePair<string, object>("@PageSize", obj.PageSize));
+                para.Add(new KeyValuePair<string, object>("@PageNumber", obj.PageNumbers));
                 para.Add(new KeyValuePair<string, object>("@startDate", obj.StartDate));
                 para.Add(new KeyValuePair<string, object>("@endDate", obj.EndDate));
 

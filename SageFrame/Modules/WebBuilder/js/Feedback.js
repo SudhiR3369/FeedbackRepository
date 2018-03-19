@@ -26,7 +26,9 @@
                 // Path: SageFrameAppPath + '/Modules/Registration/',
                 PortalID: SageFramePortalID,
                 UserName: SageFrameUserName,
-
+                noOfItemOnPagination: 10,
+                currentPageNo: 0,
+                offset:0,
                 SecureToken: SageFrameSecureToken,
                 ID: 0,
                 //ProfileImageName: '',
@@ -102,17 +104,6 @@
                     //}
                 });
 
-                function AutoAlignDragger($helper) {
-                    var offsets = $helper.position();
-                    var top = offsets.top;
-                    var screenHeight = ScreenDimension().height;
-                    if ((screenHeight - 100) < top) {
-                        $helper.css('top', (screenHeight - 100) + "px");
-                    }
-                    else if ($('.main-top-row').height() > top) {
-                        $helper.css('top', $('.main-top-row').height() + 10 + "px");
-                    }
-                }
             
 
 
@@ -213,12 +204,12 @@
                 Feedback.GetAllFeedback(obj);
                 Feedback.CheckRead();
             },
-            GetResult: function () {
+            GetResult: function (RowTotal) {
                 var dataObject = {
                     SortName: 'date',
                     SortOrder: '',
                     Keyword: '',
-                    PageSize: '30',
+                    PageSize: '10',
                     PageNumber: '1',
                     StartDate: '1753-01-01',
                     EndDate: '9999-12-31',
@@ -227,6 +218,26 @@
 
                 //Loads the list for first time with default parameters.
                 Feedback.LoadChanges(dataObject);
+
+                if (RowTotal > dataObject.PageSize) {
+                    $('#fbkPage').show().pagination(RowTotal, {
+                        items_per_page: dataObject.PageSize,
+                        current_page: dataObject.PageNumber,
+                        num_edge_entries: 2,
+                        callfunction: true,
+                        function_name: {
+                            name: Feedback.LoadChanges,
+                            limit:dataObject.PageSize
+                        },
+                        prev_text: 'Prev',
+                        next_text:'Next'
+                    });
+                }
+
+
+                function GetRowNum(rowTotal) {
+
+                }
 
 
                 //Parametrs for filter and sorting the list.
@@ -275,6 +286,8 @@
                     }
                 });
 
+   
+
                 $('#btnGetFeedback').off().on('click', function () {
                     var keyword = $('#keyword').val();
                     if (keyword !== "NULL") {
@@ -293,7 +306,7 @@
                     dataObject.SortName = 'date';
                     dataObject.SortOrder = '';
                     dataObject.Keyword = '';
-                    dataObject.PageSize = '25';
+                    dataObject.PageSize = '10';
                     dataObject.PageNumber = '1';
 
                     Feedback.LoadChanges(dataObject);
@@ -303,6 +316,8 @@
                     
 
                 });
+
+
 
                 $('#checkRead').off().on('click', function () {
                     var isChecked = $(this).is(':checked');
@@ -314,6 +329,8 @@
                     }
                     // Feedback.GetAllFeedback(dataObject);
                 });
+
+                
 
                 $('#tbl_feedbacklist').off('click').on('click', '.checkedtd', function (e) {
                     var $this = $(this);
@@ -365,7 +382,6 @@
                 Feedback.ajaxCall(Feedback.config);
             },
 
-
             GetFeedbackByID: function (ID) {
                 Feedback.config.method = 'GetFeedbackByID';
                 Feedback.config.data = JSON.stringify({
@@ -386,6 +402,8 @@
                 Feedback.ajaxCall(Feedback.config);
             },
 
+         
+
             BindFeedbackForm: function (data) {
                 Feedback.ClearFeedbackForm();
                 data = data.d;
@@ -398,16 +416,17 @@
                     $('#btnSubmit').hide();
                     $('#btnReset').hide();
                     $('#checkRead').prop('checked', false)
-
                 }
-
             },
 
+            
             //Feedback List Binding is Here
-            BindFeedbackList: function (data) {
+            BindFeedbackList: function(data) {
                 var feedbackList = data.d;
+                var totalRow = 0;
                 var html = '';
                 if (feedbackList.length > 0) {
+                    totalRow = feedbackList[0].TotalRow;
                     var i = 1;
                     $.each(feedbackList, function (index, item) {
                         html += '<tr class="datarow" id="eachrow' + item.ID + '"  style="font-weight:bold;">'
@@ -423,16 +442,23 @@
                         html += '<td>' + item.Rating + '</td>'
                         html += '<td><a class="view" href="Javascript:void(0);" data-id="' + item.ID + '"><i class="fa fa-eye"></i></a></td>'
                         html += '<td ><p class="checkedtd" '+item.ID+' data-id=' + item.ID + ' read="' + item.IsRead + '"> <i class="fa fa-check"  style="cursor:pointer;"></i></p></td>';
-
                         html += '</tr>';
-                        i++;
+                        i++;                       
                     });
+                    $('#tbl_feedbacklist').html(html);
+                }
+                //else if (Feedback.config.currentPageNo > 0) {
+                //    Feedback.config.currentPageNo = Feedback.config.currentPageNo - 1;
+                //    Feedback.config.offset = (Feedback.config.currentPageNo) * Feedback.config.noOfItemOnPagination;
+                //}
 
-                }
                 else {
-                    html += '<tr><td colspan="7"><h3>No Data to Display DumbAss.</h3></td></tr>';
+                    html += '<tr><td colspan="7"><h3>***********No Data to Display DumbAss.************</h3></td></tr>';
+                    $('#tbl_feedbacklist').html(html);
                 }
-                $('#tbl_feedbacklist').html(html);
+               
+               
+      
             },
 
 
@@ -441,8 +467,8 @@
             NotificationEmail: function () {
                 Feedback.config.method = "NotificationEmail";
                 Feedback.config.data = JSON.stringify({
-                    //From: 'bdtrainee.engineer@gmail.com',
-                    //sendTo: 'sudip.thapa@braindigit.com',
+                    //From: 'bdtrainee.engineer@.com',
+                    //sendTo: 'sudip.thapa@braingmaildigit.com',
                     Subject: 'Feedback Notification',
                     Body: '<div><p>' + SageFrameUserName + ' has sent a feedback.' + 'Click <a href=' + SageFrameHostURL + '/Webbuilder/home>' + 'Here</a> to view Feedback list. </div></p>',
                     // CC: 'finalgoal123@gmail.com',
