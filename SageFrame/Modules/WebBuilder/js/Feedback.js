@@ -26,9 +26,10 @@
                 // Path: SageFrameAppPath + '/Modules/Registration/',
                 PortalID: SageFramePortalID,
                 UserName: SageFrameUserName,
-                noOfItemOnPagination: 10,
-                currentPageNo: 0,
-                offset:0,
+                PageSize: 10,
+                PageNumber: 0,
+                offset: 0,
+                rowTotal: 0,
                 SecureToken: SageFrameSecureToken,
                 ID: 0,
                 //ProfileImageName: '',
@@ -52,31 +53,28 @@
                 //    hide: 'blind'
                 //});
 
- 
+
 
                 $('#btnFeedback').off().on('click', function () {
                     Feedback.ClearFeedbackForm();
-                    //WebManagement.ShowStickeyHeaderOption('pagesettingshow');
-                    //$('.headerControls').removeClass('clicked');
-                    //$(this).addClass('clicked');
-                    //PopUpSetting('feedback', 0, 500, 0, 0, 'Feedback', $('#divFeedbackForm'), $(this));
+               
                     $('#divFeedbackForm').fadeIn(300);
                     Feedback.ResetFeedbackForm();
-                //    var selectDOM = $('#divFeedbackForm').html();
-                //    var option={
-                //        data: selectDOM,
-                //        showheading: true,
-                //        heading: 'Feedback Form',
-                //        width: '40%',
-                //        height: '50%',
-                //        onappend: function ($wrapper) {
-                //            $('#btnSubmit').on('click', function () {
-                //                alert('askfjkasdjfkaj');
-                //            });
-                //}
-                //    }
-                //    FullPagePopup(option);
-                //    })
+                    //    var selectDOM = $('#divFeedbackForm').html();
+                    //    var option={
+                    //        data: selectDOM,
+                    //        showheading: true,
+                    //        heading: 'Feedback Form',
+                    //        width: '40%',
+                    //        height: '50%',
+                    //        onappend: function ($wrapper) {
+                    //            $('#btnSubmit').on('click', function () {
+                    //                alert('askfjkasdjfkaj');
+                    //            });
+                    //}
+                    //    }
+                    //    FullPagePopup(option);
+                    //    })
                 });
 
 
@@ -86,25 +84,18 @@
                     Feedback.ResetFeedbackForm();
                 });
 
-                
+
 
                 $('#divFeedbackForm').draggable({
                     handle: '.popup-header',
                     containment: '.main-container',
-                  //  revert: true,
+                    //  revert: true,
                     connectWith: '.editor-col',
                     cursor: 'pointer'
-                    //start: function (e, ui) {
-                    //    $('#divFeedbackForm').css({
-                    //        "position": "fixed"
-                    //    });
-                    //},
-                    //stop: function (event, ui) {
-                    //    AutoAlignDragger(ui.helper);
-                    //}
+            
                 });
 
-            
+
 
 
                 //$('#iconClose').on('click', function () {
@@ -127,22 +118,7 @@
                 //            //});
                 //            $('#divFeedbackForm').data('shown', true)
 
-                //        });
-                //    }
-                //}
 
-             
-
-                //});
-
-                //function hide() {
-                //    $('#iconClose').on('click', function () {
-                //        $('#divFeedbackForm').fadeOut(500, function () {
-                //            //$('document').unbind('click');
-                //            $('#divFeedbackForm').data('shown', false);
-                //        });
-                //    });
-                //}
 
                 $('#btnSubmit').off().on('click', function (e) {
                     e.preventDefault();
@@ -175,14 +151,14 @@
 
             IsRead: function ($last, ID) {
                 $last.css({
-                  //  "display": "none",
+                    //  "display": "none",
                     'pointer-events': 'none'
                 })
                 $last.text("Read");
                 $('#eachrow' + ID).css({
                     "font-weight": "",
                     "color": "green"
-                  
+
                 });
 
             },
@@ -204,40 +180,39 @@
                 Feedback.GetAllFeedback(obj);
                 Feedback.CheckRead();
             },
-            GetResult: function (RowTotal) {
+            GetResult: function () {
                 var dataObject = {
                     SortName: 'date',
                     SortOrder: '',
                     Keyword: '',
                     PageSize: '10',
-                    PageNumber: '1',
+                    PageNumber: 1,
                     StartDate: '1753-01-01',
                     EndDate: '9999-12-31',
-                    IsRead: null
-                }
+                    IsRead: null,
+                    rowTotal: 0
 
+                }
+                
+                //if (RowTotal > dataObject.PageSize) {
+                //    $('#pagingFeedbackList').show().pagination(RowTotal, {
+                //        items_per_page: parseInt(dataObject.PageSize),
+                //        current_page: parseInt(dataObject.PageNumber),
+                //        num_edge_entries: 2,
+                //        callfunction: false,
+                //        prev_text: 'Prev',
+                //        next_text: 'Next'
+                //    });
+                //}
+               
+                
                 //Loads the list for first time with default parameters.
                 Feedback.LoadChanges(dataObject);
 
-                if (RowTotal > dataObject.PageSize) {
-                    $('#fbkPage').show().pagination(RowTotal, {
-                        items_per_page: dataObject.PageSize,
-                        current_page: dataObject.PageNumber,
-                        num_edge_entries: 2,
-                        callfunction: true,
-                        function_name: {
-                            name: Feedback.LoadChanges,
-                            limit:dataObject.PageSize
-                        },
-                        prev_text: 'Prev',
-                        next_text:'Next'
-                    });
-                }
+
+                //Pagination next and previous only
 
 
-                function GetRowNum(rowTotal) {
-
-                }
 
 
                 //Parametrs for filter and sorting the list.
@@ -286,7 +261,15 @@
                     }
                 });
 
-   
+                
+
+
+                //$('#divFeedbackListTableWrap').twbsPagination({
+                //    totalPages: 30,
+                //    visiblePages: 7,
+                //    onPageClick:function(event)
+
+                //    });
 
                 $('#btnGetFeedback').off().on('click', function () {
                     var keyword = $('#keyword').val();
@@ -306,14 +289,14 @@
                     dataObject.SortName = 'date';
                     dataObject.SortOrder = '';
                     dataObject.Keyword = '';
-                    dataObject.PageSize = '10';
-                    dataObject.PageNumber = '1';
+                    dataObject.PageSize = 10;
+                    dataObject.PageNumber = 1;
 
                     Feedback.LoadChanges(dataObject);
                     Feedback.ClearFeedbackForm();
                     $('#sortOrder').hide();
                     $('#pageSize').val(1);
-                    
+
 
                 });
 
@@ -330,7 +313,7 @@
                     // Feedback.GetAllFeedback(dataObject);
                 });
 
-                
+
 
                 $('#tbl_feedbacklist').off('click').on('click', '.checkedtd', function (e) {
                     var $this = $(this);
@@ -391,6 +374,44 @@
                 Feedback.ajaxCall(Feedback.config);
             },
 
+
+            //sfPagination Here---not working
+            //BindPagination: function (RowTotal) {
+            //    if (RowTotal > Feedback.config.PageSize) {
+            //        $('#pagingFeedback').show().pagination(RowTotal, {
+            //            items_per_page: Feedback.config.PageSize,
+            //            current_page: Feedback.config.PageNumber,
+            //            num_edge_entries: 2,
+            //            callfunction: true,
+            //            function_name: {
+            //                name: Feedback.LoadChanges,
+            //                limit: Feedback.config.PageSize,
+            //            },
+            //            prev_text: 'Prev ',
+            //            next_text: 'Next '
+            //        });
+            //    } else {
+            //        $('#pagingFeedback').hide();
+            //    }
+            //},
+
+            BindPagination:function(rowTotal){
+
+                $('#nextList').on('click', function () {
+                    dataObject.PageNumber = dataObject.PageNumber + 1;
+                    Feedback.LoadChanges(dataObject);
+                });
+
+
+                $('#prevList').on('click', function () {
+                    if (dataObject.PageNumber > 1) {
+                        dataObject.PageNumber = dataObject.PageNumber - 1;
+                        Feedback.LoadChanges(dataObject);
+                    }
+                });
+            },
+
+
             GetAllFeedback: function (data) {
                 Feedback.config.method = "GetResult";
 
@@ -402,14 +423,14 @@
                 Feedback.ajaxCall(Feedback.config);
             },
 
-         
+
 
             BindFeedbackForm: function (data) {
                 Feedback.ClearFeedbackForm();
                 data = data.d;
                 if (data != null) {
-                    $('#divFeedbackForm').show();                    
-                    $('#slcFeedback option:contains(' + data.Category + ')').prop({'selected': true});
+                    $('#divFeedbackForm').show();
+                    $('#slcFeedback option:contains(' + data.Category + ')').prop({ 'selected': true });
                     $('#slcFeedback').prop('disabled', true);
                     $('#txtTitle').val(data.Title).attr('readonly', true);
                     $('#txtDesc').val(data.Description).attr('readonly', true);
@@ -419,14 +440,18 @@
                 }
             },
 
-            
+
             //Feedback List Binding is Here
-            BindFeedbackList: function(data) {
+            BindFeedbackList: function (data) {
                 var feedbackList = data.d;
-                var totalRow = 0;
+                //var totalRow = 0;
                 var html = '';
+                var PageNumber = Feedback.config.PageNumber;
+                var offset = Feedback.config.offset;
+                var rowTotal = Feedback.config.rowTotal;
+                var PageSize = Feedback.config.PageSize;
                 if (feedbackList.length > 0) {
-                    totalRow = feedbackList[0].TotalRow;
+                    Feedback.config.rowTotal = feedbackList[0].TotalCount;
                     var i = 1;
                     $.each(feedbackList, function (index, item) {
                         html += '<tr class="datarow" id="eachrow' + item.ID + '"  style="font-weight:bold;">'
@@ -441,24 +466,21 @@
                         html += '<td>' + item.ReceivedDate + '</td>';
                         html += '<td>' + item.Rating + '</td>'
                         html += '<td><a class="view" href="Javascript:void(0);" data-id="' + item.ID + '"><i class="fa fa-eye"></i></a></td>'
-                        html += '<td ><p class="checkedtd" '+item.ID+' data-id=' + item.ID + ' read="' + item.IsRead + '"> <i class="fa fa-check"  style="cursor:pointer;"></i></p></td>';
+                        html += '<td ><p class="checkedtd" ' + item.ID + ' data-id=' + item.ID + ' read="' + item.IsRead + '"> <i class="fa fa-check"  style="cursor:pointer;"></i></p></td>';
                         html += '</tr>';
-                        i++;                       
+                        i++;
                     });
                     $('#tbl_feedbacklist').html(html);
+                  //  Feedback.BindPagination(rowTotal);
+                   // Feedback.GetResult(rowTotal);
                 }
-                //else if (Feedback.config.currentPageNo > 0) {
-                //    Feedback.config.currentPageNo = Feedback.config.currentPageNo - 1;
-                //    Feedback.config.offset = (Feedback.config.currentPageNo) * Feedback.config.noOfItemOnPagination;
-                //}
 
+            
                 else {
                     html += '<tr><td colspan="7"><h3>***********No Data to Display DumbAss.************</h3></td></tr>';
                     $('#tbl_feedbacklist').html(html);
                 }
-               
-               
-      
+
             },
 
 
@@ -508,7 +530,7 @@
                         {
                             alert("Feedback Added Successfully!!");
                             Feedback.GetResult();
-                               Feedback.NotificationEmail();
+                            Feedback.NotificationEmail();
                             break;
                         }
                     case 4: {
@@ -535,7 +557,7 @@
                 $('#startDate').val('');
                 $('#endDate').val('');
                 $('#keyword').val('');
-                $('#slcFeedback').val(1).attr({'disabled':false});
+                $('#slcFeedback').val(1).attr({ 'disabled': false });
                 $('#sortName').val('Select Type');
                 $('#sortOrder').val('Select Order');
                 $('#btnCancel').hide();
@@ -543,7 +565,7 @@
                 $('#btnReset').show();
                 //removes validation error messages
                 validator.resetForm();
-                
+
                 $('#checkRead').attr(':checked', false);
             }
         }

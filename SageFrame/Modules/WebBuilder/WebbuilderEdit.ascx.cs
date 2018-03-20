@@ -60,6 +60,7 @@ public partial class Modules_WebBuilder_WebbuilderEdit : BaseAdministrationUserC
            "/js/SageMediaManagement.js",
            "/js/jquery.validate.js",
            "/js/jquery.pagination.js",
+           "/js/jquery.twbsPagination.js",
            "js/paginathing.js",
             "/Modules/WebBuilder/js/WebBuilder.js",
             "/Modules/WebBuilder/js/Feedback.js",

@@ -125,8 +125,7 @@
                     $("#addBrandForm").hide();
                     $(".sfPagination").show();
                     Brand.clearData();
-                });
-            },
+                });           },
 
             getAllBrand: function (offset, limit, current) {
                 Brand.config.pageNumber = current;

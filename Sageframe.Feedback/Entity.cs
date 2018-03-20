@@ -24,6 +24,9 @@ namespace Sageframe.Feedback
         public string Rating { get; set; }
         public int PageSize { get; set; }
         public int PageNumber { get; set; }
+
+        public int TotalCount { get; set; }
+
         public string Keyword { get; set; }
         public int UserModuleID { get; set; }
         public string IsRead { get; set; }

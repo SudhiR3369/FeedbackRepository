@@ -603,12 +603,22 @@
                 <label style="font-size: 15px">Set To Default:</label>
                 <span class="sfBtn smlbtn-danger " id="btnResetFeedbackList">Reset</span>
             </div>
+            <div class="sfCol_40" style="float:right;">
+                <a id="prevList" class="previous">&laquo; Previous</a>
+                <a id="nextList" class="next">Next &raquo;</a>
+            </div>
         </div>
 
+    </div>
+
+</div>
 
 
 
-        <div id="divFeedbackListTableWrap" class="sfTableWrapper">
+        <div id="divFeedbackTable" class="sfGridWrapper">
+            <div class="box-heading">
+                <h2 class="box-title">Registered Feedbacks</h2>
+            </div>
             <table style="width: 80%">
                 <thead>
                     <tr>
@@ -630,15 +640,12 @@
                 <tbody id="tbl_feedbacklist">
                 </tbody>
             </table>
-        </div>
-        <div class="field-row clearfix">
-            <a id="prevList" href="#" class="previous">&laquo; Previous</a>
-            <a  id="nextList" href="#" class="next">Next &raquo;</a>
+            <div id ="pagingFeedbackList" class="sfPagination">
+
+            </div>
         </div>
 
-    </div>
 
-</div>
 
 
 <%--<div id="test">
