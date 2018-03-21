@@ -23,6 +23,6 @@ F:\Git\GitRepository\Sageframe.Feedback\bin\Debug\Sageframe.Feedback.dll
 F:\Git\GitRepository\Sageframe.Feedback\bin\Debug\Sageframe.Feedback.pdb
 F:\Git\GitRepository\Sageframe.Feedback\bin\Debug\SageFrame.Common.dll
 F:\Git\GitRepository\Sageframe.Feedback\bin\Debug\SageFrame.Common.pdb
-F:\Git\GitRepository\Sageframe.Feedback\obj\Debug\Sageframe.Feedback.csprojResolveAssemblyReference.cache
 F:\Git\GitRepository\Sageframe.Feedback\obj\Debug\Sageframe.Feedback.dll
 F:\Git\GitRepository\Sageframe.Feedback\obj\Debug\Sageframe.Feedback.pdb
+F:\Git\GitRepository\Sageframe.Feedback\obj\Debug\Sageframe.Feedback.csprojResolveAssemblyReference.cache

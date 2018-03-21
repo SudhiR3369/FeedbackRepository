@@ -24,13 +24,14 @@ var image = {
                         $('.editor-component').find('.activeSetting').removeClass('activeSetting');
                         $parent.addClass('activeSetting');
                         LoadSettings();
-
+                         
                         function LoadSettings() {
                             ImageDisplay();
                             ImageWidthEvent();
                             ImageBorder();
                             ImageFitCover();
                         }
+
 
                         function ImageDisplay() {
                             var imageHeight = $parent.height();

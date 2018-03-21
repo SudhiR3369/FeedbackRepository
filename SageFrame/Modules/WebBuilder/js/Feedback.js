@@ -211,7 +211,18 @@
 
 
                 //Pagination next and previous only
+                $('#nextList').on('click', function () {
+                    dataObject.PageNumber = dataObject.PageNumber + 1;
+                    Feedback.LoadChanges(dataObject);
+                });
 
+
+                $('#prevList').on('click', function () {
+                    if (dataObject.PageNumber > 1) {
+                        dataObject.PageNumber = dataObject.PageNumber - 1;
+                        Feedback.LoadChanges(dataObject);
+                    }
+                });
 
 
 
@@ -395,22 +406,7 @@
             //    }
             //},
 
-            BindPagination:function(rowTotal){
-
-                $('#nextList').on('click', function () {
-                    dataObject.PageNumber = dataObject.PageNumber + 1;
-                    Feedback.LoadChanges(dataObject);
-                });
-
-
-                $('#prevList').on('click', function () {
-                    if (dataObject.PageNumber > 1) {
-                        dataObject.PageNumber = dataObject.PageNumber - 1;
-                        Feedback.LoadChanges(dataObject);
-                    }
-                });
-            },
-
+         
 
             GetAllFeedback: function (data) {
                 Feedback.config.method = "GetResult";

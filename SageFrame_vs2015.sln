@@ -12,7 +12,7 @@ EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SageFrame", "SageFrame\", "{660BBDD5-CA4D-4B01-91FB-5F871EEAC0B1}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.1"
-		ProjectReferences = "{6AF77849-4E47-4E74-8944-4BDAD509C0A3}|SageFrame.Common.dll;{6FEFEC25-44C0-499F-AC69-CA530BD34A15}|SFE.GoogleAdUnit.dll;{112F669E-84E6-4124-961B-7EFE7C89852B}|SageFrame.IPAddressToCountryResolver.dll;{E01DB85D-70F0-4A32-AD9D-9D5CA1771D85}|SageFrame.Core.dll;{8773EC29-792D-4EB1-BAB3-5137E34DF82C}|SageFrame.Security.dll;{4F0D17C3-EDF5-4E55-9704-03B5CC2E1265}|SageFrame.BreadCrum.dll;{0548FFEE-28AF-4A67-A41E-4783A38E952C}|SageFrame.Templating.dll;{19EA37AD-EAE6-40E7-8440-F455F65D1BD5}|SageFrame.ModuleManager.dll;{C714C93B-B55D-4842-9D7F-98C7A2272FA4}|SageFrame.Pages.dll;{B9C7C3B9-D1B7-4A2A-9D9A-2B855FCF927E}|SageFrame.MenuManager.dll;{1D3E59E6-F1A1-4244-9D95-20ADBBCD1DF0}|SageFrame.PortalManagement.dll;{FCECD2E4-4446-4734-8791-BE40A5E16198}|SageFrame.Scheduler.dll;{F6873FB1-9171-4747-B1B4-77431B892E16}|DashBoardControl.dll;{CFB32E58-8BE4-4B85-9DC6-77DAB8D3825D}|SageFrame.Dashboard.dll;{5FB3E456-D1CB-4E2A-819C-7DD6C8D917A4}|SageFrame.CDN.dll;{f012ea0b-726c-425c-b8ee-fa8bf03865ef}|SageFrame.Version.dll;{1de834db-644a-495a-86e5-fcd5c5315610}|SageFrame.PaymentGateWay.dll;{2b3647b4-0de3-47d1-8a99-ad45c5393b28}|SageFrame.AdminNotification.dll;{a6f0d0b7-b86f-46b4-a4d9-1332432fdecd}|SageFrame.MediaManagement.dll;{1c073d5b-4ff3-412a-b807-521b55c3232b}|SageFrame.SageBanner.dll;{afd19116-918d-4733-80e8-81fc90cd570d}|SageFrame.WordProcessor.dll;{3bb57979-9343-434c-bdde-6ecf75fe5527}|SageFrame.SEOManagement.dll;{32960bd1-a6e7-4e85-9f57-19623aa9113b}|SageFrame.PageRating.dll;{fa62a2c9-3e63-4a9f-b5d2-dad79a0237a9}|SageFrame.SocialSearch.dll;{3E94BDD1-A944-4565-901F-48FE1838CD12}|SageFrame.APIInvoker.dll;{81EE6FAD-E0B5-4373-80DA-70AE81DAB394}|SageFrame.JsonParser.dll;{24461ba9-ddea-484f-a371-926e3ad795b8}|SageFrame.AutomatedSearch.dll;{b7643aa2-b8c9-4e1c-8292-c641e55df125}|SageFrame.SocialFeedShare.dll;{2FDC3492-6B9E-4771-9755-7892C9CB1E96}|Twitterizer2.dll;{dfb265e0-ad31-470d-94ee-59a4b5ca5448}|SageFrame.ImageFlow.dll;{17b36818-28d0-4961-bf7e-0e224e4e83bd}|SageFrame.RecycleBin.dll;{5041531e-b290-4d24-b1ea-25963b2e5f87}|SageFrame.ReturnCode.dll;{eccd5a6a-c3b7-439c-a4af-ff836bffc657}|SageFrame.DigiSphereInvoker.dll;{c14b0929-6680-4374-bf50-2ec2422abf83}|SageFrame.FontIconInjector.dll;{2612ee3d-c057-4fe4-a074-99184f38fe28}|SageFrame.WebBuilder.dll;{22fae64e-21f1-46aa-aed4-aad89a17e60c}|SageFrame.DigitalMarketing.dll;{464377ad-0f28-42f1-8470-936a1df91b87}|SageFrame.DashboardLink.dll;{07dcb128-66b5-4a18-a7e3-f0028d91d91b}|Registration.dll;{56e661aa-6595-495b-8f83-a66dbf12b65b}|Sageframe.Feedback.dll;"
+		ProjectReferences = "{6AF77849-4E47-4E74-8944-4BDAD509C0A3}|SageFrame.Common.dll;{6FEFEC25-44C0-499F-AC69-CA530BD34A15}|SFE.GoogleAdUnit.dll;{112F669E-84E6-4124-961B-7EFE7C89852B}|SageFrame.IPAddressToCountryResolver.dll;{E01DB85D-70F0-4A32-AD9D-9D5CA1771D85}|SageFrame.Core.dll;{8773EC29-792D-4EB1-BAB3-5137E34DF82C}|SageFrame.Security.dll;{4F0D17C3-EDF5-4E55-9704-03B5CC2E1265}|SageFrame.BreadCrum.dll;{0548FFEE-28AF-4A67-A41E-4783A38E952C}|SageFrame.Templating.dll;{19EA37AD-EAE6-40E7-8440-F455F65D1BD5}|SageFrame.ModuleManager.dll;{C714C93B-B55D-4842-9D7F-98C7A2272FA4}|SageFrame.Pages.dll;{B9C7C3B9-D1B7-4A2A-9D9A-2B855FCF927E}|SageFrame.MenuManager.dll;{1D3E59E6-F1A1-4244-9D95-20ADBBCD1DF0}|SageFrame.PortalManagement.dll;{FCECD2E4-4446-4734-8791-BE40A5E16198}|SageFrame.Scheduler.dll;{F6873FB1-9171-4747-B1B4-77431B892E16}|DashBoardControl.dll;{CFB32E58-8BE4-4B85-9DC6-77DAB8D3825D}|SageFrame.Dashboard.dll;{5FB3E456-D1CB-4E2A-819C-7DD6C8D917A4}|SageFrame.CDN.dll;{f012ea0b-726c-425c-b8ee-fa8bf03865ef}|SageFrame.Version.dll;{1de834db-644a-495a-86e5-fcd5c5315610}|SageFrame.PaymentGateWay.dll;{2b3647b4-0de3-47d1-8a99-ad45c5393b28}|SageFrame.AdminNotification.dll;{a6f0d0b7-b86f-46b4-a4d9-1332432fdecd}|SageFrame.MediaManagement.dll;{1c073d5b-4ff3-412a-b807-521b55c3232b}|SageFrame.SageBanner.dll;{afd19116-918d-4733-80e8-81fc90cd570d}|SageFrame.WordProcessor.dll;{3bb57979-9343-434c-bdde-6ecf75fe5527}|SageFrame.SEOManagement.dll;{32960bd1-a6e7-4e85-9f57-19623aa9113b}|SageFrame.PageRating.dll;{fa62a2c9-3e63-4a9f-b5d2-dad79a0237a9}|SageFrame.SocialSearch.dll;{3E94BDD1-A944-4565-901F-48FE1838CD12}|SageFrame.APIInvoker.dll;{81EE6FAD-E0B5-4373-80DA-70AE81DAB394}|SageFrame.JsonParser.dll;{24461ba9-ddea-484f-a371-926e3ad795b8}|SageFrame.AutomatedSearch.dll;{b7643aa2-b8c9-4e1c-8292-c641e55df125}|SageFrame.SocialFeedShare.dll;{2FDC3492-6B9E-4771-9755-7892C9CB1E96}|Twitterizer2.dll;{dfb265e0-ad31-470d-94ee-59a4b5ca5448}|SageFrame.ImageFlow.dll;{17b36818-28d0-4961-bf7e-0e224e4e83bd}|SageFrame.RecycleBin.dll;{5041531e-b290-4d24-b1ea-25963b2e5f87}|SageFrame.ReturnCode.dll;{eccd5a6a-c3b7-439c-a4af-ff836bffc657}|SageFrame.DigiSphereInvoker.dll;{c14b0929-6680-4374-bf50-2ec2422abf83}|SageFrame.FontIconInjector.dll;{2612ee3d-c057-4fe4-a074-99184f38fe28}|SageFrame.WebBuilder.dll;{22fae64e-21f1-46aa-aed4-aad89a17e60c}|SageFrame.DigitalMarketing.dll;{464377ad-0f28-42f1-8470-936a1df91b87}|SageFrame.DashboardLink.dll;{07dcb128-66b5-4a18-a7e3-f0028d91d91b}|Registration.dll;{56e661aa-6595-495b-8f83-a66dbf12b65b}|Sageframe.Feedback.dll;{49e96125-522b-46cf-be9c-8f8499b860ce}|SageFrame.ImageAlbum.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/SageFrame"
 		Debug.AspNetCompiler.PhysicalPath = "SageFrame\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\SageFrame\"
@@ -131,6 +131,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Registration", "Registration\Registration.csproj", "{07DCB128-66B5-4A18-A7E3-F0028D91D91B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sageframe.Feedback", "Sageframe.Feedback\Sageframe.Feedback.csproj", "{56E661AA-6595-495B-8F83-A66DBF12B65B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SageFrame.ImageAlbum", "SageFrame.ImageAlbum\SageFrame.ImageAlbum.csproj", "{49E96125-522B-46CF-BE9C-8F8499B860CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1113,6 +1115,26 @@ Global
 		{56E661AA-6595-495B-8F83-A66DBF12B65B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{56E661AA-6595-495B-8F83-A66DBF12B65B}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{56E661AA-6595-495B-8F83-A66DBF12B65B}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{49E96125-522B-46CF-BE9C-8F8499B860CE}.CCNET|Any CPU.ActiveCfg = Release|Any CPU
+		{49E96125-522B-46CF-BE9C-8F8499B860CE}.CCNET|Any CPU.Build.0 = Release|Any CPU
+		{49E96125-522B-46CF-BE9C-8F8499B860CE}.CCNET|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{49E96125-522B-46CF-BE9C-8F8499B860CE}.CCNET|Mixed Platforms.Build.0 = Release|Any CPU
+		{49E96125-522B-46CF-BE9C-8F8499B860CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49E96125-522B-46CF-BE9C-8F8499B860CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49E96125-522B-46CF-BE9C-8F8499B860CE}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{49E96125-522B-46CF-BE9C-8F8499B860CE}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{49E96125-522B-46CF-BE9C-8F8499B860CE}.Mono-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49E96125-522B-46CF-BE9C-8F8499B860CE}.Mono-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49E96125-522B-46CF-BE9C-8F8499B860CE}.Mono-Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{49E96125-522B-46CF-BE9C-8F8499B860CE}.Mono-Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{49E96125-522B-46CF-BE9C-8F8499B860CE}.Mono-Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49E96125-522B-46CF-BE9C-8F8499B860CE}.Mono-Release|Any CPU.Build.0 = Release|Any CPU
+		{49E96125-522B-46CF-BE9C-8F8499B860CE}.Mono-Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{49E96125-522B-46CF-BE9C-8F8499B860CE}.Mono-Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{49E96125-522B-46CF-BE9C-8F8499B860CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49E96125-522B-46CF-BE9C-8F8499B860CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49E96125-522B-46CF-BE9C-8F8499B860CE}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{49E96125-522B-46CF-BE9C-8F8499B860CE}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1170,5 +1192,6 @@ Global
 		{E34216C8-A2B2-489B-8530-12CE4FD78359} = {37BE685B-7789-4CFD-9F9C-4633C3A5778E}
 		{07DCB128-66B5-4A18-A7E3-F0028D91D91B} = {37BE685B-7789-4CFD-9F9C-4633C3A5778E}
 		{56E661AA-6595-495B-8F83-A66DBF12B65B} = {37BE685B-7789-4CFD-9F9C-4633C3A5778E}
+		{49E96125-522B-46CF-BE9C-8F8499B860CE} = {37BE685B-7789-4CFD-9F9C-4633C3A5778E}
 	EndGlobalSection
 EndGlobal

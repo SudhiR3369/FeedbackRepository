@@ -1,0 +1,7 @@
+F:\Git\GitRepository\SageFrame.ImageAlbum\bin\Debug\SageFrame.ImageAlbum.dll
+F:\Git\GitRepository\SageFrame.ImageAlbum\bin\Debug\SageFrame.ImageAlbum.pdb
+F:\Git\GitRepository\SageFrame.ImageAlbum\bin\Debug\SageFrame.Common.dll
+F:\Git\GitRepository\SageFrame.ImageAlbum\bin\Debug\SageFrame.Common.pdb
+F:\Git\GitRepository\SageFrame.ImageAlbum\obj\Debug\SageFrame.ImageAlbum.csprojResolveAssemblyReference.cache
+F:\Git\GitRepository\SageFrame.ImageAlbum\obj\Debug\SageFrame.ImageAlbum.dll
+F:\Git\GitRepository\SageFrame.ImageAlbum\obj\Debug\SageFrame.ImageAlbum.pdb
