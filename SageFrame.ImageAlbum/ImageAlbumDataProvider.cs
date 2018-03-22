@@ -15,7 +15,7 @@ namespace SageFrame.ImageAlbum
             {
                 List<KeyValuePair<string, object>> para = new List<KeyValuePair<string, object>>();
                 para.Add(new KeyValuePair<string, object>("@AlbumName", obj.AlbumName));
-              //  para.Add(new KeyValuePair<string, object>("@AddedOn", obj.AddedOn));
+                para.Add(new KeyValuePair<string, object>("@AlbumPath", obj.AlbumPath));
                 SQLHandler SQL = new SQLHandler();
                 SQL.ExecuteNonQuery("usp_ImageAlbum_AddNewAlbum", para);
             }
@@ -38,6 +38,22 @@ namespace SageFrame.ImageAlbum
 
                 SQLHandler SQL = new SQLHandler();
                 SQL.ExecuteNonQuery("usp_ImageAlbum_AddNewImages", para);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public List<ImageAlbumEntity> GetAllAlbum()
+        {
+            try
+            {
+                List<KeyValuePair<string, object>> para = new List<KeyValuePair<string, object>>();
+                //para.Add(new KeyValuePair<string, object>("@AlbumName", obj.AlbumName));
+                //para.Add(new KeyValuePair<string, object>("@AlbumPath", obj.AlbumPath));
+                SQLHandler SQL = new SQLHandler();
+                return SQL.ExecuteAsList<ImageAlbumEntity>("usp_ImageAlbum_GetAllAlbum");
             }
             catch (Exception ex)
             {

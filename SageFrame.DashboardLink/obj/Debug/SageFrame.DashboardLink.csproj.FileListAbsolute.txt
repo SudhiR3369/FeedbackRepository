@@ -39,3 +39,4 @@ F:\Git\GitRepository\SageFrame.DashboardLink\bin\Debug\SageFrame.Common.dll
 F:\Git\GitRepository\SageFrame.DashboardLink\bin\Debug\SageFrame.Common.pdb
 F:\Git\GitRepository\SageFrame.DashboardLink\obj\Debug\SageFrame.DashboardLink.dll
 F:\Git\GitRepository\SageFrame.DashboardLink\obj\Debug\SageFrame.DashboardLink.pdb
+F:\Git\GitRepository\SageFrame.DashboardLink\obj\Debug\SageFrame.DashboardLink.csprojResolveAssemblyReference.cache

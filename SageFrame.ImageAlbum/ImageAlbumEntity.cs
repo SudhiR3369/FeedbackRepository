@@ -10,6 +10,7 @@ namespace SageFrame.ImageAlbum
     {
         public int AlbumID { get; set; }
         public string AlbumName { get; set; }
+        public string AlbumPath { get; set; }
         public DateTime AddedOn { get; set; }        
         public int ImageID { get; set; }
         public string ImageName { get; set; }

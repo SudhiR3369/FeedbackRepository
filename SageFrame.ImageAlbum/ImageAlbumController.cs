@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SageFrame.Web.Utilities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,6 +19,12 @@ namespace SageFrame.ImageAlbum
         {
             ImageAlbumDataProvider ctr = new ImageAlbumDataProvider();
             ctr.AddNewAlbum(obj);
+        }
+
+       public List<ImageAlbumEntity> GetAllAlbum()
+        {
+            ImageAlbumDataProvider dp = new ImageAlbumDataProvider();
+            return dp.GetAllAlbum();
         }
     }
 }
