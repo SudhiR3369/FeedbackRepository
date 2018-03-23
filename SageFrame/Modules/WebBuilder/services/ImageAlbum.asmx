@@ -38,6 +38,20 @@ public class ImageAlbum : System.Web.Services.WebService
 
     }
 
+    [WebMethod]
+    public List<ImageAlbumEntity> GetAllAlbum()
+    {
+        try
+        {
+            ImageAlbumController obj = new ImageAlbumController();
+            return obj.GetAllAlbum();
+        }
+        catch(Exception ex)
+        {
+                throw ex;
+        }
+    }
+
     //[WebMethod]
     //public List<ImageAlbumEntity> GetAllAlbum()
     //{

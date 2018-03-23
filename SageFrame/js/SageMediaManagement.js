@@ -1669,7 +1669,7 @@ $.fn.ManageMedia = function (options) {
                     userName: SageFrameUserName,
                     secureToken: SageFrameSecureToken
                 };
-            this.config.method = "GetMediaFolderList";
+            this.config.method = "F";
             this.config.url = this.config.baseURL + this.config.method;
             this.config.data = JSON2.stringify({
                 objMediaCategory: objMediaCategory,
