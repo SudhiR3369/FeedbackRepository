@@ -38,6 +38,21 @@ public class ImageAlbum : System.Web.Services.WebService
 
     }
 
+
+    [WebMethod]
+    public void UpdateAlbum(ImageAlbumEntity objAlbum)
+    {
+        try
+        {
+            ImageAlbumController ctr = new ImageAlbumController();
+            ctr.UpdateAlbum(objAlbum);
+        }
+        catch (Exception ex)
+        {
+            throw ex;
+        }
+    }
+
     [WebMethod]
     public List<ImageAlbumEntity> GetAllAlbum()
     {
@@ -48,15 +63,10 @@ public class ImageAlbum : System.Web.Services.WebService
         }
         catch(Exception ex)
         {
-                throw ex;
+            throw ex;
         }
     }
 
-    //[WebMethod]
-    //public List<ImageAlbumEntity> GetAllAlbum()
-    //{
-    //        ImageAlbumController ctrl = new ImageAlbumController();
-    //       return ctrl.GetAllAlbum();
-    //}
+
 
 }

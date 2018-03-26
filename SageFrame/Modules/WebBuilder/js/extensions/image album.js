@@ -21,81 +21,28 @@
                     width: "75%"
                 });
                 var albumDOM = EasyLibrary.ReadDOM('image album/album');
-
+          
                 $('#btnAddNewAlbum').on('click', function () {
+                 
+                    //var rootfolderPath = $('#albumListing').attr('data-rootfolder');
+                   
+                    //var $albumDOM = $('<div data-id class="album noimage sfCol_20 selectData" data-path="' + rootfolderPath + '\\' + name + '">' + albumDOM + '</div>');
+                   
+                  
+                    var name = AlbumEvents.GetUniqueName('New Album');
+                    ImageAlbum.AddNewAlbum(name);
+                 
+                   
+                 
 
-                    var rootfolderPath = $('#albumListing').attr('data-rootfolder');
-                    var name = ImageAlbum.GetUniqueName('New Album');
+                   
+                 
 
-
-                    //$albumDOM.find('.editableFolderName').show();
-                    //$albumDOM.find('.openfolder.folderName').hide().text(name);
-                    //        // ImageAlbum.AddNewAlbum(name, rootfolderPath);
-                    //$albumDOM.find('.txtEditableFolderName').focus().select().val(name);
-                    //$albumDOM.find('.txtEditableFolderName').attr('data-oldname', name);
-                    //$albumDOM.find('.txtEditableFolderName').attr('data-changed', 'ongoing');                         
-                    //ImageAlbum.SettingOpenEvent();
-                    //ImageAlbum.RenameAlbum();
-                    //ImageAlbum.GetAlbumList();
-
-                });
-
-                $('#btnGetAlbumList').on('click', function () {
-                    //$albumDOM.find('.openfolder.folderName').hide().text(name);
-                    //// ImageAlbum.AddNewAlbum(name, rootfolderPath);
-                    //$albumDOM.find('.txtEditableFolderName').focus().select().val(name);
-                    //$albumDOM.find('.txtEditableFolderName').attr('data-oldname', name);
-                    //$albumDOM.find('.txtEditableFolderName').attr('data-changed', 'ongoing');
-                    ImageAlbum.GetAlbumList();
-                    ImageAlbum.SettingOpenEvent();
-                    ImageAlbum.RenameAlbum();
-                });
+                });            
+                                          
 
 
-
-
-                //DOM felaa pareko chaina
-                var $open = $('#divAlbumList').find('#clickme');
-
-
-                $('.album.noimage').on('click', function () {
-                    alert('Kehi ta hola jasto cha');
-                });
-
-                //$('.renamefolder').off('click').on('click', function () {
-                //    debugger;
-                //    var $this = $(this);
-                //    var $albumDOM = $this.parents('.album.noimage')
-                //    var albumName = $albumDOM.find('.openfolder.folderName').text().trim();
-                //    var $txtEditableAlbum = $albumDOM.find('.txtEditableFolderName');
-                //    $txtEditableAlbum.attr('data-oldname', albumName);
-                //    $albumDOM.find('.txtEditableFolderName').attr('data-changed', 'ongoing');
-                //    $txtEditableAlbum.val(albumName);
-                //    $('.type-action.open').removeClass('open');
-                //    $('.openSettings.open').removeClass('open');
-                //    ImageAlbum.RenameAlbumEvent();
-                //    setTimeout(function () {
-                //        $txtEditableAlbum.focus();
-                //        $txtEditableAlbum.select();
-                //    }, 200);
-                //});
-
-
-                var ImageAlbum = {
-                    config: {
-                        method: '',
-                        url: '',
-                        baseURL: SageFrameAppPath + "/Modules/WebBuilder/services/ImageAlbum.asmx/",
-                        type: 'POST',
-                        data: '{}',
-                        ajaxSuccess: '',
-                        ajaxFailure: '',
-                        dataType: 'json',
-                        contentType: "application/json; charset=utf-8",
-                        ajaxCallMode: '',
-                        AlbumId: ''
-                    },
-
+                var AlbumEvents= {
                     GetUniqueName: function (name) {
                         $('.folderName').each(function (i, v) {
                             var fName = $(this).text().trim();
@@ -109,10 +56,27 @@
                                     count = 1;
                                 }
                                 name = names[0] + "_" + count;
-                                name = ImageAlbum.GetUniqueName(name);
+                                name = AlbumEvents.GetUniqueName(name);
                             }
                         });
                         return name;
+                    },
+                    
+                    SetAlbumName: function () {                                                    
+
+                        $('.openfolder.folderName').hide();
+                        $('.editableFolderName').show();
+                      //  $('.txtEditableFolderName').select();
+
+                        $('.txtEditableFolderName').off('blur').on('blur', function () {
+                            var $this = $(this);
+                            var changedName = $this.val();
+                            var id = $this.attr('data-id');
+                            ImageAlbum.UpdateAlbumName(changedName, id);
+
+                        });
+                     
+
                     },
 
                     SettingOpenEvent: function () {
@@ -134,45 +98,6 @@
                                 $this.addClass('open');
                             }
                         });
-                    },
-
-                    GetAlbumList: function () {
-
-                        this.config.method = "GetAllAlbum";
-                        // this.config.type = 'GET';
-                        this.config.url = this.config.baseURL + this.config.method;
-                        //this.config.data = this.config.data;
-                        this.config.async = false;
-                        this.config.ajaxCallMode = 2;
-                        this.ajaxCall(this.config);
-                    },
-
-                    BindAlbumList: function (data) {
-                        var html = '';
-                        var albumList = data.d;
-                        if (albumList.length > 0) {
-                            $.each(albumList, function (index, item) {
-                                html += '<div data-id class="album noimage sfCol_20 selectData"';
-                                html += '<div class="field-row clearfix"  data-type="album">';
-                                html += ' <div id="divAlbum" class="sfCol_100">';
-                                html += ' <span><img id="clickme" src="/Media/album.png" class="editor-image sfCol_100"></span>'
-                                html += '<div class="type-action" style="display:none;"> <ul class="type-action-list">';
-                                html += '<li class="selectFolder actions"><span><i class="fa fa-folder-open-o" aria-hidden="true"></i>Open</span></li>';
-                                html += '<li class="renamefolder actions" data-id=' + item.AlbumID + '><span><i class="fa fa-font" aria-hidden="true"></i>Rename</span></li>';
-                                html += '<li class="deleteMedia actions"><span class="delete-item"><i class="fa fa-trash-o" aria-hidden="true"></i> Delete</span></li></ul></div>';
-                                html += ' <span class="openSettings fa fa-ellipsis-h"></span></div>';
-                                html += '<span class="openfolder folderName">' + item.AlbumName + '</span>';
-                                html += '<span class="editableFolderName" style="display:none;">';
-                                html += '<input value="New Album" type="text" class="txtEditableFolderName" /></span>';
-                                html += '</div>';
-
-                            });
-                        }
-                        else {
-                            html += '<div><h2>No Data To Display</h2></div>';
-                        }
-                        $('#divAlbumList').prepend(html);
-
                     },
 
                     RenameAlbum: function () {
@@ -208,12 +133,72 @@
                             ImageAlbum.UpdateAlbumName(newname, id);
 
                         });
+                    }
+                }
+
+
+                var ImageAlbum = {
+                    config: {
+                        method: '',
+                        url: '',
+                        baseURL: SageFrameAppPath + "/Modules/WebBuilder/services/ImageAlbum.asmx/",
+                        type: 'POST',
+                        data: '{}',
+                        ajaxSuccess: '',
+                        ajaxFailure: '',
+                        dataType: 'json',
+                        contentType: "application/json; charset=utf-8",
+                        ajaxCallMode: '',
+                        AlbumId:''
                     },
 
-                    UpdateAlbumName: function (newname, id) {
-                        var objAlbum = {
-                            AlbumName: newname,
-                            AlbumID: id
+                    
+
+                    GetAlbumList: function () {
+                      
+                        this.config.method = "GetAllAlbum";
+                       // this.config.type = 'GET';
+                        this.config.url = this.config.baseURL + this.config.method;
+                        //this.config.data = this.config.data;
+                        this.config.async = false;
+                        this.config.ajaxCallMode = 2;
+                        this.ajaxCall(this.config);
+                    },
+
+                    BindAlbumList:function(data){
+                        var html = '';
+                        var albumList = data.d;
+                        if (albumList.length > 0) {
+                            $.each(albumList, function (index, item) {
+                                html += '<div data-id class="album noimage sfCol_20 selectData"';
+                                html += '<div class="field-row clearfix"  data-type="album">';
+                                html += ' <div id="divAlbum" class="sfCol_100">';
+                                html += ' <span><img id="clickme" src="/Media/ellie.jpg" class="editor-image sfCol_100"></span>'
+                                html += '<div class="type-action" style="display:none;"> <ul class="type-action-list">';
+                                html += '<li class="selectFolder actions"><span><i class="fa fa-folder-open-o" aria-hidden="true"></i>Open</span></li>';
+                                html += '<li class="renamefolder actions"><span><i class="fa fa-font" aria-hidden="true"></i>Rename</span></li>';
+                                html += '<li class="deleteMedia actions"><span class="delete-item"><i class="fa fa-trash-o" aria-hidden="true"></i> Delete</span></li></ul></div>';
+                                html += ' <span class="openSettings fa fa-ellipsis-h"></span></div>';
+                                html += '<span class="openfolder folderName">' + item.AlbumName + '</span>';
+                                html += '<span class="editableFolderName" style="display:none;">';
+                                html += '<input data-id=' + item.AlbumID + ' value="' + item.AlbumName + '" type="text" class="txtEditableFolderName" /></span>';
+                                html += '</div>';
+
+                            });
+                        }
+                        else {
+                            html += '<div><h2>No Data To Display</h2></div>';
+                        }
+                        $('#divAlbumList').html(html);
+
+                    },
+
+                   
+
+                    UpdateAlbumName: function (changedName,id) {
+                        var objAlbum={
+                            AlbumName: changedName,
+                            AlbumID:id
                         }
                         this.config.method = 'UpdateAlbum';
                         this.config.url = this.config.baseURL + this.config.method;
@@ -227,10 +212,10 @@
 
 
 
-                    AddNewAlbum: function (albumName, rootfolderPath) {
+                    AddNewAlbum: function (albumName) {
                         var objAlbum = {
                             AlbumName: albumName
-                           // AlbumPath: rootfolderPath + '\\' + albumName
+                          //  AlbumPath: rootfolderPath + '\\' + albumName
                         };
                         this.config.method = "AddNewAlbum";
                         this.config.url = this.config.baseURL + this.config.method;
@@ -290,17 +275,21 @@
                                 //else {
                                 //    $('.spnDupCategory').show();
                                 //}
+                               
 
-                                alert("Album Added Successfully.");
+                               // alert("Album Added");
+                                ImageAlbum.GetAlbumList();                              
                                 break;
 
                             case 2:
-                                alert("List aauna lagyo hai!!");
+                                //alert("List aauna lagyo hai!!");
                                 ImageAlbum.BindAlbumList(data);
+                                AlbumEvents.SetAlbumName(data);
                                 break;
-
+                                
                             case 3:
-                                alert
+                                alert('Updated Successfully');
+                                ImageAlbum.GetAlbumList();
                         }
                     }
 
@@ -311,5 +300,5 @@
             }
         }
     }
+
 }
-               

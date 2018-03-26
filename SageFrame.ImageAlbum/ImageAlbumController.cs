@@ -21,7 +21,13 @@ namespace SageFrame.ImageAlbum
             ctr.AddNewAlbum(obj);
         }
 
-       public List<ImageAlbumEntity> GetAllAlbum()
+        public void UpdateAlbum(ImageAlbumEntity obj)
+        {
+            ImageAlbumDataProvider ctr = new ImageAlbumDataProvider();
+            ctr.UpdateAlbum(obj);
+        }
+
+        public List<ImageAlbumEntity> GetAllAlbum()
         {
             ImageAlbumDataProvider dp = new ImageAlbumDataProvider();
             return dp.GetAllAlbum();
