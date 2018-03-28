@@ -1,14 +1,46 @@
-﻿
-<div  class="field-row clearfix flex-box" >    
-    <span class="sfBtn smlbtn-succ" id="btnAddNewAlbum">Add New Album</span>
-    <span class="sfBtn smlbtn-primary" id="btnGetAlbumList">Get Album List</span>
-        <!--<span style="float:right;" class="sfBtn smlbtn-succ" id="btnAddNewAlbum">Add New Album</span>-->    
+﻿<div class="albumPart sfCol_100">
+    <div class="divbtnAlbum field-row clearfix btnaddalbum" style="background-color:chocolate">
+        <span style="float:right;" class="btnAddNewAlbum sfBtn smlbtn-safe" id="btnAddNewAlbum">Add New Album</span>
+        <span style="float:right;" class="btnGetAlbumList sfBtn smlbtn-succ" id="btnGetAlbumList">Get Album List</span>
+    </div>
+
+    <div class="albumList field-row clearfix" style="background-color:antiquewhite;">
+
+    </div>
 </div>
 
-<div id="divAlbumList" class="field-row clearfix" >
-   
-</div>
 
+<div class="imagePart sfCol_100" style="display:none;">
+    <div class="divbtnImage field-row clearfix" style="background-color:chocolate">
+        <span style="float:right;" class="btnAddImages sfBtn smlbtn-safe">Add New Image</span>
+        <span style="float:right;" class="btnBackToAlbumList sfBtn smlbtn-safe">Get Back To Album</span>
+    </div>
+
+    <div class="ImageSliderWrapper SliderWrapper" style="display:none;">
+        <!--Next-prev-->
+        <div class="arrows-wrapper">
+            <span class="prev-btn"><i class="fa fa-chevron-left" aria-hidden="true"></i></span>
+            <span class="next-btn"><i class="fa fa-chevron-right" aria-hidden="true"></i></span>
+        </div>
+
+        <!--Pager dot-->
+        <div class="pager-dot">
+            <span class="active-dot"></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    <div album-id class="imageList field-row clearfix" style="background-color:antiquewhite;">
+
+    </div>
+    <div class="previewImage field-row clearfix">
+
+    </div>
+
+
+</div>
 
 <!--<div id="divAlbum" style="display:none;" class="editor-col ui-state-default sfFixed sfCol_20 ui-sortable ui-droppable">
     <img src="/Media/ellie.jpg" class="editor-image sfCol_100">
