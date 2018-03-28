@@ -9,16 +9,19 @@ namespace SageFrame.ImageAlbum
 {
     public class ImageAlbumController
     {
-        public void AddNewImage(ImageAlbumEntity obj)
-        {
-            ImageAlbumDataProvider ctr = new ImageAlbumDataProvider();
-            ctr.AddNewImage(obj);
-        }
+        #region Album CRUD
 
         public void AddNewAlbum(ImageAlbumEntity obj)
         {
             ImageAlbumDataProvider ctr = new ImageAlbumDataProvider();
             ctr.AddNewAlbum(obj);
+        }
+
+
+        public void DeleteAlbum(int AlbumID)
+        {
+            ImageAlbumDataProvider ctr = new ImageAlbumDataProvider();
+            ctr.DeleteAlbum(AlbumID);
         }
 
         public void UpdateAlbum(ImageAlbumEntity obj)
@@ -32,5 +35,23 @@ namespace SageFrame.ImageAlbum
             ImageAlbumDataProvider dp = new ImageAlbumDataProvider();
             return dp.GetAllAlbum();
         }
+
+        #endregion
+
+        #region Image CRUD
+        public void AddImages(ImageAlbumEntity obj)
+        {
+            ImageAlbumDataProvider ctr = new ImageAlbumDataProvider();
+            ctr.AddNewImage(obj);
+        }
+
+
+        public List<ImageAlbumEntity> GetImages(int AlbumID)
+        {
+            ImageAlbumDataProvider dp = new ImageAlbumDataProvider();
+            return dp.GetImages(AlbumID);
+        }
+
+        #endregion
     }
 }
